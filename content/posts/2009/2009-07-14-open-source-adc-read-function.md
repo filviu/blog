@@ -18,11 +18,11 @@ tags:
   - temp_on
 
 ---
-Yes, I know, mikroC has it&#8217;s own ADC library, but as always I am a sucker for open source. So I decided to write my own adc read function, so I can better understand the PIC ADC converter operation. And, in the good spirit of open source I decided to share my code. The following code is the ADC on LCD example supplied by MikroElectronika with their EasyPic5 board, and it&#8217;s written in MikroC Pro. Of interest are the ADC related initializations and the **adc_read2** function. (adc_read is mikroC&#8217;s own function).
+Yes, I know, mikroC has it's own ADC library, but as always I am a sucker for open source. So I decided to write my own adc read function, so I can better understand the PIC ADC converter operation. And, in the good spirit of open source I decided to share my code. The following code is the ADC on LCD example supplied by MikroElectronika with their EasyPic5 board, and it's written in MikroC Pro. Of interest are the ADC related initializations and the **adc_read2** function. (adc_read is mikroC's own function).
 
 Code is tested on the EasyPic5 board, but should work on other boards and / or compilers with minimal modifications. Anyways, if you were searching for an example written in C on how to read the ADC inside a pic microcontroler here it is:
 
-[cce LANG=&#8221;C&#8221;]
+[cce LANG="C"]
 
 /*
 
@@ -110,17 +110,17 @@ Lcd_Init();
 LCD\_Cmd(\_LCD\_CURSOR\_OFF); // send command to LCD (cursor off)  
 LCD\_Cmd(\_LCD_CLEAR); // send command to LCD (clear LCD)
 
-text = &#8220;mikroElektronika&#8221;; // assign text to string  
+text = "mikroElektronika"; // assign text to string  
 LCD_Out(1,1,text); // print string a on LCD, 1st row, 1st column  
-text = &#8220;LCD example&#8221;; // assign text to string  
+text = "LCD example"; // assign text to string  
 LCD_Out(2,1,text); // print string a on LCD, 2nd row, 1st column
 
 ADCON1 = 0x82; // configure VDD as Vref, and analog channels  
 TRISA = 0xFF; // designate PORTA as input  
 Delay_ms(2000);  
-text = &#8220;voltage:&#8221;; // assign text to string  
+text = "voltage:"; // assign text to string  
 while (1) {  
-// let&#8217;s use our open source function  
+// let's use our open source function  
 adc\_rd = ADC\_read2(2); // get ADC value from 2nd channel  
 LCD_Out(2,1,text); // print string a on LCD, 2nd row, 1st column
 
@@ -129,7 +129,7 @@ tlong = tlong / 1023; // 0..1023 -> 0-5000mV
 
 ch = tlong / 1000; // extract volts digit  
 LCD_Chr(2,9,48+ch); // write ASCII digit at 2nd row, 9th column  
-LCD\_Chr\_CP(&#8216;.&#8217;);
+LCD\_Chr\_CP('.');
 
 ch = (tlong / 100) % 10; // extract 0.1 volts digit  
 LCD\_Chr\_CP(48+ch); // write ASCII digit at cursor point
@@ -139,7 +139,7 @@ LCD\_Chr\_CP(48+ch); // write ASCII digit at cursor point
 
 ch = tlong % 10; // extract 0.001 volts digit  
 LCD\_Chr\_CP(48+ch); // write ASCII digit at cursor point  
-LCD\_Chr\_CP(&#8216;V&#8217;);
+LCD\_Chr\_CP('V');
 
 Delay_ms(1);  
 }  
@@ -147,7 +147,7 @@ Delay_ms(1);
 
 [/cce]
 
-Please note that I only checked for the first 4 channels in the adc_read2 function. It&#8217;s easy to check for the other ADC channels using this table:
+Please note that I only checked for the first 4 channels in the adc_read2 function. It's easy to check for the other ADC channels using this table:
 
 <table border="1" cellspacing="0" cellpadding="2">
   <tr>

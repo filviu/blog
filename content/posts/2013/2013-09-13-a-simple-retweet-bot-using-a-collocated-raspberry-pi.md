@@ -19,7 +19,7 @@ tags:
 ---
 I have a Raspberry PI freely collocated by the nice people at [pcextreme][1]. Being a Jolla fan I found a new use for it. I made a Retweet bot that retweets everything #Jolla.
 
-  1. It&#8217;s pretty simple. First you need to define your new twitter app [here][2].
+  1. It's pretty simple. First you need to define your new twitter app [here][2].
   2. Install on your raspberry the [tweepy][3] twitter python library. **Warning** usually it would be as easy as pip install tweepy but the current version has a bug which means you have to install a patched version of tweepy [found here][4]:  
     [cc_bash]  
     git clone https://github.com/knowsis/tweepy.git  

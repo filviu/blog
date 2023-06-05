@@ -17,7 +17,7 @@ tags:
   - temp_on
 
 ---
-Being and old time Maemo fan I went and preordered the Jolla phone as soon as I could (March 2013 IIRC) and I&#8217;ve been happily playing with it ever since I got it. I like to play the occasional game on the go and so I bought many of the bundles that humblebundle offered. Happily they also offer an android application that functions like a store &#8211; you can see all the games you bought and download/install/update them. Follow [these directions to install the Humble Bundle][1] app.
+Being and old time Maemo fan I went and preordered the Jolla phone as soon as I could (March 2013 IIRC) and I've been happily playing with it ever since I got it. I like to play the occasional game on the go and so I bought many of the bundles that humblebundle offered. Happily they also offer an android application that functions like a store - you can see all the games you bought and download/install/update them. Follow [these directions to install the Humble Bundle][1] app.
 
 Read bellow is a list of the games I own and as I get time to test them I will update the status.
 
@@ -31,11 +31,11 @@ Anomaly Warzone Earth: Mobile Campaign
 Another World  
 Aquaria  
 Avadon: The Black Fortress  
-Bad Hotel &#8211; **<span style="color: #008000">WORKING</span>**  
+Bad Hotel - **<span style="color: #008000">WORKING</span>**  
 Beat Hazard Ultra  
 Bladeslinger  
 Bloons TD 5  
-Broken Sword: Director&#8217;s Cut  
+Broken Sword: Director's Cut  
 Canabalt  
 Carmageddon  
 Cogs  
@@ -46,7 +46,7 @@ Dungeon Defenders + All DLC
 Dynamite Jack  
 EPOCH  
 Eufloria HD  
-Fractal &#8211; **<span style="color: #008000">WORKING</span>**  
+Fractal - **<span style="color: #008000">WORKING</span>**  
 Frozen Synapse  
 Funky Smugglers  
 Gemini Rue  
@@ -71,23 +71,23 @@ QWOP
 Raiden Legacy  
 Ravensword: Shadowlands  
 Ridiculous Fishing  
-Sleepwalker&#8217;s Journey  
-Solar 2 &#8211; **<span style="color: #008000">WORKING</span>**  
-SpellTower &#8211; **<span style="color: #008000">WORKING</span>** &#8211; but name appears as @string/app&#8230;  
+Sleepwalker's Journey  
+Solar 2 - **<span style="color: #008000">WORKING</span>**  
+SpellTower - **<span style="color: #008000">WORKING</span>** - but name appears as @string/app&#8230;  
 Spider: The Secret of Bryce Manor  
 Splice  
-Star Command &#8211; **<span style="color: #008000">WORKING</span>**  
+Star Command - **<span style="color: #008000">WORKING</span>**  
 Stealth Bastard Deluxe  
 Super Hexagon  
 Superbrothers: Sword & Sworcery EP  
 Swordigo  
 Swords & Soldiers HD  
-The Bard&#8217;s Tale  
+The Bard's Tale  
 The Room  
 Ticket to Ride  
 Time Surfer  
 Waking Mars  
-World of Goo &#8211; **<span style="color: #008000">WORKING</span>** _(phone gets hot)_  
+World of Goo - **<span style="color: #008000">WORKING</span>** _(phone gets hot)_  
 Worms 2: Armageddon  
 Zen Bound 2  
 rymdkapsel

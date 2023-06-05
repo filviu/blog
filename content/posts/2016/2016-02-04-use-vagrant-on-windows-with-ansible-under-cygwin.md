@@ -17,11 +17,9 @@ tags:
 ---
 If due to some reason you have to run vagrant under windows and plan on using Ansible you will need a couple of wrappers.
 
-
-
 [ansible-playbook.bat][1] has to be in the Windows PATH;
 
 [ansible-winpath-playbook.sh][2] is called by ansible-playbook.bat to change paths from Windows style paths to *nix style paths that ansible under cygwin can understand.
 
- [1]: https://gist.github.com/silviuvulcan/20f8aca03b72069998b3#file-ansible-playbook-bat
- [2]: https://gist.github.com/silviuvulcan/20f8aca03b72069998b3#file-ansible-winpath-playbook-sh
+ [1]: https://gist.github.com/filviu/20f8aca03b72069998b3#file-ansible-playbook-bat
+ [2]: https://gist.github.com/filviu/20f8aca03b72069998b3#file-ansible-winpath-playbook-sh

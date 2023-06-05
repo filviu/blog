@@ -23,7 +23,7 @@ tags:
 
 <span style="color: #ff0000">HAHA Michael Jackson Gay 😀 >> http://looool.machiaeljack**ndied.com</span>
 
-The link takes you to something that looks like a picture, but because the file name ends with what appears to the user as a web adress the final extension is .com not .jpg &#8211; and so you get tricked into running an executable.
+The link takes you to something that looks like a picture, but because the file name ends with what appears to the user as a web adress the final extension is .com not .jpg - and so you get tricked into running an executable.
 
 **Automatic removal** can be done with the <a href="http://dnl-eu14.kaspersky-labs.com/devbuilds/AVPTool/" target="_blank" rel="noopener">Kaspersky Virus Removal tool</a>.
 
@@ -34,7 +34,7 @@ Remove these files (use unlocker if needed)
 <span style="color: #333399">C:Documents and Settings<user>Local SettingsTemp174094.exe<br /> C:Documents and Settings<user>Local SettingsTempMichaelJackson_SUCKS.PIF (or any other similar file .pif and containing Michael Jackson in the name)<br /> C:Documents and Settings<user>Local SettingsTempsvchost32.exe<br /> C:Documents and Settings<user>Local SettingsTempvshost32.exe<br /> C:vshost.exe<br /> C:autorun.inf</span>
 
 _**  
-The last two will be on every partition your system has. Reboot and after starting go to My computer and DON&#8217;T double click the disks; Right click and choose explore and erase vshost.exe and autorun.inf from every partition in your system.  
+The last two will be on every partition your system has. Reboot and after starting go to My computer and DON'T double click the disks; Right click and choose explore and erase vshost.exe and autorun.inf from every partition in your system.  
 **_ 
 
 Also remove the following registry key:

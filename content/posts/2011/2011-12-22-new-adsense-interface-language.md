@@ -24,7 +24,7 @@ I went to **Home->Account settings->Display Language**
 
 It was already **English US**
 
-Well, it won&#8217;t be the first webapp displaying a default that was there in the interface but not in the settings database.
+Well, it won't be the first webapp displaying a default that was there in the interface but not in the settings database.
 
 So I clicked **EDIT** switched to English UK, hit **save** and then back to English US and **save** again.
 

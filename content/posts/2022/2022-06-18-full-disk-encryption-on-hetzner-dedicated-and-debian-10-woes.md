@@ -16,11 +16,13 @@ tags:
 ---
 As absolutely nobody knows or uses I maintain an <a href="https://github.com/filviu/ansible-role-hetzner_installimage" data-type="URL" data-id="https://github.com/filviu/ansible-role-hetzner_installimage">ansible role</a> that can setup a Debian or Ubuntu machine with full disk encryption on Hetzner Robot (baremetal dedicated machines). 
 
-But wait, you shout, Hetzner usually runs consumer grade stuff without kvm&#8217;s &#8211; how do you enter your password at bootime. Easy, the role sets up a minimal boot environment with a dropbear ssh server where you can login and do `cryptroot-unlock`.
+But wait, you shout, Hetzner usually runs consumer grade stuff without kvm's - how do you enter your password at bootime. Easy, the role sets up a minimal boot environment with a dropbear ssh server where you can login and do `cryptroot-unlock`.
 
 While developing the role I realised that it was impossible to unlock a Debian 10 machine, even though I was 100% sure ansible was adding the proper key logging in to the boot envirnment was impossible, I kept getting
 
-<pre class="EnlighterJSRAW" data-enlighter-language="bash" data-enlighter-theme="" data-enlighter-highlight="" data-enlighter-linenumbers="" data-enlighter-lineoffset="" data-enlighter-title="" data-enlighter-group="">Permission denied (publickey).</pre>
+```bash
+Permission denied (publickey).
+```
 
 I lost some good hours troubleshooting being sure ansible was somehow not adding the proper key. Until I searched the web and realised the version of dropbear shipped with Debian 10 does not support the ed25519 keys I so cheerfully use for the added security and elegant shortness.
 

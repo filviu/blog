@@ -23,4 +23,4 @@ I tried everything that came to mind (minus reading the manual of course 🙂 ):
 
 Playing around I found than on my TV I can name inputs: for example I have PC (for the VGA and DVI inputs, STB for the scart input and so on). I decided to name the HDMI1 input to PC just to have a proper order and to remember where the pc is connected. **Oh joy and happiness the screen blinked and the quality went to normal!** This time it was indeed better than over the VGA cable.
 
-It seems that the name setting is there not only for labeling. Probably different profiles are applied to HDMI ports depending on the name associated with them. I don&#8217;t know if other TV&#8217;s behave the same but my Samsung sure does.
+It seems that the name setting is there not only for labeling. Probably different profiles are applied to HDMI ports depending on the name associated with them. I don't know if other TV's behave the same but my Samsung sure does.

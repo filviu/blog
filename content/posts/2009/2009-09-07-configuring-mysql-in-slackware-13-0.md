@@ -14,11 +14,11 @@ tags:
   - temp_on
 
 ---
-Slackware 13 has still the same unintuitive style with some things &#8211; i.e. akonadi doesn&#8217;t start in kde and it doesn&#8217;t say why, and so on.
+Slackware 13 has still the same unintuitive style with some things - i.e. akonadi doesn't start in kde and it doesn't say why, and so on.
 
-One of the problems you will encounter is that Mysql doesn&#8217;t start. Yes, if you look in /usr/doc/mysql&#8230; you will find the reason.
+One of the problems you will encounter is that Mysql doesn't start. Yes, if you look in /usr/doc/mysql&#8230; you will find the reason.
 
-Here&#8217;s what you have to do:
+Here's what you have to do:
 
 Run
 
@@ -38,13 +38,13 @@ STOPPING server from pid file /var/run/mysql/mysql.pid
 090907 19:35:24  mysqld ended  
 [/ccNe_bash]
 
-There&#8217;s one more step to take:
+There's one more step to take:
 
 [ccNe_bash]  
 chown -R mysql:mysql /var/lib/mysql  
 [/ccNe_bash]
 
-This gives mysql rights to use it&#8217;s own folder and files.
+This gives mysql rights to use it's own folder and files.
 
 Now you can start mysql
 

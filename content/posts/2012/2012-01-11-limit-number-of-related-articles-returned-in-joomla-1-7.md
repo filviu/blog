@@ -17,7 +17,7 @@ tags:
   - temp_on
 
 ---
-Joomla 1.7 has a nice module mod\_related\_items (Articles Related) that shows articles related to the current one the visitor is browsing. It has one issue though, you can&#8217;t set a limit.
+Joomla 1.7 has a nice module mod\_related\_items (Articles Related) that shows articles related to the current one the visitor is browsing. It has one issue though, you can't set a limit.
 
 So a little code hacking is in order. Open modules/mod\_related\_items/helper.php and go to line 94 (right after the _Filter by language_ if_)_ and modify $db>setQuery($query); to read:  
 [cceN_php]  

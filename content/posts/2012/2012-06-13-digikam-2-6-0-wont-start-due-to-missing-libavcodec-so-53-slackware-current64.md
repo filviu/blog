@@ -19,7 +19,7 @@ tags:
   - temp_on
 
 ---
-This was pretty simple but complicated :). It turns out I updated <a href="http://ffmpeg.org/" target="_blank" rel="noopener">ffmpeg</a> from <a href="http://alien.slackbook.org/blog/" target="_blank" rel="noopener">alien bob</a>&#8216;s repo to ffmpeg 0.11, thus upgrading to libavcodec.so.54. I&#8217;m sure I could have gotten away with a simple symlink but I wanted a clean install.
+This was pretty simple but complicated :). It turns out I updated <a href="http://ffmpeg.org/" target="_blank" rel="noopener">ffmpeg</a> from <a href="http://alien.slackbook.org/blog/" target="_blank" rel="noopener">alien bob</a>'s repo to ffmpeg 0.11, thus upgrading to libavcodec.so.54. I'm sure I could have gotten away with a simple symlink but I wanted a clean install.
 
 So I though I would simply rebuild digikam, right? Wrong. It failed, with weird errors like:  
 [cce_bash]  

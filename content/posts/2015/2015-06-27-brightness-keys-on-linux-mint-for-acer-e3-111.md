@@ -15,14 +15,18 @@ tags:
   - mint
 
 ---
-Enabling brightness control is moderately easy (I&#8217;m pretty sure they worked&nbsp;out of the box on slackware).
+Enabling brightness control is moderately easy (I'm pretty sure they worked out of the box on slackware).
 
-Go to <https://github.com/codingtony/acer-brightness-linux-acpi> and follow the instructions. Change `/etc/acpi/events/acer-tm-brightness-down` and `/etc/acpi/events/acer-tm-brightness-up` with the correct events:
+Go to [codingtony/acer-brightness-linux-acpi](https://github.com/codingtony/acer-brightness-linux-acpi) and follow the instructions. Change `/etc/acpi/events/acer-tm-brightness-down` and `/etc/acpi/events/acer-tm-brightness-up` with the correct events:
 
+```ini
 event=video/brightnessdown BRTDN 00000087 00000000
+```
 
 and
 
+```ini
 event=video/brightnessup BRTUP 00000086 00000000
+```
 
-Restart&nbsp;**acpid** and the shortcuts should start working.
+Restart **acpid** and the shortcuts should start working.

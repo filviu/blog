@@ -21,11 +21,11 @@ tags:
 
 I decided to use postfix + courier + mysql and virtual domains for my mail setup. Everythig was configured fine and dandy according to the documentation. But I kept getting this in the logs:  
 [ccNe_bash]  
-Mar 6 13:54:42 saslauthd [5734]: pam\_mysql &#8211; required option &#8220;db&#8221; is not set Mar 6 13:54:42 saslauthd [5734]: DEBUG: auth\_pam: pam_authenticate failed: Error in service module  
+Mar 6 13:54:42 saslauthd [5734]: pam\_mysql - required option "db" is not set Mar 6 13:54:42 saslauthd [5734]: DEBUG: auth\_pam: pam_authenticate failed: Error in service module  
 Mar 6 13:54:42 saslauthd \[5734]: do_auth : auth failure: [user=test@xxxxxxx.com\] \[service=smtp\] \[realm=xxxxxxx.com\] \[mech=pam\] [reason=PAM auth error]  
 [/ccNe_bash]  
-I went over the config files over and over again searching for mistakes, because I usually mix something up but nothing worked. After some time I realized that the error_ **&#8220;db&#8221; not set**_ is more important than I thought. It meant that it&#8217;s not about wrong passwords copied from examples.
+I went over the config files over and over again searching for mistakes, because I usually mix something up but nothing worked. After some time I realized that the error_ **"db" not set**_ is more important than I thought. It meant that it's not about wrong passwords copied from examples.
 
-Well, the problem was that in **/etc/pam.d/smtp  the password for the mysql user cannot contain the # character.** And my password had. I have used a random password generator and by luck it contained a #. Everything after that was ignored, that&#8217;s why it said **db not set**. That&#8217;s a lost hour for nothing. Everywhere elese in the many config files containing this password it&#8217;s ok to have a # but not here.
+Well, the problem was that in **/etc/pam.d/smtp  the password for the mysql user cannot contain the # character.** And my password had. I have used a random password generator and by luck it contained a #. Everything after that was ignored, that's why it said **db not set**. That's a lost hour for nothing. Everywhere elese in the many config files containing this password it's ok to have a # but not here.
 
  [1]: http://www.linode.com/?r=16a04aa4c234b0d0edf8bf518ca11356448e1975

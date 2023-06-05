@@ -20,10 +20,10 @@ I got this on a newly installed server when I tried to import a database:
 [cce_bash]  
 [root@host ~]# mysql -u user -pPassword database < database.sql  
 Enter password:  
-ERROR 1153 (08S01) at line 53: Got a packet bigger than &#8216;max\_allowed\_packet&#8217; bytes  
+ERROR 1153 (08S01) at line 53: Got a packet bigger than 'max\_allowed\_packet' bytes  
 [/cce_bash]
 
-It&#8217;s easily fixable. The default is probably 16M, I added the following in /etc/my.cnf  
+It's easily fixable. The default is probably 16M, I added the following in /etc/my.cnf  
 [cceN_bash]  
 max\_allowed\_packet=32M  
 [/cceN_bash]

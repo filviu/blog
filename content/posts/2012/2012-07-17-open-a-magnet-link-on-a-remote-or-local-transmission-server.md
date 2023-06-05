@@ -18,13 +18,13 @@ tags:
   - torrent
 
 ---
-One of the services I run on my home server is a transmission daemon. I use it mainly to download images for my Raspberry PI, new distro iso&#8217;s to play with in Virtualbox and so on. Recently there&#8217;s been a move to replace torrent links with magnet links. I found a nice way to open those directly on the remote instance of the transmission daemon.
+One of the services I run on my home server is a transmission daemon. I use it mainly to download images for my Raspberry PI, new distro iso's to play with in Virtualbox and so on. Recently there's been a move to replace torrent links with magnet links. I found a nice way to open those directly on the remote instance of the transmission daemon.
 
-First create a script, let&#8217;s call it simply magnet and place it somewhere in your path, I chose /usr/local/bin  
+First create a script, let's call it simply magnet and place it somewhere in your path, I chose /usr/local/bin  
 [cce_bash]  
 #!/bin/bash  
-REMOTE=&#8217;192.168.0.1&#8242;  
-ssh $REMOTE &#8220;sudo -u transmission /usr/bin/transmission-remote &#8211;add &#8220;$1&#8243;&#8221;  
+REMOTE='192.168.0.1&#8242;  
+ssh $REMOTE "sudo -u transmission /usr/bin/transmission-remote -add "$1&#8243;"  
 [/cce_bash]  
 REMOTE is the remote host for which my workstation already has key based ssh authorization set up. Also note the sudo -u transmission. You can set up your remote directly as the use running the transmission-daemon and then this will no longer be necessary. Since I run my workstation as root and it connects to the server as root as well it is necessary for my setup.
 

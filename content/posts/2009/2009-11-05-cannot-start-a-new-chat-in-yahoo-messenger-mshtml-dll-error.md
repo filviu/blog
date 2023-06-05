@@ -17,7 +17,7 @@ tags:
 ---
 I was called today by a client today with a strange problem: yahoo messenger would error as soon as she wanted to start a new chat. The error quoted mshtml.dll as the source of the problems. Reinstalling Yahoo Messenger (which I previously suggested over the phone did not help).
 
-I don&#8217;t know exactly how this problem started but the fix is the following: ****
+I don't know exactly how this problem started but the fix is the following: ****
 
 **go to the Microsoft Website and download [912945][1] <span>(http://support.microsoft.com/kb/912945/ ) </span> Internet Explorer ActiveX update.**
 

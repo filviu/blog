@@ -27,9 +27,9 @@ Excluding Packages in global exclude list
 Finished  
 Setting up Install Process  
 Resolving Dependencies  
-&#8211;> Running transaction check  
+-> Running transaction check  
 &#8212;> Package sharutils.x86_64 0:4.6.1-2 set to be updated  
-&#8211;> Finished Dependency Resolution
+-> Finished Dependency Resolution
 
 Dependencies Resolved
 

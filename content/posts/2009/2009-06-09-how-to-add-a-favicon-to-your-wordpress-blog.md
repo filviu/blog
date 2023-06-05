@@ -21,7 +21,7 @@ This was simple:
   3. Added the following to header.php:
 
 [cceN_html]  
-<link rel=&#8221;shortcut icon&#8221; href=&#8221;favicon.ico&#8221;>  
+<link rel="shortcut icon" href="favicon.ico">  
 [/cceN_html]
 
 **Fast and easy !**

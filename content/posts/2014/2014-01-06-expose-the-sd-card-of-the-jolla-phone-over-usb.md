@@ -16,13 +16,13 @@ I know there are many ways to get content onto the Jolla phone (rsync over ssh s
 
 There is one easy step to do. Start the terminal and create a symlink to the card on the phone:
 
-[cce LANG=&#8221;BASH&#8221;]  
+[cce LANG="BASH"]  
 [nemo@argo ~]$ devel-su  
 Password:  
 [root@argo nemo]# cd /home/nemo  
 [root@argo nemo]# ln -s /run/user/100000/media/sdcard/  
 [/cce]
 
-That&#8217;s it, the folder sdcard in the root of your phone is actually the sd card (windows will report free space on the phone only, though)
+That's it, the folder sdcard in the root of your phone is actually the sd card (windows will report free space on the phone only, though)
 
  [1]: http://www.amazon.co.uk/gp/product/B00AO1VIN8/ref=as_li_qf_sp_asin_tl?ie=UTF8&camp=1634&creative=6738&creativeASIN=B00AO1VIN8&linkCode=as2&tag=sgvulcan-21

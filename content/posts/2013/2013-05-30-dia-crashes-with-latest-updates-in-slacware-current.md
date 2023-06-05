@@ -22,7 +22,7 @@ Having just updated to the latest set of slackware current packages I found that
 
 [cce_bash]
 
-\*\* (dia:26707): CRITICAL \*\*: dia\_renderer\_set_size: assertion \`irenderer != NULL&#8217; failed  
+\*\* (dia:26707): CRITICAL \*\*: dia\_renderer\_set_size: assertion \`irenderer != NULL' failed  
 Segmentation fault
 
 [/cce_bash]
@@ -34,14 +34,14 @@ Edit $(HOME)/.dia/persistence and change the value from **false** to **true**.
 [cce_xml]
 
 <p id="yui_3_9_1_1_1369907323211_378">
-    <dia:boolean role=&#8221;view_antialised&#8221;><br /> <dia:attribute name=&#8221;booleanvalue&#8221;><br /> <dia:boolean val=&#8221;true&#8221;/><br /> </dia:attribute><br /> </dia:boolean>
+    <dia:boolean role="view_antialised"><br /> <dia:attribute name="booleanvalue"><br /> <dia:boolean val="true"/><br /> </dia:attribute><br /> </dia:boolean>
 </p>
 
 [/cce_xml]
 
 Please note that this fix works only if $(HOME)/.dia/persistence already exists. What this does (from the bug report):
 
-> i.e. make the antialiased rendering default. And please don&#8217;t use the  
+> i.e. make the antialiased rendering default. And please don't use the  
 > View/AntiAliased menu item to toggle the renderer later, because that would  
 > trigger the crash again.
 

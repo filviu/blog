@@ -31,7 +31,7 @@ tags:
 
 There are many sources offering certificates for digitally  
 signing of email. Many of them are commercial some of them are free.  
-If you&#8217;d like to test this feature Comodo offers a free certificate  
+If you'd like to test this feature Comodo offers a free certificate  
 for personal use.
 
 Go to  
@@ -62,13 +62,13 @@ and click on **Free Download**
     
     <li>
       <p>
-        <span style="font-weight: normal">Click on the certificate<br /> (it&#8217;s on the </span><b>Your certificates </b><span style="font-weight: normal">tab)<br /> and click </span><b>Backup</b>
+        <span style="font-weight: normal">Click on the certificate<br /> (it's on the </span><b>Your certificates </b><span style="font-weight: normal">tab)<br /> and click </span><b>Backup</b>
       </p>
     </li>
     
     <li>
       <p>
-        <span style="font-weight: normal">Save the certificate<br /> somewhere</span><b> </b><span style="font-weight: normal">on your<br /> computer. It&#8217;s a good ideea to keep a copy of your certificate for<br /> future reference and so you can password protect it so it won&#8217;t be<br /> possible to be imported without knowing this password. (this will<br /> prevent unauthorized persons from posing as you using a stolen<br /> certificate backup)</span>
+        <span style="font-weight: normal">Save the certificate<br /> somewhere</span><b> </b><span style="font-weight: normal">on your<br /> computer. It's a good ideea to keep a copy of your certificate for<br /> future reference and so you can password protect it so it won't be<br /> possible to be imported without knowing this password. (this will<br /> prevent unauthorized persons from posing as you using a stolen<br /> certificate backup)</span>
       </p>
     </li>
     
@@ -86,7 +86,7 @@ and click on **Free Download**
   </ol>
   
   <p style="font-weight: normal">
-    <i> The above procedure will no doubt<br /> be different across operating systems and email clients but the basic<br /> steps should be the same. For example it&#8217;s possible that if you use<br /> Outlook and Internet Explorer the certificate will be already<br /> installed in both without requiring extra import/export.</i>
+    <i> The above procedure will no doubt<br /> be different across operating systems and email clients but the basic<br /> steps should be the same. For example it's possible that if you use<br /> Outlook and Internet Explorer the certificate will be already<br /> installed in both without requiring extra import/export.</i>
   </p>
   
   <h2 class="western" style="font-weight: normal">

@@ -19,7 +19,7 @@ tags:
 ---
 This is a handy one liner that searches and replaces text in multiple files. (You can use [find][1] for example to run it in multiple folders)  
 [ccNe_bash]  
-perl -pi -e &#8216;s/old\_text/new\_text/g&#8217; *.conf  
+perl -pi -e 's/old\_text/new\_text/g' *.conf  
 [/ccNe_bash]  
 This line replaces old\_text with new\_text in all the .conf files in the current folder. Of course you can use regular expressions.
 

@@ -16,7 +16,7 @@ tags:
   - temp_on
 
 ---
-With the recent posts regarding resurrecting old stuff, recently I had to resurrect a Joomla 1.0 site. Soon enough I discovered that the home page doesn&#8217;t display correctly. No errors, just lots of white space :). The problem is that Joomla 1.0 is not really made for PHP 5.3. Of course I could have started a virtual machine with the right environment but I wanted it running along some newer sites. Here&#8217;s an easy fix:
+With the recent posts regarding resurrecting old stuff, recently I had to resurrect a Joomla 1.0 site. Soon enough I discovered that the home page doesn't display correctly. No errors, just lots of white space :). The problem is that Joomla 1.0 is not really made for PHP 5.3. Of course I could have started a virtual machine with the right environment but I wanted it running along some newer sites. Here's an easy fix:
 
 Edit **./includes/Cache/Lite/Function.php**, find the line reading
 
@@ -35,4 +35,4 @@ $arguments[$i] = &$arguments[$i];
 [/cce_php]  
 Check now, it should be working. Enjoy your new _old_ site 🙂
 
-&nbsp;
+ 

@@ -16,6 +16,6 @@ tags:
   - temp_on
 
 ---
-I wanted to play a bit with the Mozilla Firefox 4.0 beta. Well, if you go to the download site there&#8217;s no apparent way to download the 64 bit version of Firefox. This is where I got it:
+I wanted to play a bit with the Mozilla Firefox 4.0 beta. Well, if you go to the download site there's no apparent way to download the 64 bit version of Firefox. This is where I got it:
 
 <ftp://ftp.mozilla.org/pub/firefox/releases/4.0b1>

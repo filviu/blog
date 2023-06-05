@@ -36,4 +36,4 @@ if \`tty -s \` && \`test -x /usr/bin/mesg\`; then
 mesg y  
 fi  
 [/cce_bash]  
-What happens is that some program in your bashrc (or one sourced automatically from /etc ) is expecting the shell to be interactive when it&#8217;s not (for example you run commands over ssh). The fix is to find the problematic program and test for an interactive shell before calling it.
+What happens is that some program in your bashrc (or one sourced automatically from /etc ) is expecting the shell to be interactive when it's not (for example you run commands over ssh). The fix is to find the problematic program and test for an interactive shell before calling it.

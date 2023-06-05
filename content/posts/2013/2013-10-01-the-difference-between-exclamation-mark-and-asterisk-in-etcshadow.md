@@ -18,7 +18,7 @@ tags:
   - temp_on
 
 ---
-So, with a terrible case of memory lapsus while wanting to disable password login for a user I couldn&#8217;t remember what the difference between &#8220;!&#8221; and &#8220;*&#8221; is in the **/etc/shadow** file.
+So, with a terrible case of memory lapsus while wanting to disable password login for a user I couldn't remember what the difference between "!" and "*" is in the **/etc/shadow** file.
 
 <p style="padding-left: 30px">
   Well <a href="http://manpages.sgvulcan.com/shadow.5.php"><strong>man 5 shadow</strong></a> to the rescue
@@ -40,6 +40,6 @@ So, with a terrible case of memory lapsus while wanting to disable password logi
   <em>A password field which starts with a exclamation mark means that the password is locked. The remaining characters on the line represent the password field before the password was locked.</em>
 </p>
 
-This means that both won&#8217;t allow password login the account but ! (exclamation mark) means that the account is locked and can be followed by the password the account had before it was locked. When unlocked the ! is removed and the old password could be kept.
+This means that both won't allow password login the account but ! (exclamation mark) means that the account is locked and can be followed by the password the account had before it was locked. When unlocked the ! is removed and the old password could be kept.
 
 Now we both know 🙂

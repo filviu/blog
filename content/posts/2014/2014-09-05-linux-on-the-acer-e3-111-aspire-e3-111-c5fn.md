@@ -19,7 +19,7 @@ tags:
 ---
 <img decoding="async" loading="lazy" class="alignleft size-medium wp-image-3034" src="http://blog.silviuvulcan.ro/wp-content/uploads/sites/2/2014/09/E3111silver3-800x800-300x249.jpg" alt="E3111silver3-800x800" width="300" height="249" />I gave up on using a tablet and sold mine some time ago. My old toshiba m100 laptop was to heavy and too old to lug around when on holiday (mainly to download photos) so I decided to buy a small laptop to replace it. 10&#8242; is too small for me and so I decided on an 11&#8242; low cost system.
 
-I bought an [Acer Aspire E3-111][1] instead of competing models from Asus and others because I found a good deal on it and because of the quad core CPU &#8211;  Intel® Celeron® N2930 &#8211; that I couldn&#8217;t find on any other machine.
+I bought an [Acer Aspire E3-111][1] instead of competing models from Asus and others because I found a good deal on it and because of the quad core CPU -  Intel® Celeron® N2930 - that I couldn't find on any other machine.
 
 It came in a 2GB RAM (I upgraded to 8GB), 500GB hdd configuration with some version of linux installed.  Following are a few tips and tricks for running linux (I chose slackware64-current but should apply to most versions)
 
@@ -27,17 +27,17 @@ Below are some tips and tricks on running linux on it:
 
 **BIOS**
 
-  * BIOS can be updated only from a Windows Only utility; I couldn&#8217;t find any alternative. Fortunately a Windows 8.1 Enterprise Evaluation can be downloaded from Microsoft and that can be installed on a USB hard disk using [this tutorial][2].
+  * BIOS can be updated only from a Windows Only utility; I couldn't find any alternative. Fortunately a Windows 8.1 Enterprise Evaluation can be downloaded from Microsoft and that can be installed on a USB hard disk using [this tutorial][2].
 
 **Booting**
 
-  * I didn&#8217;t want to bother with UEFI and so I switched to legacy in BIOS. The laptop sometimes fails to boot (kernel loading hangs at some point) and I have to powercycle. I will have to test and see if using UEFI helps
+  * I didn't want to bother with UEFI and so I switched to legacy in BIOS. The laptop sometimes fails to boot (kernel loading hangs at some point) and I have to powercycle. I will have to test and see if using UEFI helps
   * I cannot boot using kernel-generic, only kernel-huge
   * I added the following parameters to the kernel command line: acpi_backlight=vendor in order to get backlight shortcuts to work
 
 **Keyboard**
 
-  * Sometimes the arrow keys didn&#8217;t work and more the &#8220;UP&#8221; arrow would trigger the _Disable Touchpad_ shortcut. The only fix was to poweroff & boot over and over (sometimes 2-3 times) until the arrow keys worked. I added a second entry in LILO just to be able to test the arrow keys.**Update:** Bios update 1.29 from 2014/10/28 seems to fix this!
+  * Sometimes the arrow keys didn't work and more the "UP" arrow would trigger the _Disable Touchpad_ shortcut. The only fix was to poweroff & boot over and over (sometimes 2-3 times) until the arrow keys worked. I added a second entry in LILO just to be able to test the arrow keys.**Update:** Bios update 1.29 from 2014/10/28 seems to fix this!
 
 **Sleep**
 
@@ -54,7 +54,7 @@ Below are some tips and tricks on running linux on it:
 
 **Video**
 
-  * I didn&#8217;t test yet how video playing works.  
+  * I didn't test yet how video playing works.  
     **Update:** at least normal files play well, including hd files. I tried some streams in browser from twit.tv and they were dropping frames badly, but in vlc they work fine.
 
 **Misc**

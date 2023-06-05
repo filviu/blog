@@ -18,9 +18,9 @@ tags:
   - watermark
 
 ---
-Ever since I post pictures on the internet I searched for a way to watermark them. I am not paranoiac but I want others to respect my work. I used to use <a href="http://www.gimp.org/" target="_blank" rel="noopener">The GiMP</a> but that was slow, so I searched and discovered <a href="http://www.faststone.org/" target="_blank" rel="noopener">Fast Stone Image Viewer</a>. It&#8217;s fast, free for personal use and has an array of functions that can be applied in Batch Mode, many useful if you publish your pictures online.
+Ever since I post pictures on the internet I searched for a way to watermark them. I am not paranoiac but I want others to respect my work. I used to use <a href="http://www.gimp.org/" target="_blank" rel="noopener">The GiMP</a> but that was slow, so I searched and discovered <a href="http://www.faststone.org/" target="_blank" rel="noopener">Fast Stone Image Viewer</a>. It's fast, free for personal use and has an array of functions that can be applied in Batch Mode, many useful if you publish your pictures online.
 
-Here&#8217;s a quick step by step:
+Here's a quick step by step:
 
 1. Start Fast Stone, select the images you want to watermark and press **F3**. The following window appears:
 
@@ -44,7 +44,7 @@ Here&#8217;s a quick step by step:
 
 You can see after conversion all kinds of informations, like file size before and after, and so on.
 
-Give it a try. It&#8217;s great, I use it for this blog.
+Give it a try. It's great, I use it for this blog.
 
  [1]: http://blog.silviuvulcan.ro/wp-content/uploads/sites/2/2009/06/step1_tn.jpg
  [2]: http://blog.silviuvulcan.ro/wp-content/uploads/sites/2/2009/06/step2_tn.jpg

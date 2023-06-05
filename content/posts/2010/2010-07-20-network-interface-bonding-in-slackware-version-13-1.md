@@ -20,7 +20,7 @@ tags:
   - trunking
 
 ---
-A backup NAS I set up for a client had some problems &#8211; i.e. from time to time the network card would hang forcing a reboot (the machine was headless). The disks in the nas are RAID 1 providing redundancy in case of failure. We wanted the same with the network. So, nothing easier than to install a second network card and set up bonding.
+A backup NAS I set up for a client had some problems - i.e. from time to time the network card would hang forcing a reboot (the machine was headless). The disks in the nas are RAID 1 providing redundancy in case of failure. We wanted the same with the network. So, nothing easier than to install a second network card and set up bonding.
 
 ### What is network bonding?
 
@@ -43,25 +43,25 @@ Edit the file you just created to contain the following:
 [ccNe_bash]  
 #!/bin/sh
 
-case &#8220;$1&#8221; in  
-&#8216;start&#8217;)  
-echo &#8220;start bond0&#8221;  
+case "$1" in  
+'start')  
+echo "start bond0"  
 modprobe bonding mode=balance-rr miimon=100  
 modprobe tg3  
 ifconfig bond0 up  
 ifenslave bond0 eth0  
 ifenslave bond0 eth1  
-#You don&#8217;t necesarily need to change the hardware address  
+#You don't necesarily need to change the hardware address  
 #It will take it from the first hardware interface  
 #ifconfig bond0 hw ether 00:16:3e:aa:aa:aa  
 ;;  
-&#8216;stop&#8217;)  
+'stop')  
 ifconfig bond0 down  
 rmmod bonding  
 rmmod tg3  
 ;;  
 *)  
-echo &#8220;Usage: $0 {start|stop}&#8221;  
+echo "Usage: $0 {start|stop}"  
 ;;  
 esac  
 [/ccNe_bash]  
@@ -78,11 +78,11 @@ fi
 [/ccNe_bash]  
 Finally we must configure **rc.inet1.conf** to set our bond interface and to make sure the physical interfaces are not configured. Add the following:  
 [ccNe_bash]  
-IFNAME[4]=&#8221;bond0&#8243;  
-IPADDR[4]=&#8221;XXX.XX.XX.XX&#8221;  
-NETMASK[4]=&#8221;255.255.255.0&#8243;  
-USE_DHCP[4]=&#8221;&#8221;  
-DHCP_HOSTNAME[4]=&#8221;&#8221;  
+IFNAME[4]="bond0&#8243;  
+IPADDR[4]="XXX.XX.XX.XX"  
+NETMASK[4]="255.255.255.0&#8243;  
+USE_DHCP[4]=""  
+DHCP_HOSTNAME[4]=""  
 [/ccNe_bash]  
 **Make sure that the physical interfaces, like 0, 1 and so on are NOT configured.**  
 Reboot, and everything will be set.
@@ -93,10 +93,10 @@ For your reference those are the bonding modes available:
 > Round-robin policy: Transmit packets in sequential order from the first available slave through the last. This mode provides load balancing and fault tolerance.
 > 
 > **mode=1 (active-backup)**  
-> Active-backup policy: Only one slave in the bond is active. A different slave becomes active if, and only if, the active slave fails. The bond&#8217;s MAC address is externally visible on only one port (network adapter) to avoid confusing the switch. This mode provides fault tolerance. The primary option affects the behavior of this mode.
+> Active-backup policy: Only one slave in the bond is active. A different slave becomes active if, and only if, the active slave fails. The bond's MAC address is externally visible on only one port (network adapter) to avoid confusing the switch. This mode provides fault tolerance. The primary option affects the behavior of this mode.
 > 
 > **mode=2 (balance-xor)**  
-> XOR policy: Transmit based on [(source MAC address XOR&#8217;d with destination MAC address) modulo slave count]. This selects the same slave for each destination MAC address. This mode provides load balancing and fault tolerance.
+> XOR policy: Transmit based on [(source MAC address XOR'd with destination MAC address) modulo slave count]. This selects the same slave for each destination MAC address. This mode provides load balancing and fault tolerance.
 > 
 > **mode=3 (broadcast)**  
 > Broadcast policy: transmits everything on all slave interfaces. This mode provides fault tolerance.
@@ -110,14 +110,16 @@ For your reference those are the bonding modes available:
 	2. A switch that supports IEEE 802.3ad Dynamic link
 	aggregation.
 	Most switches will require some type of configuration
-	to enable 802.3ad mode.</em></pre>
+	to enable 802.3ad mode.</em>
+```
 > 
 > **mode=5 (balance-tlb)**  
 > Adaptive transmit load balancing: channel bonding that does not require any special switch support. The outgoing traffic is distributed according to the current load (computed relative to the speed) on each slave. Incoming traffic is received by the current slave. If the receiving slave fails, another slave takes over the MAC address of the failed receiving slave.
 > 
 > <pre><em>Prerequisite:
 	Ethtool support in the base drivers for retrieving the
-	speed of each slave.</em></pre>
+	speed of each slave.</em>
+```
 
 > **mode=6 (balance-alb)**  
 > Adaptive load balancing: includes balance-tlb plus receive load balancing (rlb) for IPV4 traffic, and does not require any special switch support. The receive load balancing is achieved by ARP negotiation. The bonding driver intercepts the ARP Replies sent by the local system on their way out and overwrites the source hardware address with the unique hardware address of one of the slaves in the bond such that different peers use different hardware addresses for the server.

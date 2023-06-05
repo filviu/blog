@@ -22,26 +22,26 @@ I was working writing a few scripts that should update a DNS zone file on the fl
 
 The example there is straightforward for changing MX records so I thought modifying it to change an A record should be a piece of cake. Right? **Wrong!**
 
-For the love of it I couldn&#8217;t get my code to modify the record in question, it would always delete it.
+For the love of it I couldn't get my code to modify the record in question, it would always delete it.
 
-All the beer in the world goes to <a href="https://rt.cpan.org/Public/Bug/Display.html?id=66609" target="_blank" rel="noopener">this guy</a> who found the reason. Basically if the ORIGIN method is not set the record won&#8217;t be written to the new file.
+All the beer in the world goes to <a href="https://rt.cpan.org/Public/Bug/Display.html?id=66609" target="_blank" rel="noopener">this guy</a> who found the reason. Basically if the ORIGIN method is not set the record won't be written to the new file.
 
 So, changing for example the record like this will actually erase it
 
 [cce_perl]  
-$a->[i] = { host => &#8216;blah.com&#8217;,  
-class => &#8216;IN&#8217;,  
-ttl => &#8216;1m&#8217;,  
-name => &#8216;@&#8217; };  
+$a->[i] = { host => 'blah.com',  
+class => 'IN',  
+ttl => '1m',  
+name => '@' };  
 [/cce_perl]
 
 and like this it will work:
 
 [cce_perl]  
-$origin=&#8217;host.domain.com.&#8217;;  
+$origin='host.domain.com.';  
 $a->[i] = { ORIGIN => $origin,  
-host => &#8216;blah.com&#8217;,  
-class => &#8216;IN&#8217;,  
-ttl => &#8216;1m&#8217;,  
-name => &#8216;@&#8217; };  
+host => 'blah.com',  
+class => 'IN',  
+ttl => '1m',  
+name => '@' };  
 [/cce_perl]

@@ -24,8 +24,8 @@ Hardware:
   * 250Gb hdd (all media is stored on a NAS)
   * 6Gb RAM
 
-When I moved to a Full HD tv I found that I have to move away from XP to windows 7 in order to get decent hardware acceleration out of my integrated graphics. Because of power and heat issues I didn&#8217;t want to use a dedicated card. Windows 7 ran full hd decent but only using the latest drivers for my IGP from AMD-ATI.
+When I moved to a Full HD tv I found that I have to move away from XP to windows 7 in order to get decent hardware acceleration out of my integrated graphics. Because of power and heat issues I didn't want to use a dedicated card. Windows 7 ran full hd decent but only using the latest drivers for my IGP from AMD-ATI.
 
 In Windows 8 everything including hd videos worked out of the box, without installing any drivers. Still after installing the Windows 7 graphics driver found on AMD-ATI website performance got even better.
 
-The system boots fast, xbmc works wonderful. Also the darn metro tiles look pretty good on a big screen &#8211; actually I hated metro on the desktop but on a big screen they look at home.
+The system boots fast, xbmc works wonderful. Also the darn metro tiles look pretty good on a big screen - actually I hated metro on the desktop but on a big screen they look at home.

@@ -15,24 +15,24 @@ tags:
 I created a script that generates random files in a random folder structure. I let it run for 1.000.000 files and than 1.000.000 more. Here are the results:  
 [cce_bash]  
 #!/bin/bash  
-DST=$(mktemp &#8211;tmpdir=&#8221;/tmp/boatload&#8221; -d XXXXXXXXXX)
+DST=$(mktemp -tmpdir="/tmp/boatload" -d XXXXXXXXXX)
 
-let &#8220;no\_of\_files = $RANDOM/2&#8221;  
-echo &#8220;Creating $no\_of\_files files in $DST&#8221;
+let "no\_of\_files = $RANDOM/2"  
+echo "Creating $no\_of\_files files in $DST"
 
 counter=1  
 while [[ $counter -le $no\_of\_files ]];  
 do  
 \# echo Creating file no $counter  
 \# dd bs=64 count=$RANDOM skip=$RANDOM if=/dev/xvda2 of=$DST/random-file.$counter; # this is useful for big files  
-let &#8220;CNT = $RANDOM/40&#8221;  
+let "CNT = $RANDOM/40"  
 dd bs=8 count=$CNT if=/dev/urandom of=$DST/random-file.$counter > /dev/null 2>&1  
-let &#8220;counter += 1&#8221;;  
+let "counter += 1";  
 done
 
-echo &#8220;Created $counter files in $DST&#8221; >> /app/scripts/file_generator.log
+echo "Created $counter files in $DST" >> /app/scripts/file_generator.log
 
-cat /app/scripts/file_generator.log | awk &#8216;{ print $2 }&#8217; | paste -sd+ | bc  
+cat /app/scripts/file_generator.log | awk '{ print $2 }' | paste -sd+ | bc  
 [/cce_bash]  
 And the test script:  
 [cce_bash]  
@@ -40,18 +40,18 @@ And the test script:
 
 if [ $# -eq 1 ]; then  
 \# assume the parameter is the log file  
-LOG=&#8221;$1&#8243;  
+LOG="$1&#8243;  
 else  
-LOG=&#8221;./stats.out&#8221;  
+LOG="./stats.out"  
 fi
 
->&#8221;$LOG&#8221;
+>"$LOG"
 
-echo &#8220;Performing dd tests&#8230;&#8221;
+echo "Performing dd tests&#8230;"
 
-COUNT=$(( $(awk &#8216;/MemTotal/ { print $2 }&#8217; /proc/meminfo) * 2 / 1024 ))  
-for i in {1..5}; do dd if=/dev/zero of=/tmp/dd bs=12M count=$(($COUNT/12)) oflag=direct 2>&1 | grep bytes; done >> &#8220;$LOG&#8221;  
-for i in {1..5}; do dd if=/tmp/dd of=/dev/null 2>&1 | grep bytes; done >> &#8220;$LOG&#8221;  
+COUNT=$(( $(awk '/MemTotal/ { print $2 }' /proc/meminfo) * 2 / 1024 ))  
+for i in {1..5}; do dd if=/dev/zero of=/tmp/dd bs=12M count=$(($COUNT/12)) oflag=direct 2>&1 | grep bytes; done >> "$LOG"  
+for i in {1..5}; do dd if=/tmp/dd of=/dev/null 2>&1 | grep bytes; done >> "$LOG"  
 [/cce_bash]  
 And the results on a 1Gb RAM virtual machine:
 

@@ -16,7 +16,7 @@ tags:
   - vi
 
 ---
-Recently I had to do some work on a Solaris Server. This meant two things: finding a new appreciation for the user friendliness of the linux console and second it meant that I had to use the barebones vi. You know, the one where the arrows and backspace won&#8217;t work. Smart. So here&#8217;s a little list compiled with the more important functions
+Recently I had to do some work on a Solaris Server. This meant two things: finding a new appreciation for the user friendliness of the linux console and second it meant that I had to use the barebones vi. You know, the one where the arrows and backspace won't work. Smart. So here's a little list compiled with the more important functions
 
 First I had to
 
@@ -33,9 +33,9 @@ vi without any file name will open a new file where you can enter and edit text 
 ** 
 
 vi operates in following two modes :  
-&#8211; **Command Mode** : After a file is opened it is opened in command mode ,that is , input from the keyboard will be treated as vi commands
+- **Command Mode** : After a file is opened it is opened in command mode ,that is , input from the keyboard will be treated as vi commands
 
-**&#8211; Insert Mode**: To enter the text you have to put vi in insert by pressing ‘i’ or ‘a’ after which you can write the text and you will see it on the screen. To switch between these modes press Esc
+**- Insert Mode**: To enter the text you have to put vi in insert by pressing ‘i’ or ‘a’ after which you can write the text and you will see it on the screen. To switch between these modes press Esc
 
 **Saving & Exiting vi editor**  
 You can exit vi in different ways :
@@ -44,7 +44,7 @@ You can exit vi in different ways :
   * _Write & quit_ : . Simple :w saves the current file but don’t exit. For save and quit :wq is used in vi.
   * _Forced Quite_ : An ! after exit commands ( :q! , :wq! ) forces quit from vi after ignoring editing (for :q!) or writing (for :wq!) all the change
 
-&nbsp;
+ 
 
 <table id="AutoNumber2" border="1" cellspacing="0" cellpadding="3" width="392">
   <tr>
@@ -53,7 +53,7 @@ You can exit vi in different ways :
     </td>
     
     <td>
-      <strong>&nbsp;</td> </tr> 
+      <strong> </td> </tr> 
       
       <tr>
         <td colspan="2" width="528" height="19" align="left" bgcolor="#cecece">
@@ -622,5 +622,5 @@ You can exit vi in different ways :
       </tr></tbody> </table> 
       
       <p>
-        I created this page using vi&#8217;s man page and various pages found on the web.
+        I created this page using vi's man page and various pages found on the web.
       </p>

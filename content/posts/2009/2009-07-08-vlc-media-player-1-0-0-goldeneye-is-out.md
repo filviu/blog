@@ -17,9 +17,9 @@ tags:
 ---
 <img decoding="async" loading="lazy" class="alignright size-full wp-image-384" title="vlc_icon" src="http://blog.silviuvulcan.ro/wp-content/uploads/sites/2/2009/07/vlc_icon.jpg" alt="vlc_icon" width="285" height="285" />In the good tradition of Open Source projects VideoLAN has been at a version < 1.0 for ages. Traditionally 1.0 would be a complete, stable release. Well VideoLAN is there. Actually has been there for some time, I use it constantly and besides an uglier than usual interface has been stable and useful for me.
 
-For those of you who don&#8217;t know VideoLAN is a full featured Media Player for Windows, Linux, OSX and many more operating systems. VLC 1.0.0 has support for live recording, new HD codecs (including Blu-ray and AES3), new formats, new encoders, and many other new features.
+For those of you who don't know VideoLAN is a full featured Media Player for Windows, Linux, OSX and many more operating systems. VLC 1.0.0 has support for live recording, new HD codecs (including Blu-ray and AES3), new formats, new encoders, and many other new features.
 
-From it&#8217;s website:
+From it's website:
 
 <ul class="blue-bullet" style="margin-bottom: -19px">
   <li>

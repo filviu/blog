@@ -17,7 +17,7 @@ tags:
   - temp_on
 
 ---
-I run the [mpm-itk apache2][1] module on my server since it&#8217;s shared between a few sites. A few rogue crawlers brought it down a few days ago and while I was checking the logs I noticed a lot more apache children processes running than I had defined. One quick look in apache2.conf and I noticed my mistake. I had configured under a different prefork module since the default config shipping with debian has no section for itk. So I added it myself:
+I run the [mpm-itk apache2][1] module on my server since it's shared between a few sites. A few rogue crawlers brought it down a few days ago and while I was checking the logs I noticed a lot more apache children processes running than I had defined. One quick look in apache2.conf and I noticed my mistake. I had configured under a different prefork module since the default config shipping with debian has no section for itk. So I added it myself:
 
 [cce_apache]
 

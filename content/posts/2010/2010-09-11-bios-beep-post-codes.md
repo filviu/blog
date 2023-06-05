@@ -12,7 +12,7 @@ tags:
   - temp_on
 
 ---
-Ever found yourself standing next to a PC that won&#8217;t boot and emits all kinds of short or long beeps. Me too. Here&#8217;s a list of what these beeps _might_ mean.
+Ever found yourself standing next to a PC that won't boot and emits all kinds of short or long beeps. Me too. Here's a list of what these beeps _might_ mean.
 
 Please note that because motherboard manufacturers often modify the code bought from these companies the beeps might mean something else.
 
@@ -347,7 +347,7 @@ Please note that because motherboard manufacturers often modify the code bought 
     </td>
     
     <td>
-      Processor error 8042 &#8211; Gate A20 Failure
+      Processor error 8042 - Gate A20 Failure
     </td>
     
     <td>
@@ -365,7 +365,7 @@ Please note that because motherboard manufacturers often modify the code bought 
     </td>
     
     <td>
-      8042 &#8211; Gate A20 Failure Processor Exception Interrupt Error
+      8042 - Gate A20 Failure Processor Exception Interrupt Error
     </td>
     
     <td>
@@ -455,7 +455,7 @@ Please note that because motherboard manufacturers often modify the code bought 
     </td>
     
     <td>
-      Cache memory bad &#8211; do not enable cache
+      Cache memory bad - do not enable cache
     </td>
     
     <td>
@@ -1109,7 +1109,7 @@ PHOENIX BIOS Q3.07 OR 4.X
     </td>
     
     <td>
-      Display prompt &#8220;Press F2 to enter SETUP&#8221;.
+      Display prompt "Press F2 to enter SETUP".
     </td>
   </tr>
   
@@ -1499,7 +1499,7 @@ PHOENIX BIOS Q3.07 OR 4.X
     </td>
     
     <td>
-      POST done&#8211;prepare to boot operating system.
+      POST done-prepare to boot operating system.
     </td>
   </tr>
   

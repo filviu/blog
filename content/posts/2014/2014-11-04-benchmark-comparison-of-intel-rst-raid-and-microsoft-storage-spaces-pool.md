@@ -15,7 +15,7 @@ tags:
   - temp_on
 
 ---
-I [posted][1] last time that I upgraded my workstation&#8217;s mechanical storage. Since I had a hard time deciding between using storage spaces and my motherboard&#8217;s Intel RST sollution I searched some comparisons but couldn&#8217;t find any so I decided to make my own mini benchmark.
+I [posted][1] last time that I upgraded my workstation's mechanical storage. Since I had a hard time deciding between using storage spaces and my motherboard's Intel RST sollution I searched some comparisons but couldn't find any so I decided to make my own mini benchmark.
 
 ## Hardware
 
@@ -33,14 +33,14 @@ I [posted][1] last time that I upgraded my workstation&#8217;s mechanical storag
 
 ### Storage spaces three drive parity
 
-Originally I was using just three of the disks (wanting to keep the fourth for offsite backups). I created a 3 disks parity pool using Storage Spaces. I quickly discovered that it&#8217;s unusable (I ended up keeping my data spread on faster, smaller disks and this array only for copies and media). Unfortunately it&#8217;s [acknowledged][2] that Storage Spaces Parity performance is [abysmal][3].  
+Originally I was using just three of the disks (wanting to keep the fourth for offsite backups). I created a 3 disks parity pool using Storage Spaces. I quickly discovered that it's unusable (I ended up keeping my data spread on faster, smaller disks and this array only for copies and media). Unfortunately it's [acknowledged][2] that Storage Spaces Parity performance is [abysmal][3].  
 <img decoding="async" loading="lazy" class="wp-image-3089 size-full alignnone" src="http://blog.silviuvulcan.ro/wp-content/uploads/sites/2/2014/11/storage_spaces_parity_performance.png" alt="storage_spaces_parity_performance" width="416" height="379" /> 
 
 [ccN_dos]  
-&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8211;  
+&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;-  
 CrystalDiskMark 3.0.3 x64 (C) 2007-2013 hiyohiyo  
 Crystal Dew World : http://crystalmark.info/  
-&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8211;  
+&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;-  
 * MB/s = 1,000,000 byte/s [SATA/300 = 300,000,000 byte/s]
 
 Sequential Read : 179.874 MB/s  
@@ -58,21 +58,21 @@ OS : Windows 8.1 Pro \[6.3 Build 9600\] (x64)
 
 [/ccN_dos]
 
-This setup proved to be unusable for me. Basically unless you would use it for bulk mostly read storage I would go with something else. As always Microsoft blogs minimize this issue blaming it on the overhead of parity. This of course completely ignores the fact that the same parity raid5 with the same disks with added overhead from ZFS performed orders of magnitude faster in a far less powerful hp microserver. But I&#8217;m going off topic here.
+This setup proved to be unusable for me. Basically unless you would use it for bulk mostly read storage I would go with something else. As always Microsoft blogs minimize this issue blaming it on the overhead of parity. This of course completely ignores the fact that the same parity raid5 with the same disks with added overhead from ZFS performed orders of magnitude faster in a far less powerful hp microserver. But I'm going off topic here.
 
 At this point I gave up on parity and decided a much more speedier RAID10 is in order. This should give enough performance to allow me to give up on using the faster, smaller drives.
 
 ### RAID10 using Intel RST in AHCI
 
-Yes the title is not wrong. I can set the SATA controller in RAID mode, setup the array, set the controller back as AHCI and it would still work. (As I didn&#8217;t want to fumble with windows drivers &#8211; as I installed Windows with the controllersin AHCI mode)
+Yes the title is not wrong. I can set the SATA controller in RAID mode, setup the array, set the controller back as AHCI and it would still work. (As I didn't want to fumble with windows drivers - as I installed Windows with the controllersin AHCI mode)
 
 <img decoding="async" loading="lazy" class="size-full wp-image-3109 alignnone" src="http://blog.silviuvulcan.ro/wp-content/uploads/sites/2/2014/11/intel_rst_raid10_ahci.png" alt="intel_rst_raid10_ahci" width="416" height="379" /> 
 
 [ccN_dos]  
-&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8211;  
+&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;-  
 CrystalDiskMark 3.0.3 x64 (C) 2007-2013 hiyohiyo  
 Crystal Dew World : http://crystalmark.info/  
-&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8211;  
+&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;-  
 * MB/s = 1,000,000 byte/s [SATA/300 = 300,000,000 byte/s]
 
 Sequential Read : 213.320 MB/s  
@@ -98,10 +98,10 @@ I used [these instructions][4] to make windows work with the new settings. (If y
 
 <img decoding="async" loading="lazy" class="alignnone size-full wp-image-3111" src="http://blog.silviuvulcan.ro/wp-content/uploads/sites/2/2014/11/intel_rst_raid10_raid.png" alt="intel_rst_raid10_raid" width="416" height="379" />  
 [ccN_dos]  
-&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8211;  
+&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;-  
 CrystalDiskMark 3.0.3 x64 (C) 2007-2013 hiyohiyo  
 Crystal Dew World : http://crystalmark.info/  
-&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8211;  
+&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;-  
 * MB/s = 1,000,000 byte/s [SATA/300 = 300,000,000 byte/s]
 
 Sequential Read : 210.431 MB/s  
@@ -118,15 +118,15 @@ Date : 2014/10/29 20:57:30
 OS : Windows 8.1 Pro \[6.3 Build 9600\] (x64)  
 [/ccN_dos]
 
-No surprise here, it&#8217;s basically the same. Since my machine is on a UPS I can afford to change the following performance affecting settings: write buffer disabled, write back enabled.
+No surprise here, it's basically the same. Since my machine is on a UPS I can afford to change the following performance affecting settings: write buffer disabled, write back enabled.
 
 <img decoding="async" loading="lazy" class="alignnone size-full wp-image-3112" src="http://blog.silviuvulcan.ro/wp-content/uploads/sites/2/2014/11/intel_rst_raid10_raid_perf.png" alt="intel_rst_raid10_raid_perf" width="416" height="379" /> 
 
 [ccN_dos]  
-&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8211;  
+&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;-  
 CrystalDiskMark 3.0.3 x64 (C) 2007-2013 hiyohiyo  
 Crystal Dew World : http://crystalmark.info/  
-&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8211;  
+&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;-  
 * MB/s = 1,000,000 byte/s [SATA/300 = 300,000,000 byte/s]
 
 Sequential Read : 220.266 MB/s  
@@ -143,7 +143,7 @@ Date : 2014/10/29 21:58:05
 OS : Windows 8.1 Pro \[6.3 Build 9600\] (x64)  
 [/ccN_dos]
 
-As expected a slight improvement of write performance. Whether these settings (be sure you understand them) are worth it it&#8217;s up to you, the number of backups you have, etc. My pc is on a UPS and all my data has multiple backups so I can afford to leave them on.
+As expected a slight improvement of write performance. Whether these settings (be sure you understand them) are worth it it's up to you, the number of backups you have, etc. My pc is on a UPS and all my data has multiple backups so I can afford to leave them on.
 
 ### Striped mirror (using Windows 8 storage spaces)
 
@@ -152,10 +152,10 @@ As I posted before you can [trick Windows 8 into creating a RAID10][1] array.
 <img decoding="async" loading="lazy" class="alignnone size-full wp-image-3113" src="http://blog.silviuvulcan.ro/wp-content/uploads/sites/2/2014/11/storage_spaces_striped_mirror.png" alt="storage_spaces_striped_mirror" width="416" height="379" /> 
 
 [ccN_dos]  
-&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8211;  
+&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;-  
 CrystalDiskMark 3.0.3 x64 (C) 2007-2013 hiyohiyo  
 Crystal Dew World : http://crystalmark.info/  
-&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8211;  
+&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;-  
 * MB/s = 1,000,000 byte/s [SATA/300 = 300,000,000 byte/s]
 
 Sequential Read : 240.886 MB/s  
@@ -180,10 +180,10 @@ Better read performance but much worse write performance.
 
 <img decoding="async" loading="lazy" class="alignnone size-full wp-image-3115" src="http://blog.silviuvulcan.ro/wp-content/uploads/sites/2/2014/11/ssd.png" alt="ssd" width="416" height="379" />  
 [ccN_dos]  
-&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8211;  
+&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;-  
 CrystalDiskMark 3.0.3 x64 (C) 2007-2013 hiyohiyo  
 Crystal Dew World : http://crystalmark.info/  
-&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8211;  
+&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;-  
 * MB/s = 1,000,000 byte/s [SATA/300 = 300,000,000 byte/s]
 
 Sequential Read : 492.520 MB/s  
@@ -205,10 +205,10 @@ OS : Windows 8.1 Pro \[6.3 Build 9600\] (x64)
 
 <img decoding="async" loading="lazy" class="alignnone size-large wp-image-3116" src="http://blog.silviuvulcan.ro/wp-content/uploads/sites/2/2014/11/velociraptor.png" alt="velociraptor" width="416" height="379" />  
 [ccN_dos]  
-&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8211;  
+&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;-  
 CrystalDiskMark 3.0.3 x64 (C) 2007-2013 hiyohiyo  
 Crystal Dew World : http://crystalmark.info/  
-&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8211;  
+&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;-  
 * MB/s = 1,000,000 byte/s [SATA/300 = 300,000,000 byte/s]
 
 Sequential Read : 111.979 MB/s  
@@ -230,10 +230,10 @@ OS : Windows 8.1 Pro \[6.3 Build 9600\] (x64)
 
 <img decoding="async" loading="lazy" class="alignnone size-large wp-image-3117" src="http://blog.silviuvulcan.ro/wp-content/uploads/sites/2/2014/11/wd1tbblack.png" alt="wd1tbblack" width="416" height="379" />  
 [ccN_dos]  
-&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8211;  
+&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;-  
 CrystalDiskMark 3.0.3 x64 (C) 2007-2013 hiyohiyo  
 Crystal Dew World : http://crystalmark.info/  
-&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8211;  
+&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;-  
 * MB/s = 1,000,000 byte/s [SATA/300 = 300,000,000 byte/s]
 
 Sequential Read : 99.212 MB/s  
@@ -253,7 +253,7 @@ OS : Windows 8.1 Pro \[6.3 Build 9600\] (x64)
 
 ## Conclusion
 
-If you don&#8217;t have a lot of data use SSDs. Faster, more expensive mechanical drives are no match to a RAID10 array made using cheaper drives. I still keep virtual machines on the Velociraptor drive because of slightly better seek and 4k performance. In the end I went with Intel RST for the better write performance and also because I was not ok using something that Microsoft might break one day since it&#8217;s not standard functionality.
+If you don't have a lot of data use SSDs. Faster, more expensive mechanical drives are no match to a RAID10 array made using cheaper drives. I still keep virtual machines on the Velociraptor drive because of slightly better seek and 4k performance. In the end I went with Intel RST for the better write performance and also because I was not ok using something that Microsoft might break one day since it's not standard functionality.
 
  [1]: http://www.sgvulcan.com/trick-windows-8-into-creating-a-raid10-stripped-mirrors-array/
  [2]: https://social.technet.microsoft.com/Forums/windowsserver/en-US/64aff15f-2e34-40c6-a873-2e0da5a355d2/parity-storage-space-so-slow-that-its-unusable

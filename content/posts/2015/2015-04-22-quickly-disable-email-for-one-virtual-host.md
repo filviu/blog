@@ -15,8 +15,10 @@ tags:
   - temp_on
 
 ---
-If you discover that one site that you host is sending tons of emails there is an easy and quick way to disable email only for one particular virtual host. Add the following line in it&#8217;s virtual host or .httacess file
+If you discover that one site that you host is sending tons of emails there is an easy and quick way to disable email only for one particular virtual host. Add the following line in it's virtual host or .httacess file
 
-[cci\_bash]php\_admin\_value sendmail\_path &#8220;/dev/null&#8221;[/cci_bash]
+ ```apacheconf
+php_admin_value sendmail_path "/dev/null"
+```
 
 If you add it to the virtual host be sure to reload apache.

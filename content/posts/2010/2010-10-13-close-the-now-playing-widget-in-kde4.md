@@ -16,6 +16,6 @@ tags:
   - widget
 
 ---
-I&#8217;ve lost a good 5 minutes trying to close the damn Now Playing Widget in KDE 4 You&#8217;ll be happy to know that even with &#8220;widgets unlocked&#8221; the damn X button only works if **amarok (or probably another player) is running**
+I've lost a good 5 minutes trying to close the damn Now Playing Widget in KDE 4 You'll be happy to know that even with "widgets unlocked" the damn X button only works if **amarok (or probably another player) is running**
 
 Is it me or is this plain wrong ?

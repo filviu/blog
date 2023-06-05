@@ -16,8 +16,8 @@ tags:
   - temp_on
 
 ---
-After an update the spell checker I was used to disappeared. Here&#8217;s how to (re)enable the (new) spell checker:
+After an update the spell checker I was used to disappeared. Here's how to (re)enable the (new) spell checker:
 
-Go to **Control Panel -> Configuration -> Basic ->** Tick _&#8220;Allow users to spell check while editing content&#8221;_ and hit Save
+Go to **Control Panel -> Configuration -> Basic ->** Tick _"Allow users to spell check while editing content"_ and hit Save
 
-Go back to editing and you should see the icon with &#8220;ABC&#8221; and a checkmark.
+Go back to editing and you should see the icon with "ABC" and a checkmark.

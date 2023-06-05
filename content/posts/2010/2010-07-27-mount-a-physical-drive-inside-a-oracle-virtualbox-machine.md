@@ -14,7 +14,7 @@ tags:
   - virtualization
 
 ---
-Sometimes I have to check drives under their native operating system. Recently I wanted to access a ntfs partition directly under Windows running inside a virtual machine. Here&#8217;s how to (easily) do it:
+Sometimes I have to check drives under their native operating system. Recently I wanted to access a ntfs partition directly under Windows running inside a virtual machine. Here's how to (easily) do it:
 
 <div>
   [ccNe_bash]<br /> VBoxManage internalcommands createrawvmdk -filename ./ntfs_test.vmdk -rawdisk /dev/sdb -register</p> 
@@ -36,5 +36,5 @@ Sometimes I have to check drives under their native operating system. Recently I
   </p>
   
   <p>
-    <strong>DANGER: </strong>the disk will be fully available to the guest operating system. This means full access &#8211; so any command you use is definitive. Should you delete, partition or format the drive this will happen exactly as if you have booted the guest operating sytem directly.
+    <strong>DANGER: </strong>the disk will be fully available to the guest operating system. This means full access - so any command you use is definitive. Should you delete, partition or format the drive this will happen exactly as if you have booted the guest operating sytem directly.
   </p>

@@ -18,12 +18,12 @@ tags:
 
 ---
 When writting bash scripts one often needs to see if a process is running or not  
-I like the following code; though I&#8217;m sure many ways of doing this exists, what&#8217;s your favorite?  
+I like the following code; though I'm sure many ways of doing this exists, what's your favorite?  
 [cce_bash]  
-if [ -z &#8220;$(pgrep process)&#8221; ]  
+if [ -z "$(pgrep process)" ]  
 then  
-echo &#8220;process is not running&#8221;  
+echo "process is not running"  
 else  
-echo &#8220;process is running&#8221;  
+echo "process is running"  
 fi  
 [/cce_bash]

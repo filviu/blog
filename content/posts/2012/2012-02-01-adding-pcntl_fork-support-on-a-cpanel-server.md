@@ -22,12 +22,12 @@ A php application on a cpanel server kept throwing this:
 Fatal error: Call to undefined function pcntl_fork() in /path/blah.php on line 5  
 [/cceN_bash]
 
-The fix requires recompiling php with **&#8211;enable-pcntl** Fortunately cpanel offers the Easy Apache script. The bad part is that it doesn&#8217;t have an option for pcntl. So you have to specify it as a custom compile time option. Edit (or create &#8211; for PHP5) and add **/var/cpanel/easy/apache/rawopts/all_php5**  
+The fix requires recompiling php with **-enable-pcntl** Fortunately cpanel offers the Easy Apache script. The bad part is that it doesn't have an option for pcntl. So you have to specify it as a custom compile time option. Edit (or create - for PHP5) and add **/var/cpanel/easy/apache/rawopts/all_php5**  
 [cceN_bash]  
-&#8211;enable-pcntl  
+-enable-pcntl  
 [/cceN_bash]  
 On one line
 
 Then rebuild Easy Apache.
 
-&nbsp;
+ 

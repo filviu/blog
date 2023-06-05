@@ -16,19 +16,19 @@ tags:
   - temp_on
 
 ---
-I run a pretty powerful microitx system as my home router. Since it&#8217;s always on (as oposed to my nas) I decided to add some storage so I can host my music and some tv shows. I checked some projects and stopped to test [Sockso][1].The site is simple and doesn&#8217;t really scream &#8220;open source project&#8221; but sockso seems really good at what it does. It works both as a gui and as a server tool and is available for windows, linux and mac.
+I run a pretty powerful microitx system as my home router. Since it's always on (as oposed to my nas) I decided to add some storage so I can host my music and some tv shows. I checked some projects and stopped to test [Sockso][1].The site is simple and doesn't really scream "open source project" but sockso seems really good at what it does. It works both as a gui and as a server tool and is available for windows, linux and mac.
 
 Site-ul nu arata foarte minunat dar programelul merge excelent. Eu l-am instalat in modul server (fara gui) dar merge si cu interfata grafica (evident mai usor de folosit) si pe windows si mac nu doar linux. (e scris in java dar merge surprinzator de bine in ciuda acestui fapt)
 
-It&#8217;s really easy to install:
+It's really easy to install:
 
   1. Go to <a href="http://sockso.pu-gh.com/" target="_blank" rel="noopener">http://sockso.pu-gh.com</a> and download the latest version
   2. unzip it – **unzip sockso-1.5.x.zip**
   3. Move it somewhere, I used /opt – **mv sockso-1.5.3  /opt**
   4. Install java jre if needed. **sudo apt-get installopenjdk-7-jre-headless**
   5. Now you can launch  **cd /opt/sockso-1.5.3 && java -jar sockso.jar –nogui**
-  6. I don&#8217;t use ssl because I only allow local access to socks (and use openvpn when I&#8217;m away from home as I trust it a lot more than securing each of those little applications)
-  7. If you type **‘help’** you&#8217;ll get a short usage list
+  6. I don't use ssl because I only allow local access to socks (and use openvpn when I'm away from home as I trust it a lot more than securing each of those little applications)
+  7. If you type **‘help’** you'll get a short usage list
   8. Add your first music folder – **coladd /home/myuser/music  
 ** 
   9. Wait&#8230;

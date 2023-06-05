@@ -36,11 +36,11 @@ One is hidden under the warranty seal.
 
 [<img decoding="async" loading="lazy" class="aligncenter" title="Asus monitor dissasembly step" src="http://blog.silviuvulcan.ro/wp-content/uploads/sites/2/2012/01/IMG_0369_v1.jpg" alt="Asus monitor dissasembly step" width="216" height="333" />][4]
 
-Don&#8217;t loose the rubber caps and place the flat ones with the adhesive side facing up. This way you can reuse them.
+Don't loose the rubber caps and place the flat ones with the adhesive side facing up. This way you can reuse them.
 
 [<img decoding="async" loading="lazy" title="Asus monitor dissasembly step" src="http://blog.silviuvulcan.ro/wp-content/uploads/sites/2/2012/01/IMG_0371_v1-500x96.jpg" alt="Asus monitor dissasembly step" width="500" height="96" />][5]
 
-There are two openings in the frame at the bottom. Place the monitor facing up and use a plastic tool (or if, like me, you don&#8217;t care about marks you can use a flat-head screwdriver) **Pull very gently** as the frame holds a small pcb board with the buttons and the power led. Disconnect it before lifting the frame.
+There are two openings in the frame at the bottom. Place the monitor facing up and use a plastic tool (or if, like me, you don't care about marks you can use a flat-head screwdriver) **Pull very gently** as the frame holds a small pcb board with the buttons and the power led. Disconnect it before lifting the frame.
 
 [<img decoding="async" loading="lazy" title="Asus monitor dissasembly step" src="http://blog.silviuvulcan.ro/wp-content/uploads/sites/2/2012/01/IMG_0372_v1.jpg" alt="Asus monitor dissasembly step" width="500" height="287" />][6]
 
@@ -52,19 +52,19 @@ Make note of the button causing you troubles. For me it was menu right (toggles 
 
 [<img decoding="async" loading="lazy" title="Asus monitor dissasembly step" src="http://blog.silviuvulcan.ro/wp-content/uploads/sites/2/2012/01/IMG_0375_v1-500x239.jpg" alt="Asus monitor dissasembly step" width="500" height="239" />][8]
 
-**Try not to open the wrong one** like I did!The problem was that I didn&#8217;t have buttons like this to solder in place. So I tried to see if I can fix it. Ok this is a bit tricky. Use a magnifying glass if you need to. The button has a metal casing held in place by 4 _clamps_ (clasp? &#8211; for lack of a better term). I used a snapped syringe needle to gently lift it over the four clamps. Inside you will find a dome shaped metal disk (this is the one closing the circuit) and two plastic parts. Try to lift the casing without moving them and make note (take a picture) of their arrangement. It is important that they face the same way when assembling the button.
+**Try not to open the wrong one** like I did!The problem was that I didn't have buttons like this to solder in place. So I tried to see if I can fix it. Ok this is a bit tricky. Use a magnifying glass if you need to. The button has a metal casing held in place by 4 _clamps_ (clasp? - for lack of a better term). I used a snapped syringe needle to gently lift it over the four clamps. Inside you will find a dome shaped metal disk (this is the one closing the circuit) and two plastic parts. Try to lift the casing without moving them and make note (take a picture) of their arrangement. It is important that they face the same way when assembling the button.
 
 [<img decoding="async" loading="lazy" title="Asus monitor dissasembly step" src="http://blog.silviuvulcan.ro/wp-content/uploads/sites/2/2012/01/IMG_0376_v1-500x245.jpg" alt="Asus monitor dissasembly step" width="500" height="245" />][9]
 
 Not a good picture but enough detail on the bad button. The problem was caused by 1-2 metal particulates in the button. I cleaned it with a cotton swab. After you put the disc and the two plastic parts in place simply press the casing to snap in place.
 
-&nbsp;
+ 
 
-&nbsp;
+ 
 
 [<img decoding="async" loading="lazy" title="Asus monitor dissasembly step" src="http://blog.silviuvulcan.ro/wp-content/uploads/sites/2/2012/01/IMG_0377_v1-500x227.jpg" alt="Asus monitor dissasembly step" width="500" height="227" />][10]
 
-Don&#8217;t forget to connect the cable back to the PCB.
+Don't forget to connect the cable back to the PCB.
 
 Do everything you did to get here in reverse to assemble the monitor!
 

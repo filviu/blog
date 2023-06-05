@@ -12,7 +12,7 @@ tags:
   - temp_on
 
 ---
-[<img decoding="async" loading="lazy" class="size-medium wp-image-772 alignleft" title="Is it down just for me?" src="http://blog.silviuvulcan.ro/wp-content/uploads/sites/2/2010/05/downforme-300x202.jpg" alt="" width="300" height="202" />][1]Sometimes I have to know if one of my websites or one of a client is down or not. More than once I&#8217;ve been tricked by the ISP&#8217;s troubles that a site is down. I use my smartphone to doublecheck but I&#8217;ve found an even better sollution:
+[<img decoding="async" loading="lazy" class="size-medium wp-image-772 alignleft" title="Is it down just for me?" src="http://blog.silviuvulcan.ro/wp-content/uploads/sites/2/2010/05/downforme-300x202.jpg" alt="" width="300" height="202" />][1]Sometimes I have to know if one of my websites or one of a client is down or not. More than once I've been tricked by the ISP's troubles that a site is down. I use my smartphone to doublecheck but I've found an even better sollution:
 
 <a href="http://downforeveryoneorjustme.com/" target="_blank" rel="noopener">http://downforeveryoneorjustme.com/</a>
 

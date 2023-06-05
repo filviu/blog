@@ -14,7 +14,7 @@ tags:
   - temp_on
 
 ---
-_**You like to hibernate your Windows system instead of always turning it off?**_ Me too! You still have to reboot or power off from time to time otherwise the system would slow down but at least sometimes you don&#8217;t have to wait for the lengthy Windows boot.
+_**You like to hibernate your Windows system instead of always turning it off?**_ Me too! You still have to reboot or power off from time to time otherwise the system would slow down but at least sometimes you don't have to wait for the lengthy Windows boot.
 
 <p style="text-align: center">
   <img decoding="async" loading="lazy" class="aligncenter size-full wp-image-526" title="The Hibernate Button" src="http://blog.silviuvulcan.ro/wp-content/uploads/sites/2/2009/06/hibernat_button.jpg" alt="The Hibernate Button" width="398" height="198" />This is how you can configure Windows XP to always show the Hibernate button when clicking Turn Off like it shows on some laptops.
@@ -28,10 +28,10 @@ Well another way is to add in:
 
 A value named:
 
-&#8220;ShowHibernateButton&#8221;=dword:00000001
+"ShowHibernateButton"=dword:00000001
 
 Easy. The Shutdown key may not be there so create that as well.
 
-**If you don&#8217;t like to edit your registry by hand you can download and execute this .reg file to make the changes automatically:  [hibernate.reg][1]**
+**If you don't like to edit your registry by hand you can download and execute this .reg file to make the changes automatically:  [hibernate.reg][1]**
 
  [1]: http://blog.silviuvulcan.ro/wp-content/uploads/sites/2/2009/06/hibernate.reg

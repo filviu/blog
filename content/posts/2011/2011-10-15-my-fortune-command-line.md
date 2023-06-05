@@ -27,7 +27,7 @@ Below is the fortune man page:
 
 ## Name
 
-fortune &#8211; print a random, hopefully interesting, adage
+fortune - print a random, hopefully interesting, adage
 
 ## Synopsis
 
@@ -50,23 +50,23 @@ Consider all fortune files to be of equal size (see discussion below on multiple
 
 **-f**
 
-Print out the list of files which would be searched, but don&#8217;t print a fortune.
+Print out the list of files which would be searched, but don't print a fortune.
 
 **-l**
 
-Long dictums only. See **-n** on how &#8221;long&#8221; is defined in this sense.
+Long dictums only. See **-n** on how "long" is defined in this sense.
 
 
 **-m** _pattern_
 :   Print out all fortunes which match the basic regular expression _pattern_. The syntax of these expressions depends on how your system defines **re_comp**(3) or **regcomp**(3), but it should nevertheless be similar to the syntax used in **grep**(1).
-:   The fortunes are output to standard output, while the names of the file from which each fortune comes are printed to standard error. Either or both can be redirected; if standard output is redirected to a file, the result is a valid fortunes database file. If standard error is _also_ redirected to this file, the result is _still valid_, **but there will be &#8221;bogus&#8221; fortunes**, i.e. the filenames themselves, in parentheses. This can be useful if you wish to remove the gathered matches from their original files, since each filename-record will precede the records from the file it names.
+:   The fortunes are output to standard output, while the names of the file from which each fortune comes are printed to standard error. Either or both can be redirected; if standard output is redirected to a file, the result is a valid fortunes database file. If standard error is _also_ redirected to this file, the result is _still valid_, **but there will be "bogus" fortunes**, i.e. the filenames themselves, in parentheses. This can be useful if you wish to remove the gathered matches from their original files, since each filename-record will precede the records from the file it names.
 
 **-n** _length_
-:   Set the longest fortune length (in characters) considered to be &#8221;short&#8221; (the default is 160). All fortunes longer than this are considered &#8221;long&#8221;. Be careful! If you set the length too short and ask for short fortunes, or too long and ask for long ones, fortune goes into a never-ending thrash loop.
+:   Set the longest fortune length (in characters) considered to be "short" (the default is 160). All fortunes longer than this are considered "long". Be careful! If you set the length too short and ask for short fortunes, or too long and ask for long ones, fortune goes into a never-ending thrash loop.
 
 **-s**
 
-Short apothegms only. See **-n** on which fortunes are considered &#8221;short&#8221;.
+Short apothegms only. See **-n** on which fortunes are considered "short".
 
 **-i**
 
@@ -86,7 +86,7 @@ As an example, given two databases _funny_ and _not-funny_, with _funny_ twice a
 will get you fortunes out of _funny_ two-thirds of the time. The command
 :   **fortune** 90% _funny_ 10% _not-funny_
 
-will pick out 90% of its fortunes from _funny_(the &#8221;10% not-funny&#8221; is unnecessary, since 10% is all that&#8217;s left).
+will pick out 90% of its fortunes from _funny_(the "10% not-funny" is unnecessary, since 10% is all that's left).
 
 The **-e** option says to consider all files equal; thus
 
@@ -109,7 +109,7 @@ If a particular set of fortunes is particularly unwanted, there is an easy solut
 
 ## Bugs
 
-The division of fortunes into offensive and non-offensive by directory, rather than via the &#8216;-o&#8217; file infix, is not 100% compatible with original BSD fortune. Although the &#8216;-o&#8217; infix is recognised as referring to an offensive database, the offensive database files still need to be in a seperate directory. The workaround, of course, is to move the &#8216;-o&#8217; files into the offensive directory (with or without renaming), and to use the **-a** option.
+The division of fortunes into offensive and non-offensive by directory, rather than via the '-o' file infix, is not 100% compatible with original BSD fortune. Although the '-o' infix is recognised as referring to an offensive database, the offensive database files still need to be in a seperate directory. The workaround, of course, is to move the '-o' files into the offensive directory (with or without renaming), and to use the **-a** option.
 
 The supplied fortune databases have been attacked, in order to correct orthographical and grammatical errors, and particularly to reduce redundancy and repetition and redundancy. But especially to avoid repititiousness. This has not been a complete success. In the process, some fortunes may also have been lost.
 

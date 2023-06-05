@@ -15,9 +15,9 @@ tags:
   - temp_on
 
 ---
-Well, I am having fun lately with the latest incarnation of the Slackware Linux distribution. Like I said before I am a slacker, and I like Slackware a lot. In a way it&#8217;s nice that some things don&#8217;t work out of the box. You get to know how they work.
+Well, I am having fun lately with the latest incarnation of the Slackware Linux distribution. Like I said before I am a slacker, and I like Slackware a lot. In a way it's nice that some things don't work out of the box. You get to know how they work.
 
-Well, after my first startx I was greeted by a message stating that Akonadi failed to start / Akonadi fails to start. I had a hunch that it&#8217;s missing his Mysql friend. **I configured mysql as explained [here][1]** and restarted KDE. It still didn&#8217;t work, but I was on the right track.
+Well, after my first startx I was greeted by a message stating that Akonadi failed to start / Akonadi fails to start. I had a hunch that it's missing his Mysql friend. **I configured mysql as explained [here][1]** and restarted KDE. It still didn't work, but I was on the right track.
 
 I opened an xterm and ran:
 
@@ -25,13 +25,13 @@ I opened an xterm and ran:
 mysqladmin create akonadi -p  
 [/ccNe_bash]
 
-hoping that it will help. Well, it didn&#8217;t fix it either. The message informing that Akonadi fails to start also has an error log. Clicking on it I discovered that the problems were still Mysql related. So I went into Akonadi configuration, **changed the setting from local mysql (accessed through a socket) to server mode, typing in localhost, and an user and a password**.
+hoping that it will help. Well, it didn't fix it either. The message informing that Akonadi fails to start also has an error log. Clicking on it I discovered that the problems were still Mysql related. So I went into Akonadi configuration, **changed the setting from local mysql (accessed through a socket) to server mode, typing in localhost, and an user and a password**.
 
 **That fixed it !**
 
 **UPDATE:**
 
-**Akonadi**, in it&#8217;s default configuration runs an internal **mysql** server which by default does not allow to be ran as root. Now this is all nice and well but I run my workstation as root. Yes, yes I know, but I still want to, my workstation, my rules. So here&#8217;s how:
+**Akonadi**, in it's default configuration runs an internal **mysql** server which by default does not allow to be ran as root. Now this is all nice and well but I run my workstation as root. Yes, yes I know, but I still want to, my workstation, my rules. So here's how:
 
 <div>
   <p>

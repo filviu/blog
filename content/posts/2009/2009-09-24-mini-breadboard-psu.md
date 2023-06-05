@@ -21,10 +21,10 @@ I bet this was discussed and sampled 1000 times before but here is the mini 5V P
   <a href="http://blog.silviuvulcan.ro/wp-content/uploads/sites/2/2009/09/5v_mini_psu.png"><img decoding="async" loading="lazy" class="aligncenter size-full wp-image-507" title="5v_mini_psu" src="http://blog.silviuvulcan.ro/wp-content/uploads/sites/2/2009/09/5v_mini_psu.png" alt="5v_mini_psu" width="632" height="246" /></a>
 </p>
 
-I&#8217;ll follow up with pictures soon.
+I'll follow up with pictures soon.
 
-C1 should be at least 25V. C3 can be lower (16V, etc.) R1 should be adequate for the LED you choose at 5V &#8211; use an online led calculator for that. I sugest 480 &#8211; 1K for a red led.
+C1 should be at least 25V. C3 can be lower (16V, etc.) R1 should be adequate for the LED you choose at 5V - use an online led calculator for that. I sugest 480 - 1K for a red led.
 
-You can power it up using a 9V battery or a small DC adapter depending on your projects need. If the consumption is high you&#8217;ll need to use a heatsink  for the LM7805 regulator.
+You can power it up using a 9V battery or a small DC adapter depending on your projects need. If the consumption is high you'll need to use a heatsink  for the LM7805 regulator.
 
 Have fun!

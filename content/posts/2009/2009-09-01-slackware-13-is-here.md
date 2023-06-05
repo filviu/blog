@@ -16,6 +16,6 @@ tags:
 ---
 Yupeee, a new toy. Slacware 13.0 is out, with an official and in sync 64bit version too. Finally upgraded to KDE 4.2.x.
 
-Get yours while it&#8217;s hot. And don&#8217;t forget to support the project by buying the dvd&#8217;s from the Slackware store.
+Get yours while it's hot. And don't forget to support the project by buying the dvd's from the Slackware store.
 
 Have fun!

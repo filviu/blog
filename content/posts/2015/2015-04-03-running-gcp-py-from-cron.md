@@ -19,32 +19,31 @@ tags:
 ---
 On my backup server I run gcp.py from [gdatacopier][1] to backup my google docs. I had to fix two issues in order to get it to run from a bash script:
 
-&#8211; the PYTHONPATH had to be exported prior to running, or the script will fail because it [cci\_bash]requires gdata-python-client[/cci\_bash]
+- the PYTHONPATH had to be exported prior to running, or the script will fail because it requires `gdata-python-client`
+- the LANG envronment has to be set otherwise it will spill the following error in the log (if you bother to log the output from cron that is, otherwise it will just not work and you won't know why, because the script works fine when ran manually)
 
-&#8211; the LANG envronment has to be set otherwise it will spill the following error in the log (if you bother to log the output from cron that is, otherwise it will just not work and you won&#8217;t know why, because the script works fine when ran manually)
-
-[cce_bash]  
+```bash
 Traceback (most recent call last):  
-File &#8220;/usr/local/bin/gcp.py&#8221;, line 541, in  
+File "/usr/local/bin/gcp.py", line 541, in  
 main()  
-File &#8220;/usr/local/bin/gcp.py&#8221;, line 537, in main  
+File "/usr/local/bin/gcp.py", line 537, in main  
 parse\_user\_input() # Check to see we have the right options or exit  
-File &#8220;/usr/local/bin/gcp.py&#8221;, line 519, in parse\_user\_input  
+File "/usr/local/bin/gcp.py", line 519, in parse\_user\_input  
 export\_documents(document\_source, document_target, options)  
-File &#8220;/usr/local/bin/gcp.py&#8221;, line 222, in export_documents  
-export\_filename = target\_path + &#8220;/&#8221; + sanatize_filename(entry.title.text)  
-File &#8220;/usr/local/bin/gcp.py&#8221;, line 72, in sanatize_filename  
+File "/usr/local/bin/gcp.py", line 222, in export_documents  
+export\_filename = target\_path + "/" + sanatize_filename(entry.title.text)  
+File "/usr/local/bin/gcp.py", line 72, in sanatize_filename  
 filename = filename.decode(sys.getfilesystemencoding())  
-UnicodeDecodeError: &#8216;ascii&#8217; codec can&#8217;t decode byte 0xc4 in position 3: ordinal not in range(128)  
-[/cce_bash]
+UnicodeDecodeError: 'ascii' codec can't decode byte 0xc4 in position 3: ordinal not in range(128)  
+```
 
 In order to fix it my backup script now looks like this:  
-[cce_bash]  
+```bash
 #!/bin/bash  
-echo &#8220;Syncing Google Docs&#8221;  
-export PYTHONPATH=&#8221;/usr/lib64/python2.7/site-packages&#8221;  
+echo "Syncing Google Docs"  
+export PYTHONPATH="/usr/lib64/python2.7/site-packages"  
 export LANG=en_US  
-/usr/local/bin/gcp.py -ou -p&#8221;xxxxxxxxx&#8221; example@gmail.com:/ /backups/google/docs  
-[/cce_bash]
+/usr/local/bin/gcp.py -ou -p"xxxxxxxxx" example@gmail.com:/ /backups/google/docs  
+```
 
  [1]: https://code.google.com/p/gdatacopier/

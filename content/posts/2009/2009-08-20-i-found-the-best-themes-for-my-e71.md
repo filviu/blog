@@ -19,7 +19,7 @@ I gave up finding a nice theme for my E71 long ago. Even accepted the ugly icons
 
 Ovi Blue from <a href="http://conversations.nokia.com/2009/02/26/heres-that-ovi-theme/" target="_blank" rel="noopener">Nokia Conversations</a>
 
-Aviator, Enterprise and Zen Touch from [Tehkseven][1] &#8211; those are both with sevan and ovi icons.
+Aviator, Enterprise and Zen Touch from [Tehkseven][1] - those are both with sevan and ovi icons.
 
 **Zen Touch:**
 

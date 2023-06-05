@@ -20,6 +20,6 @@ So, playing with DynDNS and DD-WRT I worryingly observed that even if I set
 
 **Administration->Management->Remote Access->Web GUI Management**
 
-to **off** I can still ****access my router&#8217;s management WebGui via the external address. That seemed wrong, I was about to set firewall rules to block this unitl I tried from my phone using 3G. The WebGui was inaccessible.
+to **off** I can still ****access my router's management WebGui via the external address. That seemed wrong, I was about to set firewall rules to block this unitl I tried from my phone using 3G. The WebGui was inaccessible.
 
-**The WAN WebGui still works from the INSIDE!** But don&#8217;t worry it won&#8217;t work from outside your network.
+**The WAN WebGui still works from the INSIDE!** But don't worry it won't work from outside your network.

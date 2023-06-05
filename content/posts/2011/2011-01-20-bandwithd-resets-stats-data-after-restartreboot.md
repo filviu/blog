@@ -19,7 +19,7 @@ tags:
 ---
 This was a funny one:
 
-I have installed the <a target="_blank" href="http://sourceforge.net/projects/bandwidthd/" rel="noopener">Bandwithd</a> monitoring software on a machine. I noticed that the monitoring data kept being erased between start/stop or reboot. There actually are two configuration settings which are false by default that allows BandwidthD to keep it&#8217;s data across restart&#8217;s (or system reboots) and those are
+I have installed the <a target="_blank" href="http://sourceforge.net/projects/bandwidthd/" rel="noopener">Bandwithd</a> monitoring software on a machine. I noticed that the monitoring data kept being erased between start/stop or reboot. There actually are two configuration settings which are false by default that allows BandwidthD to keep it's data across restart's (or system reboots) and those are
 
 (in /etc/bandwidthd.conf)  
 [ccNe_bash]  

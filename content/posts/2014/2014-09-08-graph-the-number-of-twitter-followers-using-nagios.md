@@ -14,13 +14,13 @@ tags:
   - twitter
 
 ---
-I&#8217;m running a nagios instance on a home machine to monitor and graph all kinds of data. Among them I wanted a graph of the twitter followers of some twitter bots I built.
+I'm running a nagios instance on a home machine to monitor and graph all kinds of data. Among them I wanted a graph of the twitter followers of some twitter bots I built.
 
-I needed a script to get this number and for now I didn&#8217;t want to bother using the API.
+I needed a script to get this number and for now I didn't want to bother using the API.
 
 
 
-The script simply uses curl to get a public http page, it doesn&#8217;t use the API. Use it and call it like below:
+The script simply uses curl to get a public http page, it doesn't use the API. Use it and call it like below:
 
 Add to commands.cfg
 
@@ -47,6 +47,6 @@ check\_command                   check\_twitterfollowers!rtjol
 
 [/cce]
 
-&nbsp;
+ 
 
-&nbsp;
+ 

@@ -18,10 +18,12 @@ At home I switched (at least for a while) from a dedicated Debian router/gateway
 
 Go to Advanced => DHCP / DNS Server (LAN)
 
-**Don&#8217;t uncheck** _&#8220;Prevent DNS-rebind attacks&#8221; _as this will leave you vulnerable to this attack. Instead add the following to the _<a href="http://www.thekelleys.org.uk/" target="_new" rel="noopener">Dnsmasq</a>_  
+**Don't uncheck** _"Prevent DNS-rebind attacks" _as this will leave you vulnerable to this attack. Instead add the following to the _Dnsmasq_  
 _Custom configuration_
 
-[cci\_bash]rebind-domain-ok=/domain1.com/domain2.com/[/cci\_bash]
+```ini
+rebind-domain-ok=/domain1.com/domain2.com/
+```
 
 Where domain1.com, domain2.com, etc. are the domains for which you want to allow subdomains that resolve to private IPs.
 

@@ -15,7 +15,7 @@ tags:
   - temp_on
 
 ---
-<a rel="attachment wp-att-657" href="http://www.sgvulcan.com/2010/01/16/memory-limits-of-various-windows-versions/"><img decoding="async" loading="lazy" class="alignleft size-thumbnail wp-image-657" title="windows-logo" src="http://blog.silviuvulcan.ro/wp-content/uploads/sites/2/2010/01/windows-logo-150x150.jpg" alt="" width="150" height="150" /></a>Thinking of a memory upgrade? An operating system upgrade? Here&#8217;s a table from msdn stating the limits imposed by 32 and 64 bit editions of various Windows versions.
+<a rel="attachment wp-att-657" href="http://www.sgvulcan.com/2010/01/16/memory-limits-of-various-windows-versions/"><img decoding="async" loading="lazy" class="alignleft size-thumbnail wp-image-657" title="windows-logo" src="http://blog.silviuvulcan.ro/wp-content/uploads/sites/2/2010/01/windows-logo-150x150.jpg" alt="" width="150" height="150" /></a>Thinking of a memory upgrade? An operating system upgrade? Here's a table from msdn stating the limits imposed by 32 and 64 bit editions of various Windows versions.
 
 ### Physical Memory Limits: Windows 7
 

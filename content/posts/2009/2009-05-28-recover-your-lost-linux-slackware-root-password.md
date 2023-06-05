@@ -16,9 +16,9 @@ tags:
   - temp_on
 
 ---
-I&#8217;m an avid Slackware user. It was the distro I started using back in &#8217;98 and, even if I tried and used many others I still like it the most. Anyways these rules apply to many other flavours of linux.
+I'm an avid Slackware user. It was the distro I started using back in '98 and, even if I tried and used many others I still like it the most. Anyways these rules apply to many other flavours of linux.
 
-One of the problems I faced is needing to make changes on inherited machines that nobody knew the passwords for. So, if you face the same problem, or you simply forgot the root password because you usually use a normal user account here&#8217;s what you have to do to reset the password.
+One of the problems I faced is needing to make changes on inherited machines that nobody knew the passwords for. So, if you face the same problem, or you simply forgot the root password because you usually use a normal user account here's what you have to do to reset the password.
 
 What you need: a bootable linux cd or flash usb drive. (You could use the slackware install disk, but any bootable, or Live CD should do as long as it has drivers for your filesystem and basic hardware)
 
@@ -38,8 +38,8 @@ Of course you need to replace hda1 with the partition where / is on your drive. 
 [ccNe_bash]  
 vi /tmppart/etc/shadow  
 [/ccNe_bash]  
-Locate the line starting with root: followed by letters and numbers. It&#8217;s easy, it&#8217;s usually the first line in the file. Remove everything between the first two **:** . Alternatively, if you know the password of another user copy everything from between the first two **:** to the root user.  Save the file and reboot.
+Locate the line starting with root: followed by letters and numbers. It's easy, it's usually the first line in the file. Remove everything between the first two **:** . Alternatively, if you know the password of another user copy everything from between the first two **:** to the root user.  Save the file and reboot.
 
 Root should now have no password / a password identical with the one of the user you copied it from.
 
-Easy. Useless to say that you must understand that if you don&#8217;t own the system / don&#8217;t have express permission from the owner you are doing something illegal. If you get arrested/fired it&#8217;s your problem.
+Easy. Useless to say that you must understand that if you don't own the system / don't have express permission from the owner you are doing something illegal. If you get arrested/fired it's your problem.

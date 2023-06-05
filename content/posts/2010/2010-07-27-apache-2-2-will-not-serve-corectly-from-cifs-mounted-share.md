@@ -19,34 +19,34 @@ tags:
   - temp_on
 
 ---
-I have a home server I use for all kinds of stuff when I&#8217;m away. I have set it up recently so that it can serve a folder mounted over the network from a Windows machine.
+I have a home server I use for all kinds of stuff when I'm away. I have set it up recently so that it can serve a folder mounted over the network from a Windows machine.
 
 _And this is where the fun started!_
 
 The folders and files appear correctly, I can navigate and I can download them. Only that the files, even if apparently having the same size are corrupted. I checked the **_FollowSymLinks_** and as expected was set as required. I tried wget in the command prompt to see if I could find some enlightment but I got the following errors:  
 [ccNe_bash]  
 wget http://192.xxx.xxx.xxx/windowsshare/folder/file.jpg  
-&#8211;09:18:00&#8211; http://192.xxx.xxx.xxx/windowsshare/folder/file.jpg  
-=> \`file.jpg&#8217;  
+-09:18:00- http://192.xxx.xxx.xxx/windowsshare/folder/file.jpg  
+=> \`file.jpg'  
 Connecting to 127.0.0.1:80&#8230; connected.  
 HTTP request sent, awaiting response&#8230; 200 OK  
 Length: 763,685 (746K) [image/jpeg]
 
 0%  
 [ ]  
-0 &#8211;.&#8211;K/s
+0 -.-K/s
 
-09:18:00 (0.00 B/s) &#8211; Connection closed at byte 0. Retrying.
+09:18:00 (0.00 B/s) - Connection closed at byte 0. Retrying.
 
-&#8211;09:18:01&#8211; http://192.xxx.xxx.xxx/windowsshare/folder/file.jpg  
-(try: 2) => \`file.jpg&#8217;  
+-09:18:01- http://192.xxx.xxx.xxx/windowsshare/folder/file.jpg  
+(try: 2) => \`file.jpg'  
 Connecting to 127.0.0.1:80&#8230; connected.  
 HTTP request sent, awaiting response&#8230; 200 OK  
 Length: 763,685 (746K) [image/jpeg]  
 file.jpg has sprung into existence.  
 Retrying.
 
-&#8211;09:18:03&#8211; http://192.xxx.xxx.xxx/windowsshare/folder/file.jpg  
+-09:18:03- http://192.xxx.xxx.xxx/windowsshare/folder/file.jpg  
 (try: 3) => \`file.jpg.1&#8242;  
 Connecting to 127.0.0.1:80&#8230; connected.  
 HTTP request sent, awaiting response&#8230; 200 OK  
@@ -54,7 +54,7 @@ Length: 763,685 (746K) [image/jpeg]
 
 0%  
 [ ]  
-0 &#8211;.&#8211;K/s  
+0 -.-K/s  
 [/ccNe_bash]  
 and it will continue like this creating empty files.
 

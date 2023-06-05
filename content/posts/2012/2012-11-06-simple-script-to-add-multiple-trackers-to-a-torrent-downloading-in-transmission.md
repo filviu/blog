@@ -19,27 +19,29 @@ Sometime you might want to download some old or obscure distro that was once pac
 [cc_bash]  
 #!/bin/bash
 
-TRANSMISSION_REMOTE=&#8217;/usr/bin/transmission-remote&#8217;
+TRANSMISSION_REMOTE='/usr/bin/transmission-remote'
 
 \# Below is a command that will generate a tracker  
 \# list with one tracker per line  
 \# i.e. cat /some/path/trackers.txt for a static list
 
-LIVE\_TRACKERS\_LIST_CMD=&#8217;curl -s www.trackon.org/api/live&#8217;
+LIVE\_TRACKERS\_LIST_CMD='curl -s www.trackon.org/api/live'
 
 if [ $# -ne 1 ]; then  
-echo &#8220;This script expects one parameter &#8211; the tracker id&#8221;  
-echo &#8220;Use $TRANSMISSION_REMOTE -l to find it&#8221;  
+echo "This script expects one parameter - the tracker id"  
+echo "Use $TRANSMISSION_REMOTE -l to find it"  
 exit 1  
 fi
 
 $LIVE\_TRACKERS\_LIST_CMD | while read TRACKER  
 do  
-echo &#8220;Adding $TRACKER&#8221;  
+echo "Adding $TRACKER"  
 $TRANSMISSION_REMOTE -t $1 -td $TRACKER  
 done  
 [/cc_bash]  
 You simply run it passing as parameter the ID of the torrent you want updated. You can find the ID by running  
-[cci\_bash]transmission-remote -l[/cci\_bash]  
+ ```bash
+transmission-remote -l[/cci\_bash]  
 or maybe  
-[cci\_bash]transmission-remote -l | grep -i &#8220;name&#8221;[/cci\_bash]
+ ```bash
+transmission-remote -l | grep -i "name"[/cci\_bash]

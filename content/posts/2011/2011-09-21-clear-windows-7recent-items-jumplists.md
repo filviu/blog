@@ -18,9 +18,9 @@ tags:
   - Windows
 
 ---
-I hate windows&#8217;s jump lists. If you read this you probably hate them too 🙂
+I hate windows's jump lists. If you read this you probably hate them too 🙂
 
-They are stored as hidden files in a, you guessed, hidden directory. You can&#8217;t browse to it but you can type it in RUN or windows explorer location bar:
+They are stored as hidden files in a, you guessed, hidden directory. You can't browse to it but you can type it in RUN or windows explorer location bar:
 
 [ccNe_DOS]  
 %APPDATA%MicrosoftWindowsRecentAutomaticDestinations  
@@ -28,4 +28,4 @@ They are stored as hidden files in a, you guessed, hidden directory. You can&#82
 
 You will see there a bunch of files with long weird names. You can either search trough them to find the one you want to delete or simply do like I do: delete them all! Not just from time to time, but add a task in Windows Task Scheduler to remove them on shutdown.
 
-&nbsp;
+ 

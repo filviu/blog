@@ -23,10 +23,10 @@ can wake up a machine on the LAN by using the following command:
 /usr/sbin/wol -i 192.168.1.255 -p PP AA:BB:CC:DD:EE:FF  
 [/ccNe_bash]
 
-Note that the full path to &#8220;/usr/sbin/wol&#8221; is important. Simply &#8220;wol&#8221; will not work. 
+Note that the full path to "/usr/sbin/wol" is important. Simply "wol" will not work. 
 
 Substitute _AA:BB:CC:DD:EE:FF_ with the actual MAC address of the computer which you wish to boot remotely. Likewise, replace _192.168.1.255_  
 with the actual broadcast address of the network (192.168.1.255 is the  
 broadcast address when the machine has an IP of 192.168.1.x and subnet  
-mask of 255.255.255.0). Replace &#8220;PP&#8221; with the port number your machine  
+mask of 255.255.255.0). Replace "PP" with the port number your machine  
 listens on (usually 7 or 9).

@@ -27,4 +27,4 @@ The fix was to **zero** the first megabyte of the partition:
 [cce_bash]  
 dd if=/dev/zero of=/dev/sdx1 bs=1024k count=1  
 [/cce_bash]  
-If you don&#8217;t understand the above don&#8217;t run it ! You risk a lot if you mistake the target partition!
+If you don't understand the above don't run it ! You risk a lot if you mistake the target partition!

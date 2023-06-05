@@ -12,7 +12,7 @@ tags:
   - temp_on
 
 ---
-My favourite microcontroler for now is PIC16F887. I will soon try to build some projects using the 18F series, but for now my Nixi clock and planned LED cube I will use th e16F887. No, I didn&#8217;t gave up, I plan to start work on the nixie projects ASAP.
+My favourite microcontroler for now is PIC16F887. I will soon try to build some projects using the 18F series, but for now my Nixi clock and planned LED cube I will use th e16F887. No, I didn't gave up, I plan to start work on the nixie projects ASAP.
 
 <table id="tblParams" style="border-collapse: collapse" border="0" cellspacing="0" cellpadding="1">
   <tr class="GridItem" align="Center">
@@ -146,7 +146,7 @@ My favourite microcontroler for now is PIC16F887. I will soon try to build some 
   </tr>
 </table>
 
-<a href="http://ww1.microchip.com/downloads/en/DeviceDoc/41291F.pdf" target="_blank" rel="noopener">Here&#8217;s a link to the datasheet</a>.
+<a href="http://ww1.microchip.com/downloads/en/DeviceDoc/41291F.pdf" target="_blank" rel="noopener">Here's a link to the datasheet</a>.
 
 <div id="_mcePaste" style="overflow: hidden;width: 1px;height: 1px">
   <table id="tblParams" style="border-collapse: collapse" border="0" cellspacing="0" cellpadding="1">

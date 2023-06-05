@@ -16,9 +16,9 @@ tags:
   - Windows
 
 ---
-I recently had to upgrade the storage for my desktop and I thought that since I have a few left-over disks I&#8217;d try to build a RAID10 array &#8211; RAID10 is very cool because it gives performance close to striped arrays but enjoys the reliability of mirrored arrays. Wikipedia has a [nice write-up][1] if you want it.
+I recently had to upgrade the storage for my desktop and I thought that since I have a few left-over disks I'd try to build a RAID10 array - RAID10 is very cool because it gives performance close to striped arrays but enjoys the reliability of mirrored arrays. Wikipedia has a [nice write-up][1] if you want it.
 
-I had two options &#8211; using the motherboard&#8217;s Intel controller or software RAID. Coming from the Linux world I was expecting software raid to be easy enough to configure &#8211; I was wrong apparently in the Windows world options are more limited (mirrors and stripes) with only recently in Windows 8 Storage Spaces offering more options.
+I had two options - using the motherboard's Intel controller or software RAID. Coming from the Linux world I was expecting software raid to be easy enough to configure - I was wrong apparently in the Windows world options are more limited (mirrors and stripes) with only recently in Windows 8 Storage Spaces offering more options.
 
 In a word Storage Spaces allow building standard (jbod), mirrored (raid1) or parity (raid5) pools and Disk Management allows, using Dynamic Discs allows for the creation of striped or mirrored volumes.
 
@@ -35,7 +35,7 @@ And idea sprang immediately to mind, I fired up a VM to test and it worked, so h
     [<img decoding="async" loading="lazy" class="aligncenter size-full wp-image-3079" src="http://blog.silviuvulcan.ro/wp-content/uploads/sites/2/2014/10/Image-7.png" alt="Striped volume from mirror pools" width="744" height="368" />][9][<img decoding="async" loading="lazy" class="aligncenter size-full wp-image-3080" src="http://blog.silviuvulcan.ro/wp-content/uploads/sites/2/2014/10/Image-8.png" alt="Image [8]" width="513" height="416" />][10][<img decoding="async" loading="lazy" class="aligncenter size-full wp-image-3081" src="http://blog.silviuvulcan.ro/wp-content/uploads/sites/2/2014/10/Image-9.png" alt="Image [9]" width="513" height="416" />][11]
   6. Done ![<img decoding="async" loading="lazy" class="aligncenter size-full wp-image-3082" src="http://blog.silviuvulcan.ro/wp-content/uploads/sites/2/2014/10/Image-10.png" alt="Image [10]" width="268" height="65" />][12]
 
-_**Warning:**_ I didn&#8217;t test this on the long run, as following some performance tests I decided to go with my motherboard&#8217;s RAID option. I did test in the virtual machine how it fails when disks are missing and everything appeared to work fine. Though, since I bet this usage scenario is not certified by Microsoft you might encounter issues after updating Windows. As always backup, backup, backup!
+_**Warning:**_ I didn't test this on the long run, as following some performance tests I decided to go with my motherboard's RAID option. I did test in the virtual machine how it fails when disks are missing and everything appeared to work fine. Though, since I bet this usage scenario is not certified by Microsoft you might encounter issues after updating Windows. As always backup, backup, backup!
 
  [1]: http://en.wikipedia.org/wiki/Nested_RAID_levels
  [2]: http://blog.silviuvulcan.ro/wp-content/uploads/sites/2/2014/10/Image.png

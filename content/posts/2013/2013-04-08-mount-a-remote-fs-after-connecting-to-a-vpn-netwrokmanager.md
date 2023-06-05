@@ -27,9 +27,9 @@ Apparently all you have to do is drop a script similar to this in **/etc/Network
 interface=$1  
 status=$2
 
-LOG=&#8221;/var/log/network\_manager\_custom.log&#8221;
+LOG="/var/log/network\_manager\_custom.log"
 
-if [ &#8220;$CONNECTION_UUID&#8221; = &#8220;xxx-xxx-xxx&#8221; ]; then  
+if [ "$CONNECTION_UUID" = "xxx-xxx-xxx" ]; then  
 case $status in  
 vpn-up)  
 mount /mnt/something >> $LOG 2>&1  

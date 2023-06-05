@@ -16,7 +16,7 @@ tags:
   - temp_on
 
 ---
-I took the time today to bring Network Manager and network-manager-applet (both very useful on my laptop where I have VPN&#8217;s, 3G modems and various networks I connect to) First I brought all the dependencies up to date but network-manager-applet still refused to compile:  
+I took the time today to bring Network Manager and network-manager-applet (both very useful on my laptop where I have VPN's, 3G modems and various networks I connect to) First I brought all the dependencies up to date but network-manager-applet still refused to compile:  
 [cce_bash]  
 checking for GOBJECT&#8230; yes  
 checking for NMA&#8230; no  
@@ -32,7 +32,7 @@ gconf-2.0
 gnome-keyring-1  
 libnotify >= 0.4.3) were not met:
 
-No package &#8216;gnome-keyring-1&#8217; found
+No package 'gnome-keyring-1' found
 
 Consider adjusting the PKG\_CONFIG\_PATH environment variable if you  
 installed software in a non-standard prefix.
@@ -43,9 +43,9 @@ See the pkg-config man page for more details.
 [/cce_bash]  
 Annoying as I had gnome-keyring installed and up to date. After a bit of poking around I realized that the missing dependency is in fact libgnome-keyring (alsa available at slackbuilds so easy enough to install as well)
 
-**_Update:_** as the network-manager-applet package mantainer was so kind to reply to me the dependency is mentioned in gnome-keyring&#8217;s README:
+**_Update:_** as the network-manager-applet package mantainer was so kind to reply to me the dependency is mentioned in gnome-keyring's README:
 
-> gnome-keyring&#8217;s README states that libgnome-keyring is required:  
+> gnome-keyring's README states that libgnome-keyring is required:  
 > <a href="http://slackbuilds.org/repository/13.37/misc/gnome-keyring/" target="_blank" rel="noopener">http://slackbuilds.org/repository/13.37/misc/gnome-keyring/</a>
 
-<span style="color: #888888">I&#8217;ll leave the post here in case you pay as much attention as I did.<br /> </span>
+<span style="color: #888888">I'll leave the post here in case you pay as much attention as I did.<br /> </span>

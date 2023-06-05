@@ -28,7 +28,7 @@ never got me further than list the photos in the camera and then hang and reboot
 
 Well then I noticed [Eostimesync][1].
 
-Eostimesync is a nice utility that syncs the time of your camera to the time of the n800. I liked it because I could sync my tablet to ntp and switch between host and client usb mode all from one applet. The camera sync was pretty much useless to me. But I wanted to know how it works. To make a long story short eostimesync uses a command line program named s10sh which is an userspace usb driver for canon cameras (many of them if I&#8217;m corect).
+Eostimesync is a nice utility that syncs the time of your camera to the time of the n800. I liked it because I could sync my tablet to ntp and switch between host and client usb mode all from one applet. The camera sync was pretty much useless to me. But I wanted to know how it works. To make a long story short eostimesync uses a command line program named s10sh which is an userspace usb driver for canon cameras (many of them if I'm corect).
 
 First thing linux taught me in 1998 was to type at the prompt:  
   
@@ -40,20 +40,20 @@ So as root s10sh has the ability to:
   * List ALL/ALL NEW images
   * Set camera to computer time
 
-and many more. The above are non interactive and are the ones useful for me. If you run simply s10sh it will give you an interactive shell similar to a DOS prompt. Of course your camera has to be connected by usb and your tablet must be in HOST mode. Oh and my camera has two usb modes &#8220;normal&#8221; &#8211; which is the canon proprietary format and the one that works with all the above and PTP which is only for image download. On your camera the modes could be labeled differently.
+and many more. The above are non interactive and are the ones useful for me. If you run simply s10sh it will give you an interactive shell similar to a DOS prompt. Of course your camera has to be connected by usb and your tablet must be in HOST mode. Oh and my camera has two usb modes "normal" - which is the canon proprietary format and the one that works with all the above and PTP which is only for image download. On your camera the modes could be labeled differently.
 
-So, running `s10sh -c` does, according to the &#8211;help:
+So, running `s10sh -c` does, according to the -help:
 
-capture an image with the current camera settings (that&#8217;s your remote)  
+capture an image with the current camera settings (that's your remote)  
 `<br>s10sh -c (capture)<br>s10sh -n (get all new images, non-interactive)<br>`
 
 quiver imagename.jpg (see what you shot on the big screen)  
   
-See why I&#8217;m so excited about?
+See why I'm so excited about?
 
-Oh and the camera is completely functional even when connected. I can shoot, change settings anything. I do landscapes a lot so I could imagine myself leaving the camera on the tripod and the n800 connected to use as trigger or big screen for more detail. also it would be helpful when doing macro. And of course it&#8217;s a LOT of FUN !
+Oh and the camera is completely functional even when connected. I can shoot, change settings anything. I do landscapes a lot so I could imagine myself leaving the camera on the tripod and the n800 connected to use as trigger or big screen for more detail. also it would be helpful when doing macro. And of course it's a LOT of FUN !
 
-I also think you can change camera settings but I didn&#8217;t explore that.
+I also think you can change camera settings but I didn't explore that.
 
 A nice gui for s10h would be great, with buttons for settings, shoot, view last shot. Maybe someday&#8230;
 

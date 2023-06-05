@@ -28,7 +28,7 @@ Finally, after years of putting it away, after a few design changes and a fried 
 
 <figure id="attachment_463" aria-describedby="caption-attachment-463" style="width: 300px" class="wp-caption aligncenter">[<img decoding="async" loading="lazy" class="size-medium wp-image-463" title="Linux Webradio" src="http://blog.silviuvulcan.ro/wp-content/uploads/sites/2/2009/08/IMG_9095_i-300x200.jpg" alt="Linux Webradio" width="300" height="200" />][1]<figcaption id="caption-attachment-463" class="wp-caption-text">Linux internet radio inside a vintage Blaupunkt radio case</figcaption></figure>
 
-When I first had the ideea I noticed an old ~ &#8217;50s Blaupunkt Radio my father had in his basement. I investigated if the radio was worth restoring but the inside was rusted, the capacitors were long gone and most of the tubes were missing. It was more a case of rebuilding rather than restoring. I checked around the internet and saw that many models like this one existed, so it was not rare. And so, the radio was gutted and the insides went away. I cleaned and repaired the case as best as I could.
+When I first had the ideea I noticed an old ~ '50s Blaupunkt Radio my father had in his basement. I investigated if the radio was worth restoring but the inside was rusted, the capacitors were long gone and most of the tubes were missing. It was more a case of rebuilding rather than restoring. I checked around the internet and saw that many models like this one existed, so it was not rare. And so, the radio was gutted and the insides went away. I cleaned and repaired the case as best as I could.
 
 The first ideea was to have a big harddrive inside, an amp and external speakers hooked to it. It worked like this for a while until the motherboard I used fried and so did the amp. The project was eventualy put aside.
 
@@ -50,12 +50,12 @@ Software:
 
 I hit a few problems:
 
-  * Event Music Player Client daemon does not work, at least with my keypad. So I had to use an external daemon &#8211; esekeyd with mpc to control mpd.
-  * lcd-stuff does not display the Name tag (that would be the radio station name, just the artist and track name. Fortunately it has a configuration tag to use as a title for the screen &#8211; on every playlist change a bashscript modifies that configuration setting to reflect the radio station&#8217;s name and reloads lcd-stuff &#8211; it&#8217;s ugly but it works.
-  * I didn&#8217;t find a way to save .pls and .m3u files and have them recognized by the mpd database. So a script is called at boot time (and also can be started from one of the keys on the keypad) to generate a playlist of the radio stations. Control is easy after that, it&#8217;s a matter of play/stop, next / prev
-  * I wanted to have a way to shut down the system safely from the keypad. OTOH I didn&#8217;t want shutting down every time I hit the wrong key. But esekeyd doesn&#8217;t support combinations. So I had ***** create a file, **/** create a second one but only if the first file (created by *) existed and on backspace press verify if the two files exist and if yes poweroff.
+  * Event Music Player Client daemon does not work, at least with my keypad. So I had to use an external daemon - esekeyd with mpc to control mpd.
+  * lcd-stuff does not display the Name tag (that would be the radio station name, just the artist and track name. Fortunately it has a configuration tag to use as a title for the screen - on every playlist change a bashscript modifies that configuration setting to reflect the radio station's name and reloads lcd-stuff - it's ugly but it works.
+  * I didn't find a way to save .pls and .m3u files and have them recognized by the mpd database. So a script is called at boot time (and also can be started from one of the keys on the keypad) to generate a playlist of the radio stations. Control is easy after that, it's a matter of play/stop, next / prev
+  * I wanted to have a way to shut down the system safely from the keypad. OTOH I didn't want shutting down every time I hit the wrong key. But esekeyd doesn't support combinations. So I had ***** create a file, **/** create a second one but only if the first file (created by *) existed and on backspace press verify if the two files exist and if yes poweroff.
 
-I&#8217;ll post soon more photos, the insides and the configuration files and bash scripts used.
+I'll post soon more photos, the insides and the configuration files and bash scripts used.
 
 **2011 Update**
 
@@ -63,18 +63,18 @@ It never functioned reliably and so I decided on rebuilding it once more 🙂
 
   * The Compaq Deskpro EN was reassembled and donated to charity.
   * I bought the cheapest intel motherboard with an atom processor.
-  * With the motherboard I also bought a small, slim PSU which happened to have the loudest annoying fan I ever heard. Fortunately the motherboard and disk use small amounts of power so no heat is produced. I hooked the fan to 5v and now it&#8217;s quiet.
-  * I got a good deal on a pair of Microlab powered speakers (were the last in stock, open box) so I hooked those up to the radio. It&#8217;s still possible to use the insternal speakers but why would you want to 🙂
+  * With the motherboard I also bought a small, slim PSU which happened to have the loudest annoying fan I ever heard. Fortunately the motherboard and disk use small amounts of power so no heat is produced. I hooked the fan to 5v and now it's quiet.
+  * I got a good deal on a pair of Microlab powered speakers (were the last in stock, open box) so I hooked those up to the radio. It's still possible to use the insternal speakers but why would you want to 🙂
   * Used a 500Gb sata disk that I also had around.
   * Took the oportunity to update slackware, mpd and everything else to the latest versions.
   * Took out the LCD until I can find time to build it in a nice case
-  * The usb numpad is still there but I&#8217;m having trouble finding a daemon that actually works between two reboots
-  * I use Client175 for web control and also Sonata on n800 and DroidMPD on my wife&#8217;s tablet to control it. Having 500Gb it&#8217;s got it&#8217;s music back (not only internet radio).
+  * The usb numpad is still there but I'm having trouble finding a daemon that actually works between two reboots
+  * I use Client175 for web control and also Sonata on n800 and DroidMPD on my wife's tablet to control it. Having 500Gb it's got it's music back (not only internet radio).
   * Since playlist support seems to be better now I have each radio stored in a playlist that DroidMPD or Client175 can simply load.
-  * The best thing is that there are no custom hackish scripts left that could break all the time. It&#8217;s just stock mpd, playlists and the clients. Oh, I also have the command line clients installed for when I ssh into it using my n900.
-  * The only problematic thing left is the shitty usb wi-fi adapter I use (don&#8217;t know, might be the drivers) it&#8217;s slow and sometimes connection drops. I added **ping -c1 GATEWAY_IP** in cron every 2 minutes and this seems to help.
+  * The best thing is that there are no custom hackish scripts left that could break all the time. It's just stock mpd, playlists and the clients. Oh, I also have the command line clients installed for when I ssh into it using my n900.
+  * The only problematic thing left is the shitty usb wi-fi adapter I use (don't know, might be the drivers) it's slow and sometimes connection drops. I added **ping -c1 GATEWAY_IP** in cron every 2 minutes and this seems to help.
 
-Somebody in the comments asked for the configurations and scripts  The original ones, from the compact flash should still be in backups somewhere but I don&#8217;t see how they could help, as they point to old or discontinued versions.  (lcd-stuff comes to mind). The configuration I use now is as stock as one can get with mpd. Let me know if you have questions about it and also **_please_** recommend me a daemon that can listen for keystrokes from the usb keypad and it&#8217;s stable.
+Somebody in the comments asked for the configurations and scripts  The original ones, from the compact flash should still be in backups somewhere but I don't see how they could help, as they point to old or discontinued versions.  (lcd-stuff comes to mind). The configuration I use now is as stock as one can get with mpd. Let me know if you have questions about it and also **_please_** recommend me a daemon that can listen for keystrokes from the usb keypad and it's stable.
 
 Have fun.
 

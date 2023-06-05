@@ -19,7 +19,7 @@ tags:
 ---
 I have a NAS and an Samsung UE37C5000 UPNP/DLNA enabled led TV. Streaming from the first to the second should be easy, right? Well after a few tweaks MediaTomb makes it possible.
 
-I don&#8217;t say this is the best configuration possible but it&#8217;s the one that works INCLUDING pause and fast forwarding.
+I don't say this is the best configuration possible but it's the one that works INCLUDING pause and fast forwarding.
 
 Relevant from the default are the custom header, extended protocol info and the mkv and avi lines.
 
@@ -51,9 +51,9 @@ redsonic.com
 <!-- Uncomment the line below if you have a Telegent TG100 -->
 
   
-<!&#8211;  
+<!-  
 101  
-&#8211;>
+->
 
 128  
 5  
@@ -119,18 +119,18 @@ lastfmpass
 <!-- Uncomment the line below for PS3 divx support -->
 
   
-<!&#8211; </p> 
+<!- </p> 
 
 <map />
-&#8211;>
+->
   
 <!-- Uncomment the line below for D-Link DSM / ZyXEL DMA-1000 -->
 
   
-<!&#8211; </p> 
+<!- </p> 
 
 <map />
-&#8211;></p> 
+-></p> 
 
 <map />
 

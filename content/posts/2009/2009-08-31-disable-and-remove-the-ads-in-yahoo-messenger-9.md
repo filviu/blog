@@ -18,8 +18,8 @@ Yahoo! Messenger 9.0 is the current stable messenger version (Yahoo messenger 10
 
   1. Start regedit. (Run -> regedit.exe)
   2. Go to this registry key: HKEY\_CURRENT\_USERSoftwareYahoopagerLocale
-  3. On the right you should see a Value called **Enable Messenger Ad**. Change it&#8217;s value from **1** to ****.
+  3. On the right you should see a Value called **Enable Messenger Ad**. Change it's value from **1** to ****.
 
 Restart Yahoo! Messenger and the ads should be gone.
 
-I just tried it, and for now this hack doesn&#8217;t work in Yahoo! Messenger 10 Beta too. Changing the setting makes the ads dissaper just for some time. After a minute or so they appear again. I&#8217;ll keep you updated.
+I just tried it, and for now this hack doesn't work in Yahoo! Messenger 10 Beta too. Changing the setting makes the ads dissaper just for some time. After a minute or so they appear again. I'll keep you updated.

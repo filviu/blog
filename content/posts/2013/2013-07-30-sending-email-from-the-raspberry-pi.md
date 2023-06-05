@@ -14,12 +14,12 @@ tags:
   - temp_on
 
 ---
-I run a remote Raspberry PI gracefully hosted by the people over at [raspberrycolocatie.nl][1] Since one if it&#8217;s jobs is to run a few scripts monitoring various bits and pieces I want it to be able to send emails. Since I don&#8217;t want to use a full blown MTA I settled for [ssmtp][2].
+I run a remote Raspberry PI gracefully hosted by the people over at [raspberrycolocatie.nl][1] Since one if it's jobs is to run a few scripts monitoring various bits and pieces I want it to be able to send emails. Since I don't want to use a full blown MTA I settled for [ssmtp][2].
 
-_**It&#8217;s worth noting that this setup applies to any debian box, not only the rPI.**_
+_**It's worth noting that this setup applies to any debian box, not only the rPI.**_
 
 > <p id="sSMTP_-_Simple_SMTP" style="padding-left: 30px">
->   <strong>sSMTP &#8211; Simple SMTP</strong>
+>   <strong>sSMTP - Simple SMTP</strong>
 > </p>
 > 
 > <p style="padding-left: 30px">
@@ -72,8 +72,8 @@ AuthUser=account@example.com
 AuthPass=secretPassword
 
 \# Are users allowed to set their own From: address?  
-\# YES &#8211; Allow the user to specify their own From: address  
-\# NO &#8211; Use the system generated From: address  
+\# YES - Allow the user to specify their own From: address  
+\# NO - Use the system generated From: address  
 FromLineOverride=YES
 
 [/cce_bash]

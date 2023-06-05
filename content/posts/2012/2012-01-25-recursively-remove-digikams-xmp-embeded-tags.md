@@ -28,8 +28,8 @@ One of the above broken everything (I started seeing \_digikam\_root_tag) and so
   * Remove all embedded xmp tags (again in the folder containing you collection)  
     exiftool -r -P -xmp:TagsList= -xmp:LastKeywordXMP= -xmp:HierarchicalSubject= -xmp:Subject= -iptc:Keywords= *
 
-**DON&#8217;T FOLLOW THIS BLINDLY**
+**DON'T FOLLOW THIS BLINDLY**
 
-This is just a sketch of the process. If you don&#8217;t understand what are you doing don&#8217;t do it! I also kept all .original files exiftool generated, just in case I discover something later on.
+This is just a sketch of the process. If you don't understand what are you doing don't do it! I also kept all .original files exiftool generated, just in case I discover something later on.
 
-&nbsp;
+ 

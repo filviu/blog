@@ -20,8 +20,8 @@ tags:
 
 This is a fairly easy job to do. All you have to do is to show this code somewhere on your site:  
 [ccNe_html]  
-<a href=&#8221;ymsgr:sendIM?YOUR\_YM\_ID&#8221;>  
-<img src=&#8221;http://opi.yahoo.com/online?u=YOUR\_YM\_ID&m=g&t=1&#8243; border=&#8221;0&#8243; alt=&#8221;&#8221; /> </a>  
+<a href="ymsgr:sendIM?YOUR\_YM\_ID">  
+<img src="http://opi.yahoo.com/online?u=YOUR\_YM\_ID&m=g&t=1&#8243; border="0&#8243; alt="" /> </a>  
 [/ccNe_html]  
 Remember to replace  YOUR\_YM\_ID with your Yahoo Messenger id and give t a value reflecting the button choice you like:
 

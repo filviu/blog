@@ -18,6 +18,7 @@ I had to switch the main IP address of a cPanel server. Basically you follow the
 
 \# /var/cpanel/mainip
 
-[/cci_bash]
+
+```
 
 Also I searched in /etc and found one more refference to the old IP, I replaced that as well.

@@ -22,22 +22,22 @@ tags:
   - temp_on
 
 ---
-Did you ever need to have e-mail&#8217;s sent from within a bash script? Maybe alert you of errors encountered? Me too.
+Did you ever need to have e-mail's sent from within a bash script? Maybe alert you of errors encountered? Me too.
 
-Here&#8217;s an easy way on how to do it:  
+Here's an easy way on how to do it:  
 [ccNe_bash]  
 #!/bin/bash  
 \# email send script example  
 #  
 \# subject of email  
-SUBJECT=&#8221;BASH SAYS HELLO&#8221;  
+SUBJECT="BASH SAYS HELLO"  
 \# destination  
-EMAIL=&#8221;user@yourdomain.com&#8221;  
+EMAIL="user@yourdomain.com"  
 \# Email body  
-EMAILMESSAGE=&#8221;/tmp/messagebody.txt&#8221;  
-echo &#8220;Email sent from BASH&#8221; > $EMAILMESSAGE  
-echo &#8220;Another text line&#8221; >> $EMAILMESSAGE  
+EMAILMESSAGE="/tmp/messagebody.txt"  
+echo "Email sent from BASH" > $EMAILMESSAGE  
+echo "Another text line" >> $EMAILMESSAGE  
 \# send message using /bin/mail  
-/bin/mail -s &#8220;$SUBJECT&#8221; &#8220;$EMAIL&#8221; < $EMAILMESSAGE  
+/bin/mail -s "$SUBJECT" "$EMAIL" < $EMAILMESSAGE  
 [/ccNe_bash]  
 Easy.

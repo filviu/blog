@@ -15,13 +15,13 @@ tags:
   - temp_on
 
 ---
-Just wanted to let you know that Skyfire has updated it&#8217;s browser to v1.0
+Just wanted to let you know that Skyfire has updated it's browser to v1.0
 
 Update was smooth on my E71.
 
 <figure id="attachment_128" aria-describedby="caption-attachment-128" style="width: 320px" class="wp-caption aligncenter"><img decoding="async" loading="lazy" class="size-full wp-image-128" title="screenshot0008_cnv" src="http://blog.silviuvulcan.ro/wp-content/uploads/sites/2/2009/05/screenshot0008_cnv.jpg" alt="Skyfire 1.0" width="320" height="240" /><figcaption id="caption-attachment-128" class="wp-caption-text">Skyfire 1.0</figcaption></figure>
 
-What&#8217;s new:
+What's new:
 
   * Thumbnail interaction. You can click links without zooming in. A change I welcome.
   * Improved Zoom.

@@ -1,5 +1,5 @@
 ---
-title: Switched to chrome but magnet links open with kTorrent instead of custom script
+title: Switched to Chrome but magnet links open with kTorrent instead of custom script
 author: silviu
 type: post
 date: 2015-03-17T12:23:41+00:00
@@ -15,9 +15,9 @@ tags:
   - torrents
 
 ---
-On one of my kde workstations I switched from firefox to chrome. One issue I found was that I have a custom script that takes magnet links and [adds them to my NAS server][1] instead of opening them locally. Chrome insisted on opening them with ktorrent instead of my custom script. The fix is to create a file [cci\_bash]torrent.sh.desktop[/cci\_bash] inside [cci\_bash]~/.local/share/applications/[/cci\_bash] with the following content:
+On one of my kde workstations I switched from firefox to chrome. One issue I found was that I have a custom script that takes magnet links and [adds them to my NAS server][1] instead of opening them locally. Chrome insisted on opening them with ktorrent instead of my custom script. The fix is to create a file `torrent.sh.desktop` inside `~/.local/share/applications/` with the following content:
 
-[ccNe_bash]  
+```ini
 [Desktop Entry]  
 Type=Application  
 Exec=/usr/local/bin/torrent.sh %u  
@@ -25,8 +25,11 @@ MimeType=x-scheme-handler/magnet;
 Name=torrent.sh  
 Icon=  
 NoDisplay=true  
-[/ccNe_bash]
+```
 
-After that run [cci\_bash]kbuildsycoca4[/cci\_bash]
+After that run:
+```bash
+kbuildsycoca4
+```
 
  [1]: http://www.sgvulcan.com/open-a-magnet-link-on-a-remote-or-local-transmission-server/

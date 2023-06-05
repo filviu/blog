@@ -19,7 +19,7 @@ While migrating a file server from mdadm software raid to zfs I encountered the 
 [cce_bash]  
 zpool create -f tank mirror /dev/disk/by-id/xxx /dev/disk/by-id/yyy  
 the kernel failed to rescan the partition table: 16  
-cannot label &#8216;sdb&#8217;: try using parted(8) and then provide a specific slice: -1  
+cannot label 'sdb': try using parted(8) and then provide a specific slice: -1  
 [/cce_bash]  
 Even if the old mdadm array was no longer being mounted (as more than one disk was missing and it was a raid5) they were still being added to md0:  
 [cce_bash]  
@@ -32,7 +32,7 @@ unused devices:
 [/cce_bash]  
 The fix was easy enough:  
 [cce_bash]  
-mdadm &#8211;stop /dev/md0  
+mdadm -stop /dev/md0  
 mdadm: stopped /dev/md0  
 zpool create -f tank mirror /dev/disk/by-id/xxx /dev/disk/by-id/yyy  
 zpool status  

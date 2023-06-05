@@ -15,7 +15,7 @@ tags:
 ---
 This is a converter I wrote with the graphics library for the PIC16F microcontrollers. Others work but this one works for sure.
 
-If you want to see the source code (I&#8217;m not particulary proud of it 🙂 )  drop a comment and I&#8217;ll send it to you.
+If you want to see the source code (I'm not particulary proud of it 🙂 )  drop a comment and I'll send it to you.
 
 If the bitmap is smaller than 128&#215;64 it will be left as is, if not it will be resized proportionally to 128&#215;64.
 

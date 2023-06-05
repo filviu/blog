@@ -15,12 +15,12 @@ tags:
   - temp_on
 
 ---
-Although I don&#8217;t consider fail2ban something to rely on for security is just another piece of the puzzle when securing a server. When configuring fail2ban for a debian server I noticed that the defaults rules are missing failures if DIGEST is used for authentication instead of basic.
+Although I don't consider fail2ban something to rely on for security is just another piece of the puzzle when securing a server. When configuring fail2ban for a debian server I noticed that the defaults rules are missing failures if DIGEST is used for authentication instead of basic.
 
 I added the following to **/etc/fail2ban/filter.d/apache-auth.conf**:
 
-[cce lang=&#8221;INI&#8221;]  
+[cce lang="INI"]  
 \[[]client <HOST>[]\] (Digest: )?user .* (authentication failure|not found|password mismatch)  
 [/cce]
 
-Restart fail2ban and try entering a wrong user/password while checking the fail2ban log. It should catch the try. (Be sure you don&#8217;t lock yourself out 🙂 )
+Restart fail2ban and try entering a wrong user/password while checking the fail2ban log. It should catch the try. (Be sure you don't lock yourself out 🙂 )

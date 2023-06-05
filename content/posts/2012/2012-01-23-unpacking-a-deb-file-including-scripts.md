@@ -22,7 +22,7 @@ tags:
 ---
 While attempting to install a deb package on a slackware system I wanted to check the install script that the package runs. I tried the deb2tgz utility but unfortunately that only left me the files in the package in a ready to install .tgz file.
 
-Here&#8217;s how to unpack a .deb to obtain both scripts and files:
+Here's how to unpack a .deb to obtain both scripts and files:
 
 <div>
   [cce_bash]<br /> cd /tmp/somefolder<br /> ar x somepackage.deb<br /> [/cce_bash]<br /> This leaves you with two files:</p> 

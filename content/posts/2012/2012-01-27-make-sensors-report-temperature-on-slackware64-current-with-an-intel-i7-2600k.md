@@ -17,7 +17,7 @@ tags:
   - temperature
 
 ---
-For some reasons the required modules don&#8217;t get loaded. Add the following to /etc/rc.d/rc.modules right above the line reading ### Mouse support:
+For some reasons the required modules don't get loaded. Add the following to /etc/rc.d/rc.modules right above the line reading ### Mouse support:
 
 [CCE_BASH]  
 \### by SV for i2600k temperature  

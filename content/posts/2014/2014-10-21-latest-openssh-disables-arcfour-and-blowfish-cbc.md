@@ -37,7 +37,7 @@ I added arcfour256 besides the default ciphers in /etc/ssh/sshd_config in order 
 ciphers arcfour256,aes128-ctr,aes192-ctr,aes256-ctr,aes128-gcm@openssh.com,aes256-gcm@openssh.com,chacha20-poly1305@openssh.com  
 [/cce_bash]
 
-**Warning** as I understand it  arcfour is not as secure as aes ciphers. On modern machines that support hw based aes instructions in theory you shouldn&#8217;t see differences. But I do. For example at home the machine that pushes the most data is an I7 and arcfour is still twice as fast (maybe the windows version of ssh doesn&#8217;t use hw aes acceleration). Since access to the servers where I push this data is limited to the local LAN and VPN I considered acceptable to use a lower quality cipher. It might not be the same for you.
+**Warning** as I understand it  arcfour is not as secure as aes ciphers. On modern machines that support hw based aes instructions in theory you shouldn't see differences. But I do. For example at home the machine that pushes the most data is an I7 and arcfour is still twice as fast (maybe the windows version of ssh doesn't use hw aes acceleration). Since access to the servers where I push this data is limited to the local LAN and VPN I considered acceptable to use a lower quality cipher. It might not be the same for you.
 
  [1]: https://bbs.archlinux.org/viewtopic.php?id=136713
  [2]: http://www.openssh.com/txt/release-6.7

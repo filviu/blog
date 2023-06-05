@@ -15,7 +15,7 @@ tags:
   - wine
 
 ---
-Trying to update to the latest evernote version on a linux laptop I use I hit the error mentioned in the title: **&#8220;evernote was already installed by another user.&#8221;**
+Trying to update to the latest evernote version on a linux laptop I use I hit the error mentioned in the title: **"evernote was already installed by another user."**
 
 Weird, but solvable. I ended doing the following:
 
@@ -28,7 +28,7 @@ wine uninstaller
 Trying to install still gave the same error and so I had to do some registry surgery (be sure to replace **root** with your username):
 
 [cce_bash]  
-grep &#8220;with upgrade&#8221; ~/.wine/drive_c/users/root/Temp/EvernoteSetup.log  
+grep "with upgrade" ~/.wine/drive_c/users/root/Temp/EvernoteSetup.log  
 [01/07/2014 14:23:18] Located product {C2EECB42-2C7F-11E3-8960-00163E98E7D0} with upgrade code {AE2C091E-CF5F-4e30-8659-D640E23A8B99}.  
 [/cce_bash]  
 The first set of digits (they will be different in your case!) is of interest, in my case **C2EECB42**; reverse those digits and remove any entry from the registry that contains them (exporting them before removing is a good idea)

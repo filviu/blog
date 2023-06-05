@@ -15,7 +15,7 @@ tags:
   - virtuemart
 
 ---
-After importing products into Virtuemart using CSV Import a discount is shown being available &#8211; although offering the same price as the list price. This happens because no discount id is set in the table. Running the following on the mysql table fixes that:
+After importing products into Virtuemart using CSV Import a discount is shown being available - although offering the same price as the list price. This happens because no discount id is set in the table. Running the following on the mysql table fixes that:
 
 [ccNe_mysql]  
 UPDATE \`jos\_vm\_product\` SET \`product\_discount\_id\`=0 WHERE 1  

@@ -26,7 +26,7 @@ This is a small project I did for school. I am using the easypic 5 board from mi
 <figure id="attachment_279" aria-describedby="caption-attachment-279" style="width: 300px" class="wp-caption aligncenter">[<img decoding="async" loading="lazy" class="size-medium wp-image-279" title="16062009023_cnv" alt="16062009023_cnv" src="http://blog.silviuvulcan.ro/wp-content/uploads/sites/2/2009/06/16062009023_cnv-300x225.jpg" width="300" height="225" />][1]<figcaption id="caption-attachment-279" class="wp-caption-text">Temperature line graph showing on the GLCD mounted on the EasyPic 5 development board</figcaption></figure>
 
 <p style="text-align: left">
-  I am using a PIC16F887 mounted on the board. You might need to adjust the code if you use a different microcontroler / development board. Also I have the DS1820 mounted in it&#8217;s place with the jumper conecting it to RE2.
+  I am using a PIC16F887 mounted on the board. You might need to adjust the code if you use a different microcontroler / development board. Also I have the DS1820 mounted in it's place with the jumper conecting it to RE2.
 </p>
 
 [cce_cpp]
@@ -55,19 +55,19 @@ sbit GLCD\_RST\_Direction at TRISB5_bit;
 
 const unsigned short TEMP_RESOLUTION = 9;
 
-char *text = &#8220;000.0000&#8221;;  
+char *text = "000.0000";  
 unsigned temp;  
 char posx; // pozitia liniei de temperatura
 
 void SetTempTextGfx(unsigned int temp2write) {  
-const unsigned short RES\_SHIFT = TEMP\_RESOLUTION &#8211; 8;  
+const unsigned short RES\_SHIFT = TEMP\_RESOLUTION - 8;  
 char negative,temp_whole;  
 unsigned int temp_fraction;
 
 negative = 0;  
 // verificam daca temperatura este negativa  
 if (temp2write & 0x8000) {  
-text[0] = &#8216;-&#8216;;  
+text[0] = '-';  
 temp2write = ~temp2write + 1;  
 negative = 1;  
 }  
@@ -93,7 +93,7 @@ posx=posx+2;
 if (temp_whole/100)  
 text[0] = temp_whole/100 + 48;  
 else  
-text[0] = &#8216;0&#8217;;
+text[0] = '0';
 
 text[1] = (temp_whole/10)%10 + 48; // Extrage cifra zecilor  
 text[2] = temp_whole%10 + 48; // Extrage cifra unitatilor

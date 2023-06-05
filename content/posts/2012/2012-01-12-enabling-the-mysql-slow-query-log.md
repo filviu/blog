@@ -39,7 +39,7 @@ set log\_slow\_queries = OFF;
 
 ### Changing the long query time
 
-You can also set how long a query needs to take before it&#8217;s considered a &#8220;long&#8221; query. The default is 10 seconds. I usually like to set it lower:
+You can also set how long a query needs to take before it's considered a "long" query. The default is 10 seconds. I usually like to set it lower:
 
 To change it to 5 seconds add in my.cnf:  
 [cceN_bash]  
@@ -55,10 +55,10 @@ This will only work for new connections; any connections which have already been
 
 If the following error message appears when attempting to change the log\_slow\_queries setting dynamically means you are using a version of MySQL that does not support changing the setting dynamically:  
 [cceN_mysql]  
-ERROR 1193 (HY000): Unknown system variable &#8216;log\_slow\_queries&#8217;  
+ERROR 1193 (HY000): Unknown system variable 'log\_slow\_queries'  
 [/cceN_mysql]  
-The long\_query\_time value must be integer; if it&#8217;s not (e.g. you set long\_query\_time = 2.5;) then you&#8217;ll see this error:  
+The long\_query\_time value must be integer; if it's not (e.g. you set long\_query\_time = 2.5;) then you'll see this error:  
 [cceN_mysql]  
-#1232 &#8211; Incorrect argument type to variable &#8216;long\_query\_time&#8217;  
+#1232 - Incorrect argument type to variable 'long\_query\_time'  
 [/cceN_mysql]  
 Note also that if you set the long\_query\_time to 0 it will not fail, but the actual setting applied will be 1 and not 0.

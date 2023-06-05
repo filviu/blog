@@ -16,7 +16,7 @@ tags:
   - temp_on
 
 ---
-I got a free all-in-one printer from a friend who didn&#8217;t need it (consumed way too much ink cartridges). Since I liked the idea of the ScanSnap Evernote scanner but not so much the 500$ sticker price I decided to build one using this all in one and a Raspberry PI.
+I got a free all-in-one printer from a friend who didn't need it (consumed way too much ink cartridges). Since I liked the idea of the ScanSnap Evernote scanner but not so much the 500$ sticker price I decided to build one using this all in one and a Raspberry PI.
 
 Fortunately the model I received is supported by [SANE][1].
 
@@ -30,20 +30,20 @@ I needed the following pieces put together:
 
 ## 1. Interface
 
-First I wanted to build a nice GPIO based interface with leds, lcd, buttons. I started testing using a USB numpad I had around and it stuck, I&#8217;m too lazy to start working on it now that I have it running.
+First I wanted to build a nice GPIO based interface with leds, lcd, buttons. I started testing using a USB numpad I had around and it stuck, I'm too lazy to start working on it now that I have it running.
 
 ## 2. Cloud upload
 
-I use a [Bash Dropbox Uploader][3]. It&#8217;s very nice as it allows running as a Dropbox application, giving it access only to one folder under Dropbox/Apps/
+I use a [Bash Dropbox Uploader][3]. It's very nice as it allows running as a Dropbox application, giving it access only to one folder under Dropbox/Apps/
 
-For the evernote part I&#8217;m waiting for resources support to be merged and functional inside geeknote [[here][4] and [here][5]]. For now Dropbox has to do.
+For the evernote part I'm waiting for resources support to be merged and functional inside geeknote [[here][4] and [here][5]]. For now Dropbox has to do.
 
 ## 3. Daemon
 
 Again I thought it would be a good python learning experience to build it myself but laziness triumphed. I used [ESE Key Daemon][6] to monitor the USB Numpad and trigger [a small BASH utility][2] that accepts various resolutions and output formats as a parameter.
 
  [1]: http://www.sane-project.org/
- [2]: https://github.com/silviuvulcan/pi-cloud-scanner
+ [2]: https://github.com/filviu/pi-cloud-scanner
  [3]: https://github.com/andreafabrizi/Dropbox-Uploader
  [4]: https://github.com/VitaliyRodnenko/geeknote/issues/95
  [5]: https://github.com/VitaliyRodnenko/geeknote/pull/113

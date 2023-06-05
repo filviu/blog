@@ -18,7 +18,8 @@ I was trying to get rid of the separate sound card in an old Compaq Deskpro En (
 
 (set in `/etc/modprobe.d/sound`)
 
-<pre class="EnlighterJSRAW" data-enlighter-language="shell" data-enlighter-theme="" data-enlighter-highlight="" data-enlighter-linenumbers="" data-enlighter-lineoffset="" data-enlighter-title="" data-enlighter-group=""># ALSA portion
+```bash
+# ALSA portion
 alias char-major-116 snd
 alias snd-card-0 snd-es18xx
 options snd-es18xx enable=1 isapnp=0 port=0x220 mpu_port=0x388 fm_port=0x330 irq=5 dma1=1 dma2=0
@@ -33,4 +34,5 @@ alias sound-service-0-0 snd-mixer-oss
 alias sound-service-0-1 snd-seq-oss
 alias sound-service-0-3 snd-pcm-oss
 alias sound-service-0-8 snd-seq-oss
-alias sound-service-0-12 snd-pcm-oss</pre>
+alias sound-service-0-12 snd-pcm-oss
+```

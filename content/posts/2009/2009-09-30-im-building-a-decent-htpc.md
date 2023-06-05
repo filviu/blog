@@ -27,20 +27,20 @@ In the last years I always had some kind of pc hooked up to my tv. I finally got
 
 The case:
 
-I initially wanted a full ATX case, but they were either ugly either too expensive. I finally went for the (mini ATX) Antec Remote 350 because for the price of a bare ATX case I got a 80+ power supply, 3 80mm fans, LCD screen and remote. The case is a bit on the cramped side but everything fits together nice, it&#8217;s well ventilated and pretty quiet but still providing good airflow. There are in-depth reviews around so I won&#8217;t go into details. Suffice to say it&#8217;s pretty cheap, comes with a PSU and does the job.
+I initially wanted a full ATX case, but they were either ugly either too expensive. I finally went for the (mini ATX) Antec Remote 350 because for the price of a bare ATX case I got a 80+ power supply, 3 80mm fans, LCD screen and remote. The case is a bit on the cramped side but everything fits together nice, it's well ventilated and pretty quiet but still providing good airflow. There are in-depth reviews around so I won't go into details. Suffice to say it's pretty cheap, comes with a PSU and does the job.
 
 The motherboard:
 
-It was pretty cheap when I got it, and simillar boards should be available. It has everything you need on board: 3200HD graphics, HDMI, audio, 128 Mb video memory, 5 SATA ports, lot&#8217;s of USB ports, optical audio, e-Sata, firewire and so on.
+It was pretty cheap when I got it, and simillar boards should be available. It has everything you need on board: 3200HD graphics, HDMI, audio, 128 Mb video memory, 5 SATA ports, lot's of USB ports, optical audio, e-Sata, firewire and so on.
 
 The CPU:
 
-It&#8217;s an older dual core AMD Energy Efficient, it has a 45W TDP at 2.5 Ghz. It does the job and it runs very cool allowing for a silent cooler to do the job.
+It's an older dual core AMD Energy Efficient, it has a 45W TDP at 2.5 Ghz. It does the job and it runs very cool allowing for a silent cooler to do the job.
 
 The Hard Drive:
 
-It&#8217;s a green Western Digital. It&#8217;s quiet and fast enough. Combined with the rubber mounting of the Antec case allows for virtual quiet operation.
+It's a green Western Digital. It's quiet and fast enough. Combined with the rubber mounting of the Antec case allows for virtual quiet operation.
 
 Video Card:
 
-My TV is pretty old, so I need S-Video out for it. Until we upgrade to a flat panel I&#8217;ll need a video card as the mother board doesn&#8217;t provide S-Video or RCA out.
+My TV is pretty old, so I need S-Video out for it. Until we upgrade to a flat panel I'll need a video card as the mother board doesn't provide S-Video or RCA out.

@@ -18,9 +18,9 @@ tags:
   - temp_on
 
 ---
-&nbsp;
+ 
 
-So, I had to set-up master-slave replication. Here&#8217;s how you do it:
+So, I had to set-up master-slave replication. Here's how you do it:
 
 Why would one want to set-up this? Easy.
 
@@ -28,7 +28,7 @@ Why would one want to set-up this? Easy.
 
 2)Do the backups from the slave. You might have noticed that backing-up, especially big databases, slows things down. That happens because mysqldump locks tables as it reads them. This can slow a big site or even takes it down from a few seconds to a few minute. Reading from the slave affects nothing. You can even stop the slave, read the /var/lib/mysql folder and start it back.
 
-Following are the steps on how to set it up, but first let&#8217;s not a few assumptions. Also please note that this sets up only the basic things. Many more settings can be tweaked to improve MySQL performance.
+Following are the steps on how to set it up, but first let's not a few assumptions. Also please note that this sets up only the basic things. Many more settings can be tweaked to improve MySQL performance.
 
 > Master server ip: 192.168.0.1  
 > Slave server ip: 192.168.0.2  
@@ -53,7 +53,7 @@ log-bin = /var/lib/mysql/mysql-bin
 
 The following settings are for the slave’s my.cnf under the same [mysqld] section:  
 [cce]  
-\# slave&#8217;s my.cnf  
+\# slave's my.cnf  
 server-id = 2  
 relay-log = /var/lib/mysql/mysql-relay-bin  
 relay-log-index = /var/lib/mysql/mysql-relay-bin.index  
@@ -67,12 +67,12 @@ Restart both mysql instances after changing the settings in my.cnf
 
 Create the slave user on master server:  
 [cceN]  
-mysql> grant replication slave on \*.\* to slaveusr@&#8217;10.0.0.2&#8242; identified by &#8216;slavepass&#8217;;  
+mysql> grant replication slave on \*.\* to slaveusr@'10.0.0.2&#8242; identified by 'slavepass';  
 [/cceN]  
 Dump the full data and copy it (scp, etc.) to the slave
 
 [cceN]  
-mysqldump -u root -pROOTPASS &#8211;all-databases &#8211;single-transaction &#8211;master-data=1 > masterdump.sql  
+mysqldump -u root -pROOTPASS -all-databases -single-transaction -master-data=1 > masterdump.sql  
 [/cceN]
 
 import this dump on the slave server:
@@ -83,17 +83,17 @@ mysql -u root -pROOTPASS < masterdump.sql
 
 After dump is imported go in to mysql client by typing mysql. Let us tell the slave which master to connect to and what login/password to use:  
 [cceN]  
-mysql> CHANGE MASTER TO MASTER\_HOST=&#8217;192.168.0.1&#8242;, MASTER\_USER=&#8217;slaveusr&#8217;, MASTER_PASSWORD=&#8217;slavepass&#8217;;  
+mysql> CHANGE MASTER TO MASTER\_HOST='192.168.0.1&#8242;, MASTER\_USER='slaveusr', MASTER_PASSWORD='slavepass';  
 [/cceN]
 
 Start the slave:  
 [cceN]  
 mysql> start slave;  
 [/cceN]  
-&nbsp;
+ 
 
 Check the status on the slave:  
 [cceN]  
 mysql> show slave statusG  
 [/cceN]  
-The last row will tell how many seconds the slave runs behind the master. No worries if it&#8217;s not 0, it should catch up quickly (at that time it will show Seconds\_Behind\_Master: 0) If it reads NULL, maybe the slave is not started (you can start by typing: start slave) or it could be that there is a problem(shows up in Last\_errno: and Last\_error under show slave status).
+The last row will tell how many seconds the slave runs behind the master. No worries if it's not 0, it should catch up quickly (at that time it will show Seconds\_Behind\_Master: 0) If it reads NULL, maybe the slave is not started (you can start by typing: start slave) or it could be that there is a problem(shows up in Last\_errno: and Last\_error under show slave status).

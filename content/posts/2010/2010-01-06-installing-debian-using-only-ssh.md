@@ -14,9 +14,9 @@ tags:
   - temp_on
 
 ---
-I have a headless machine at home that I plan to use as a backup and development server. Even though I&#8217;m a Skackware guy I chose to install Debian on it. Of course I could have hooked a monitor and keyboard to it but for the sake of exercise I wanted to see if it&#8217;s possible to install debian using ssh from the very beginning.
+I have a headless machine at home that I plan to use as a backup and development server. Even though I'm a Skackware guy I chose to install Debian on it. Of course I could have hooked a monitor and keyboard to it but for the sake of exercise I wanted to see if it's possible to install debian using ssh from the very beginning.
 
-The short answer: **it&#8217;s possible &#8230; maybe**. Your headless machine should already be set to boot of cd if one is present, otherwise it will not work.
+The short answer: **it's possible &#8230; maybe**. Your headless machine should already be set to boot of cd if one is present, otherwise it will not work.
 
 Here are the steps needed to start you off:
 
@@ -24,7 +24,7 @@ Here are the steps needed to start you off:
 [ccNe_bash]  
 wget http://mirrors.kernel.org/debian-cd/5.0.3/i386/iso-cd/debian-503-i386-netinst.iso  
 [/ccNe_bash]  
-**2. Mount the ISO to a folder, let&#8217;s call it isoorig**  
+**2. Mount the ISO to a folder, let's call it isoorig**  
 [ccNe_bash]  
 mkdir isoorig  
 mount -o loop -t iso9660 debian-503-i386-netinst.iso isoorig  

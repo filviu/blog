@@ -16,7 +16,7 @@ tags:
 ---
 I still have clients or websites where the most convenient (middle ages based) method of exchanging files is FTP.
 
-Since I&#8217;m lazy by nature I don&#8217;t like firing up a FTP client, I&#8217;d prefer to just have it available on request. For a while the KDE Network Places did the trick. But I decided I want it even easier. **Behold curlftpfs**.
+Since I'm lazy by nature I don't like firing up a FTP client, I'd prefer to just have it available on request. For a while the KDE Network Places did the trick. But I decided I want it even easier. **Behold curlftpfs**.
 
 One  
 [ccNe_bash]  

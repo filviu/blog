@@ -25,7 +25,8 @@ A few simple options can speed up X considerably. Connecting with the following 
 [cci_bash]  
 ssh -X -C -c blowfish-cbc,arcfour user@host.example.com
 
-[/cci_bash]  
+
+```  
 Of course you can make this permanent by adding the following to /etc/ssh/ssh_config (might be different on your distro):  
 [cce_bash]  
 Cipher blowfish  

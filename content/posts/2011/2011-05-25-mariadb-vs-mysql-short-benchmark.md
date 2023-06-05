@@ -16,7 +16,7 @@ tags:
   - temp_on
 
 ---
-Considering switching from MySQL to MariaDB? Me too. I wanted to see if I can look towards any performance improvements (or drops). I don&#8217;t have high level needs, I&#8217;m sure more comprehensive tests exist. This is simple run-all-tests.pl from sql-bench suite. The test machine was a CentOS VM with 2Gb RAM and 2 CPU cores assigned.
+Considering switching from MySQL to MariaDB? Me too. I wanted to see if I can look towards any performance improvements (or drops). I don't have high level needs, I'm sure more comprehensive tests exist. This is simple run-all-tests.pl from sql-bench suite. The test machine was a CentOS VM with 2Gb RAM and 2 CPU cores assigned.
 
 **Mysql:**
 
@@ -38,10 +38,10 @@ connect: Total time: 107 wallclock secs (25.93 usr 15.66 sys + 0.00 cusr 0.00 cs
 create: Failed (output/create-mysql-Linux\_2.6.18\_238.el5\_x86\_64)  
 insert: Total time: 791 wallclock secs (257.43 usr 67.52 sys + 0.00 cusr 0.00 csys = 324.95 CPU)  
 select: Total time: 181 wallclock secs (21.49 usr 4.51 sys + 0.00 cusr 0.00 csys = 26.00 CPU)  
-transactions: Test skipped because the database doesn&#8217;t support transactions  
+transactions: Test skipped because the database doesn't support transactions  
 wisconsin: Total time: 8 wallclock secs ( 1.56 usr 0.50 sys + 0.00 cusr 0.00 csys = 2.06 CPU)
 
-Of 9 tests, 1 tests didn&#8217;t work
+Of 9 tests, 1 tests didn't work
 
 Totals per operation:  
 Operation seconds usr sys cpu tests  
@@ -148,10 +148,10 @@ connect: Total time: 101 wallclock secs (29.79 usr 15.16 sys + 0.00 cusr 0.00 cs
 create: Failed (output/create-mysql-Linux\_2.6.18\_238.el5\_x86\_64)  
 insert: Total time: 736 wallclock secs (240.44 usr 50.84 sys + 0.00 cusr 0.00 csys = 291.28 CPU)  
 select: Total time: 216 wallclock secs (23.22 usr 4.85 sys + 0.00 cusr 0.00 csys = 28.07 CPU)  
-transactions: Test skipped because the database doesn&#8217;t support transactions  
+transactions: Test skipped because the database doesn't support transactions  
 wisconsin: Total time: 6 wallclock secs ( 1.72 usr 0.37 sys + 0.00 cusr 0.00 csys = 2.09 CPU)
 
-Of 9 tests, 1 tests didn&#8217;t work
+Of 9 tests, 1 tests didn't work
 
 Totals per operation:  
 Operation seconds usr sys cpu tests  
@@ -239,4 +239,4 @@ wisc_benchmark 2.00 1.02 0.08 1.10 114
 TOTALS 1084.00 297.06 71.81 368.87 3375950  
 [/cce_bash]
 
-So as you can see not much incentive here. I know that for advanced use cases MariaDB offers some new features and improvements but for a normal use case as for example the web server hosting this site there&#8217;s no major advantage.
+So as you can see not much incentive here. I know that for advanced use cases MariaDB offers some new features and improvements but for a normal use case as for example the web server hosting this site there's no major advantage.

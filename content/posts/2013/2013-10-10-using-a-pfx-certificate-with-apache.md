@@ -20,10 +20,10 @@ I had to install a certificate that came to me in pfx format. In order to use it
 
 With OpenSSL you can convert pfx to Apache compatible format easily with a few commands:  
   
-The first command extracts public key to example.com.crt, the second and third commands extracts the private key to example.com.key and the last one generates the Certificate Authority (CA) certificate example.com.ca file (if it cames out empty don&#8217;t include it in the virtual host definition). Move all files to the apropriate locations for your distro and add them to the virtual host:
+The first command extracts public key to example.com.crt, the second and third commands extracts the private key to example.com.key and the last one generates the Certificate Authority (CA) certificate example.com.ca file (if it cames out empty don't include it in the virtual host definition). Move all files to the apropriate locations for your distro and add them to the virtual host:
 
 
 
-&nbsp;
+ 
 
 apachectl configtest and apachectl graceful restart and you are on your way!

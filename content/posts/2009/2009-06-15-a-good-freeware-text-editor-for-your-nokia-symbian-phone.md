@@ -14,9 +14,9 @@ tags:
   - temp_on
 
 ---
-More and more phones have, these days, a decent text entry method &#8211; be it T9, qwerty keyboard or touch screen. Especially if you own a qwerty phone you might be interested in a good, native text editor application.
+More and more phones have, these days, a decent text entry method - be it T9, qwerty keyboard or touch screen. Especially if you own a qwerty phone you might be interested in a good, native text editor application.
 
-I searched, and DEdit came up. It has a ton of features, but more important you can easily edit text files on your phone. From it&#8217;s features one can note:
+I searched, and DEdit came up. It has a ton of features, but more important you can easily edit text files on your phone. From it's features one can note:
 
   * Remember last editing position in each text-file, that you edit;
   * Remember user-defined positions in file

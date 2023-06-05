@@ -15,7 +15,7 @@ tags:
   - temp_on
 
 ---
-Having reinstalled one of my older laptops I noticed I cannot login using it&#8217;s private key. I was sure I backed up the original and properly restored it after reinstalling. I ran ssh -v to get more information:
+Having reinstalled one of my older laptops I noticed I cannot login using it's private key. I was sure I backed up the original and properly restored it after reinstalling. I ran ssh -v to get more information:
 
 **Roaming not allowed by server** caught my eye. What the heck is that?
 
@@ -47,7 +47,7 @@ debug1: kex: client->server aes128-ctr hmac-md5 none
 debug1: sending SSH2\_MSG\_KEX\_ECDH\_INIT  
 debug1: expecting SSH2\_MSG\_KEX\_ECDH\_REPLY  
 debug1: Server host key: ECDSA xx:xx:xx:xx:xx:xx:xx:xx:xx:xx:xx:xx:xx:xx:xx:xx  
-debug1: Host &#8216;[1.2.3.4]:22&#8217; is known and matches the ECDSA host key.  
+debug1: Host '[1.2.3.4]:22' is known and matches the ECDSA host key.  
 debug1: Found key in /root/.ssh/known_hosts:1  
 debug1: ssh\_ecdsa\_verify: signature correct  
 debug1: SSH2\_MSG\_NEWKEYS sent  

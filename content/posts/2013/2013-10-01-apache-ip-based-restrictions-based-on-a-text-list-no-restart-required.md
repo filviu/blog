@@ -39,29 +39,29 @@ RewriteEngine On
 RewriteMap ipslist txt:/usr/local/etc/apache-whitelist.txt  
 RewriteCond %{REMOTE_ADDR} ^(.*)$  
 RewriteCond ${ipslist:%1|black} ^black$ [NC]  
-RewriteRule (.*) &#8211; [F]
+RewriteRule (.*) - [F]
 
 [/cc_apache]
 
-What this does is check the client&#8217;s IP against /usr/local/etc/apache-whitelist.txt **Don&#8217;t** **rush** like I did and cause your self a lot of headaches :), that file has to look like this (note the &#8220;-&#8221; after the IP):
+What this does is check the client's IP against /usr/local/etc/apache-whitelist.txt **Don't** **rush** like I did and cause your self a lot of headaches :), that file has to look like this (note the "-" after the IP):
 
 [cc_bash]
 
 ##  
 \## ATTENTION! This is a map, not a list, even when we treat it as such.  
 \## mod_rewrite parses it for key/value pairs, so at least a  
-\## dummy value &#8220;-&#8221; must be present for each entry.  
+\## dummy value "-" must be present for each entry.  
 ##
 
-127.0.0.1 &#8211;  
-198.51.100.1 &#8211;  
+127.0.0.1 -  
+198.51.100.1 -  
 \# below is myhost (the update script checks for this line)  
-198.51.100.24 &#8211;  
+198.51.100.24 -  
 [/cc_bash]
 
-Changes to this file don&#8217;t require reloading apache. After this writting a script that updates some dynamic IP in the text file is easy.
+Changes to this file don't require reloading apache. After this writting a script that updates some dynamic IP in the text file is easy.
 
-When your IP changes you will have a window during witch you won&#8217;t be able to access the site. (while dyndns updates your record, the change propagates and your update script is triggered). This is ok for me as I have other ways to get in (SSH, vpn, etc). There are ways in which **an attacker could exploit a system like this** (say your home router is down, the IP gets released but dyndns is not updated; a knowledgeable attacker could set the IP as theirs &#8211; depending on ISP this is really easy &#8211; and from there they are in) so I would suggest to use the above only as an aditional layer of security.
+When your IP changes you will have a window during witch you won't be able to access the site. (while dyndns updates your record, the change propagates and your update script is triggered). This is ok for me as I have other ways to get in (SSH, vpn, etc). There are ways in which **an attacker could exploit a system like this** (say your home router is down, the IP gets released but dyndns is not updated; a knowledgeable attacker could set the IP as theirs - depending on ISP this is really easy - and from there they are in) so I would suggest to use the above only as an aditional layer of security.
 
 Oh, if you need an example here is the script I use:
 
@@ -71,11 +71,11 @@ Oh, if you need an example here is the script I use:
 #  
 \# be sure to have a comment line with your match term  
 \# in the whitelist file  
-LIST=&#8217;/usr/local/etc/apache-whitelist.txt&#8217;  
-MYHOST=$(resolveip &#8211;silent example.dyndns.org)
+LIST='/usr/local/etc/apache-whitelist.txt'  
+MYHOST=$(resolveip -silent example.dyndns.org)
 
-sed &#8216;/myhost/{n;d}&#8217; $LIST > $LIST.tmp  
-sed &#8220;s/.\*myhost.\*/&n$MYHOST -/&#8221; $LIST.tmp > $LIST
+sed '/myhost/{n;d}' $LIST > $LIST.tmp  
+sed "s/.\*myhost.\*/&n$MYHOST -/" $LIST.tmp > $LIST
 
 /bin/rm $LIST.tmp  
 [/cce_bash]

@@ -32,7 +32,7 @@ After:
 [cceN_php]  
 if ($data) {  
 [/cceN_php]  
-But modifying core joomla files isn&#8217;t such a hot idea as one user notices. So the solution is fixing the plugin causing the problem in the first place:
+But modifying core joomla files isn't such a hot idea as one user notices. So the solution is fixing the plugin causing the problem in the first place:
 
 Edit plugins/system/JoomSEO.php at line 46  
 [cceN_php]  
@@ -40,5 +40,5 @@ $this->params = new JParameter($params);
 [/cceN_php]  
 replace with  
 [cceN_php]  
-$this->params = new JParameter($params[&#8216;params&#8217;]);  
+$this->params = new JParameter($params['params']);  
 [/cceN_php]
