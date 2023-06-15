@@ -20,19 +20,19 @@ With the recent posts regarding resurrecting old stuff, recently I had to resurr
 
 Edit **./includes/Cache/Lite/Function.php**, find the line reading
 
-[ccNe_php]  
-$arguments = func\_get\_args();  
+[ccNe_php]
+$arguments = func_get_args();
 [/ccNe_php]
 
 and replace with:
 
-[cce_php]  
-$arguments = func\_get\_args();  
-$numargs = func\_num\_args();  
-for($i=1; $i < $numargs; $i++){  
-$arguments[$i] = &$arguments[$i];  
-}  
-[/cce_php]  
+[cce_php]
+$arguments = func_get_args();
+$numargs = func_num_args();
+for($i=1; $i < $numargs; $i++){
+$arguments[$i] = &$arguments[$i];
+}
+[/cce_php]
 Check now, it should be working. Enjoy your new _old_ site 🙂
 
  

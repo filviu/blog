@@ -22,8 +22,6 @@ Be it because of the BIOS update to a beta or because of my drives but my RAID10
     src="/blog/images/2015/intel_ssd_toolbox_smart_raid.png" 
     alt="screenshot of Intel SSD Drive Toolbox" 
 >}}
-
-
 I found out thet the [Intel SSD Toolbox][2] shows SMART data for all disks in a system, not only SSDs and not only Intel. Look at _Other Drives_ and scroll to the right as under _Intel Solid-State Drives_ it shows the RAID volumes.
 
  [1]: http://www.sgvulcan.com/2015/10/14/intel-rst-raid-non-raid-disk-after-bios-update/

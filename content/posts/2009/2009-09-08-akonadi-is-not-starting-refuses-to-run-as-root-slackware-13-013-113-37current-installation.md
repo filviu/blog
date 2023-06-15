@@ -21,9 +21,9 @@ Well, after my first startx I was greeted by a message stating that Akonadi fail
 
 I opened an xterm and ran:
 
-[ccNe_bash]  
-mysqladmin create akonadi -p  
-[/ccNe_bash]
+```bash
+mysqladmin create akonadi -p
+```
 
 hoping that it will help. Well, it didn't fix it either. The message informing that Akonadi fails to start also has an error log. Clicking on it I discovered that the problems were still Mysql related. So I went into Akonadi configuration, **changed the setting from local mysql (accessed through a socket) to server mode, typing in localhost, and an user and a password**.
 
@@ -37,15 +37,15 @@ hoping that it will help. Well, it didn't fix it either. The message informing t
   <p>
     Edit<br /> ~/.local/share/akonadi/mysql.conf and add
   </p>
-  
+
   <p>
-    [ccNe_bash]<br /> user=root<br /> [/ccNe_bash]
+    ```bash<br /> user=root<br /> ```
   </p>
-  
+
   <p>
     to it. (you can choose any user as which this mysql instance will run but I really lost too much time with this nonsense already to bother)
   </p>
-  
+
   <p>
     I know, I know, you should not run as root and everything but it’s my machine and I’ll run as whatever damn user I want.
   </p>

@@ -20,76 +20,76 @@ tags:
 ---
 I installed transmission on a headless server so I need it to start on boot. The included start-up script was dependent on start-stop-daemon that is mission on Slackware. The examples on the transmission forums were ok but would resulted in transmission running as root and I want it to run as a non-privileged user. So I modified an example script to read like this:
 
-   
-[cce_bash]  
-#!/bin/bash  
+ 
+```bash
+#!/bin/bash
 #Slackware startup deamon script
 
-\# Name of Service  
+\# Name of Service
 NAME="Transmission Daemon"
 
-\# Command to run  
+\# Command to run
 CMD="/usr/bin/transmission-daemon"
 
-\# Option to run with deamon  
-\# -a means from where to accept incoming connections, comma separated  
-\# you may want to add your local network if you have multiple clients  
+\# Option to run with deamon
+\# -a means from where to accept incoming connections, comma separated
+\# you may want to add your local network if you have multiple clients
 OPTIONS="-a 127.0.0.1&#8243;
 
-\# Process name of daemon, for killing it.  
+\# Process name of daemon, for killing it.
 PROCESSNAME="/usr/bin/transmission-daemon"
 
-\# The name of the user that should run Transmission.  
-\# It's RECOMENDED to run Transmission in it's own user,  
-\# by default, this is set to 'transmission'.  
-\# For the sake of security you shouldn't set a password  
-\# on this user  
+\# The name of the user that should run Transmission.
+\# It's RECOMENDED to run Transmission in it's own user,
+\# by default, this is set to 'transmission'.
+\# For the sake of security you shouldn't set a password
+\# on this user
 USERNAME="transmission"
 
-func_stop() {  
-if [ "$(ps aux | grep $PROCESSNAME | grep -v grep)" ]; then  
-echo -n "Stopping $NAME &#8230; "  
-killall $PROCESSNAME  
-sleep 2  
+func_stop() {
+if [ "$(ps aux | grep $PROCESSNAME | grep -v grep)" ]; then
+echo -n "Stopping $NAME ... "
+killall $PROCESSNAME
+sleep 2
 fi
 
-if [ ! "$(ps aux | grep $PROCESSNAME | grep -v grep)" ]; then  
-echo "Done!"  
-else  
-echo "Error!"  
-fi  
+if [ ! "$(ps aux | grep $PROCESSNAME | grep -v grep)" ]; then
+echo "Done!"
+else
+echo "Error!"
+fi
 }
 
-func_start() {  
-echo -n "Starting $NAME &#8230; "  
-su - $USERNAME -c "$CMD $OPTIONS"  
+func_start() {
+echo -n "Starting $NAME ... "
+su - $USERNAME -c "$CMD $OPTIONS"
 sleep 2
 
-if [ "$(ps aux | grep $PROCESSNAME | grep -v grep)" ]; then  
-echo "Done!"  
-else  
-echo "Error!"  
-fi  
+if [ "$(ps aux | grep $PROCESSNAME | grep -v grep)" ]; then
+echo "Done!"
+else
+echo "Error!"
+fi
 }
 
-case $1 in  
-"start")  
-func_start  
+case $1 in
+"start")
+func_start
 ;;
 
-"stop")  
-func_stop  
+"stop")
+func_stop
 ;;
 
-"restart")  
-func_stop  
-sleep 2  
-func_start  
-;;  
-*)  
-echo "Usage; start|stop|restart"  
-;;  
-esac  
-[/cce_bash]
+"restart")
+func_stop
+sleep 2
+func_start
+;;
+*)
+echo "Usage; start|stop|restart"
+;;
+esac
+```
 
 After you test this script (make sure it starts as the user you want it to) be sure to add stop calls in /etc/rc.d/rc.6 , rc.K and start calls in rc.M (if you have a look at how rc.ntpd is called for example you'll know how to add this one). Take care, breaking those scripts could leave you with a non functional system.

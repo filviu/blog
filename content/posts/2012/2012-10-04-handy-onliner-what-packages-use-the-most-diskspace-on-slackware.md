@@ -17,7 +17,7 @@ tags:
 ---
 I was configuring a small openvpn system (on a VIA epia based system with a 2Gb CF card as disk) and I wanted to free some space since the install left very little free.
 
-Replace head -n10 with nxx to show a list of xx biggest packages.  
+Replace head -n10 with nxx to show a list of xx biggest packages.
 
 
  

@@ -14,8 +14,7 @@ tags:
   - ssh
 
 ---
-As absolutely nobody knows or uses I maintain an <a href="https://github.com/filviu/ansible-role-hetzner_installimage" data-type="URL" data-id="https://github.com/filviu/ansible-role-hetzner_installimage">ansible role</a> that can setup a Debian or Ubuntu machine with full disk encryption on Hetzner Robot (baremetal dedicated machines). 
-
+As absolutely nobody knows or uses I maintain an <a href="https://github.com/filviu/ansible-role-hetzner_installimage" data-type="URL" data-id="https://github.com/filviu/ansible-role-hetzner_installimage">ansible role</a> that can setup a Debian or Ubuntu machine with full disk encryption on Hetzner Robot (baremetal dedicated machines).
 But wait, you shout, Hetzner usually runs consumer grade stuff without kvm's - how do you enter your password at bootime. Easy, the role sets up a minimal boot environment with a dropbear ssh server where you can login and do `cryptroot-unlock`.
 
 While developing the role I realised that it was impossible to unlock a Debian 10 machine, even though I was 100% sure ansible was adding the proper key logging in to the boot envirnment was impossible, I kept getting

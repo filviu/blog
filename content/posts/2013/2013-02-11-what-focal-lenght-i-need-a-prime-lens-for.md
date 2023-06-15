@@ -20,7 +20,7 @@ tags:
 ---
 If you are contemplating buying a prime lense and use digikam you might find this little script I wrote useful:
 
-<https://github.com/silviuvulcan/digikam-stats>
+<https://github.com/filviu/digikam-stats>
 
 It can show you the number of images shot at each focal length (grouped by camera or not) from your digikam library (as long as you use a mysql database).
 

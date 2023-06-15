@@ -16,7 +16,7 @@ tags:
   - xp
 
 ---
-Yes, yes, I know, Windows 7 is all the rage today. But, XP is still widely used and for now is the operating system I need to install on 90% of the cases.  
+Yes, yes, I know, Windows 7 is all the rage today. But, XP is still widely used and for now is the operating system I need to install on 90% of the cases.
 Of course first I install Windows XP, then the pc's drivers and utilities, then I add whatever commercial software the client uses. After that, from case to case I always add some of the following:
 
 ## Security
@@ -52,7 +52,7 @@ Of course first I install Windows XP, then the pc's drivers and utilities, then 
 
   * [Google Earth][1]. Some of my clients are real estate agencies, and google earth is very handy for them.
 
-_  
+_
 _
 
  [1]: http://earth.google.com/

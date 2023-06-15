@@ -20,36 +20,32 @@ Hi,
 
 I wanted to setup a live webcam using a Raspberry Pi (model B, first rev. with 256M RAM) so after checking and happily finding out that my camera is suported I went along. First I installed the support packages:
 
-[cce_bash]  
+```bash
 sudo apt-get install gstreamer-tools gstreamer0.10-plugins-bad gstreamer0.10-plugins-good v4l-utils
-
-[/cce_bash]
+```
 
 After that I wrote a small script that would start the stream:
 
-[cce_bash]
-
-#!/bin/bash  
-\# set below your Raspberry PI IP address  
-myip="192.168.xxx.xxx"  
+```bash
+#!/bin/bash
+\# set below your Raspberry PI IP address
+myip="192.168.xxx.xxx"
 port="5000&#8243;
 
-gst-launch  
--v v4l2src !  
-"image/jpeg,width=1280,height=720,framerate=30/1" !  
-multipartmux !  
-tcpserversink host=$myip port=$port sync=false  
-[/cce_bash]
+gst-launch
+-v v4l2src !
+"image/jpeg,width=1280,height=720,framerate=30/1" !
+multipartmux !
+tcpserversink host=$myip port=$port sync=false
+```
 
 Save this to a script and set it to start on boot (if you want).
 
 After the stream is running you could check it with VLC for example:
 
-[cce_bash]
-
+```bash
 vlc tcp://192.168.xxx.xxx:5000
-
-[/cce_bash]
+```
 
 _**Notes:**_
 

@@ -15,7 +15,7 @@ tags:
   - weather
 
 ---
-&#8230; or any symbian device for that matter - even s60v2 based devices.
+... or any symbian device for that matter - even s60v2 based devices.
 
 <figure id="attachment_227" aria-describedby="caption-attachment-227" style="width: 150px" class="wp-caption alignleft">[<img decoding="async" loading="lazy" class="size-thumbnail wp-image-227 " title="screenshot0017_cnv" src="http://blog.silviuvulcan.ro/wp-content/uploads/sites/2/2009/06/screenshot0017_cnv-150x150.jpg" alt="M!Weather in it's full glory: simple, fast, accurate !" width="150" height="150" />][1]<figcaption id="caption-attachment-227" class="wp-caption-text">M!Weather in it's full glory: simple, fast, accurate !</figcaption></figure>
 

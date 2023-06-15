@@ -20,4 +20,4 @@ tags:
 ---
 This is a handy one liner that reports the usage of the apache processes (apache2 on debian/ubunto or httpd in slackware, centos, etc)
 
-[cc\_bash]ps -ylC httpd | awk '{x += $8;y += 1} END {print "Apache Memory Usage (MB): "x/1024; print "Average Proccess Size (MB): "x/((y-1)*1024)}'[/cc\_bash]
+[cc_bash]ps -ylC httpd | awk '{x += $8;y += 1} END {print "Apache Memory Usage (MB): "x/1024; print "Average Proccess Size (MB): "x/((y-1)*1024)}'[/cc_bash]

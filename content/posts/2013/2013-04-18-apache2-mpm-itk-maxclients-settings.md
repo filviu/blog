@@ -21,12 +21,12 @@ I run the [mpm-itk apache2][1] module on my server since it's shared between a f
 
 [cce_apache]
 
-<IfModule mpm\_itk\_module>  
-StartServers          8  
-MinSpareServers       8  
-MaxSpareServers      10  
-MaxClients           100  
-MaxRequestsPerChild  1000  
+<IfModule mpm_itk_module>
+StartServers          8
+MinSpareServers       8
+MaxSpareServers      10
+MaxClients           100
+MaxRequestsPerChild  1000
 </IfModule>
 
 [/cce_apache]

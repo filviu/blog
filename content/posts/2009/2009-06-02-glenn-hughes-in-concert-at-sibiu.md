@@ -19,8 +19,7 @@ I was browsing my photo collection today and found some pictures I took at the c
 
 **I post most of my photos on my personal blog: <http://ro.sgvulcan.com/> (romanian)**
 
-<span style="color: #0000ee;text-decoration: underline"></p> 
-
+<span style="color: #0000ee;text-decoration: underline"></p>
 <p>
   </span>
 </p>

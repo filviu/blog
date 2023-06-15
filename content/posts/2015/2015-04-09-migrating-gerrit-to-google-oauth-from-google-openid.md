@@ -27,7 +27,7 @@ Let's try to organize what you have to do in steps:
   2. Clone the [gerrit repository][2], checkout v2.10.2 (or same version as above) and build with buck. **Use gerrit buck** as they seem to differ from facebook buck, see [gerrit build instructions][3].
   3. Clone [gerrit-oauth-provider][4] inside /plugins (per [build.md][5] instructions, [those are supposed to be valid][6] and at the time of writing this building stand-alone might or might not work) and build it with buck. Add gerrit-oauth-provider.jar in your site's plugins/ folder.
   4. [Create your google project][7] by visiting the [Google Developer Console][8] and obtain api and client secrets, per documentation or wiki.
-  5. Following the  
+  5. Following the
   ```bash
   java -jar gerrit.war init -d site/
   ```

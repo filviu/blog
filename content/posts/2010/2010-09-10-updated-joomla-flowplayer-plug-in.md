@@ -20,6 +20,6 @@ I use flowplayer for joomla quite often. I usually use this plugin:
 
 Unfortunately it uses an old version of flowplayer. So, since both are GPL I decided to update the plugin and share it.
 
-You can download it here: [plg\_upd\_flowplayer\_J15\_v1-1-0][1]
+You can download it here: [plg_upd_flowplayer_J15_v1-1-0][1]
 
  [1]: http://blog.silviuvulcan.ro/wp-content/uploads/sites/2/2010/09/plg_upd_flowplayer_J15_v1-1-0.zip

@@ -19,127 +19,127 @@ My favourite microcontroler for now is PIC16F887. I will soon try to build some 
     <td align="Left">
       Program Memory Type
     </td>
-    
+  
     <td align="Left">
       Flash
     </td>
   </tr>
-  
+
   <tr class="GridAltItem" align="Center">
     <td align="Left">
       Program Memory (KB)
     </td>
-    
+  
     <td align="Left">
       14
     </td>
   </tr>
-  
+
   <tr class="GridItem" align="Center">
     <td align="Left">
       CPU Speed (MIPS)
     </td>
-    
+  
     <td align="Left">
       5
     </td>
   </tr>
-  
+
   <tr class="GridAltItem" align="Center">
     <td align="Left">
       RAM Bytes
     </td>
-    
+  
     <td align="Left">
       368
     </td>
   </tr>
-  
+
   <tr class="GridItem" align="Center">
     <td align="Left">
       Data EEPROM (bytes)
     </td>
-    
+  
     <td align="Left">
       256
     </td>
   </tr>
-  
+
   <tr class="GridAltItem" align="Center">
     <td align="Left">
       Digital Communication Peripherals
     </td>
-    
+  
     <td align="Left">
       1-A/E/USART, 1-MSSP(SPI/I2C)
     </td>
   </tr>
-  
+
   <tr class="GridItem" align="Center">
     <td align="Left">
       Capture/Compare/PWM Peripherals
     </td>
-    
+  
     <td align="Left">
       1 CCP, 1 ECCP
     </td>
   </tr>
-  
+
   <tr class="GridAltItem" align="Center">
     <td align="Left">
       Timers
     </td>
-    
+  
     <td align="Left">
       2 x 8-bit, 1 x 16-bit
     </td>
   </tr>
-  
+
   <tr class="GridItem" align="Center">
     <td align="Left">
       ADC
     </td>
-    
+  
     <td align="Left">
       14 ch, 10-bit
     </td>
   </tr>
-  
+
   <tr class="GridAltItem" align="Center">
     <td align="Left">
       Comparators
     </td>
-    
+  
     <td align="Left">
       2
     </td>
   </tr>
-  
+
   <tr class="GridItem" align="Center">
     <td align="Left">
       Temperature Range (C)
     </td>
-    
+  
     <td align="Left">
       -40 to 125
     </td>
   </tr>
-  
+
   <tr class="GridAltItem" align="Center">
     <td align="Left">
       Operating Voltage Range (V)
     </td>
-    
+  
     <td align="Left">
       2 to 5.5
     </td>
   </tr>
-  
+
   <tr class="GridItem" align="Center">
     <td align="Left">
       Pin Count
     </td>
-    
+  
     <td align="Left">
       40
     </td>
@@ -154,127 +154,127 @@ My favourite microcontroler for now is PIC16F887. I will soon try to build some 
       <td align="Left">
         Program Memory Type
       </td>
-      
+    
       <td align="Left">
         Flash
       </td>
     </tr>
-    
+  
     <tr class="GridAltItem" align="Center">
       <td align="Left">
         Program Memory (KB)
       </td>
-      
+    
       <td align="Left">
         14
       </td>
     </tr>
-    
+  
     <tr class="GridItem" align="Center">
       <td align="Left">
         CPU Speed (MIPS)
       </td>
-      
+    
       <td align="Left">
         5
       </td>
     </tr>
-    
+  
     <tr class="GridAltItem" align="Center">
       <td align="Left">
         RAM Bytes
       </td>
-      
+    
       <td align="Left">
         368
       </td>
     </tr>
-    
+  
     <tr class="GridItem" align="Center">
       <td align="Left">
         Data EEPROM (bytes)
       </td>
-      
+    
       <td align="Left">
         256
       </td>
     </tr>
-    
+  
     <tr class="GridAltItem" align="Center">
       <td align="Left">
         Digital Communication Peripherals
       </td>
-      
+    
       <td align="Left">
         1-A/E/USART, 1-MSSP(SPI/I2C)
       </td>
     </tr>
-    
+  
     <tr class="GridItem" align="Center">
       <td align="Left">
         Capture/Compare/PWM Peripherals
       </td>
-      
+    
       <td align="Left">
         1 CCP, 1 ECCP
       </td>
     </tr>
-    
+  
     <tr class="GridAltItem" align="Center">
       <td align="Left">
         Timers
       </td>
-      
+    
       <td align="Left">
         2 x 8-bit, 1 x 16-bit
       </td>
     </tr>
-    
+  
     <tr class="GridItem" align="Center">
       <td align="Left">
         ADC
       </td>
-      
+    
       <td align="Left">
         14 ch, 10-bit
       </td>
     </tr>
-    
+  
     <tr class="GridAltItem" align="Center">
       <td align="Left">
         Comparators
       </td>
-      
+    
       <td align="Left">
         2
       </td>
     </tr>
-    
+  
     <tr class="GridItem" align="Center">
       <td align="Left">
         Temperature Range (C)
       </td>
-      
+    
       <td align="Left">
         -40 to 125
       </td>
     </tr>
-    
+  
     <tr class="GridAltItem" align="Center">
       <td align="Left">
         Operating Voltage Range (V)
       </td>
-      
+    
       <td align="Left">
         2 to 5.5
       </td>
     </tr>
-    
+  
     <tr class="GridItem" align="Center">
       <td align="Left">
         Pin Count
       </td>
-      
+    
       <td align="Left">
         40
       </td>

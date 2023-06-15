@@ -17,7 +17,7 @@ tags:
 Yahoo! Messenger 9.0 is the current stable messenger version (Yahoo messenger 10 is in beta). As with any previous versions of Yahoo Messenger, there are various ads displayed in the bottom of the contacts list or inside message and chat windows. These ads can be disabled using a simple registry hack:
 
   1. Start regedit. (Run -> regedit.exe)
-  2. Go to this registry key: HKEY\_CURRENT\_USERSoftwareYahoopagerLocale
+  2. Go to this registry key: HKEY_CURRENT_USERSoftwareYahoopagerLocale
   3. On the right you should see a Value called **Enable Messenger Ad**. Change it's value from **1** to ****.
 
 Restart Yahoo! Messenger and the ads should be gone.

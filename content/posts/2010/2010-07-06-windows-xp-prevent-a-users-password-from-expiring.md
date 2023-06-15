@@ -28,12 +28,10 @@ Fortunately the solution for this expiring password problem is easy. You just ne
 
 You'll get a window like this one showing up:
 
-  *<img decoding="async" loading="lazy" class="aligncenter size-full wp-image-1028" title="xp_user_accounts2" src="http://blog.silviuvulcan.ro/wp-content/uploads/sites/2/2010/07/xp_user_accounts2.jpg" alt="Advanced users control panel" width="404" height="448" /> 
-
+  *<img decoding="async" loading="lazy" class="aligncenter size-full wp-image-1028" title="xp_user_accounts2" src="http://blog.silviuvulcan.ro/wp-content/uploads/sites/2/2010/07/xp_user_accounts2.jpg" alt="Advanced users control panel" width="404" height="448" />
   * You have to click the **Advanced** tab
 
-<img decoding="async" loading="lazy" class="aligncenter size-full wp-image-1029" title="xp_user_accounts2_advanced" src="http://blog.silviuvulcan.ro/wp-content/uploads/sites/2/2010/07/xp_user_accounts2_advanced.jpg" alt="Advanced tab of users settings" width="404" height="447" /> 
-
+<img decoding="async" loading="lazy" class="aligncenter size-full wp-image-1029" title="xp_user_accounts2_advanced" src="http://blog.silviuvulcan.ro/wp-content/uploads/sites/2/2010/07/xp_user_accounts2_advanced.jpg" alt="Advanced tab of users settings" width="404" height="447" />
   * Unsurprisingly, on the Advanced tab you have to click the **Advanced** button. (Who designs this kind of interfaces?)
 
 [<img decoding="async" loading="lazy" class="aligncenter wp-image-1030 size-medium" title="xp_user_accounts_edit_user" src="http://blog.silviuvulcan.ro/wp-content/uploads/sites/2/2010/07/xp_user_accounts_edit_user-300x223.jpg" alt="Windows XP Advanced Users Settings" width="300" height="223" />][1]

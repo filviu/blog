@@ -24,8 +24,8 @@ Among others I work on a Dell Vostro A860 Laptop. It's running Slackware 64 Curr
 
 Today when I booted wi-fi was not working. I kept pressing FN+11 (as the laptop toggles trough combination of bluetooth off/on, wi-fi off/on, and any other possible combination). I used **rfkill list all** to check their status. I got to the point when both radios were reporting **Hard blocked : no** but Soft Blocked for wi-fi was still on. I tried restarting Network Monitor, removing the Atheros kernel module and everything else that came to mind. Than I remembered that documentation could be something useful. So I found that I need to run:
 
-[ccNe_bash]  
-rfkill unblock wifi  
-[/ccNe_bash]
+```bash
+rfkill unblock wifi
+```
 
 Easy enough, wi-fi connected properly again.

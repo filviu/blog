@@ -25,8 +25,8 @@ While attempting to install a deb package on a slackware system I wanted to chec
 Here's how to unpack a .deb to obtain both scripts and files:
 
 <div>
-  [cce_bash]<br /> cd /tmp/somefolder<br /> ar x somepackage.deb<br /> [/cce_bash]<br /> This leaves you with two files:</p> 
-  
+  ```bash<br /> cd /tmp/somefolder<br /> ar x somepackage.deb<br /> ```<br /> This leaves you with two files:</p> 
+
   <p>
     control.tar.gz and data.tar.gz The first contains the pre and post install scripts and the second contains the files.
   </p>

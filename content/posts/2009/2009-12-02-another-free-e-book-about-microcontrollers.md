@@ -20,8 +20,7 @@ tags:
 
 > What are microcontrollers, anyway? Electronics built in one single chip capable of controlling a small submarine, a crane or an elevator… It’s up to you to decide what you want them to do and dump a program containing appropriate instructions into the chip.
 
-_**Author:** Milan Verle_ 
-
+_**Author:** Milan Verle_
 You can read the book online (or print it for that matter) at <a href="http://www.mikroe.com/en/books/pic-books/mikroc/" target="_blank" rel="noopener">http://www.mikroe.com/en/books/pic-books/mikroc/</a> .
 
 You can also order there the printed version of the book accompanied by a CD. Should you find the book useful you might want to consider buying it in order to support them.

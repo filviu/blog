@@ -20,12 +20,12 @@ tags:
 
 If you run slackware than all you really need is to create an empty file in **/etc** called **forcefsck**
 
-You could do this by running:  
-[ccNe_bash]  
-touch /etc/forcefsck  
-[/ccNe_bash]  
-Other linux distributions might check for this file elsewhere, for example in the root directory so the command would be  
-[ccNe_bash]  
-touch /forcefsck  
-[/ccNe_bash]  
+You could do this by running:
+```bash
+touch /etc/forcefsck
+```
+Other linux distributions might check for this file elsewhere, for example in the root directory so the command would be
+```bash
+touch /forcefsck
+```
 Checking the documentation will always help.

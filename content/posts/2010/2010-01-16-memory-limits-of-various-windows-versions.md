@@ -26,95 +26,95 @@ The following table specifies the limits on physical memory for Windows 7.
     <th>
       Version
     </th>
-    
+  
     <th>
       Limit in 32-bit Windows
     </th>
-    
+  
     <th>
       Limit in 64-bit Windows
     </th>
   </tr>
-  
+
   <tr>
     <td>
       Windows 7 Ultimate
     </td>
-    
+  
     <td>
       4 GB
     </td>
-    
+  
     <td>
       192 GB
     </td>
   </tr>
-  
+
   <tr>
     <td>
       Windows 7 Enterprise
     </td>
-    
+  
     <td>
       4 GB
     </td>
-    
+  
     <td>
       192 GB
     </td>
   </tr>
-  
+
   <tr>
     <td>
       Windows 7 Professional
     </td>
-    
+  
     <td>
       4 GB
     </td>
-    
+  
     <td>
       192 GB
     </td>
   </tr>
-  
+
   <tr>
     <td>
       Windows 7 Home Premium
     </td>
-    
+  
     <td>
       4 GB
     </td>
-    
+  
     <td>
       16 GB
     </td>
   </tr>
-  
+
   <tr>
     <td>
       Windows 7 Home Basic
     </td>
-    
+  
     <td>
       4 GB
     </td>
-    
+  
     <td>
       8 GB
     </td>
   </tr>
-  
+
   <tr>
     <td>
       Windows 7 Starter
     </td>
-    
+  
     <td>
       2 GB
     </td>
-    
+  
     <td>
       2 GB
     </td>
@@ -130,77 +130,77 @@ The following table specifies the limits on physical memory for Windows Server 
     <th>
       Version
     </th>
-    
+  
     <th>
       Limit in 64-bit Windows
     </th>
   </tr>
-  
+
   <tr>
     <td>
       Windows Server 2008 R2 Datacenter
     </td>
-    
+  
     <td>
       2 TB
     </td>
   </tr>
-  
+
   <tr>
     <td>
       Windows Server 2008 R2 Enterprise
     </td>
-    
+  
     <td>
       2 TB
     </td>
   </tr>
-  
+
   <tr>
     <td>
       Windows Server 2008 R2 for Itanium-Based Systems
     </td>
-    
+  
     <td>
       2 TB
     </td>
   </tr>
-  
+
   <tr>
     <td>
       Windows Server 2008 R2 Foundation
     </td>
-    
+  
     <td>
       8 GB
     </td>
   </tr>
-  
+
   <tr>
     <td>
       Windows Server 2008 R2 Standard
     </td>
-    
+  
     <td>
       32 GB
     </td>
   </tr>
-  
+
   <tr>
     <td>
       Windows HPC Server 2008 R2
     </td>
-    
+  
     <td>
       128 GB
     </td>
   </tr>
-  
+
   <tr>
     <td>
       Windows Web Server 2008 R2
     </td>
-    
+  
     <td>
       32 GB
     </td>
@@ -216,109 +216,109 @@ The following table specifies the limits on physical memory for Windows Server 
     <th>
       Version
     </th>
-    
+  
     <th>
       Limit in 32-bit Windows
     </th>
-    
+  
     <th>
       Limit in 64-bit Windows
     </th>
   </tr>
-  
+
   <tr>
     <td>
       Windows Server 2008 Datacenter
     </td>
-    
+  
     <td>
       64 GB
     </td>
-    
+  
     <td>
       2 TB
     </td>
   </tr>
-  
+
   <tr>
     <td>
       Windows Server 2008 Enterprise
     </td>
-    
+  
     <td>
       64 GB
     </td>
-    
+  
     <td>
       2 TB
     </td>
   </tr>
-  
+
   <tr>
     <td>
       Windows Server 2008 HPC Edition
     </td>
-    
+  
     <td>
       Not applicable
     </td>
-    
+  
     <td>
       128 GB
     </td>
   </tr>
-  
+
   <tr>
     <td>
       Windows Server 2008 Standard
     </td>
-    
+  
     <td>
       4 GB
     </td>
-    
+  
     <td>
       32 GB
     </td>
   </tr>
-  
+
   <tr>
     <td>
       Windows Server 2008 for Itanium-Based Systems
     </td>
-    
+  
     <td>
       Not applicable
     </td>
-    
+  
     <td>
       2 TB
     </td>
   </tr>
-  
+
   <tr>
     <td>
       Windows Small Business Server 2008
     </td>
-    
+  
     <td>
       4 GB
     </td>
-    
+  
     <td>
       32 GB
     </td>
   </tr>
-  
+
   <tr>
     <td>
       Windows Web Server 2008
     </td>
-    
+  
     <td>
       4 GB
     </td>
-    
+  
     <td>
       32 GB
     </td>
@@ -334,95 +334,95 @@ The following table specifies the limits on physical memory for Windows Vista.
     <th>
       Version
     </th>
-    
+  
     <th>
       Limit in 32-bit Windows
     </th>
-    
+  
     <th>
       Limit in 64-bit Windows
     </th>
   </tr>
-  
+
   <tr>
     <td>
       Windows Vista Ultimate
     </td>
-    
+  
     <td>
       4 GB
     </td>
-    
+  
     <td>
       128 GB
     </td>
   </tr>
-  
+
   <tr>
     <td>
       Windows Vista Enterprise
     </td>
-    
+  
     <td>
       4 GB
     </td>
-    
+  
     <td>
       128 GB
     </td>
   </tr>
-  
+
   <tr>
     <td>
       Windows Vista Business
     </td>
-    
+  
     <td>
       4 GB
     </td>
-    
+  
     <td>
       128 GB
     </td>
   </tr>
-  
+
   <tr>
     <td>
       Windows Vista Home Premium
     </td>
-    
+  
     <td>
       4 GB
     </td>
-    
+  
     <td>
       16 GB
     </td>
   </tr>
-  
+
   <tr>
     <td>
       Windows Vista Home Basic
     </td>
-    
+  
     <td>
       4 GB
     </td>
-    
+  
     <td>
       8 GB
     </td>
   </tr>
-  
+
   <tr>
     <td>
       Windows Vista Starter
     </td>
-    
+  
     <td>
       1 GB
     </td>
-    
+  
     <td>
       Not applicable
     </td>
@@ -442,318 +442,318 @@ The following table specifies the limits on physical memory for Windows Server 
     <th>
       Version
     </th>
-    
+  
     <th>
       Limit in 32-bit Windows
     </th>
-    
+  
     <th>
       Limit in 64-bit Windows
     </th>
   </tr>
-  
+
   <tr>
     <td>
       Windows Server 2003 with Service Pack 2 (SP2), Datacenter Edition
     </td>
-    
+  
     <td>
       128 GB</p> 
-      
+    
       <p>
         64 GB with 4GT</td> 
-        
+      
         <td>
           2 TB
         </td></tr> 
-        
+      
         <tr>
           <td>
             Windows Server 2003 with Service Pack 2 (SP2), Enterprise Edition
           </td>
-          
+        
           <td>
             64 GB
           </td>
-          
+        
           <td>
             2 TB
           </td>
         </tr>
-        
+      
         <tr>
           <td>
             Windows Storage Server 2003, Enterprise Edition
           </td>
-          
+        
           <td>
             8 GB
           </td>
-          
+        
           <td>
             Not applicable
           </td>
         </tr>
-        
+      
         <tr>
           <td>
             Windows Storage Server 2003
           </td>
-          
+        
           <td>
             4 GB
           </td>
-          
+        
           <td>
             Not applicable
           </td>
         </tr>
-        
+      
         <tr>
           <td>
             Windows Server 2003 R2 Datacenter Edition</p> 
-            
+          
             <p>
               Windows Server 2003 with Service Pack 1 (SP1), Datacenter Edition</td> 
-              
+            
               <td>
                 128 GB</p> 
-                
+              
                 <p>
                   16 GB with 4GT</td> 
-                  
+                
                   <td>
                     1 TB
                   </td></tr> 
-                  
+                
                   <tr>
                     <td>
                       Windows Server 2003 R2 Enterprise Edition</p> 
-                      
+                    
                       <p>
                         Windows Server 2003 with Service Pack 1 (SP1), Enterprise Edition</td> 
-                        
+                      
                         <td>
                           64 GB</p> 
-                          
+                        
                           <p>
                             16 GB with 4GT</td> 
-                            
+                          
                             <td>
                               1 TB
                             </td></tr> 
-                            
+                          
                             <tr>
                               <td>
                                 Windows Server 2003 R2 Standard Edition</p> 
-                                
+                              
                                 <p>
                                   Windows Server 2003, Standard Edition SP1
                                 </p>
-                                
+                              
                                 <p>
                                   Windows Server 2003, Standard Edition SP2</td> 
-                                  
+                                
                                   <td>
                                     4 GB
                                   </td>
-                                  
+                                
                                   <td>
                                     32 GB
                                   </td></tr> 
-                                  
+                                
                                   <tr>
                                     <td>
                                       Windows Server 2003, Datacenter Edition
                                     </td>
-                                    
+                                  
                                     <td>
                                       128 GB</p> 
-                                      
+                                    
                                       <p>
                                         16 GB with 4GT</td> 
-                                        
+                                      
                                         <td>
                                           512 GB
                                         </td></tr> 
-                                        
+                                      
                                         <tr>
                                           <td>
                                             Windows Server 2003, Enterprise Edition
                                           </td>
-                                          
+                                        
                                           <td>
                                             32 GB</p> 
-                                            
+                                          
                                             <p>
                                               16 GB with 4GT</td> 
-                                              
+                                            
                                               <td>
                                                 64 GB
                                               </td></tr> 
-                                              
+                                            
                                               <tr>
                                                 <td>
                                                   Windows Server 2003, Standard Edition
                                                 </td>
-                                                
+                                              
                                                 <td>
                                                   4 GB
                                                 </td>
-                                                
+                                              
                                                 <td>
                                                   16 GB
                                                 </td>
                                               </tr>
-                                              
+                                            
                                               <tr>
                                                 <td>
                                                   Windows Server 2003, Web Edition
                                                 </td>
-                                                
+                                              
                                                 <td>
                                                   2 GB
                                                 </td>
-                                                
+                                              
                                                 <td>
                                                   Not applicable
                                                 </td>
                                               </tr>
-                                              
+                                            
                                               <tr>
                                                 <td>
                                                   Windows Small Business Server 2003
                                                 </td>
-                                                
+                                              
                                                 <td>
                                                   4 GB
                                                 </td>
-                                                
+                                              
                                                 <td>
                                                   Not applicable
                                                 </td>
                                               </tr>
-                                              
+                                            
                                               <tr>
                                                 <td>
                                                   Windows Compute Cluster Server 2003
                                                 </td>
-                                                
+                                              
                                                 <td>
                                                   Not applicable
                                                 </td>
-                                                
+                                              
                                                 <td>
                                                   32 GB
                                                 </td>
                                               </tr></tbody> </table> 
-                                              
+                                            
                                               <h3>
                                                 <a id="physical_memory_limits_windows_xp"></a>Physical Memory Limits: Windows XP
                                               </h3>
-                                              
+                                            
                                               <p>
                                                 The following table specifies the limits on physical memory for Windows XP.
                                               </p>
-                                              
+                                            
                                               <table>
                                                 <tr>
                                                   <th>
                                                     Version
                                                   </th>
-                                                  
+                                                
                                                   <th>
                                                     Limit in 32-bit Windows
                                                   </th>
-                                                  
+                                                
                                                   <th>
                                                     Limit in 64-bit Windows
                                                   </th>
                                                 </tr>
-                                                
+                                              
                                                 <tr>
                                                   <td>
                                                     Windows XP
                                                   </td>
-                                                  
+                                                
                                                   <td>
                                                     4 GB
                                                   </td>
-                                                  
+                                                
                                                   <td>
                                                     128 GB
                                                   </td>
                                                 </tr>
-                                                
+                                              
                                                 <tr>
                                                   <td>
                                                     Windows XP Starter Edition
                                                   </td>
-                                                  
+                                                
                                                   <td>
                                                     512 MB
                                                   </td>
-                                                  
+                                                
                                                   <td>
                                                     Not applicable
                                                   </td>
                                                 </tr>
                                               </table>
-                                              
+                                            
                                               <h3>
                                                 <a id="physical_memory_limits_win2k"></a>Physical Memory Limits: Windows 2000
                                               </h3>
-                                              
+                                            
                                               <p>
                                                 The following table specifies the limits on physical memory for Windows 2000.
                                               </p>
-                                              
+                                            
                                               <table>
                                                 <tr>
                                                   <th>
                                                     Version
                                                   </th>
-                                                  
+                                                
                                                   <th>
                                                     Limit in 32-bit Windows
                                                   </th>
                                                 </tr>
-                                                
+                                              
                                                 <tr>
                                                   <td>
                                                     Windows 2000 Professional
                                                   </td>
-                                                  
+                                                
                                                   <td>
                                                     4 GB
                                                   </td>
                                                 </tr>
-                                                
+                                              
                                                 <tr>
                                                   <td>
                                                     Windows 2000 Server
                                                   </td>
-                                                  
+                                                
                                                   <td>
                                                     4 GB
                                                   </td>
                                                 </tr>
-                                                
+                                              
                                                 <tr>
                                                   <td>
                                                     Windows 2000 Advanced Server
                                                   </td>
-                                                  
+                                                
                                                   <td>
                                                     8 GB
                                                   </td>
                                                 </tr>
-                                                
+                                              
                                                 <tr>
                                                   <td>
                                                     Windows 2000 Datacenter Server
                                                   </td>
-                                                  
+                                                
                                                   <td>
                                                     32 GB
                                                   </td>

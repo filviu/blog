@@ -18,7 +18,6 @@ tags:
   - temp_on
 
 ---
- 
 
 So, I had to set-up master-slave replication. Here's how you do it:
 
@@ -30,70 +29,69 @@ Why would one want to set-up this? Easy.
 
 Following are the steps on how to set it up, but first let's not a few assumptions. Also please note that this sets up only the basic things. Many more settings can be tweaked to improve MySQL performance.
 
-> Master server ip: 192.168.0.1  
-> Slave server ip: 192.168.0.2  
-> Slave username: slaveusr  
-> Slave pw: slavepass  
+> Master server ip: 192.168.0.1
+> Slave server ip: 192.168.0.2
+> Slave username: slaveusr
+> Slave pw: slavepass
 > Your data directory is: /var/lib/mysql
 
 Add the following lines in your master my.cnf file under [mysqld] section:
 
-[cce]  
-\# master my.cnf  
-server-id = 1  
-relay-log = /var/lib/mysql/mysql-relay-bin  
-relay-log-index = /var/lib/mysql/mysql-relay-bin.index  
-log-error = /var/lib/mysql/mysql.err  
-master-info-file = /var/lib/mysql/mysql-master.info  
-relay-log-info-file = /var/lib/mysql/mysql-relay-log.info  
-datadir = /var/lib/mysql  
-log-bin = /var/lib/mysql/mysql-bin  
-\# end master   
-[/cce]
+[cce]
+\# master my.cnf
+server-id = 1
+relay-log = /var/lib/mysql/mysql-relay-bin
+relay-log-index = /var/lib/mysql/mysql-relay-bin.index
+log-error = /var/lib/mysql/mysql.err
+master-info-file = /var/lib/mysql/mysql-master.info
+relay-log-info-file = /var/lib/mysql/mysql-relay-log.info
+datadir = /var/lib/mysql
+log-bin = /var/lib/mysql/mysql-bin
+\# end master 
+```
 
-The following settings are for the slave’s my.cnf under the same [mysqld] section:  
-[cce]  
-\# slave's my.cnf  
-server-id = 2  
-relay-log = /var/lib/mysql/mysql-relay-bin  
-relay-log-index = /var/lib/mysql/mysql-relay-bin.index  
-log-error = /var/lib/mysql/mysql.err  
-master-info-file = /var/lib/mysql/mysql-master.info  
-relay-log-info-file = /var/lib/mysql/mysql-relay-log.info  
-datadir = /var/lib/mysql  
-\# end slave settings  
-[/cce]  
+The following settings are for the slave’s my.cnf under the same [mysqld] section:
+[cce]
+\# slave's my.cnf
+server-id = 2
+relay-log = /var/lib/mysql/mysql-relay-bin
+relay-log-index = /var/lib/mysql/mysql-relay-bin.index
+log-error = /var/lib/mysql/mysql.err
+master-info-file = /var/lib/mysql/mysql-master.info
+relay-log-info-file = /var/lib/mysql/mysql-relay-log.info
+datadir = /var/lib/mysql
+\# end slave settings
+```
 Restart both mysql instances after changing the settings in my.cnf
 
-Create the slave user on master server:  
-[cceN]  
-mysql> grant replication slave on \*.\* to slaveusr@'10.0.0.2&#8242; identified by 'slavepass';  
-[/cceN]  
+Create the slave user on master server:
+[cceN]
+mysql> grant replication slave on \*.\* to slaveusr@'10.0.0.2&#8242; identified by 'slavepass';
+[/cceN]
 Dump the full data and copy it (scp, etc.) to the slave
 
-[cceN]  
-mysqldump -u root -pROOTPASS -all-databases -single-transaction -master-data=1 > masterdump.sql  
+[cceN]
+mysqldump -u root -pROOTPASS -all-databases -single-transaction -master-data=1 > masterdump.sql
 [/cceN]
 
 import this dump on the slave server:
 
-[cceN]  
-mysql -u root -pROOTPASS < masterdump.sql  
+[cceN]
+mysql -u root -pROOTPASS < masterdump.sql
 [/cceN]
 
-After dump is imported go in to mysql client by typing mysql. Let us tell the slave which master to connect to and what login/password to use:  
-[cceN]  
-mysql> CHANGE MASTER TO MASTER\_HOST='192.168.0.1&#8242;, MASTER\_USER='slaveusr', MASTER_PASSWORD='slavepass';  
+After dump is imported go in to mysql client by typing mysql. Let us tell the slave which master to connect to and what login/password to use:
+[cceN]
+mysql> CHANGE MASTER TO MASTER_HOST='192.168.0.1&#8242;, MASTER_USER='slaveusr', MASTER_PASSWORD='slavepass';
 [/cceN]
 
-Start the slave:  
-[cceN]  
-mysql> start slave;  
-[/cceN]  
- 
+Start the slave:
+[cceN]
+mysql> start slave;
+[/cceN]
 
-Check the status on the slave:  
-[cceN]  
-mysql> show slave statusG  
-[/cceN]  
-The last row will tell how many seconds the slave runs behind the master. No worries if it's not 0, it should catch up quickly (at that time it will show Seconds\_Behind\_Master: 0) If it reads NULL, maybe the slave is not started (you can start by typing: start slave) or it could be that there is a problem(shows up in Last\_errno: and Last\_error under show slave status).
+Check the status on the slave:
+[cceN]
+mysql> show slave statusG
+[/cceN]
+The last row will tell how many seconds the slave runs behind the master. No worries if it's not 0, it should catch up quickly (at that time it will show Seconds_Behind_Master: 0) If it reads NULL, maybe the slave is not started (you can start by typing: start slave) or it could be that there is a problem(shows up in Last_errno: and Last_error under show slave status).

@@ -25,20 +25,18 @@ _Corel Draw is one of the most expensive pieces of junk I ever saw._ **I take th
 
  ****Nevertheless I, and probably you too have to use and maintain it. I had the following problem on a fresh installation of Windows XP SP3: every time I wanted to export, save as or open a drawing Corel Draw X3 would crash regularly with it's darned Crash Wizard.I tried applying the patches found on the Corel support page but it didn't help. After some digging I found that it's a problem related to the **Common Dialogue** function found in **comdlg32**.
 
-You must launch regedit (**ALT+R** or **START->RUN** and type **regedit** and press **enter**) and go to:  
-[HKEY\_CURRENT\_USERSoftwareMicrosoftWindowsCurrentVersionPoliciescomdlg32]  
-and change **NoFileMru** from **0x00000001** to **0x00000000** 
-
-[ccNe_reg]  
+You must launch regedit (**ALT+R** or **START->RUN** and type **regedit** and press **enter**) and go to:
+[HKEY_CURRENT_USERSoftwareMicrosoftWindowsCurrentVersionPoliciescomdlg32]
+and change **NoFileMru** from **0x00000001** to **0x00000000**
+[ccNe_reg]
 Windows Registry Editor Version 5.00
 
-[HKEY\_CURRENT\_USERSoftwareMicrosoftWindowsCurrentVersionPoliciesComDlg32]  
+[HKEY_CURRENT_USERSoftwareMicrosoftWindowsCurrentVersionPoliciesComDlg32]
 "NoFileMru"=dword:00000000
 
 [/ccNe_reg]
 
-**_If on your computer it's already 0 it's worth trying the other way around, just remember to set it back if it doesn't help._** 
-
+**_If on your computer it's already 0 it's worth trying the other way around, just remember to set it back if it doesn't help._**
 **UPDATE:** I encountered the very same problem with Corel Draw X4 (even after applying the Corel Service Pack for X4) with the ugly difference that the cause of the crash is not reported. Fortunately repeated crashes on open, save, save as and export made me remember this article and sure enough this was the cause.
 
 **UPDATE:** Users are reporting the same problem of crashing with Corel X5 and Windows XP.
@@ -53,8 +51,6 @@ Am I the only one thinking Corel is getting crapier and crapier by the version? 
 
 [<img decoding="async" src="https://www.paypal.com/en_US/i/btn/btn_donate_LG.gif" alt="" />][1]
 
- 
 
- 
 
  [1]: https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=NM3TEVVVV7D52&lc=RO&item_name=sgvulcan%2ecom&item_number=corel&currency_code=USD&bn=PP%2dDonationsBF%3abtn_donate_LG%2egif%3aNonHosted

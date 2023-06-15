@@ -19,21 +19,19 @@ tags:
 ---
 Many  guides found online will show you how to completely remove the arrow of the desktop shortcuts. If you, like me, preffer the smaller shortcut arrow icon that Windows XP has, as opposed to the big one Windows 7 proudly shows here's what you have to d:
 
-Start  **regedit** (Alt+R, regedit.exe, enter)**  
-** 
-
- ****  
+Start  **regedit** (Alt+R, regedit.exe, enter)**
+**
+ ****
 Go to:
 
- **HKEY\_LOCAL\_MACHINESOFTWAREMicrosoft WindowsCurrentVersionExplorerShell Icons** 
-
+ **HKEY_LOCAL_MACHINESOFTWAREMicrosoft WindowsCurrentVersionExplorerShell Icons**
 If  **Sell Icons** is not there, under Explorer create the new key. (Right cklick, new key)
 
 In the right pane create a new **String Value** with the name **29**.
 
 Right click on this value and choose Modify.
 
-Type the following as it's value:  
+Type the following as it's value:
 **c:windowsSystem32shell32.dll,29** and click **ok**.
 
 Restart you computer to see the effects.

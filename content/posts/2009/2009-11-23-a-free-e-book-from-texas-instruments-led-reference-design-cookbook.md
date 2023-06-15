@@ -27,25 +27,25 @@ It is a 41-page "cookbook" of circuit designs and application notes for TI's LED
   * Large-LCD Backlight Driver
   * Constant Current Driver with PFC
   * Boost Controller with PFC
-  * Replacement for Standard  
+  * Replacement for Standard
     Lightbulb
-  * 25-Watt Dimmable Driver  
+  * 25-Watt Dimmable Driver
     with PFC
-  * 100-Watt, Constant-Current,  
+  * 100-Watt, Constant-Current,
     Non-Isolated Driver with PFC
-  * 110-Watt, Constant-Current,  
+  * 110-Watt, Constant-Current,
     Isolated Driver with PFC
-  * 10-Watt, Green-Mode PWM  
+  * 10-Watt, Green-Mode PWM
     LED Driver
-  * Wireless-Controlled Triple  
+  * Wireless-Controlled Triple
     LED Drive
-  * Low Voltage Buck Boost for  
+  * Low Voltage Buck Boost for
     LED Torch
-  * Boost Driver with Integrated  
+  * Boost Driver with Integrated
     Power Switch
-  * Nonsynchronous Boost LED  
+  * Nonsynchronous Boost LED
     Driver
-  * Wide Input DC Voltage Range  
+  * Wide Input DC Voltage Range
     SEPIC Driver
   * 3-Watt Solar Lantern
 

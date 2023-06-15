@@ -19,11 +19,10 @@ tags:
 
 If you are coming from windows and moving onto linux you might be used to press backspace to go back one page in Firefox. Well you're in for a small surprise - _**id doesn't work.**_
 
-You need to go to _**about:config**_ 
-
+You need to go to _**about:config**_
 **browser.backspace_action** as either 0 or 1.
 
-> 0 means that the backspace button will go back a page in the session history  
+> 0 means that the backspace button will go back a page in the session history
 > 1 means that pressing the backspace key will scroll up one page in the current document
 
  [1]: http://blog.silviuvulcan.ro/wp-content/uploads/sites/2/2010/03/backspace.jpg

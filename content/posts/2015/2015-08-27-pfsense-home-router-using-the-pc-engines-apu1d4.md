@@ -21,8 +21,6 @@ tags:
     src="/blog/images/2015/pcalix-home-router.jpg" 
     alt="Picture of PC Engines APU1D4 with cover removed, a wireless card mounted in the middle slot and an ADATA 32GB mSATA SSD next to it, ready to be mounted." 
 >}}
-
-
 My old home router based on a sandy bridge dual core celeron and a gigabyte motherboard got "stolen" by my wife to use as a desktop as her old laptop was getting pretty slow.
 
 I ran for a while Tomato on a Cisco E3200 router but it wasn't able to keep up with my home connection (300 down / 100 up). Even if the router has gigabit ports it was only able to nat at ~100-150Mbit and openvpn was limited to around 10Mbit

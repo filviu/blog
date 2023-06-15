@@ -22,7 +22,7 @@ Recently I added a new storage disk to a cloud server. The issue is that this di
 /dev/xvdd1 /storage ext4 defaults,nobootwait 0 0
 ```
 
-  
+
 _Note that the fsck order of 0 already ensures that fsck will not hold the boot process by complaining the disk is missing._
 
 This is what I did, then I tried to mount my new attached disk:

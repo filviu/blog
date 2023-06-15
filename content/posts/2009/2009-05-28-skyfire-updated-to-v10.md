@@ -35,7 +35,7 @@ What's new:
   <p>
     <figure id="attachment_129" aria-describedby="caption-attachment-129" style="width: 320px" class="wp-caption aligncenter"><img decoding="async" loading="lazy" class="size-full wp-image-129  " title="screenshot0010_cnv" src="http://blog.silviuvulcan.ro/wp-content/uploads/sites/2/2009/05/screenshot0010_cnv.jpg" alt="Skyfire 1.0" width="320" height="240" /><figcaption id="caption-attachment-129" class="wp-caption-text">Skyfire 1.0</figcaption></figure>
   </p>
-  
+
   <p>
     <figure id="attachment_127" aria-describedby="caption-attachment-127" style="width: 320px" class="wp-caption aligncenter"><img decoding="async" loading="lazy" class="size-full wp-image-127" title="screenshot0011_cnv" src="http://blog.silviuvulcan.ro/wp-content/uploads/sites/2/2009/05/screenshot0011_cnv.jpg" alt="Skyfire 1.0" width="320" height="240" /><figcaption id="caption-attachment-127" class="wp-caption-text">Skyfire 1.0</figcaption></figure>
   </p>

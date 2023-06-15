@@ -18,13 +18,13 @@ tags:
 
 While working on a test environment I noticed that php code was not finding new hosts. The hosts were served by an internal, private dns server which was configured as default in resolv.conf
 
-[ccNe_apache]  
-Warning: file\_get\_contents(http://www.testdomain.com/webapp/file.php) [function.file-get-contents]: failed to open stream: HTTP request failed! HTTP/1.1 500 Internal Server Error in /var/www/htdocs/test.php on line 4  
+[ccNe_apache]
+Warning: file_get_contents(http://www.testdomain.com/webapp/file.php) [function.file-get-contents]: failed to open stream: HTTP request failed! HTTP/1.1 500 Internal Server Error in /var/www/htdocs/test.php on line 4
 [/ccNe_apache]
 
-[ccNe_bash]  
-[root@jentlaibm01 manager]# cat test.php  
-[/ccNe_bash]
+```bash
+[root@jentlaibm01 manager]# cat test.php
+```
 
 [cce_php]
 

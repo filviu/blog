@@ -17,43 +17,41 @@ tags:
 ---
 I've been using [Nagios][1] to monitor servers and devices for years now. Lately as an exercise to learn more about nagios I installed a private instance that I use to monitor everything I can think of - from my personal servers to the number of hours we watch TV.
 
-A nice use I found is to monitor the number of followers my twitter bots and personal account have. For that I wrote a custom plugin, available in my small repository of plugins at: <https://github.com/silviuvulcan/nagios-plugins>
+A nice use I found is to monitor the number of followers my twitter bots and personal account have. For that I wrote a custom plugin, available in my small repository of plugins at: <https://github.com/filviu/nagios-plugins>
 
 The plugin pulls the number from the public site - no API access required. Since the data is not changing frequently you could use a custom setting to check less often. My entry looks like this:
 
-[cce_nagios]
-
-define host{  
-use                     linux-server  
-host_name               twitter  
-alias                   twitter  
-address                 twitter.com  
+```apacheconf
+define host {
+    use                      linux-server
+    host_name                twitter
+    alias                    twitter
+    address                  twitter.com
 }
 
-define service{  
-use                             local-service,graphed-service         ; Name of service template to use  
-host_name                       twitter  
-service_description             Twitter followers: @rtjolla  
-normal\_check\_interval           60                    ; check hourly  
-check\_command                   check\_twitterfollowers!rtjolla  
+define service {
+    use                      local-service,graphed-service         ; Name of service template to use
+    host_name                twitter
+    service_description      Twitter followers: @rtjolla
+    normal_check_interval    60                    ; check hourly
+    check_command            check_twitterfollowers!rtjolla
 }
-
-[/cce_nagios]
+```
 
 This creates a host named twitter, and graphs (provided you have [nagiosgrapher][2] up and running) the number of followers. Of course you have to install the plugin and create a custom command for it. Mine looks like this:
 
-[cce_nagios]  
-define command{  
-command\_name check\_twitterfollowers  
-command\_line $USER1$/check\_twitterfollowers.sh -u $ARG1$  
-}  
-[/cce_nagios]
+```apacheconf
+    define command{
+    command_name check_twitterfollowers
+    command_line $USER1$/check_twitterfollowers.sh -u $ARG1$
+}
+```
 
 Below is the code of the plugin if you are not interested in cloning the repo:
 
 [github file="/silviuvulcan/nagios-plugins/blob/master/check_twitterfollowers.sh"]
 
-<figure id="attachment_3060" aria-describedby="caption-attachment-3060" style="width: 860px" class="wp-caption aligncenter">[<img decoding="async" loading="lazy" class="wp-image-3060 size-large" src="http://blog.silviuvulcan.ro/wp-content/uploads/sites/2/2014/10/twitter-nagios-1024x244.png" alt="Twitter followers graphed by nagios sample" width="860" height="205" />][3]<figcaption id="caption-attachment-3060" class="wp-caption-text">Twitter followers graphed by nagios sample</figcaption></figure>
+![Screenshot of the Twitter followers graphed by nagios sample nagiosgraph](/blog/images/2014/twitter-nagios.png)
 
  [1]: http://www.nagios.org/
  [2]: http://nagiosgraph.sourceforge.net/

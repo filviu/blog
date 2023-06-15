@@ -22,43 +22,43 @@ tags:
 
 MySQL prior to 5.1.0 requires adding a setting to the MySQL my.cnf file and restart the mysql daemon in order to log slow queries; from MySQL 5.1.0 onwards you can also change this dynamically without having to restart.
 
-To make the setting permanent every time you start MySQL (or you have a version prior to 5.1.0) add (ow uncomment) the following in my.cnf (usually /etc/my.cnf or /etc/mysql/my.cnf)  
-[cceN_bash]  
-log\_slow\_queries = /var/log/mysql/mysql-slow.log  
-[/cceN_bash]  
+To make the setting permanent every time you start MySQL (or you have a version prior to 5.1.0) add (ow uncomment) the following in my.cnf (usually /etc/my.cnf or /etc/mysql/my.cnf)
+[cceN_bash]
+log_slow_queries = /var/log/mysql/mysql-slow.log
+[/cceN_bash]
 You can skip the path or leave it blank completely and mysql will create the log in the default location. The default is to log the queries into a file in the MySQL data directory.
 
-To enable or disable the setting dynamically in MySQL 5.1.0 run the following query to enable it:  
-[cceN_bash]  
-set log\_slow\_queries = ON;  
-[/cceN_bash]  
-and to disable it:  
-[cceN_bash]  
-set log\_slow\_queries = OFF;  
+To enable or disable the setting dynamically in MySQL 5.1.0 run the following query to enable it:
+[cceN_bash]
+set log_slow_queries = ON;
+[/cceN_bash]
+and to disable it:
+[cceN_bash]
+set log_slow_queries = OFF;
 [/cceN_bash]
 
 ### Changing the long query time
 
 You can also set how long a query needs to take before it's considered a "long" query. The default is 10 seconds. I usually like to set it lower:
 
-To change it to 5 seconds add in my.cnf:  
-[cceN_bash]  
-long\_query\_time = 5  
-[/cceN_bash]  
-This can be changed dynamically in MySQL 5.0.0+ (and possibly earlier versions) by running the following query:  
-[cceN_bash]  
-set global long\_query\_time = 5;  
-[/cceN_bash]  
+To change it to 5 seconds add in my.cnf:
+[cceN_bash]
+long_query_time = 5
+[/cceN_bash]
+This can be changed dynamically in MySQL 5.0.0+ (and possibly earlier versions) by running the following query:
+[cceN_bash]
+set global long_query_time = 5;
+[/cceN_bash]
 This will only work for new connections; any connections which have already been established will continue to use the old setting. Once the user disconnects and reconnects their new connection will use the new setting.
 
 ### Errors you can get applying these settings dynamically
 
-If the following error message appears when attempting to change the log\_slow\_queries setting dynamically means you are using a version of MySQL that does not support changing the setting dynamically:  
-[cceN_mysql]  
-ERROR 1193 (HY000): Unknown system variable 'log\_slow\_queries'  
-[/cceN_mysql]  
-The long\_query\_time value must be integer; if it's not (e.g. you set long\_query\_time = 2.5;) then you'll see this error:  
-[cceN_mysql]  
-#1232 - Incorrect argument type to variable 'long\_query\_time'  
-[/cceN_mysql]  
-Note also that if you set the long\_query\_time to 0 it will not fail, but the actual setting applied will be 1 and not 0.
+If the following error message appears when attempting to change the log_slow_queries setting dynamically means you are using a version of MySQL that does not support changing the setting dynamically:
+[cceN_mysql]
+ERROR 1193 (HY000): Unknown system variable 'log_slow_queries'
+[/cceN_mysql]
+The long_query_time value must be integer; if it's not (e.g. you set long_query_time = 2.5;) then you'll see this error:
+[cceN_mysql]
+#1232 - Incorrect argument type to variable 'long_query_time'
+[/cceN_mysql]
+Note also that if you set the long_query_time to 0 it will not fail, but the actual setting applied will be 1 and not 0.

@@ -21,24 +21,23 @@ When away I use a vpn connection to connect to my home server. The first thing a
 
 Apparently all you have to do is drop a script similar to this in **/etc/NetworkManager/dispatcher.d/**
 
-[cce_bash]
-
-#!/bin/bash  
-interface=$1  
+```bash
+#!/bin/bash
+interface=$1
 status=$2
 
-LOG="/var/log/network\_manager\_custom.log"
+LOG="/var/log/network_manager_custom.log"
 
-if [ "$CONNECTION_UUID" = "xxx-xxx-xxx" ]; then  
-case $status in  
-vpn-up)  
-mount /mnt/something >> $LOG 2>&1  
-;;  
-vpn-down)  
-umount /mnt/something >> $LOG 2>&1  
-;;  
-esac  
-fi  
-[/cce_bash]
+if [ "$CONNECTION_UUID" = "xxx-xxx-xxx" ]; then
+case $status in
+vpn-up)
+mount /mnt/something >> $LOG 2>&1
+;;
+vpn-down)
+umount /mnt/something >> $LOG 2>&1
+;;
+esac
+fi
+```
 
 Make it executable and be sure it is not world writeable.

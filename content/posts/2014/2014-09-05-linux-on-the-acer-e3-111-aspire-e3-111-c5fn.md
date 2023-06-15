@@ -17,7 +17,12 @@ tags:
   - temp_on
 
 ---
-<img decoding="async" loading="lazy" class="alignleft size-medium wp-image-3034" src="http://blog.silviuvulcan.ro/wp-content/uploads/sites/2/2014/09/E3111silver3-800x800-300x249.jpg" alt="E3111silver3-800x800" width="300" height="249" />I gave up on using a tablet and sold mine some time ago. My old toshiba m100 laptop was to heavy and too old to lug around when on holiday (mainly to download photos) so I decided to buy a small laptop to replace it. 10&#8242; is too small for me and so I decided on an 11&#8242; low cost system.
+{{< figure 
+    src="/blog/images/2014/E3111silver3-800x800-300x249.jpg"
+    alt="Stock image of a silver Acer E3-111"
+    class="alignleft"
+>}}
+I gave up on using a tablet and sold mine some time ago. My old toshiba m100 laptop was to heavy and too old to lug around when on holiday (mainly to download photos) so I decided to buy a small laptop to replace it. 10&#8242;&#8242; is too small for me and so I decided on an 11&#8242;&#8242; low cost system.
 
 I bought an [Acer Aspire E3-111][1] instead of competing models from Asus and others because I found a good deal on it and because of the quad core CPU -  Intel® Celeron® N2930 - that I couldn't find on any other machine.
 
@@ -33,16 +38,16 @@ Below are some tips and tricks on running linux on it:
 
   * I didn't want to bother with UEFI and so I switched to legacy in BIOS. The laptop sometimes fails to boot (kernel loading hangs at some point) and I have to powercycle. I will have to test and see if using UEFI helps
   * I cannot boot using kernel-generic, only kernel-huge
-  * I added the following parameters to the kernel command line: acpi_backlight=vendor in order to get backlight shortcuts to work
+  * I added the following parameters to the kernel command line: `acpi_backlight=vendor` in order to get backlight shortcuts to work
 
 **Keyboard**
 
-  * Sometimes the arrow keys didn't work and more the "UP" arrow would trigger the _Disable Touchpad_ shortcut. The only fix was to poweroff & boot over and over (sometimes 2-3 times) until the arrow keys worked. I added a second entry in LILO just to be able to test the arrow keys.**Update:** Bios update 1.29 from 2014/10/28 seems to fix this!
+  * Sometimes the arrow keys didn't work and more the "UP" arrow would trigger the _Disable Touchpad_ shortcut. The only fix was to poweroff & boot over and over (sometimes 2-3 times) until the arrow keys worked. I added a second entry in LILO just to be able to test the arrow keys. **Update:** Bios update 1.29 from 2014/10/28 seems to fix this!
 
 **Sleep**
 
-  * I can get the machine to enter sleep either using the shortcut or closing the lid but I cannot get it to wake up  
-    **Update**: by blacklisting **dw_dmac** and **dw\_dmac\_core** I can now enter and resume sleep without issues.
+  * I can get the machine to enter sleep either using the shortcut or closing the lid but I cannot get it to wake up
+    **Update**: by blacklisting `dw_dmac` and `dw_dmac_core` I can now enter and resume sleep without issues.
 
 **Ethernet/WiFi**
 
@@ -54,7 +59,7 @@ Below are some tips and tricks on running linux on it:
 
 **Video**
 
-  * I didn't test yet how video playing works.  
+  * I didn't test yet how video playing works.
     **Update:** at least normal files play well, including hd files. I tried some streams in browser from twit.tv and they were dropping frames badly, but in vlc they work fine.
 
 **Misc**

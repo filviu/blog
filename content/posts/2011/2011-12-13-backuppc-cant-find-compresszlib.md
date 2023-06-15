@@ -23,10 +23,10 @@ One <a href="http://d.hatena.ne.jp/lopnor/20071120/1195522440" target="_blank" r
 
 I finally stumbled to this <a href="http://www.backupcentral.com/phpBB2/two-way-mirrors-of-external-mailing-lists-3/backuppc-21/backuppc-cant-find-compress-zlib-after-recent-update-on-cen-106280/" target="_blank" rel="noopener">fix</a>:
 
-> Turns out it's a problem with List::Util. The perl-Scalar-List-Utils  
-> rpm conflicts with perl-5.8.8-32.el5_5.1.i386 rpm. Upgrading List::Util  
+> Turns out it's a problem with List::Util. The perl-Scalar-List-Utils
+> rpm conflicts with perl-5.8.8-32.el5_5.1.i386 rpm. Upgrading List::Util
 > from 1.19 to 1.23 from CPAN solved the problem.
 > 
->  
+>
 
 Close enough, but my version of List::Util was up to date. Still it was worth a shot; a force install List::Util in <a href="http://manpages.sgvulcan.com/perl.1.php" target="_blank" rel="noopener">perl</a> CPAN shell (perl -MCPAN -e shell) I was back up and running!

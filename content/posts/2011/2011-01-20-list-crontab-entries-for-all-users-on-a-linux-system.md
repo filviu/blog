@@ -15,6 +15,6 @@ tags:
 ---
 This is a good one liner to remember:
 
-[ccNe_bash]  
-for user in $(cut -f1 -d: /etc/passwd); do crontab -u $user -l; done  
-[/ccNe_bash]
+```bash
+for user in $(cut -f1 -d: /etc/passwd); do crontab -u $user -l; done
+```

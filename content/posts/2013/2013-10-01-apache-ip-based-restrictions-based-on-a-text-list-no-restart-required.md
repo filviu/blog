@@ -34,11 +34,11 @@ To get around this I moved away from _Access control_ to a rewrite map. Using th
 
 [cc_apache]
 
-\## WHITELIST IPS ##  
-RewriteEngine On  
-RewriteMap ipslist txt:/usr/local/etc/apache-whitelist.txt  
-RewriteCond %{REMOTE_ADDR} ^(.*)$  
-RewriteCond ${ipslist:%1|black} ^black$ [NC]  
+\## WHITELIST IPS ##
+RewriteEngine On
+RewriteMap ipslist txt:/usr/local/etc/apache-whitelist.txt
+RewriteCond %{REMOTE_ADDR} ^(.*)$
+RewriteCond ${ipslist:%1|black} ^black$ [NC]
 RewriteRule (.*) - [F]
 
 [/cc_apache]
@@ -47,16 +47,16 @@ What this does is check the client's IP against /usr/local/etc/apache-whitelist.
 
 [cc_bash]
 
-##  
-\## ATTENTION! This is a map, not a list, even when we treat it as such.  
-\## mod_rewrite parses it for key/value pairs, so at least a  
-\## dummy value "-" must be present for each entry.  
+##
+\## ATTENTION! This is a map, not a list, even when we treat it as such.
+\## mod_rewrite parses it for key/value pairs, so at least a
+\## dummy value "-" must be present for each entry.
 ##
 
-127.0.0.1 -  
-198.51.100.1 -  
-\# below is myhost (the update script checks for this line)  
-198.51.100.24 -  
+127.0.0.1 -
+198.51.100.1 -
+\# below is myhost (the update script checks for this line)
+198.51.100.24 -
 [/cc_bash]
 
 Changes to this file don't require reloading apache. After this writting a script that updates some dynamic IP in the text file is easy.
@@ -65,19 +65,18 @@ When your IP changes you will have a window during witch you won't be able to ac
 
 Oh, if you need an example here is the script I use:
 
-[cce_bash]
-
-#!/bin/bash  
-#  
-\# be sure to have a comment line with your match term  
-\# in the whitelist file  
-LIST='/usr/local/etc/apache-whitelist.txt'  
+```bash
+#!/bin/bash
+#
+\# be sure to have a comment line with your match term
+\# in the whitelist file
+LIST='/usr/local/etc/apache-whitelist.txt'
 MYHOST=$(resolveip -silent example.dyndns.org)
 
-sed '/myhost/{n;d}' $LIST > $LIST.tmp  
+sed '/myhost/{n;d}' $LIST > $LIST.tmp
 sed "s/.\*myhost.\*/&n$MYHOST -/" $LIST.tmp > $LIST
 
-/bin/rm $LIST.tmp  
-[/cce_bash]
+/bin/rm $LIST.tmp
+```
 
  [1]: http://httpd.apache.org/docs/current/rewrite/access.html#host-deny

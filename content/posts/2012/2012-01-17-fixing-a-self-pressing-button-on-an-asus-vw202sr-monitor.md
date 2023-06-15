@@ -58,9 +58,7 @@ Make note of the button causing you troubles. For me it was menu right (toggles 
 
 Not a good picture but enough detail on the bad button. The problem was caused by 1-2 metal particulates in the button. I cleaned it with a cotton swab. After you put the disc and the two plastic parts in place simply press the casing to snap in place.
 
- 
 
- 
 
 [<img decoding="async" loading="lazy" title="Asus monitor dissasembly step" src="http://blog.silviuvulcan.ro/wp-content/uploads/sites/2/2012/01/IMG_0377_v1-500x227.jpg" alt="Asus monitor dissasembly step" width="500" height="227" />][10]
 

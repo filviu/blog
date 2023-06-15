@@ -24,7 +24,7 @@ In windows XP, after you activate hibernation from Desktop->Properties->Screensa
 
 Well another way is to add in:
 
-[HKEY\_LOCAL\_MACHINESOFTWAREPoliciesMicrosoftWindowsSystemShutdown]
+[HKEY_LOCAL_MACHINESOFTWAREPoliciesMicrosoftWindowsSystemShutdown]
 
 A value named:
 

@@ -18,13 +18,13 @@ tags:
 On one of my kde workstations I switched from firefox to chrome. One issue I found was that I have a custom script that takes magnet links and [adds them to my NAS server][1] instead of opening them locally. Chrome insisted on opening them with ktorrent instead of my custom script. The fix is to create a file `torrent.sh.desktop` inside `~/.local/share/applications/` with the following content:
 
 ```ini
-[Desktop Entry]  
-Type=Application  
-Exec=/usr/local/bin/torrent.sh %u  
-MimeType=x-scheme-handler/magnet;  
-Name=torrent.sh  
-Icon=  
-NoDisplay=true  
+[Desktop Entry]
+Type=Application
+Exec=/usr/local/bin/torrent.sh %u
+MimeType=x-scheme-handler/magnet;
+Name=torrent.sh
+Icon=
+NoDisplay=true
 ```
 
 After that run:

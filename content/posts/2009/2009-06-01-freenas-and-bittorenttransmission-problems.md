@@ -42,21 +42,21 @@ Yesterday I left it downloading the latest ubuntu version. (Yes I know I'm behin
   1. I didn't set the configuration folder for bittorent: Services -> BitTorrent -> Configuration directory, I assumed that it would use whatever the default is. Well, I set it to a folder on my shared drive, added some files rebooted and the downloads were still there, so one problem solved.
   2. The second was even easier as danmero & evadman offer a solution on the Freenas forums <a href="http://apps.sourceforge.net/phpbb/freenas/viewtopic.php?f=12&t=18" target="_blank" rel="noopener">here</a>. The file & folder rights of downloaded files are insufficient, so I just added the following into cron (System -> Advanced -> Cron):
 
-[ccNe_bash]  
-#!/bin/sh  
-\# filename:   perm_reset.sh  
-\# author:     Dan Merschi edited by evadman  
-\# date:       2008-10-24 original, edit 2008-10-28  
-\# purpose:    Reset permissions on torrent file and directory once  
-#  
-DIR=$(/usr/local/bin/xml sel -T -t -v "/freenas/bittorrent/downloaddir" /conf/config.xml)  
-if   [ ! $(pgrep transmission) ]; then  
-logger -p local5.info "Transmission not running"  
-elif   [ ! -d "$DIR" ];then  
-logger -p local5.info "Transmission download dir not set."  
-else  
-/usr/bin/find $DIR -type d ! -perm 777 -exec /bin/chmod 777 {} ;  
-/usr/bin/find $DIR -type f ! -perm 666 -exec /bin/chmod 666 {} ;  
-fi  
-[/ccNe_bash]  
+```bash
+#!/bin/sh
+\# filename:   perm_reset.sh
+\# author:     Dan Merschi edited by evadman
+\# date:       2008-10-24 original, edit 2008-10-28
+\# purpose:    Reset permissions on torrent file and directory once
+#
+DIR=$(/usr/local/bin/xml sel -T -t -v "/freenas/bittorrent/downloaddir" /conf/config.xml)
+if   [ ! $(pgrep transmission) ]; then
+logger -p local5.info "Transmission not running"
+elif   [ ! -d "$DIR" ];then
+logger -p local5.info "Transmission download dir not set."
+else
+/usr/bin/find $DIR -type d ! -perm 777 -exec /bin/chmod 777 {} ;
+/usr/bin/find $DIR -type f ! -perm 666 -exec /bin/chmod 666 {} ;
+fi
+```
 Done, I can now move and delete files from the downloads folder.

@@ -17,13 +17,13 @@ tags:
   - temp_on
 
 ---
-When writting bash scripts one often needs to see if a process is running or not  
-I like the following code; though I'm sure many ways of doing this exists, what's your favorite?  
-[cce_bash]  
-if [ -z "$(pgrep process)" ]  
-then  
-echo "process is not running"  
-else  
-echo "process is running"  
-fi  
-[/cce_bash]
+When writting bash scripts one often needs to see if a process is running or not
+I like the following code; though I'm sure many ways of doing this exists, what's your favorite?
+```bash
+if [ -z "$(pgrep process)" ]
+then
+echo "process is not running"
+else
+echo "process is running"
+fi
+```

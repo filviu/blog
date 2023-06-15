@@ -29,9 +29,9 @@ It's really easy to install:
   5. Now you can launch  **cd /opt/sockso-1.5.3 && java -jar sockso.jar –nogui**
   6. I don't use ssl because I only allow local access to socks (and use openvpn when I'm away from home as I trust it a lot more than securing each of those little applications)
   7. If you type **‘help’** you'll get a short usage list
-  8. Add your first music folder – **coladd /home/myuser/music  
+  8. Add your first music folder – **coladd /home/myuser/music
 ** 
-  9. Wait&#8230;
+  9. Wait...
  10. Set it up so it will start on boot, I used  **/usr/bin/screen -dmS sockso /opt/sockso/sockso-start.sh** in **rc.local** (ugly, I know 🙂 ) **sockso-start.sh** is a small script that launches **java -jar sockso.jar –nogui –datadir /var/lib/sockso –ip=192.168.0.1 –locale=en**
  11. [Read the documentation][2] (there are more options than help will show), i.e. I disabled cover art, disabled user registration and set it up so it will work without a password.
 

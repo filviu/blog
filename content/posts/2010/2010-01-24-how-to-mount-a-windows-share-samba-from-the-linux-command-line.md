@@ -25,11 +25,11 @@ Please note that you'll need to know the following:
   * The machine and share name. Something like //xpdesktop/pictures
   * Have root access on the linux machine
 
-Login on your linux machine as root. Type the following command to mount your remote windows share:  
-[ccNe_bash]  
-mkdir /mnt/share_name  
-mount -t cifs //xpdesktop/pictures -o username=john, password=johnspass /mnt/share_name  
-[/ccNe_bash]  
+Login on your linux machine as root. Type the following command to mount your remote windows share:
+```bash
+mkdir /mnt/share_name
+mount -t cifs //xpdesktop/pictures -o username=john, password=johnspass /mnt/share_name
+```
 Where:
 
   * xpdesktop is the network name of the Windows machine
@@ -37,9 +37,9 @@ Where:
   * johnspass is the password used to access the windows share
   * /mnt/share_name is the target folder where the partition will be mounted (the folder you just created above)
 
-You can now cd and ls the remote windows share as any other folder on the linux machine:  
-[ccNe_bash]  
-cd /mnt/share_name  
-ls  -l  
-[/ccNe_bash]  
+You can now cd and ls the remote windows share as any other folder on the linux machine:
+```bash
+cd /mnt/share_name
+ls  -l
+```
 I'll show you in a following article how you can automatically mount a remote Windows share at boot time.

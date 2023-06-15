@@ -21,13 +21,13 @@ tags:
 ---
 This was pretty simple but complicated :). It turns out I updated <a href="http://ffmpeg.org/" target="_blank" rel="noopener">ffmpeg</a> from <a href="http://alien.slackbook.org/blog/" target="_blank" rel="noopener">alien bob</a>'s repo to ffmpeg 0.11, thus upgrading to libavcodec.so.54. I'm sure I could have gotten away with a simple symlink but I wanted a clean install.
 
-So I though I would simply rebuild digikam, right? Wrong. It failed, with weird errors like:  
-[cce_bash]  
-make[2]: \*** [extra/libkface/test/detect] Error 1  
-[/cce_bash]  
-or  
-[cce_bash]  
-collect2: error: ld returned 1 exit status  
-make[2]: \*** [extra/kipi-plugins/removeredeyes/test/testipp] Error 1  
-[/cce_bash]  
+So I though I would simply rebuild digikam, right? Wrong. It failed, with weird errors like:
+```bash
+make[2]: \*** [extra/libkface/test/detect] Error 1
+```
+or
+```bash
+collect2: error: ld returned 1 exit status
+make[2]: \*** [extra/kipi-plugins/removeredeyes/test/testipp] Error 1
+```
 Face detect above sounded a lot like <a href="http://opencv.willowgarage.com/wiki/" target="_blank" rel="noopener">opencv</a> which does depend on ffmpeg, so I rebuild that as well (using the 2.4.1 version since I was at it). Now <a href="http://digikam.org/" target="_blank" rel="noopener">digikam</a> built successfully.

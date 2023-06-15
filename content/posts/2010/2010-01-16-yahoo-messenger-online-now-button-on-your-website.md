@@ -18,14 +18,14 @@ tags:
 ---
 <img decoding="async" loading="lazy" class="alignleft size-thumbnail wp-image-648" title="t_yahoo_messenger_1" src="http://blog.silviuvulcan.ro/wp-content/uploads/sites/2/2010/01/t_yahoo_messenger_1-150x150.jpg" alt="" width="150" height="150" />If you run an online business like an e-store or something similar you might want to show a button showing if your are available to chat via Yahoo Messenger.
 
-This is a fairly easy job to do. All you have to do is to show this code somewhere on your site:  
-[ccNe_html]  
-<a href="ymsgr:sendIM?YOUR\_YM\_ID">  
-<img src="http://opi.yahoo.com/online?u=YOUR\_YM\_ID&m=g&t=1&#8243; border="0&#8243; alt="" /> </a>  
-[/ccNe_html]  
-Remember to replace  YOUR\_YM\_ID with your Yahoo Messenger id and give t a value reflecting the button choice you like:
+This is a fairly easy job to do. All you have to do is to show this code somewhere on your site:
+[ccNe_html]
+<a href="ymsgr:sendIM?YOUR_YM_ID">
+<img src="http://opi.yahoo.com/online?u=YOUR_YM_ID&m=g&t=1&#8243; border="0&#8243; alt="" /> </a>
+[/ccNe_html]
+Remember to replace  YOUR_YM_ID with your Yahoo Messenger id and give t a value reflecting the button choice you like:
 
-t=0<img decoding="async" src="http://opi.yahoo.com/online?u=YOUR_YM_ID&m=g&t=0" border="0" alt="" />  
-t=1<img decoding="async" src="http://opi.yahoo.com/online?u=YOUR_YM_ID&m=g&t=1" border="0" alt="" />  
-t=2<img decoding="async" src="http://opi.yahoo.com/online?u=YOUR_YM_ID&m=g&t=2" border="0" alt="" />  
+t=0<img decoding="async" src="http://opi.yahoo.com/online?u=YOUR_YM_ID&m=g&t=0" border="0" alt="" />
+t=1<img decoding="async" src="http://opi.yahoo.com/online?u=YOUR_YM_ID&m=g&t=1" border="0" alt="" />
+t=2<img decoding="async" src="http://opi.yahoo.com/online?u=YOUR_YM_ID&m=g&t=2" border="0" alt="" />
 t=5<img decoding="async" src="http://opi.yahoo.com/online?u=YOUR_YM_ID&m=g&t=5" border="0" alt="" />

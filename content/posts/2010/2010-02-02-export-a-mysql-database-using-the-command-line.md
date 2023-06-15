@@ -16,17 +16,17 @@ tags:
   - temp_on
 
 ---
-<img decoding="async" loading="lazy" class="alignleft size-full wp-image-711" title="logo-mysql-110x57" src="http://blog.silviuvulcan.ro/wp-content/uploads/sites/2/2010/02/logo-mysql-110x57.png" alt="" width="110" height="57" />Sometimes it's easier to just drop to the command line then browse for fancy tools like phpMyAdmin. This is useful, especially for quick jobs.  
-[ccNe_bash]  
-mysqldump -u user -ppassword your\_database > database\_backup.sql  
-[/ccNe_bash]  
+<img decoding="async" loading="lazy" class="alignleft size-full wp-image-711" title="logo-mysql-110x57" src="http://blog.silviuvulcan.ro/wp-content/uploads/sites/2/2010/02/logo-mysql-110x57.png" alt="" width="110" height="57" />Sometimes it's easier to just drop to the command line then browse for fancy tools like phpMyAdmin. This is useful, especially for quick jobs.
+```bash
+mysqldump -u user -ppassword your_database > database_backup.sql
+```
 Of course you need to replace:
 
   * user - mysql username
   * password - the password
   * your_database - the database you want to backup
 
-Adding -h host.domain.com would allow to backup a remote mysql database from YOUR shell, something like this:  
-[ccNe_bash]  
-mysqldump -u user -h host.domain.com -ppassword your\_database > database\_backup.sql  
-[/ccNe_bash]
+Adding -h host.domain.com would allow to backup a remote mysql database from YOUR shell, something like this:
+```bash
+mysqldump -u user -h host.domain.com -ppassword your_database > database_backup.sql
+```

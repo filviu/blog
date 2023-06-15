@@ -43,4 +43,4 @@ The schematic is pretty simple: 4 x 4GPIOs connect to A, B, C, D inputs of the f
 
  [1]: http://electronics.stackexchange.com/questions/149111/nixie-ic-pin-why-would-it-be-connected
  [2]: http://www.kosbo.com/index.php?page=shop.product_details&flypage=flypage.tpl&product_id=25&category_id=9&option=com_virtuemart&Itemid=18
- [3]: https://github.com/silviuvulcan/phlox
+ [3]: https://github.com/filviu/phlox

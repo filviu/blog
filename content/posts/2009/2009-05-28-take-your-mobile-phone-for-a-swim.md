@@ -18,7 +18,7 @@ tags:
 ---
 <figure id="attachment_136" aria-describedby="caption-attachment-136" style="width: 150px" class="wp-caption alignright">[<img decoding="async" loading="lazy" class="size-thumbnail wp-image-136 " title="screenshot0013_cnv" src="http://blog.silviuvulcan.ro/wp-content/uploads/sites/2/2009/05/screenshot0013_cnv-150x150.jpg" alt="Swim, freeware symbian software from the Bergamot Project" width="150" height="150" />][1]<figcaption id="caption-attachment-136" class="wp-caption-text">Swim, freeware symbian software from the Bergamot Project</figcaption></figure>
 
-At one point I've been the shamed user of a Sony Ericsson v610i. Pretty simple candybar phone. Although it had one function that put my next phone (the Nokia E61) and my current phone to shame. It had syncml capabilities with the option of automatic, periodic syncing. Guess what&#8230; the flagship E series device of its time didn't!
+At one point I've been the shamed user of a Sony Ericsson v610i. Pretty simple candybar phone. Although it had one function that put my next phone (the Nokia E61) and my current phone to shame. It had syncml capabilities with the option of automatic, periodic syncing. Guess what... the flagship E series device of its time didn't!
 
 ## Open source to the rescue.
 

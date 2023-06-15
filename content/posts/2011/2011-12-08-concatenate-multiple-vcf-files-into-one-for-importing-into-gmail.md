@@ -29,15 +29,15 @@ Good idea, but it doesn't work. In another example of fine programming skills cl
 
 It seems some new lines are missing; and so this will work (in the folder with the vcf files)
 
-[ccNe_bash]  
-for i in *.vcf; do cat "$i" >> ../all\_contacts.vcf; echo >> ../all\_contacts.vcf; done  
-[/ccNe_bash]  
+```bash
+for i in *.vcf; do cat "$i" >> ../all_contacts.vcf; echo >> ../all_contacts.vcf; done
+```
 Import worked now ok!
 
 Update:
 
-Here's courtesy of Adam A Johnson (in the comments below) how to do the same in Windows.  
-[ccNe_dos]  
-FOR %f IN (*.vcf) DO TYPE "%f" >> all\_contacts.vcf & ECHO. >> all\_contacts.vcf  
-[/ccNe_dos]  
+Here's courtesy of Adam A Johnson (in the comments below) how to do the same in Windows.
+[ccNe_dos]
+FOR %f IN (*.vcf) DO TYPE "%f" >> all_contacts.vcf & ECHO. >> all_contacts.vcf
+[/ccNe_dos]
  

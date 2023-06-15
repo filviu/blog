@@ -20,12 +20,10 @@ tags:
 ---
 Having just updated to the latest set of slackware current packages I found that the trusty old Dia would segfault:
 
-[cce_bash]
-
-\*\* (dia:26707): CRITICAL \*\*: dia\_renderer\_set_size: assertion \`irenderer != NULL' failed  
+```bash
+\*\* (dia:26707): CRITICAL \*\*: dia_renderer_set_size: assertion \`irenderer != NULL' failed
 Segmentation fault
-
-[/cce_bash]
+```
 
 With Ubuntu to the rescue 🙂 according to [this report][1] I found the fix to be:
 
@@ -41,8 +39,8 @@ Edit $(HOME)/.dia/persistence and change the value from **false** to **true**.
 
 Please note that this fix works only if $(HOME)/.dia/persistence already exists. What this does (from the bug report):
 
-> i.e. make the antialiased rendering default. And please don't use the  
-> View/AntiAliased menu item to toggle the renderer later, because that would  
+> i.e. make the antialiased rendering default. And please don't use the
+> View/AntiAliased menu item to toggle the renderer later, because that would
 > trigger the crash again.
 
  [1]: https://bugs.launchpad.net/ubuntu/+source/dia/+bug/1102960

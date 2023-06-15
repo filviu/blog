@@ -25,8 +25,7 @@ I have my music neatly organized and with cover art embeded inside the id3tag. B
 
 So the excellent Symbian coders who released a half baked music app ( you can't play an album if it has different artists for example) took the time to check for this damn filed and show nothing if it's filled. Really, really smart.
 
-**Update:** 
-
+**Update:**
 **Step 3**, if you already copied an album and just updated the tags and copied over the cover will not appear. You need to rename the album folder and rescan. You can rename it back and rescan again if you want.
 
 The n900 will be probably the last in a long line of Nokia phones I bought.

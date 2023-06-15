@@ -20,8 +20,8 @@ This was simple:
   2. **Upload it** to the root of your website
   3. Added the following to header.php:
 
-[cceN_html]  
-<link rel="shortcut icon" href="favicon.ico">  
+[cceN_html]
+<link rel="shortcut icon" href="favicon.ico">
 [/cceN_html]
 
 **Fast and easy !**

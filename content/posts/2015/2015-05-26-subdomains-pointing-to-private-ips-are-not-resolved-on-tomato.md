@@ -18,7 +18,7 @@ At home I switched (at least for a while) from a dedicated Debian router/gateway
 
 Go to Advanced => DHCP / DNS Server (LAN)
 
-**Don't uncheck** _"Prevent DNS-rebind attacks" _as this will leave you vulnerable to this attack. Instead add the following to the _Dnsmasq_  
+**Don't uncheck** _"Prevent DNS-rebind attacks" _as this will leave you vulnerable to this attack. Instead add the following to the _Dnsmasq_
 _Custom configuration_
 
 ```ini

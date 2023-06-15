@@ -20,8 +20,7 @@ Basically the one that I care the most about is this: My work laptop is already 
 
 One sollution would be to only use the hostname without the FQDN as URL. DNS search resolves this to either the tailnet URL or device.mydomain.com but I dislike it and doesn't work for SSL.
 
-Another would be to share devices between work and home tailnets but I won't do that due to obvious reasons. 
-
+Another would be to share devices between work and home tailnets but I won't do that due to obvious reasons.
 So in the words of one of my [favourite youtubers][2] "I Make a New One!"
 
 ## Setup Tailscale and Unbound on pfsense
@@ -70,8 +69,7 @@ Once this is setup what happens:
 
 When a machine in your home lan without tailscale tries service1.mydomain.com pfsense will return the internal IP of the machine. Good.
 
-When a machine running tailscale tries service1.mydomain.com tailscale will intercept that and pipe the request to your pfsense via the tailscale interface. This makes Unbound respond with the tailscale IP you defined in the custom view. Good. 
-
+When a machine running tailscale tries service1.mydomain.com tailscale will intercept that and pipe the request to your pfsense via the tailscale interface. This makes Unbound respond with the tailscale IP you defined in the custom view. Good.
 If you have a machine at home set to override your home DNS (maybe your work VPN forces other DNS servers) it won't work as any other DNS server doesn't know about service1.mydomain.com. Bad.
 
  [1]: https://github.com/tailscale/tailscale/issues/4252

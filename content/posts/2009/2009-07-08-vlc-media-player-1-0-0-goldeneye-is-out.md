@@ -38,10 +38,10 @@ From it's website:
     Finer speed controls
   </li>
   <li>
-    New HD codecs (AES3, Dolby Digital Plus, TrueHD, Blu-Ray Linear PCM, Real Video 3.0 and 4.0, &#8230;)
+    New HD codecs (AES3, Dolby Digital Plus, TrueHD, Blu-Ray Linear PCM, Real Video 3.0 and 4.0, ...)
   </li>
   <li>
-    New formats (Raw Dirac, M2TS, &#8230;) and major improvements in many formats&#8230;
+    New formats (Raw Dirac, M2TS, ...) and major improvements in many formats...
   </li>
   <li>
     New Dirac encoder and MP3 fixed-point encoder
@@ -84,6 +84,6 @@ From it's website:
   <h2>
     The cross-platform open-source multimedia framework, player and server
   </h2>
-  
+
   <p>
-    VLC media player is a highly portable <strong>multimedia player</strong> and <strong>multimedia framework</strong> capable of reading most audio and video formats (MPEG-2, MPEG-4, H.264, DivX, MPEG-1, mp3, ogg, aac &#8230;) as well as <strong>DVD</strong>s, <strong>Audio CD</strong>s <strong>VCD</strong>s, and various <strong>streaming</strong> protocols. See the <a href="http://www.videolan.org/vlc/features.html">full features list</a>.<br /> It can also be used as a <strong>media converter</strong> or a <a href="http://www.videolan.org/vlc/streaming.html"><strong>server to stream</strong></a> in unicast or <strong>multicast</strong> in IPv4 or <strong>IPv6</strong> on networks.</div>
+    VLC media player is a highly portable <strong>multimedia player</strong> and <strong>multimedia framework</strong> capable of reading most audio and video formats (MPEG-2, MPEG-4, H.264, DivX, MPEG-1, mp3, ogg, aac ...) as well as <strong>DVD</strong>s, <strong>Audio CD</strong>s <strong>VCD</strong>s, and various <strong>streaming</strong> protocols. See the <a href="http://www.videolan.org/vlc/features.html">full features list</a>.<br /> It can also be used as a <strong>media converter</strong> or a <a href="http://www.videolan.org/vlc/streaming.html"><strong>server to stream</strong></a> in unicast or <strong>multicast</strong> in IPv4 or <strong>IPv6</strong> on networks.</div>

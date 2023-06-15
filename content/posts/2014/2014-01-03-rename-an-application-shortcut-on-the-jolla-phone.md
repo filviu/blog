@@ -18,27 +18,26 @@ You need developer mode enabled. Start the terminal or login via ssh to your dev
 
 First you need to become root and change to the folder containing application shortcuts
 
-[cce_bash]
-
-[nemo@localhost ~]$ devel-su  
-Password:  
-[root@localhost nemo]# cd /usr/share/applications/  
+```bash
+[nemo@localhost ~]$ devel-su
+Password:
+[root@localhost nemo]# cd /usr/share/applications/
 [root@localhost nemo]# ls
+```
 
-[/cce_bash]
+In my case it was:
 
-In my case it was **apkd\_launcher\_com\_mobisystems\_editor\_office\\_\_with\_\_reg-com\_mobisystems\_office\_splashScreen\_SplashScreenActivity.desktop** (cool name, isn't it)
+```bash
+apkd_launcher_com_mobisystems_editor_office\__with__reg-com_mobisystems_office_splashScreen_SplashScreenActivity.desktop
+``` 
+(cool name, isn't it)
 
-I used vi to edit it and changed **Name=com** to **Name=OfficeSuite** and the **Icon=some-long-name-to-a-missing-file.png** to **Icon=/var/lib/apkd/apkd\_launcher\_com\_office\_suite.png** You could also transfer the file and edit it on your computer instead but vi works fine (I can't remember but I think I actually installed vim using pkcon)
+I used vi to edit it and changed `Name=com` to `Name=OfficeSuite` and the `Icon=some-long-name-to-a-missing-file.png` to `Icon=/var/lib/apkd/apkd_launcher_com_office_suite.png` You could also transfer the file and edit it on your computer instead but vi works fine (I can't remember but I think I actually installed vim using pkcon)
 
 Then I prepared the icon for it on my pc. I searched for the officesuite png icon, resized it to 144&#215;144 pixels and copied on the phone. Still as root I ran:
 
-[cce_bash]  
-[root@localhost nemo]# cp /home/nemo/apkd\_launcher\_com\_office\_suite.png /var/lib/apkd/apkd\_launcher\_com\_office\_suite.png  
-[/cce_bash]
+```bash
+[root@localhost nemo]# cp /home/nemo/apkd_launcher_com_office_suite.png /var/lib/apkd/apkd_launcher_com_office_suite.png
+```
 
 Not easy, but not really complicated either. If everything above seems like gibberish to you than please consider waiting for an application that would allow renaming of apps and changing of icons.
-
- 
-
- 

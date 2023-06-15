@@ -16,7 +16,7 @@ tags:
   - temp_on
 
 ---
-So, Microsoft took care of another hour of my life I'll never see again&#8230;
+So, Microsoft took care of another hour of my life I'll never see again...
 
 **The problem:**
 

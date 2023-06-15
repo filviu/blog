@@ -17,9 +17,9 @@ tags:
 I installed mono using sbopkg and found the following issue while trying to run keepass:
 
 ```bash
-System.TypeInitializationException: An exception was thrown by the type initializer for Mono.Unix.Native.Syscall &#8212;> System.DllNotFoundException: /usr/lib/libMonoPosixHelper.so  
-at (wrapper managed-to-native) Mono.Unix.Native.Syscall:get\_at\_fdcwd ()  
-at Mono.Unix.Native.Syscall..cctor () [0x00000] in <filename unknown>:0  
+System.TypeInitializationException: An exception was thrown by the type initializer for Mono.Unix.Native.Syscall &#8212;> System.DllNotFoundException: /usr/lib/libMonoPosixHelper.so
+at (wrapper managed-to-native) Mono.Unix.Native.Syscall:get_at_fdcwd ()
+at Mono.Unix.Native.Syscall..cctor () [0x00000] in <filename unknown>:0
 &#8212; End of inner exception stack trace &#8212;
 ```
 

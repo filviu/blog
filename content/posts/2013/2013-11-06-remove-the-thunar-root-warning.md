@@ -26,6 +26,6 @@ After that download [this patch][2] to the same folder and replace the slackbuil
 **OR** simply clone [the git repo][4] and build there.
 
  [1]: http://blog.silviuvulcan.ro/wp-content/uploads/sites/2/2013/11/thunar-warning.png
- [2]: https://github.com/silviuvulcan/slackbuilds/raw/master/Thunar/no-root-warning.patch
- [3]: https://github.com/silviuvulcan/slackbuilds/raw/master/Thunar/Thunar.SlackBuild
- [4]: https://github.com/silviuvulcan/slackbuilds/
+ [2]: https://github.com/filviu/slackbuilds/raw/master/Thunar/no-root-warning.patch
+ [3]: https://github.com/filviu/slackbuilds/raw/master/Thunar/Thunar.SlackBuild
+ [4]: https://github.com/filviu/slackbuilds/

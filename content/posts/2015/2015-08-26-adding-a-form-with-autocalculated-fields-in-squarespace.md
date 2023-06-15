@@ -20,40 +20,40 @@ First of all you will have to build this in the HTML/CSS block, you won't be abl
 First you will need a few javascript functions
 
 ```js
-function getField1() {  
-var theForm = document.forms["myform"];  
-var field1Value = theForm.elements["field1"];  
-return parseInt(field1Value.value);  
-}  
+function getField1() {
+var theForm = document.forms["myform"];
+var field1Value = theForm.elements["field1"];
+return parseInt(field1Value.value);
+}
 ```
 
 What this function does is return the value of a field named "field1" in your "myform" form. parseFloat might be required if you are going to use floating point values.
 
 ```js
-function calculateTotal() {  
+function calculateTotal() {
 var outputfield1Value = getField1()*5;
 
-var elem = document.getElementById("outputfield1Id");  
+var elem = document.getElementById("outputfield1Id");
 elem.value = Math.round(outputfield1Value);
 
-}  
+}
 ```
 
 This function is called each time one of your form fields is modified. What it does is change the value of the read-only form field to field1*5. This is of course just an example. You can multiply this to as many form input and output fields you need. Please note that you cannot use "disabled" fields as those cannot be POSTed.
 
 ```js
-function validateForm() {  
-x = document.forms\["myform"\]\["field1"\].value;  
-if (x == null || x == "") {  
-alert("Please fill in the first field");  
-return false;  
-}  
-var x = document.forms\["myform"\]\["emailaddress"\].value;  
-var re = /^([\w-]+(?:\.[\w-]+)\*)@((?:[\w-]+\.)\*\w[\w-]{0,66})\.([a-z]{2,6}(?:\.[a-z]{2})?)$/i;  
-if (x == null || x== "" || !re.test(x)) {  
-alert("Please enter a valid email address");  
-return false;  
-}  
+function validateForm() {
+x = document.forms\["myform"\]\["field1"\].value;
+if (x == null || x == "") {
+alert("Please fill in the first field");
+return false;
+}
+var x = document.forms\["myform"\]\["emailaddress"\].value;
+var re = /^([\w-]+(?:\.[\w-]+)\*)@((?:[\w-]+\.)\*\w[\w-]{0,66})\.([a-z]{2,6}(?:\.[a-z]{2})?)$/i;
+if (x == null || x== "" || !re.test(x)) {
+alert("Please enter a valid email address");
+return false;
+}
 ```
 
 A simple function to do field validation. This one simply checks that the fields were actually filled and that the email field is valid (check RFCs, this is not really the best version but it works for me). Please note that this validation will not stop an attacker or bot to fill bogous data in your fields (as they can POST anything without going trough this javascript)

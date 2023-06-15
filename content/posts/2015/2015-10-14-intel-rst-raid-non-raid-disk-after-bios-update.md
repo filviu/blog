@@ -24,11 +24,9 @@ Initial reports were all grim, the Intel RST BIOS does not allow repairing. Than
 _**Usual disclaimer: **_this worked for me, I have no guarantee it will work for you, and the method is not advertised as working and/or suported by Intel
 
 {{< figure 
-    src="/blog/images/2015/bios-non-raid.jpg"  
+    src="/blog/images/2015/bios-non-raid.jpg"
     alt="Image of BIOS screen showing the problem disks" 
 >}}
-
-
 1. Reset the volume (all disks) as non-member from the Intel BIOS. Ignore the warning that all data will be lost. The utility only touches the metadata related to RAID membership.
 2. Create a new array with the all same disks and be sure to use **the same settings** related to strip size, RAID type, etc. I was in luck since my array was still visible since some disks still were attached.
 3. Download TestDisk from <http://www.cgsecurity.org>. I used the Windows version since my Windows install was on a different disk. I never heard of this utility but seems to be really, really useful at data recovery.

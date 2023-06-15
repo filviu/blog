@@ -17,11 +17,11 @@ tags:
 ---
 I take my bash profile very seriously 🙂
 
-I use:  
-[ccNe_bash]  
-fortune fortunes fortunes-o fortunes2 forunes2-o 30% startrek  
-[/ccNe_bash]  
-The above means to choose fortunes only from the 5 specified files and more it assures that I get startrek fortunes from time to time. Note that because lists are not equal in size it doesnt mean that I get them 30% of the time&#8230;
+I use:
+```bash
+fortune fortunes fortunes-o fortunes2 forunes2-o 30% startrek
+```
+The above means to choose fortunes only from the 5 specified files and more it assures that I get startrek fortunes from time to time. Note that because lists are not equal in size it doesnt mean that I get them 30% of the time...
 
 Below is the fortune man page:
 
@@ -55,8 +55,6 @@ Print out the list of files which would be searched, but don't print a fortune.
 **-l**
 
 Long dictums only. See **-n** on how "long" is defined in this sense.
-
-
 **-m** _pattern_
 :   Print out all fortunes which match the basic regular expression _pattern_. The syntax of these expressions depends on how your system defines **re_comp**(3) or **regcomp**(3), but it should nevertheless be similar to the syntax used in **grep**(1).
 :   The fortunes are output to standard output, while the names of the file from which each fortune comes are printed to standard error. Either or both can be redirected; if standard output is redirected to a file, the result is a valid fortunes database file. If standard error is _also_ redirected to this file, the result is _still valid_, **but there will be "bogus" fortunes**, i.e. the filenames themselves, in parentheses. This can be useful if you wish to remove the gathered matches from their original files, since each filename-record will precede the records from the file it names.
@@ -75,8 +73,6 @@ Ignore case for _-m_ patterns.
 **-w**
 
 Wait before termination for an amount of time calculated from the number of characters in the message. This is useful if it is executed as part of the logout procedure to guarantee that the message can be read before the screen is cleared.
-
-
 The user may specify alternate sayings. You can specify a specific file, a directory which contains one or more files, or the special word _all_ which says to use all the standard databases. Any of these may be preceded by a percentage, which is a number _n_ between 0 and 100 inclusive, followed by a _%_. If it is, there will be a _n_percent probability that an adage will be picked from that file or directory. If the percentages do not sum to 100, and there are specifications without percentages, the remaining percent will apply to those files and/or directories, in which case the probability of selecting from one of them will be based on their relative sizes.
 
 As an example, given two databases _funny_ and _not-funny_, with _funny_ twice as big (in number of fortunes, not raw file size), saying

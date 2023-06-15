@@ -32,65 +32,61 @@ Here are the few, simple steps needed to get it up and running:
 
 [cceN_bash]
 
-sudo apt-get install ssmtp  
-Reading package lists&#8230; Done  
-Building dependency tree  
-Reading state information&#8230; Done
+sudo apt-get install ssmtp
+Reading package lists... Done
+Building dependency tree
+Reading state information... Done
 
-(&#8230;snip&#8230;)
+(...snip...)
 
-Setting up libgnutls-openssl27:armhf (2.12.20-7) &#8230;  
-Setting up ssmtp (2.64-7) &#8230;  
+Setting up libgnutls-openssl27:armhf (2.12.20-7) ...
+Setting up ssmtp (2.64-7) ...
 [/cceN_bash]
 
 Configure ssmtp to use an email account. _Note that ssmtp sends mail as a client to a remote mail server (i.e. gmail) not as a traditional MTA_. Be sure to adjust ports and TLS settings according to your setup.
 
 Edit **/etc/ssmtp/ssmtp.conf **to look like below
 
-[cce_bash]
-
-#  
-\# Config file for sSMTP sendmail  
-#  
-\# The person who gets all mail for userids < 1000  
-\# Make this empty to disable rewriting.  
+```bash
+#
+\# Config file for sSMTP sendmail
+#
+\# The person who gets all mail for userids < 1000
+\# Make this empty to disable rewriting.
 root=account@example.com
 
-\# The place where the mail goes. The actual machine name is required no  
-\# MX records are consulted. Commonly mailhosts are named mail.domain.com  
+\# The place where the mail goes. The actual machine name is required no
+\# MX records are consulted. Commonly mailhosts are named mail.domain.com
 mailhub=mail.example.com:587
 
-\# Where will the mail seem to come from?  
+\# Where will the mail seem to come from?
 #rewriteDomain=
 
-\# The full hostname  
+\# The full hostname
 hostname=account@example.com
 
-UseTLS=YES  
-UseSTARTTLS=YES  
-AuthUser=account@example.com  
+UseTLS=YES
+UseSTARTTLS=YES
+AuthUser=account@example.com
 AuthPass=secretPassword
 
-\# Are users allowed to set their own From: address?  
-\# YES - Allow the user to specify their own From: address  
-\# NO - Use the system generated From: address  
+\# Are users allowed to set their own From: address?
+\# YES - Allow the user to specify their own From: address
+\# NO - Use the system generated From: address
 FromLineOverride=YES
-
-[/cce_bash]
+```
 
 Edit /etc/ssmtp/revaliases
 
-[cce_bash]
-
-\# sSMTP aliases  
-#  
-\# Format:       local\_account:outgoing\_address:mailhub  
-#  
-\# Example: root:your_login@your.domain:mailhub.your.domain[:port]  
-\# where [:port] is an optional port number that defaults to 25.  
+```bash
+\# sSMTP aliases
+#
+\# Format:       local_account:outgoing_address:mailhub
+#
+\# Example: root:your_login@your.domain:mailhub.your.domain[:port]
+\# where [:port] is an optional port number that defaults to 25.
 root:account@example.com:mail.example.com:587
-
-[/cce_bash]
+```
 
 Install mailx and test sending.
 
@@ -98,18 +94,18 @@ Install mailx and test sending.
 
 apt-get install mailutils
 
-(&#8230; snip &#8230;)
+(... snip ...)
 
-Setting up mailutils (1:2.99.97-3) &#8230;
+Setting up mailutils (1:2.99.97-3) ...
 
 [/cceN_bash]
 
 [cceN_bash]
 
-mailx destination@example.com  
-Cc:  
-Subject: Test Message  
-Enter some text here  
+mailx destination@example.com
+Cc:
+Subject: Test Message
+Enter some text here
 End with CTRL+D to send
 
 [/cceN_bash]

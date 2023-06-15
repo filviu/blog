@@ -38,4 +38,4 @@ The project has everything you need:
 [Download everything HERE][1]. Or you could find the code on [GitHub][2].
 
  [1]: http://blog.silviuvulcan.ro/wp-content/uploads/sites/2/2009/12/ks0108_glcd.zip
- [2]: https://github.com/silviuvulcan/ks0108_lib
+ [2]: https://github.com/filviu/ks0108_lib

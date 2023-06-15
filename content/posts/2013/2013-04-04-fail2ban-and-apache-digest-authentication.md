@@ -19,8 +19,8 @@ Although I don't consider fail2ban something to rely on for security is just ano
 
 I added the following to **/etc/fail2ban/filter.d/apache-auth.conf**:
 
-[cce lang="INI"]  
-\[[]client <HOST>[]\] (Digest: )?user .* (authentication failure|not found|password mismatch)  
-[/cce]
+```ini
+\[[]client <HOST>[]\] (Digest: )?user .* (authentication failure|not found|password mismatch)
+```
 
 Restart fail2ban and try entering a wrong user/password while checking the fail2ban log. It should catch the try. (Be sure you don't lock yourself out 🙂 )

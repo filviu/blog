@@ -18,12 +18,12 @@ tags:
 ---
 I was installing today Zabbix on a CentOS 5.6 machine and hit the following error when trying to load the PHP Web Interface:
 
-[ccNe_bash]  
-PHP Fatal error: Call to undefined function bcscale() in /var/www/zabbix/include/defines.inc.php on line 797  
-[/ccNe_bash]
+```bash
+PHP Fatal error: Call to undefined function bcscale() in /var/www/zabbix/include/defines.inc.php on line 797
+```
 
 The fix was one package install away:
 
-[ccNe_bash]  
-yum -y install php-bcmath  
-[/ccNe_bash]
+```bash
+yum -y install php-bcmath
+```

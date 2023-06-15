@@ -21,14 +21,12 @@ tags:
   - wdidle3
 
 ---
-I run a NAS at home. It used to have 3x2TB WD EARS drives. At some point I saw online some remarks about increased Load Cycle Count when using these drives in a NAS/RAID setup but I didn't have the time to check then. Modern Western Digital "Green" Drives include the Intellipark feature that stops the disk when not in use.  
+I run a NAS at home. It used to have 3x2TB WD EARS drives. At some point I saw online some remarks about increased Load Cycle Count when using these drives in a NAS/RAID setup but I didn't have the time to check then. Modern Western Digital "Green" Drives include the Intellipark feature that stops the disk when not in use.
 Unfortunately, the default timer setting is not perfect on linux/unix systems, including many NAS, and leads to a dramatic increase of the Load Cycle Count value (SMART attribute #193). After a period of 8 seconds of inactivity, these drives heads “park” themselves, or go into standby position. This behavior is fine for desktop storage where the green drive - which should be used for storage, not OS, could stay in stand-by for hours untill required **but** a RAID will always write to all the disks due to parity ,etc. and so the drives will wake up all the time. This constant stand-by/wake-up cycles are not really a good idea. WD says the drives should be good for 300000 load cycles.
 
 Lately I needed more space and after a failed attempt with a crappy Seagate refurbished external drive (it was the only thin affordable) I bough a new 2Tb EADX WD Green when prices came back to sanity. While installing the new drive I took the time to check the old ones and found worrying values for the load cycle count, over 80000 for the oldest of the three and over 60000 for the others. I installed the new disk, grew the RAID array and setup a cron job to monitor the value over a period of a few days. The rate it was growing proved worrisome. A 24&#215;7 running system will reach the 300000 recommended cycles as soon as 2 years. I had more time as I only run my NAS when I need it - sometimes is off for days.
 
 Following are graphs detailing the number of loadcycles I see on my four drives. The fifth (SDE) is a WD blue which is used as a system drive, and which doesn't use this agressive power saving method.
-
-
 
 Values were taken on 4h intervals but are not necessarily continuous - as the NAS was off some times. Last images shows the number of Load Cycle Counts happened from the last reading.
 
@@ -39,8 +37,6 @@ The default is to try and park every 8 seconds. Western Digital were kind enough
 It's an utility that sets the timeout for this  power saving feature in the same way the wdidle3 utility does. The only plus is that it runs on linux. I won't show you how I ran it because I want you to read all the documentation the author provides not just blindly copy and paste commands that can potentially ruin your disks. What I will tell you that you need to cycle your drives in order to get the new settings into effect. A reboot is not enough. You need to power them down and back up again.
 
 Just to be sure I continued monitoring the load cycle values for some time more.
-
-
 
 I kept the same scale as above so the effect is obvious.
 

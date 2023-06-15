@@ -23,6 +23,5 @@ tags:
 
 <a href="http://forums.creative.com/t5/Sound-Blaster/SB-Live-series-Support-Pack-1-5-08-09-2009/td-p/533861" target="_blank" rel="noopener">http://forums.creative.com/t5/Sound-Blaster/SB-Live-series-Support-Pack-1-5-08-09-2009/td-p/533861</a>
 
-Please note that this is an unofficial patch and that **it has problems if your Windows 7 machine has more than 2 Gb of RAM.** 
-
+Please note that this is an unofficial patch and that **it has problems if your Windows 7 machine has more than 2 Gb of RAM.**
 Read all the details and download the package over to the above address. Let me know if it goes offline, I can upload them too somewhere.

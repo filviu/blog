@@ -19,13 +19,13 @@ tags:
 ---
 Because digikam made a mess of the tags I started to add to my pictures I decided to start from scratch. Note that I tried to get the max and I had set to write tags both to .xmp sidecar files and inside the image files. I also use the mysql backend.
 
-One of the above broken everything (I started seeing \_digikam\_root_tag) and some of my tags were doubled. So all in all I wanted to delete them all:
+One of the above broken everything (I started seeing _digikam_root_tag) and some of my tags were doubled. So all in all I wanted to delete them all:
 
   * Remove your collection from digikam
   * Drop all tables from the digikam database
-  * Remove all .xmp files. In the folder containing your collection:  
+  * Remove all .xmp files. In the folder containing your collection:
     find . -name *.xmp -exec rm {} ;
-  * Remove all embedded xmp tags (again in the folder containing you collection)  
+  * Remove all embedded xmp tags (again in the folder containing you collection)
     exiftool -r -P -xmp:TagsList= -xmp:LastKeywordXMP= -xmp:HierarchicalSubject= -xmp:Subject= -iptc:Keywords= *
 
 **DON'T FOLLOW THIS BLINDLY**

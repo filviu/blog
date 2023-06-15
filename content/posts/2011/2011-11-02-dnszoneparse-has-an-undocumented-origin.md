@@ -28,20 +28,20 @@ All the beer in the world goes to <a href="https://rt.cpan.org/Public/Bug/Displa
 
 So, changing for example the record like this will actually erase it
 
-[cce_perl]  
-$a->[i] = { host => 'blah.com',  
-class => 'IN',  
-ttl => '1m',  
-name => '@' };  
+[cce_perl]
+$a->[i] = { host => 'blah.com',
+class => 'IN',
+ttl => '1m',
+name => '@' };
 [/cce_perl]
 
 and like this it will work:
 
-[cce_perl]  
-$origin='host.domain.com.';  
-$a->[i] = { ORIGIN => $origin,  
-host => 'blah.com',  
-class => 'IN',  
-ttl => '1m',  
-name => '@' };  
+[cce_perl]
+$origin='host.domain.com.';
+$a->[i] = { ORIGIN => $origin,
+host => 'blah.com',
+class => 'IN',
+ttl => '1m',
+name => '@' };
 [/cce_perl]

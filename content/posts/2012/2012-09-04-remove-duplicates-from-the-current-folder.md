@@ -21,9 +21,9 @@ tags:
   - temp_on
 
 ---
-I needed today to remove duplicate files from a big folder (8Gb+, 10000+ files). I use the nice <a href="http://code.google.com/p/fdupes/" target="_blank" rel="noopener">fdupes</a> program written by Adrian Lopez  
+I needed today to remove duplicate files from a big folder (8Gb+, 10000+ files). I use the nice <a href="http://code.google.com/p/fdupes/" target="_blank" rel="noopener">fdupes</a> program written by Adrian Lopez
  ```bash
-fdupes -rdN .[/cci\_bash]  
+fdupes -rdN .[/cci_bash]
 Note the point after the parameters. That means to search inside the current folder. A path could be provided instead of it. The options are:
 
   * **-r** means search recursively

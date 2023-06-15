@@ -16,28 +16,28 @@ I have a small example that should get you going with the PIC 12F675 microcontro
 
 <!--more-->
 
-  
-[cce LANG="CPP"]  
+
+```cpp
 bit oldstate; // Old state flag
 
-void main() {  
-ANSEL = 0; // Configure AN pins as digital  
-CMCON = 7; // Turn off the comparators  
-TRISIO = 0; // configure pins of GPIO as output  
-TRISIO3_bit = 1;  
-GPIO = 0xFF;  
-do {  
-if (Button(&GPIO, 3, 1, 1)) { // Detect logical one  
-oldstate = 1; // Update flag  
-}  
-if (oldstate && Button(&GPIO, 3, 1, 0)) {  
-// Detect one-to-zero transition  
-GPIO = ~GPIO; // Invert GPIO  
-oldstate = 0; // Update flag  
-} // beginning of a repeat loop  
-} while(1); // endless loop  
-}  
-[/cce]  
+void main() {
+ANSEL = 0; // Configure AN pins as digital
+CMCON = 7; // Turn off the comparators
+TRISIO = 0; // configure pins of GPIO as output
+TRISIO3_bit = 1;
+GPIO = 0xFF;
+do {
+if (Button(&GPIO, 3, 1, 1)) { // Detect logical one
+oldstate = 1; // Update flag
+}
+if (oldstate && Button(&GPIO, 3, 1, 0)) {
+// Detect one-to-zero transition
+GPIO = ~GPIO; // Invert GPIO
+oldstate = 0; // Update flag
+} // beginning of a repeat loop
+} while(1); // endless loop
+}
+```
 Copy and paste the code above in MikroC PRO. You can use the free version as the PIC12F675 only has 1K flash memory. This small example changes the state of the LEDs on every press on the GPIO3 button (RA3 on the EasyPIC5). Don't forget to set MCLR and oscillator as **internal** - so you get three extra pins! GPIO3 is input only so we will use it for a button. Should you want to test this on a breadboard or something similar this should be the schematic:
 
 <p style="text-align: center">
@@ -46,4 +46,4 @@ Copy and paste the code above in MikroC PRO. You can use the free version as the
 
 You can find it on [GitHub][1] .
 
- [1]: https://github.com/silviuvulcan/mikroc_bits
+ [1]: https://github.com/filviu/mikroc_bits

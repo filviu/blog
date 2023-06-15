@@ -19,10 +19,10 @@ tags:
 ---
 For some reasons the required modules don't get loaded. Add the following to /etc/rc.d/rc.modules right above the line reading ### Mouse support:
 
-[CCE_BASH]  
-\### by SV for i2600k temperature  
-/sbin/modprobe coretemp  
-/sbin/modprobe pkgtemp  
-[/CCE_BASH]
+```bash
+\### by SV for i2600k temperature
+/sbin/modprobe coretemp
+/sbin/modprobe pkgtemp
+```
 
 Now sensors report the temperatures.

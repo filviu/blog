@@ -25,53 +25,53 @@ Relevant from the default are the custom header, extended protocol info and the 
 
 [cce_xml]
 
-MediaTomb  
-uuid:0f53d0ff-5951-4d27-8fa7-06ce378ae789  
-/var/lib/mediatomb  
+MediaTomb
+uuid:0f53d0ff-5951-4d27-8fa7-06ce378ae789
+/var/lib/mediatomb
 /usr/share/mediatomb/web
 
 mediatomb.db
 
-localhost  
-mediatomb  
+localhost
+mediatomb
 mediatomb
 
-49152  
+49152
 <!-- For PS3 support change to "yes" -->
 
-  
+
 <!--
        Uncomment the lines below to get rid of jerky avi playback on the
        DSM320 or to enable subtitles support on the DSM units
     -->
 
-redsonic.com  
+redsonic.com
 105
 
 <!-- Uncomment the line below if you have a Telegent TG100 -->
 
-  
-<!-  
-101  
+
+<!-
+101
 ->
 
-128  
-5  
-yes  
-no  
+128
+5
+yes
+no
 8
 
-<mark>  
-*  
-<mark>  
-video  
-</mark>  
+<mark>
+*
+<mark>
+video
+</mark>
 </mark>
 
-lastfmuser  
+lastfmuser
 lastfmpass
 
-/usr/share/mediatomb/js/common.js  
+/usr/share/mediatomb/js/common.js
 /usr/share/mediatomb/js/playlists.js
 
 /usr/share/mediatomb/js/import.js
@@ -118,34 +118,31 @@ lastfmpass
 
 <!-- Uncomment the line below for PS3 divx support -->
 
-  
-<!- </p> 
 
+<!- </p>
 <map />
 ->
-  
+
 <!-- Uncomment the line below for D-Link DSM / ZyXEL DMA-1000 -->
 
-  
-<!- </p> 
 
+<!- </p>
 <map />
--></p> 
-
+-></p>
 <map />
 
 <map />
 
 <map />
 
-audio/L16  
-no  
-yes  
+audio/L16
+no
+yes
 no
 
-video/mpeg  
-yes  
-yes  
+video/mpeg
+yes
+yes
 yes
 
 [/cce_xml]

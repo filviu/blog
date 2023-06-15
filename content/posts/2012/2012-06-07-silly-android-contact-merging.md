@@ -29,6 +29,6 @@ Here's the (lack of) logic behind it:
   * If you choose Jon Doe and then select join **with** kingofrock1950 the name in the phone book will be the real name.
   * If you select kingofrock1950 and then join with Jon Doe the name shown will be kingofrock1950.
 
-I find it extremely stupid that I can't select the _default account_ which gives the name. Though you can select the picture. Fitting, all image, stupid functionality. Well&#8230;
+I find it extremely stupid that I can't select the _default account_ which gives the name. Though you can select the picture. Fitting, all image, stupid functionality. Well...
 
 If you have to fix it you need to _Separate contact_ and then join in the correct order. Nice, isn't it?

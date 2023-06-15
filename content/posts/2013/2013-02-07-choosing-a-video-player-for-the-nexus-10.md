@@ -57,7 +57,6 @@ It also offers a LAN mode that allows playing from SMB shares.
 
 Worth noting that it ignores silent settings.
 
- 
 
 **[<img decoding="async" loading="lazy" class="alignright" src="http://blog.silviuvulcan.ro/wp-content/uploads/sites/2/2013/02/dice_player.png" alt="dice_player" width="300" height="187" />][9]DICE Player**
 
@@ -69,7 +68,6 @@ Same simple interface you find in all these players. A good network options sele
   * 1080p mkv plays fine in HW mode but the seek is choppy
   * 1440p crashes on load
 
- 
 
 **[<img decoding="async" loading="lazy" class="alignright" src="http://blog.silviuvulcan.ro/wp-content/uploads/sites/2/2013/02/mobo_player.png" alt="mobo_player" width="300" height="187" />][10]MoboPlayer**
 
@@ -81,7 +79,6 @@ Mobo offers a nice shinny interface with www, http and rtsp network play. As a d
   * 1080p mkv worked fine
   * 1440p switched to SW mode and dropped frames, it was unwatchable
 
- 
 
 **[<img decoding="async" loading="lazy" class="alignright" src="http://blog.silviuvulcan.ro/wp-content/uploads/sites/2/2013/02/mx_player.png" alt="mx_player" width="300" height="187" />][11]MX Player**
 
@@ -101,7 +98,6 @@ A weird thing was that videos started in SW mode even if they worked fine after 
 
 Worth noting that seek was smooth even for the 1440p clip
 
- 
 
 **[<img decoding="async" loading="lazy" class="alignright" src="http://blog.silviuvulcan.ro/wp-content/uploads/sites/2/2013/02/vlc.png" alt="vlc" width="300" height="187" />][12]VLC Beta**
 
@@ -117,7 +113,6 @@ Offers over the network play for at least http, mms, rtsp streams.
 
 Again the seek is static, the video keeps playing until you release the seek bar.
 
- 
 
 **[<img decoding="async" loading="lazy" class="alignright" src="http://blog.silviuvulcan.ro/wp-content/uploads/sites/2/2013/02/vplayer.png" alt="vplayer" width="300" height="187" />][13]Vplayer**
 
@@ -141,179 +136,179 @@ _More about the banding issue:_ this is actually the reason I started looking fo
   <tr>
     <td>
     </td>
-    
+  
     <td>
       AVI Sample
     </td>
-    
+  
     <td>
       ISO dvd copy
     </td>
-    
+  
     <td>
       SD mp4 file
     </td>
-    
+  
     <td>
       1080p mkv file
     </td>
-    
+  
     <td>
       1440p mp4 file
     </td>
   </tr>
-  
+
   <tr>
     <td>
       <a href="https://play.google.com/store/apps/details?id=com.bsplayer.bspandroid.free">BsPlayer FREE</a>
     </td>
-    
+  
     <td>
       SW
     </td>
-    
+  
     <td>
       SW<sup>*</sup>
     </td>
-    
+  
     <td>
       HW
     </td>
-    
+  
     <td>
       HW
     </td>
-    
+  
     <td>
       HW
     </td>
   </tr>
-  
+
   <tr>
     <td>
       <a href="https://play.google.com/store/apps/details?id=com.inisoft.mediaplayer.a">DICE Player</a>
     </td>
-    
+  
     <td>
       SW<sup>1</sup>
     </td>
-    
+  
     <td>
       SW<sup>*</sup>
     </td>
-    
+  
     <td>
       HW
     </td>
-    
+  
     <td>
       HW
     </td>
-    
+  
     <td>
       crash
     </td>
   </tr>
-  
+
   <tr>
     <td>
       <a href="https://play.google.com/store/apps/details?id=com.clov4r.android.nil">MoboPlayer</a>
     </td>
-    
+  
     <td>
       -
     </td>
-    
+  
     <td>
       -
     </td>
-    
+  
     <td>
       HW
     </td>
-    
+  
     <td>
       HW
     </td>
-    
+  
     <td>
       SW, drops frames
     </td>
   </tr>
-  
+
   <tr>
     <td>
       <a href="https://play.google.com/store/apps/details?id=com.mxtech.videoplayer.ad">MX Player</a>
     </td>
-    
+  
     <td>
       SW
     </td>
-    
+  
     <td>
       SW<sup>*</sup>
     </td>
-    
+  
     <td>
       HW
     </td>
-    
+  
     <td>
       HW
     </td>
-    
+  
     <td>
       HW
     </td>
   </tr>
-  
+
   <tr>
     <td>
       <a href="https://play.google.com/store/apps/details?id=org.videolan.vlc.betav7neon">VLC Beta</a>
     </td>
-    
+  
     <td>
       manual SW
     </td>
-    
+  
     <td>
       SW<sup>2</sup>
     </td>
-    
+  
     <td>
       HW
     </td>
-    
+  
     <td>
       -
     </td>
-    
+  
     <td>
       -
     </td>
   </tr>
-  
+
   <tr>
     <td>
       <a href="https://play.google.com/store/apps/details?id=me.abitno.vplayer.t">vPlayer</a>
     </td>
-    
+  
     <td>
       SW
     </td>
-    
+  
     <td>
       -
     </td>
-    
+  
     <td>
       HW<sup>**</sup>
     </td>
-    
+  
     <td>
       HW<sup>3,**</sup>
     </td>
-    
+  
     <td>
       HW drops frames
     </td>
