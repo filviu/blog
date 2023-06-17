@@ -20,7 +20,7 @@ I'm a big fan of virtualization. I find it very useful both on my workstation as
 
 ```bash
 cd /etc/ssh/
-/bin/rm \*key\*
+/bin/rm *key*
 ```
 
 The init script for SSH will detect that the host keys are missing and will regenerate them. Comment below if this works for other distros!

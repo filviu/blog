@@ -25,7 +25,7 @@ DATE='date +%Y/%m/%d:%H:%M:%S'
 LOG='/var/log/script.log'
 
 function echo_log {
-echo \`$DATE\`" $1&#8243; >> $LOG
+echo \`$DATE\`" $1" >> $LOG
 }
 \# start
 echo_log "Script running"

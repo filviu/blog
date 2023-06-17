@@ -22,15 +22,18 @@ tags:
 Even though I run a pretty fast network and vpn at home I still have the occasional hiccup running demanding applications (i.e. [digikam][1]) at home.
 
 A few simple options can speed up X considerably. Connecting with the following parametters will enable a fast encryption cipher and also enables compression:
+
 ```bash
 ssh -X -C -c blowfish-cbc,arcfour user@host.example.com
 ```
-Of course you can make this permanent by adding the following to /etc/ssh/ssh_config (might be different on your distro):
-```bash
+
+Of course you can make this permanent by adding the following to `/etc/ssh/ssh_config` or even better only for the specific host in `~/.ssh/config` (might be different on your distro):
+
+```conf
 Cipher blowfish
-\# default line
+# default line
 ##Ciphers aes128-ctr,aes192-ctr,aes256-ctr,arcfour256,arcfour128,aes128-cbc,3des-cbc
-\## see man page for more info on Ciphers
+## see man page for more info on Ciphers
 Ciphers blowfish-cbc,aes128-cbc,3des-cbc,cast128-cbc,arcfour,aes192-cbc,aes256-cbc
 Compression yes
 ```

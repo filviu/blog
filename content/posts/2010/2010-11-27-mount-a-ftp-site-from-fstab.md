@@ -31,7 +31,7 @@ curlftpfs#username:password@ftp.provider.com/folder /mnt/clientusingftp fuse rw,
 ```
 I left noauto because access to this folder is slow on slower remotes hosts. Of course you can also do this at the command line:
 
-[cceN_bash]
+```bash
 curlftpfs ftp://ftp.sunet.se/ sunet/
-[/cceN_bash]
+```
 Cheers!

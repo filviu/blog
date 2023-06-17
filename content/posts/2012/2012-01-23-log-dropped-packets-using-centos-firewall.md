@@ -21,9 +21,9 @@ tags:
 Please take care modifying your firewall. If you don't understand what's being done here you may lock yourself out of your machine. You've been warned 🙂 !
 
 In order to log dropped packets on the INPUT chain I replaced this:
-[cceN_bash]
+```bash
 -A INPUT -i eth0 -j REJECT -reject-with icmp-host-prohibited
-[/cceN_bash]
+```
 with this
 ```bash
 -N LOGDROP

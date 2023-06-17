@@ -34,10 +34,10 @@ Let's try and see if the volumes are there:
 ls /dev/vgname/volume
 ```
 On the first try I got nothing so we must enable them:
-[cceN_bash]
+```bash
 vgchange -a y
 ls /dev/vgname/volume
-[/cceN_bash]
+```
 Yep, they are all there.
 
 Before anything else we need to check the volume for errors (resize2fs will not work if you don't)

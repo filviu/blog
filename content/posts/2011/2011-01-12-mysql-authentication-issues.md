@@ -19,7 +19,7 @@ tags:
 Ever happened to you that you create a user with privileges to connect from any host but it won't connect from the localhost?
 
 Like this:
-[cceN_bash]
+```bash
 [root@18969_1_490528 tmp]# mysql -u test_user -puser_pass
 ERROR 1045 (28000): Access denied for user 'test_user'@'localhost' (using password: YES)
 
@@ -32,7 +32,7 @@ Type 'help;' or 'h' for help. Type 'c' to clear the buffer.
 
 mysql> quit
 Bye
-[/cceN_bash]
+```
 The problem are the anonymous users created by mysql_install_db on initial setup of mysql. Those take precedence. So either you create your user both as 'test_user'@'%' and 'test_user'@localhost either erase those users. I erase them like this as I don't need two set's of users for every user I need:
 
 [cceN_mysql]

@@ -23,7 +23,7 @@ I don't say this is the best configuration possible but it's the one that works 
 
 Relevant from the default are the custom header, extended protocol info and the mkv and avi lines.
 
-[cce_xml]
+```xml
 
 MediaTomb
 uuid:0f53d0ff-5951-4d27-8fa7-06ce378ae789

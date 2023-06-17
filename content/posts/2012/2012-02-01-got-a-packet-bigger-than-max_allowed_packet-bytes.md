@@ -24,11 +24,11 @@ ERROR 1153 (08S01) at line 53: Got a packet bigger than 'max_allowed_packet' byt
 ```
 
 It's easily fixable. The default is probably 16M, I added the following in /etc/my.cnf
-[cceN_bash]
+```bash
 max_allowed_packet=32M
-[/cceN_bash]
+```
 
 And restarted mysql (depending on your distro you will do this differently):
-[cceN_bash]
+```bash
 service mysqld restart
-[/cceN_bash]
+```

@@ -28,15 +28,11 @@ After that I wrote a small script that would start the stream:
 
 ```bash
 #!/bin/bash
-\# set below your Raspberry PI IP address
+# set below your Raspberry PI IP address
 myip="192.168.xxx.xxx"
-port="5000&#8243;
+port="5000"
 
-gst-launch
--v v4l2src !
-"image/jpeg,width=1280,height=720,framerate=30/1" !
-multipartmux !
-tcpserversink host=$myip port=$port sync=false
+gst-launch -v v4l2src ! "image/jpeg,width=1280,height=720,framerate=30/1" ! multipartmux ! tcpserversink host=$myip port=$port sync=false
 ```
 
 Save this to a script and set it to start on boot (if you want).
@@ -49,7 +45,7 @@ vlc tcp://192.168.xxx.xxx:5000
 
 _**Notes:**_
 
-  * I got my inspiration [from here][1] (the author also has a simple android app for viewing the stream)********
+  * I got my inspiration [from here][1] (the author also has a simple android app for viewing the stream)
   * Yes, I can stream HD with low CPU usage (it starts to hickup after running 7 clients)
   * I couldn't get audio to work. Maybe it has something to do with this camera as CPU usage is very low. The source blog has details on how to enable audio but I couldn't get it to work
   * I tried using ffmpeg (if you want audio support remember to install libasound2-dev before compiling ffmpeg) but audio still didn't work

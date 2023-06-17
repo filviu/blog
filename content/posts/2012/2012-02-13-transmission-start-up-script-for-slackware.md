@@ -34,7 +34,7 @@ CMD="/usr/bin/transmission-daemon"
 \# Option to run with deamon
 \# -a means from where to accept incoming connections, comma separated
 \# you may want to add your local network if you have multiple clients
-OPTIONS="-a 127.0.0.1&#8243;
+OPTIONS="-a 127.0.0.1"
 
 \# Process name of daemon, for killing it.
 PROCESSNAME="/usr/bin/transmission-daemon"

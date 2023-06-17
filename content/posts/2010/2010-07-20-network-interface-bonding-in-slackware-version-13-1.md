@@ -78,9 +78,9 @@ fi
 ```
 Finally we must configure **rc.inet1.conf** to set our bond interface and to make sure the physical interfaces are not configured. Add the following:
 ```bash
-IFNAME[4]="bond0&#8243;
+IFNAME[4]="bond0"
 IPADDR[4]="XXX.XX.XX.XX"
-NETMASK[4]="255.255.255.0&#8243;
+NETMASK[4]="255.255.255.0"
 USE_DHCP[4]=""
 DHCP_HOSTNAME[4]=""
 ```

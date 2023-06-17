@@ -30,7 +30,7 @@ Here are the few, simple steps needed to get it up and running:
 
 **Install ssmtp using apt-get (sudo or run it as root)**
 
-[cceN_bash]
+```bash
 
 sudo apt-get install ssmtp
 Reading package lists... Done
@@ -41,28 +41,28 @@ Reading state information... Done
 
 Setting up libgnutls-openssl27:armhf (2.12.20-7) ...
 Setting up ssmtp (2.64-7) ...
-[/cceN_bash]
+```
 
 Configure ssmtp to use an email account. _Note that ssmtp sends mail as a client to a remote mail server (i.e. gmail) not as a traditional MTA_. Be sure to adjust ports and TLS settings according to your setup.
 
-Edit **/etc/ssmtp/ssmtp.conf **to look like below
+Edit `/etc/ssmtp/ssmtp.conf` to look like below:
 
-```bash
+```ini
 #
-\# Config file for sSMTP sendmail
+# Config file for sSMTP sendmail
 #
-\# The person who gets all mail for userids < 1000
-\# Make this empty to disable rewriting.
+# The person who gets all mail for userids < 1000
+# Make this empty to disable rewriting.
 root=account@example.com
 
-\# The place where the mail goes. The actual machine name is required no
-\# MX records are consulted. Commonly mailhosts are named mail.domain.com
+# The place where the mail goes. The actual machine name is required no
+# MX records are consulted. Commonly mailhosts are named mail.domain.com
 mailhub=mail.example.com:587
 
-\# Where will the mail seem to come from?
+# Where will the mail seem to come from?
 #rewriteDomain=
 
-\# The full hostname
+# The full hostname
 hostname=account@example.com
 
 UseTLS=YES
@@ -70,45 +70,41 @@ UseSTARTTLS=YES
 AuthUser=account@example.com
 AuthPass=secretPassword
 
-\# Are users allowed to set their own From: address?
-\# YES - Allow the user to specify their own From: address
-\# NO - Use the system generated From: address
+# Are users allowed to set their own From: address?
+# YES - Allow the user to specify their own From: address
+# NO - Use the system generated From: address
 FromLineOverride=YES
 ```
 
-Edit /etc/ssmtp/revaliases
+Edit `/etc/ssmtp/revaliases`
 
-```bash
-\# sSMTP aliases
+```ini
+# sSMTP aliases
 #
-\# Format:       local_account:outgoing_address:mailhub
+# Format:       local_account:outgoing_address:mailhub
 #
-\# Example: root:your_login@your.domain:mailhub.your.domain[:port]
-\# where [:port] is an optional port number that defaults to 25.
+# Example: root:your_login@your.domain:mailhub.your.domain[:port]
+# where [:port] is an optional port number that defaults to 25.
 root:account@example.com:mail.example.com:587
 ```
 
 Install mailx and test sending.
 
-[cceN_bash]
-
+```bash
 apt-get install mailutils
 
 (... snip ...)
 
 Setting up mailutils (1:2.99.97-3) ...
+```
 
-[/cceN_bash]
-
-[cceN_bash]
-
+```bash
 mailx destination@example.com
 Cc:
 Subject: Test Message
 Enter some text here
 End with CTRL+D to send
-
-[/cceN_bash]
+```
 
 Simple!
 

@@ -24,7 +24,7 @@ First create a script, let's call it simply magnet and place it somewhere in you
 ```bash
 #!/bin/bash
 REMOTE='192.168.0.1&#8242;
-ssh $REMOTE "sudo -u transmission /usr/bin/transmission-remote -add "$1&#8243;"
+ssh $REMOTE "sudo -u transmission /usr/bin/transmission-remote -add "$1""
 ```
 REMOTE is the remote host for which my workstation already has key based ssh authorization set up. Also note the sudo -u transmission. You can set up your remote directly as the use running the transmission-daemon and then this will no longer be necessary. Since I run my workstation as root and it connects to the server as root as well it is necessary for my setup.
 

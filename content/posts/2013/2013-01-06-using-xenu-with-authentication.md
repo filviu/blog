@@ -23,10 +23,14 @@ First start Fiddler and set it to capture traffic. Log in in the site using a br
 
 Open ‘Customize rules’ in Fiddler and search for
 
-`static function OnBeforeRequest(oSession: Session)`
+```js
+static function OnBeforeRequest(oSession: Session)
+```
 
 Before any other code paste:
 
-`oSession.oRequest["Cookie"] = "data you copied earlier";`
+```js
+oSession.oRequest["Cookie"] = "data you copied earlier";
+```
 
 Now start Xenu as you would on any other site. Remember to disable Fiddler after that as it might offer weird results later.
