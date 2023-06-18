@@ -16,14 +16,14 @@ tags:
 
 ---
 Sometime you might want to download some old or obscure distro that was once packaged as a torrent. But many times the tracker embeded in the torrent file has long been abandoned or it has no peers. But many other trackers might have cached your torrent and maybe those have seeds. So I wrote a quick and dirty script to get a list of online trackers from <a href="http://www.trackon.org/" target="_blank" rel="noopener">trackon.org</a> and add them to a torrent you have downloading inside <a href="http://www.transmissionbt.com/" target="_blank" rel="noopener">transmission</a>.
-[cc_bash]
+```bash
 #!/bin/bash
 
 TRANSMISSION_REMOTE='/usr/bin/transmission-remote'
 
-\# Below is a command that will generate a tracker
-\# list with one tracker per line
-\# i.e. cat /some/path/trackers.txt for a static list
+# Below is a command that will generate a tracker
+# list with one tracker per line
+# i.e. cat /some/path/trackers.txt for a static list
 
 LIVE_TRACKERS_LIST_CMD='curl -s www.trackon.org/api/live'
 
@@ -38,10 +38,15 @@ do
 echo "Adding $TRACKER"
 $TRANSMISSION_REMOTE -t $1 -td $TRACKER
 done
-[/cc_bash]
+```
 You simply run it passing as parameter the ID of the torrent you want updated. You can find the ID by running
- ```bash
-transmission-remote -l[/cci_bash]
+ 
+```bash
+transmission-remote -l
+```
+
 or maybe
- ```bash
-transmission-remote -l | grep -i "name"[/cci_bash]
+
+```bash
+transmission-remote -l | grep -i "name"
+```

@@ -17,8 +17,10 @@ tags:
 
 ---
 This is a new one for me. I was dumping some databases on a server when I got this:
+
 ```bash
 mysqldump: Error: 'Got error 28 from storage engine' when trying to dump tablespaces
-mysqldump: Couldn't execute 'show fields from \`xxxxxx\`': Got error 28 from storage engine (1030)
+mysqldump: Couldn't execute 'show fields from `xxxxxx`': Got error 28 from storage engine (1030)
 ```
+
 Fortunately the fix was easy, just clean the /tmp folder as it was almost full on that particular server.

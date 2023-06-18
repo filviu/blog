@@ -3,6 +3,7 @@ title: Remove the Thunar root warning
 author: silviu
 type: post
 date: 2013-11-06T08:36:58+00:00
+draft: true
 url: /2013/11/06/remove-the-thunar-root-warning/
 dsq_thread_id:
   - 1941201952
@@ -15,7 +16,10 @@ tags:
   - Thunar
 
 ---
-[<img decoding="async" loading="lazy" class="alignright size-medium wp-image-2914" alt="thunar-warning" src="http://blog.silviuvulcan.ro/wp-content/uploads/sites/2/2013/11/thunar-warning-300x199.png" width="300" height="199" />][1]I never understood a developer's obsession with "their way" but anyways. Thunar is a good light file manager that has one issue, it insists on displaying a warning when being used as root that cannot be turned off. Well I run my personal laptop as root and I don't really care what others think about it and why it might be a bad thing(TM).
+
+![thunar warnign](/blog/images/2013/thunar-warning.png)  
+
+I never understood a developer's obsession with "their way" but anyways. Thunar is a good light file manager that has one issue, it insists on displaying a warning when being used as root that cannot be turned off. Well I run my personal laptop as root and I don't really care what others think about it and why it might be a bad thing(TM).
 
 In order to remove the damn warning you need to grab everything needed to rebuild the package from:
 

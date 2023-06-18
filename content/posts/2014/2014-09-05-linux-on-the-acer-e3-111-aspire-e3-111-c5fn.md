@@ -22,7 +22,7 @@ tags:
     alt="Stock image of a silver Acer E3-111"
     class="alignleft"
 >}}
-I gave up on using a tablet and sold mine some time ago. My old toshiba m100 laptop was to heavy and too old to lug around when on holiday (mainly to download photos) so I decided to buy a small laptop to replace it. 10&#8242;&#8242; is too small for me and so I decided on an 11&#8242;&#8242; low cost system.
+I gave up on using a tablet and sold mine some time ago. My old toshiba m100 laptop was to heavy and too old to lug around when on holiday (mainly to download photos) so I decided to buy a small laptop to replace it. 10'' is too small for me and so I decided on an 11'' low cost system.
 
 I bought an [Acer Aspire E3-111][1] instead of competing models from Asus and others because I found a good deal on it and because of the quad core CPU -  Intel® Celeron® N2930 - that I couldn't find on any other machine.
 

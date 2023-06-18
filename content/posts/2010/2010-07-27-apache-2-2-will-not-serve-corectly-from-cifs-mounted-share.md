@@ -47,7 +47,7 @@ file.jpg has sprung into existence.
 Retrying.
 
 -09:18:03- http://192.xxx.xxx.xxx/windowsshare/folder/file.jpg
-(try: 3) => \`file.jpg.1&#8242;
+(try: 3) => \`file.jpg.1'
 Connecting to 127.0.0.1:80... connected.
 HTTP request sent, awaiting response... 200 OK
 Length: 763,685 (746K) [image/jpeg]

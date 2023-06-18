@@ -25,25 +25,25 @@ I installed transmission on a headless server so I need it to start on boot. The
 #!/bin/bash
 #Slackware startup deamon script
 
-\# Name of Service
+# Name of Service
 NAME="Transmission Daemon"
 
-\# Command to run
+# Command to run
 CMD="/usr/bin/transmission-daemon"
 
-\# Option to run with deamon
-\# -a means from where to accept incoming connections, comma separated
-\# you may want to add your local network if you have multiple clients
+# Option to run with deamon
+# -a means from where to accept incoming connections, comma separated
+# you may want to add your local network if you have multiple clients
 OPTIONS="-a 127.0.0.1"
 
-\# Process name of daemon, for killing it.
+# Process name of daemon, for killing it.
 PROCESSNAME="/usr/bin/transmission-daemon"
 
-\# The name of the user that should run Transmission.
-\# It's RECOMENDED to run Transmission in it's own user,
-\# by default, this is set to 'transmission'.
-\# For the sake of security you shouldn't set a password
-\# on this user
+# The name of the user that should run Transmission.
+# It's RECOMENDED to run Transmission in it's own user,
+# by default, this is set to 'transmission'.
+# For the sake of security you shouldn't set a password
+# on this user
 USERNAME="transmission"
 
 func_stop() {

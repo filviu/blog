@@ -22,10 +22,13 @@ tags:
 
 ---
 I needed today to remove duplicate files from a big folder (8Gb+, 10000+ files). I use the nice <a href="http://code.google.com/p/fdupes/" target="_blank" rel="noopener">fdupes</a> program written by Adrian Lopez
- ```bash
-fdupes -rdN .[/cci_bash]
+
+```bash
+fdupes -rdN .
+```
+
 Note the point after the parameters. That means to search inside the current folder. A path could be provided instead of it. The options are:
 
-  * **-r** means search recursively
-  * **-d** means delete. use carefully and read the man page to understand what could go wrong!
-  * **-N** means "no prompt", i.e. the program will not ask which file to keep when multiple are found (I didn't care, you might)
+  * `-r` means search recursively
+  * `-d` means delete. use carefully and read the man page to understand what could go wrong!
+  * `-N` means "no prompt", i.e. the program will not ask which file to keep when multiple are found (I didn't care, you might)

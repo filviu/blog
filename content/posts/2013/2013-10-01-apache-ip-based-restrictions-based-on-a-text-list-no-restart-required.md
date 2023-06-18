@@ -19,11 +19,9 @@ tags:
 ---
 I run a few services on a remote host that I want to restrict access to. For that I use both a password and IP based restrictions. The issue is that for example at home I have a dynamic allocated IP. One option would be to add a hostname in the apache rule, like this:
 
-[cc_apache]
-
+```apacheconf
 Allow from example.dyndns.org
-
-[/cc_apache]
+```
 
 But this has some disadvantages:
 
@@ -32,32 +30,28 @@ But this has some disadvantages:
 
 To get around this I moved away from _Access control_ to a rewrite map. Using the [apache documentation][1] I did the following:
 
-[cc_apache]
-
-\## WHITELIST IPS ##
+```apacheconf
+## WHITELIST IPS ##
 RewriteEngine On
 RewriteMap ipslist txt:/usr/local/etc/apache-whitelist.txt
 RewriteCond %{REMOTE_ADDR} ^(.*)$
 RewriteCond ${ipslist:%1|black} ^black$ [NC]
 RewriteRule (.*) - [F]
-
-[/cc_apache]
+```
 
 What this does is check the client's IP against /usr/local/etc/apache-whitelist.txt **Don't** **rush** like I did and cause your self a lot of headaches :), that file has to look like this (note the "-" after the IP):
 
-[cc_bash]
-
+```ini
 ##
-\## ATTENTION! This is a map, not a list, even when we treat it as such.
-\## mod_rewrite parses it for key/value pairs, so at least a
-\## dummy value "-" must be present for each entry.
+## ATTENTION! This is a map, not a list, even when we treat it as such.
+## mod_rewrite parses it for key/value pairs, so at least a
+## dummy value "-" must be present for each entry.
 ##
-
 127.0.0.1 -
 198.51.100.1 -
-\# below is myhost (the update script checks for this line)
+# below is myhost (the update script checks for this line)
 198.51.100.24 -
-[/cc_bash]
+```
 
 Changes to this file don't require reloading apache. After this writting a script that updates some dynamic IP in the text file is easy.
 
@@ -68,8 +62,8 @@ Oh, if you need an example here is the script I use:
 ```bash
 #!/bin/bash
 #
-\# be sure to have a comment line with your match term
-\# in the whitelist file
+# be sure to have a comment line with your match term
+# in the whitelist file here the term is 'myhost'
 LIST='/usr/local/etc/apache-whitelist.txt'
 MYHOST=$(resolveip -silent example.dyndns.org)
 

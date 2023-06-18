@@ -71,7 +71,7 @@ chmod +x /etc/rc.d/rc.bond
 ```
 We need to start this on boot. So edit rc.M You need to find the line containing **#Initialize the networking hardware** and insert this after it
 ```bash
-\# If script rc.bond is executeable then start it
+# If script rc.bond is executeable then start it
 if [ -x /etc/rc.d/rc.bond ]; then
 . /etc/rc.d/rc.bond start
 fi

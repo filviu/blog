@@ -17,7 +17,7 @@ tags:
 I'm running a debian based XEN box to host various virtual machines. Lately I've been having an issue when running `update-grub`. All the partitions for the virtual machines are found and added to grub:
 
 ```bash
-\# update-grub2
+# update-grub2
 [...]
 Found Debian GNU/Linux (7.7) on /dev/mapper/vg0-vm01-disk
 Found Debian GNU/Linux (7.7) on /dev/mapper/vg0-vm02-disk

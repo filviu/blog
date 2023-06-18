@@ -14,23 +14,24 @@ tags:
   - temp_on
 
 ---
+
 I write a lot of scripts that do various jobs and most of the time I'd like to have some log of what happened. So for most of them I add a function that helps logging.
 
 ```bash
 #!/bin/bash
-\# log date format, customize it to your wishes
-\# see man date for help
+# log date format, customize it to your wishes
+# see man date for help
 DATE='date +%Y/%m/%d:%H:%M:%S'
-\# log file
+# log file
 LOG='/var/log/script.log'
 
 function echo_log {
-echo \`$DATE\`" $1" >> $LOG
+  echo "`$DATE` $1" >> $LOG
 }
-\# start
+# start
 echo_log "Script running"
-\# do something
+# do something
 echo_log "Doing this"
-\# done
+# done
 echo_log "Script ended
 ```

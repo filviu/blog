@@ -17,6 +17,7 @@ tags:
 
 ---
 I got this on a newly installed server when I tried to import a database:
+
 ```bash
 [root@host ~]# mysql -u user -pPassword database < database.sql
 Enter password:
@@ -24,11 +25,13 @@ ERROR 1153 (08S01) at line 53: Got a packet bigger than 'max_allowed_packet' byt
 ```
 
 It's easily fixable. The default is probably 16M, I added the following in /etc/my.cnf
+
 ```bash
 max_allowed_packet=32M
 ```
 
 And restarted mysql (depending on your distro you will do this differently):
+
 ```bash
 service mysqld restart
 ```

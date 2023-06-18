@@ -19,10 +19,18 @@ tags:
 ---
 Joomla 1.7 has a nice module mod_related_items (Articles Related) that shows articles related to the current one the visitor is browsing. It has one issue though, you can't set a limit.
 
-So a little code hacking is in order. Open modules/mod_related_items/helper.php and go to line 94 (right after the _Filter by language_ if_)_ and modify $db>setQuery($query); to read:
-[cceN_php]
+So a little code hacking is in order. Open `modules/mod_related_items/helper.php` and go to line 94 (right after the `_Filter by language_ if_`) and modify 
+
+```php
+$db>setQuery($query); 
+```
+
+to read:
+
+```php
 $db->setQuery($query,0,10);
-[/cceN_php]
+```
+
 Of course you can change the limit from 10 with whatever you like. Random order is commented out because using ORDER BY RAND has performance issues. If you think you can handle it feel free to uncomment.
 
 **This hack also works for Joomla 2.5!**

@@ -63,27 +63,27 @@ nano isonew/preseed.cfg
 ```
 **6. PASTE this to the preseed file:**
 ```bash
-\#### Contents of the preconfiguration file
-\### Localization
-\# Locale sets language and country.
+#### Contents of the preconfiguration file
+### Localization
+# Locale sets language and country.
 d-i debian-installer/locale select en_US
-\# Keyboard selection.
+# Keyboard selection.
 d-i console-keymaps-at/keymap select us
-\### Network configuration
-\# netcfg will choose an interface that has link if possible. This makes it
-\# skip displaying a list if there is more than one interface.
+### Network configuration
+# netcfg will choose an interface that has link if possible. This makes it
+# skip displaying a list if there is more than one interface.
 d-i netcfg/choose_interface select auto
-\# Any hostname and domain names assigned from dhcp take precedence over
-\# values set here. However, setting the values still prevents the questions
-\# from being shown, even if values come from dhcp.
+# Any hostname and domain names assigned from dhcp take precedence over
+# values set here. However, setting the values still prevents the questions
+# from being shown, even if values come from dhcp.
 d-i netcfg/get_hostname string newdebian
 d-i netcfg/get_domain string local
-\# Disable that annoying WEP key dialog.
+# Disable that annoying WEP key dialog.
 d-i netcfg/wireless_wep string
-\# The wacky dhcp hostname that some ISPs use as a password of sorts.
+# The wacky dhcp hostname that some ISPs use as a password of sorts.
 #d-i netcfg/dhcp_hostname string radish
 d-i preseed/early_command string anna-install network-console
-\# Setup ssh password
+# Setup ssh password
 d-i network-console/password password install
 d-i network-console/password-again password install
 ```

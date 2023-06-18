@@ -24,9 +24,9 @@ One of the above broken everything (I started seeing _digikam_root_tag) and some
   * Remove your collection from digikam
   * Drop all tables from the digikam database
   * Remove all .xmp files. In the folder containing your collection:
-    find . -name *.xmp -exec rm {} ;
+    `find . -name *.xmp -exec rm {} ;`
   * Remove all embedded xmp tags (again in the folder containing you collection)
-    exiftool -r -P -xmp:TagsList= -xmp:LastKeywordXMP= -xmp:HierarchicalSubject= -xmp:Subject= -iptc:Keywords= *
+    `exiftool -r -P -xmp:TagsList= -xmp:LastKeywordXMP= -xmp:HierarchicalSubject= -xmp:Subject= -iptc:Keywords= *`
 
 **DON'T FOLLOW THIS BLINDLY**
 

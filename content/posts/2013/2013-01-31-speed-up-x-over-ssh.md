@@ -29,7 +29,7 @@ ssh -X -C -c blowfish-cbc,arcfour user@host.example.com
 
 Of course you can make this permanent by adding the following to `/etc/ssh/ssh_config` or even better only for the specific host in `~/.ssh/config` (might be different on your distro):
 
-```conf
+```ini
 Cipher blowfish
 # default line
 ##Ciphers aes128-ctr,aes192-ctr,aes256-ctr,arcfour256,arcfour128,aes128-cbc,3des-cbc

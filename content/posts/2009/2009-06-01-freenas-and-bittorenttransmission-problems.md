@@ -44,10 +44,10 @@ Yesterday I left it downloading the latest ubuntu version. (Yes I know I'm behin
 
 ```bash
 #!/bin/sh
-\# filename:   perm_reset.sh
-\# author:     Dan Merschi edited by evadman
-\# date:       2008-10-24 original, edit 2008-10-28
-\# purpose:    Reset permissions on torrent file and directory once
+# filename:   perm_reset.sh
+# author:     Dan Merschi edited by evadman
+# date:       2008-10-24 original, edit 2008-10-28
+# purpose:    Reset permissions on torrent file and directory once
 #
 DIR=$(/usr/local/bin/xml sel -T -t -v "/freenas/bittorrent/downloaddir" /conf/config.xml)
 if   [ ! $(pgrep transmission) ]; then

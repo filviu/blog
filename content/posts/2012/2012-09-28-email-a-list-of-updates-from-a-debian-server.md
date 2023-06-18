@@ -15,16 +15,19 @@ tags:
   - updates
 
 ---
-[<img decoding="async" loading="lazy" class="alignleft size-full wp-image-2319" title="Debian" alt="" src="http://blog.silviuvulcan.ro/wp-content/uploads/sites/2/2012/09/Debian1.png" width="110" height="145" />][1]Do you run remote servers? Me too.
+![Debian logo](/blog/images/2012/Debian1.png)
+
+Do you run remote servers? Me too.
 
 It's a good ideea to keep them up to date. On the other hand I don't like automatic updates, something might break when you least want or expect it. So I prefer to be notified of updates and choose myself the moment when to apply them. Following is a nice script that sends an email of available updates on a Debian system.
-[cc_bash]
+
+```bash
 #!/bin/bash
 
 EMAIL=youremail@example.com
 
-\# Only download updates.
-\# Nothing is installed.
+# Only download updates.
+# Nothing is installed.
 apt-get -dqq update
 apt-get -dyqq upgrade
 
@@ -32,7 +35,6 @@ upgrades=$(apt-get -s upgrade | grep ^Inst)
 if [ "$upgrades" ] ; then
 echo "$upgrades" | mail -s "Updates for $(hostname) on $(date +%Y-%m-%d)" $EMAIL
 fi
-[/cc_bash]
-Set the above script to run from cron as often as you'd like to get these notifications.
+```
 
- [1]: http://blog.silviuvulcan.ro/wp-content/uploads/sites/2/2012/09/Debian1.png
+Set the above script to run from cron as often as you'd like to get these notifications.

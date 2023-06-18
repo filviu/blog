@@ -27,17 +27,17 @@ Did you ever need to have e-mail's sent from within a bash script? Maybe alert y
 Here's an easy way on how to do it:
 ```bash
 #!/bin/bash
-\# email send script example
+# email send script example
 #
-\# subject of email
+# subject of email
 SUBJECT="BASH SAYS HELLO"
-\# destination
+# destination
 EMAIL="user@yourdomain.com"
-\# Email body
+# Email body
 EMAILMESSAGE="/tmp/messagebody.txt"
 echo "Email sent from BASH" > $EMAILMESSAGE
 echo "Another text line" >> $EMAILMESSAGE
-\# send message using /bin/mail
+# send message using /bin/mail
 /bin/mail -s "$SUBJECT" "$EMAIL" < $EMAILMESSAGE
 ```
 Easy.

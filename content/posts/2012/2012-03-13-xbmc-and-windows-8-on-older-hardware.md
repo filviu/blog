@@ -19,10 +19,10 @@ Just wanted to note that older hardware works well with the new Windows 8 consum
 
 Hardware:
 
-  * Gigabyte GA-MA78GPM-DS2H motherboard (AMD 780G +SB700 chipset,
-  * AMD 4850e dual core energy efficient cpu
-  * 250Gb hdd (all media is stored on a NAS)
-  * 6Gb RAM
+* Gigabyte GA-MA78GPM-DS2H motherboard (AMD 780G +SB700 chipset)
+* AMD 4850e dual core energy efficient cpu
+* 250Gb hdd (all media is stored on a NAS)
+* 6Gb RAM
 
 When I moved to a Full HD tv I found that I have to move away from XP to windows 7 in order to get decent hardware acceleration out of my integrated graphics. Because of power and heat issues I didn't want to use a dedicated card. Windows 7 ran full hd decent but only using the latest drivers for my IGP from AMD-ATI.
 

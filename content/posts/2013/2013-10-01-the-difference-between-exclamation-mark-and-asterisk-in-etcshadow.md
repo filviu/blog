@@ -18,11 +18,9 @@ tags:
   - temp_on
 
 ---
-So, with a terrible case of memory lapsus while wanting to disable password login for a user I couldn't remember what the difference between "!" and "*" is in the **/etc/shadow** file.
+So, with a terrible case of memory lapsus while wanting to disable password login for a user I couldn't remember what the difference between "!" and "*" is in the `/etc/shadow` file.
 
-<p style="padding-left: 30px">
-  Well <a href="http://manpages.sgvulcan.com/shadow.5.php"><strong>man 5 shadow</strong></a> to the rescue
-</p>
+Well <a href="http://manpages.sgvulcan.com/shadow.5.php"><strong>man 5 shadow</strong></a> to the rescue
 
 <p style="padding-left: 30px">
   <em>Refer to <b>crypt</b>(3) for details on how this string is interpreted.</em>

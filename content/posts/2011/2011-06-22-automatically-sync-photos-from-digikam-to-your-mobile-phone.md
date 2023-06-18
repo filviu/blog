@@ -25,7 +25,7 @@ tags:
 ```bash
 #!/bin/bash
 
-\# your digikam database, user and password
+# your digikam database, user and password
 DB="digikam"
 DBPASS="password"
 DBUSR="user"

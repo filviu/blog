@@ -21,15 +21,21 @@ tags:
 ---
 In order to backup a bunch of servers I'm using <a href="http://s3tools.org/s3cmd" target="_blank" rel="noopener">s3cmd</a> to backup files to a Amazon S3 account. s3cmd is a really nice tool as it works from the command line, does encryption on the fly and can use the https protocol for upload.
 
-I used  ```bash
-s3cmd -configure[/cci_bash] and set everything up. The first error I got when I tried to test it was:
+I used  
 
-**s3cmd put file.tar.gz s3://my_bucket_name/file.tar.gz**
+```bash
+s3cmd -configure
+``` 
+
+and set everything up. The first error I got when I tried to test it was:
+
+`s3cmd put file.tar.gz s3://my_bucket_name/file.tar.gz`
+
 ```bash
 [Errno 32] Broken pipe
 ```
 and it tried throttling down and uploading again. What I didn't know was that:
 
-  * if your file is over 5Gb it will give this error
-  * if you just created the bucket it may take a few minutes to start working
-  * you get this error if the bucket doesn't exist (you mistyped it)
+* if your file is over 5Gb it will give this error
+* if you just created the bucket it may take a few minutes to start working
+* you get this error if the bucket doesn't exist (you mistyped it)

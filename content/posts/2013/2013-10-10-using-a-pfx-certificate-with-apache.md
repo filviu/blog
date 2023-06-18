@@ -2,6 +2,7 @@
 title: Using a pfx certificate with Apache
 author: silviu
 type: post
+draft: true
 date: 2013-10-10T08:42:24+00:00
 url: /2013/10/10/using-a-pfx-certificate-with-apache/
 dsq_thread_id:

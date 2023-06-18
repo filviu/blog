@@ -17,20 +17,24 @@ tags:
   - temp_on
 
 ---
+
 I want to start building some new electronics projects and I wanted to use some tool to build my schematics. Even if not open source <a href="http://www.cadsoftusa.com/" target="_blank" rel="noopener">Cadsoft's Eagle</a> seems to be the de-facto standard between hobbyists.
 
 Unfortunately trying to run the setup on Slackware gives the errors regarding to
+
 ```bash
 /.../bin/eagle: error while loading shared libraries: libssl.so.1.0.0: cannot open shared object file: No such file or directory
 ```
+
 libssl.so.1.0.0 and libcrypto.so.1.0.0
 
 I run a multilib setup so that's not it. It turns that all I had to do was:
+
 ```bash
 cd /lib
 ln -s libssl.so.0.9.8 libssl.so.1.0.0
 ln -s libcrypt-2.14.1.so libcrypto.so.1.0.0
 ```
-in **/lib**
+in `/lib`
 
 Hope that helps.
