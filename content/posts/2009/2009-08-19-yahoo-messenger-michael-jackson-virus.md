@@ -19,7 +19,7 @@ tags:
   - yahoo
 
 ---
-[<img decoding="async" loading="lazy" class="alignleft size-full wp-image-447" title="dead_smiley" src="http://blog.silviuvulcan.ro/wp-content/uploads/sites/2/2009/08/dead_smiley.jpg" alt="dead_smiley" width="146" height="143" />][1]A friend of mine got infected via Yahoo Messenger. The virus, spreads via mass messaging the following message:
+[![dead_smiley](/blog/images/2009/dead_smiley.jpg) ][1]A friend of mine got infected via Yahoo Messenger. The virus, spreads via mass messaging the following message:
 
 <span style="color: #ff0000">HAHA Michael Jackson Gay 😀 >> http://looool.machiaeljack**ndied.com</span>
 
@@ -38,6 +38,6 @@ The last two will be on every partition your system has. Reboot and after starti
 **_
 Also remove the following registry key:
 
-<span style="color: #333399">[HKEY_CURRENT_USERSoftwareMicrosoftWindowsCurrentVersionRun] “BootMgr”=”C:\DOCUME~1\\LOCALS~1\Temp\svchost32.exe”</span>
+<span style="color: #333399">[HKEY_CURRENT_USERSoftwareMicrosoftWindowsCurrentVersionRun] "BootMgr"="C:\DOCUME~1\\LOCALS~1\Temp\svchost32.exe"</span>
 
  [1]: http://blog.silviuvulcan.ro/wp-content/uploads/sites/2/2009/08/dead_smiley.jpg

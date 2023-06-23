@@ -19,7 +19,7 @@ If you want to see the source code (I'm not particulary proud of it 🙂 )  dro
 
 If the bitmap is smaller than 128&#215;64 it will be left as is, if not it will be resized proportionally to 128&#215;64.
 
-[<img decoding="async" loading="lazy" class="aligncenter size-full wp-image-596" title="bmp2ks0108" src="http://blog.silviuvulcan.ro/wp-content/uploads/sites/2/2009/12/bmp2ks0108.jpg" alt="bmp2ks0108" width="618" height="485" />][1]
+[![bmp2ks0108](/blog/images/2009/bmp2ks0108.jpg) ][1]
 
 You can set the name you want your variable to have and you can also set if you want the picture inverted or not. Depending on your lcd colors you might want to invert the result.
 

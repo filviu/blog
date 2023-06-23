@@ -15,7 +15,7 @@ tags:
   - temp_on
 
 ---
-[<img decoding="async" loading="lazy" class="alignleft wp-image-532 size-medium" title="5800-red-0" src="http://blog.silviuvulcan.ro/wp-content/uploads/sites/2/2009/10/5800-red-0-142x300.jpg" alt="5800-red-0" width="142" height="300" />][1]Before you ask, no, I didn't gave up my trusted E71. But my wife's had it with her old 7610 so we upgraded her phone. After some deliberation, and her not liking the design of the e55 and e52 she finally settled for a Nokia 5800.
+[![5800-red-0](/blog/images/2009/5800-red-0-142x300.jpg) ][1]Before you ask, no, I didn't gave up my trusted E71. But my wife's had it with her old 7610 so we upgraded her phone. After some deliberation, and her not liking the design of the e55 and e52 she finally settled for a Nokia 5800.
 
 As you know that's a 5th edition, touchscreen phone. I was a bit reticent because it's never a good idea to get the first product from a series (that being the first Nokia touchscreen), still after reading a few reviews getting the 5800 seemed like a good idea. She doesn't write that much and so missing a keyboard is no problem for her.
 

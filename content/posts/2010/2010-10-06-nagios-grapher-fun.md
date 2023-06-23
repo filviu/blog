@@ -17,7 +17,7 @@ tags:
   - temp_on
 
 ---
-<img decoding="async" loading="lazy" class="alignleft size-full wp-image-1102" title="NagiosMonitorIcon" src="http://blog.silviuvulcan.ro/wp-content/uploads/sites/2/2010/10/NagiosMonitorIcon.png" alt="" width="128" height="128" />I was struggling with Nagios Grapher (or was it nagiosgraph - I tested both)  in Slackware 13.1 After installing all dependencies it would still refuse to work. I tracked the problem pretty easy to be related to Perl not being able to load the **librrd.so.4** library.
+![NagiosMonitorIcon](/blog/images/2010/NagiosMonitorIcon.png) I was struggling with Nagios Grapher (or was it nagiosgraph - I tested both)  in Slackware 13.1 After installing all dependencies it would still refuse to work. I tracked the problem pretty easy to be related to Perl not being able to load the **librrd.so.4** library.
 
 That was funny as I was sure that I did configure, make and make install the latest version. Well, by default, on slackware at least rrdtool installs in **/opt !**
 **I added /opt/rrdtool-x.x/lib in /etc/ld.so.conf  (check to see what is the exact path in your case) and rerun ldconfig. Sure enough everything worked fine.**

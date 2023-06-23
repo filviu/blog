@@ -26,7 +26,7 @@ In the command prompt window type the following:
 ```shell
 fsutil behavior query disabledeletenotify
 ```
-[<img decoding="async" loading="lazy" class="aligncenter wp-image-1058 size-full" title="Checking the state of the TRIM command support  inside the windows command prompt" src="http://blog.silviuvulcan.ro/wp-content/uploads/sites/2/2010/07/trim_command_check_command_prompt.jpg" alt="Checking the state of the TRIM command support inside the windows  command prompt" width="541" height="149" />][1]You will get one of the following:
+[![Checking the state of the TRIM command support  inside the windows command prompt](/blog/images/2010/trim_command_check_command_prompt.jpg) ][1]You will get one of the following:
 
 **DisableDeleteNotify = 1 (Means that Windows TRIM commands are disabled)
 DisableDeleteNotify = 0 (Means that Windows TRIM commands are enabled)**

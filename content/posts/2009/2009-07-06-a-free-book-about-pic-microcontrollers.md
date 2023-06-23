@@ -16,7 +16,7 @@ tags:
   - temp_on
 
 ---
-<img decoding="async" loading="lazy" class="alignright size-full wp-image-356" title="book_with_cd" src="http://blog.silviuvulcan.ro/wp-content/uploads/sites/2/2009/07/book_with_cd.jpg" alt="book_with_cd" width="150" height="157" />As you might have noticed from my posts I am always in for a free lunch.
+![book_with_cd](/blog/images/2009/book_with_cd.jpg) As you might have noticed from my posts I am always in for a free lunch.
 
 So, this would be free lunch for your brain. Even if you don't use or plan to use Mikroelektronika products you might want to know that they have a free book about PIC microcontrolers on their website: <a href="http://www.mikroe.com/en/books/picmcubook/" target="_blank" rel="noopener">here</a>.
 

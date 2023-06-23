@@ -29,17 +29,22 @@ Bonding is the same as port trunking. It means that two (ore more) physical netw
 ### How is it configured
 
 First you need a small utility that comes with the linux kernel: **ifenslave**. So we must compile it. After that it should be moved somewhere more apropriate.
+
 ```bash
 cd /usr/src/linux/Documentation/networking
 gcc -Wall -O -I/usr/src/linux/include ifenslave.c -o ifenslave
 cp ifenslave /sbin/ifenslave
 ```
+
 Then we need some scripts that will set up bonding on boot. So we go to **/etc/rc.d** and create a new file called **rc.bond**
+
 ```bash
 cd /etc/rc.d
 touch rc.bond
 ```
+
 Edit the file you just created to contain the following:
+
 ```bash
 #!/bin/sh
 
@@ -65,6 +70,7 @@ echo "Usage: $0 {start|stop}"
 ;;
 esac
 ```
+
 Save this file and make it executable
 ```bash
 chmod +x /etc/rc.d/rc.bond

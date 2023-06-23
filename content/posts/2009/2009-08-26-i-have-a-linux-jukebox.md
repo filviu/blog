@@ -26,7 +26,7 @@ Finally, after years of putting it away, after a few design changes and a fried 
 
 **Check at the bottom for the latest updates.**
 
-<figure id="attachment_463" aria-describedby="caption-attachment-463" style="width: 300px" class="wp-caption aligncenter">[<img decoding="async" loading="lazy" class="size-medium wp-image-463" title="Linux Webradio" src="http://blog.silviuvulcan.ro/wp-content/uploads/sites/2/2009/08/IMG_9095_i-300x200.jpg" alt="Linux Webradio" width="300" height="200" />][1]<figcaption id="caption-attachment-463" class="wp-caption-text">Linux internet radio inside a vintage Blaupunkt radio case</figcaption></figure>
+<figure id="attachment_463" aria-describedby="caption-attachment-463" style="width: 300px" class="wp-caption aligncenter">[![Linux Webradio](/blog/images/2009/IMG_9095_i-300x200.jpg) ][1]<figcaption id="caption-attachment-463" class="wp-caption-text">Linux internet radio inside a vintage Blaupunkt radio case</figcaption></figure>
 
 When I first had the ideea I noticed an old ~ '50s Blaupunkt Radio my father had in his basement. I investigated if the radio was worth restoring but the inside was rusted, the capacitors were long gone and most of the tubes were missing. It was more a case of rebuilding rather than restoring. I checked around the internet and saw that many models like this one existed, so it was not rare. And so, the radio was gutted and the insides went away. I cleaned and repaired the case as best as I could.
 

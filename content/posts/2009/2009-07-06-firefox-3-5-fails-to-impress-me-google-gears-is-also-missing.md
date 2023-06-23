@@ -15,7 +15,7 @@ tags:
   - temp_on
 
 ---
-<img decoding="async" loading="lazy" class="alignright size-full wp-image-364" title="images" src="http://blog.silviuvulcan.ro/wp-content/uploads/sites/2/2009/07/images.jpg" alt="images" width="123" height="116" />I've been using Firefox 3.5 for some time now - alpha, beta, rc and now final.
+![images](/blog/images/2009/images.jpg) I've been using Firefox 3.5 for some time now - alpha, beta, rc and now final.
 
 In my opinion firefox fails to improve performance as promised. It has some new features, it has some bad new features and it misses the speed we want and need. Ajax sites seem just as slow as they were in Firefox 3.0. It still isn't 100 on the ACID 3 test and so on.
 

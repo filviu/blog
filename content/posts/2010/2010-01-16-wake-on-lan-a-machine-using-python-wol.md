@@ -14,9 +14,9 @@ tags:
   - wol
 
 ---
-<img decoding="async" loading="lazy" class="alignleft size-thumbnail wp-image-688" title="Wake-on-lan-cable" src="http://blog.silviuvulcan.ro/wp-content/uploads/sites/2/2010/01/Wake-on-lan-cable-150x150.jpg" alt="" width="150" height="150" />This is something useful: code to wake up a machine on lan using python. Since python is available on most devices now (symbian, maeom, windows, linux and so on) it's pretty usefull. So, if you have machines that you want to be able to start this is the code to do it. I found it floating on the internet but since it's GPL I see no problem in posting it. Full credit and thanks for the useful code go to the author. BTW I use this on my n800 tablet to wake up my backup server and my media center pc - what will you use it for?
-[ccNe_python]
-Wake-On-LAN
+![Wake-on-lan-cable](/blog/images/2010/Wake-on-lan-cable-150x150.jpg) This is something useful: code to wake up a machine on lan using python. Since python is available on most devices now (symbian, maemo, windows, linux and so on) it's pretty usefull. So, if you have machines that you want to be able to start this is the code to do it. I found it floating on the internet but since it's GPL I see no problem in posting it. Full credit and thanks for the useful code go to the author. BTW I use this on my n800 tablet to wake up my backup server and my media center pc - what will you use it for?
+
+```python
 #
 # Copyright (C) 2002 by Micro Systems Marc Balmer
 # Written by Marc Balmer, marc@msys.ch, http://www.msys.ch/

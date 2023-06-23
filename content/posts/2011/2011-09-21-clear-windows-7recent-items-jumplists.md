@@ -1,5 +1,5 @@
 ---
-title: Clear Windows 7″Recent Items”/ jumplists
+title: Clear Windows 7″Recent Items"/ jumplists
 author: silviu
 type: post
 draft: true # path looks wrong

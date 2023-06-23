@@ -24,17 +24,17 @@ Aviator, Enterprise and Zen Touch from [Tehkseven][1] - those are both with seva
 **Zen Touch:**
 
 <p style="text-align: center">
-  <a href="http://blog.silviuvulcan.ro/wp-content/uploads/sites/2/2009/08/Screenshot0026.jpg"><img decoding="async" loading="lazy" class="size-full wp-image-455 aligncenter" title="Screenshot0026" src="http://blog.silviuvulcan.ro/wp-content/uploads/sites/2/2009/08/Screenshot0026.jpg" alt="Screenshot0026" width="320" height="240" /></a><a href="http://blog.silviuvulcan.ro/wp-content/uploads/sites/2/2009/08/Screenshot0027.jpg"><img decoding="async" loading="lazy" class="size-full wp-image-456 aligncenter" title="Screenshot0027" src="http://blog.silviuvulcan.ro/wp-content/uploads/sites/2/2009/08/Screenshot0027.jpg" alt="Screenshot0027" width="320" height="240" /></a>
+  <a href="http://blog.silviuvulcan.ro/wp-content/uploads/sites/2/2009/08/Screenshot0026.jpg">![Screenshot0027](/blog/images/2009/Screenshot0027.jpg) </a>
 </p>
 
 **Aviator:**
 
 <p style="text-align: left">
-  <a href="http://blog.silviuvulcan.ro/wp-content/uploads/sites/2/2009/08/Screenshot0028.jpg"><img decoding="async" loading="lazy" class="size-full wp-image-457 aligncenter" title="Screenshot0028" src="http://blog.silviuvulcan.ro/wp-content/uploads/sites/2/2009/08/Screenshot0028.jpg" alt="Screenshot0028" width="320" height="240" /></a><a href="http://blog.silviuvulcan.ro/wp-content/uploads/sites/2/2009/08/Screenshot0029.jpg"><img decoding="async" loading="lazy" class="size-full wp-image-458 aligncenter" title="Screenshot0029" src="http://blog.silviuvulcan.ro/wp-content/uploads/sites/2/2009/08/Screenshot0029.jpg" alt="Screenshot0029" width="320" height="240" /></a><strong>Enterprise:</strong>
+  <a href="http://blog.silviuvulcan.ro/wp-content/uploads/sites/2/2009/08/Screenshot0028.jpg">![Screenshot0029](/blog/images/2009/Screenshot0029.jpg) </a><strong>Enterprise:</strong>
 </p>
 
 <p style="text-align: center">
-  <a href="http://blog.silviuvulcan.ro/wp-content/uploads/sites/2/2009/08/Screenshot0030.jpg"><img decoding="async" loading="lazy" class="size-full wp-image-459 aligncenter" title="Screenshot0030" src="http://blog.silviuvulcan.ro/wp-content/uploads/sites/2/2009/08/Screenshot0030.jpg" alt="Screenshot0030" width="320" height="240" /></a><a href="http://blog.silviuvulcan.ro/wp-content/uploads/sites/2/2009/08/Screenshot0031.jpg"><img decoding="async" loading="lazy" class="size-full wp-image-460 aligncenter" title="Screenshot0031" src="http://blog.silviuvulcan.ro/wp-content/uploads/sites/2/2009/08/Screenshot0031.jpg" alt="Screenshot0031" width="320" height="240" /></a>
+  <a href="http://blog.silviuvulcan.ro/wp-content/uploads/sites/2/2009/08/Screenshot0030.jpg">![Screenshot0031](/blog/images/2009/Screenshot0031.jpg) </a>
 </p>
 
 Ovi blue has screenshots if you follow the link above.

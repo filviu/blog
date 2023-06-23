@@ -15,7 +15,7 @@ tags:
   - temp_on
 
 ---
-<img decoding="async" loading="lazy" class="alignright size-full wp-image-337" title="books" src="http://blog.silviuvulcan.ro/wp-content/uploads/sites/2/2009/07/books.jpg" alt="books" width="57" height="80" />To most of you this is probably old news, but if you didn't read it go out buy a copy and read it ! I thought I knew pretty much about networks, but after I read this book I knew a lot more. There's no way around it. If you are involved with computer networks this is a must.
+![books](/blog/images/2009/books.jpg) To most of you this is probably old news, but if you didn't read it go out buy a copy and read it ! I thought I knew pretty much about networks, but after I read this book I knew a lot more. There's no way around it. If you are involved with computer networks this is a must.
 
 It's clearly written, simple explained, and one of the technical books I have enjoyed the most.
 

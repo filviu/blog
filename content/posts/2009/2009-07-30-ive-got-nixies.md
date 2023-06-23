@@ -20,7 +20,7 @@ Thanks to a local electronics forum I managed to get my hands on some Nixie tube
 
 I hope that those drivers will simplify my circuit as they are high voltage drivers. I even managed to locate the datasheet ! for those **K155 and 155TM7 IC's** so if anybody needs it just drop a comment and I'll set-up a link for it. The board also contains a lot of romanian made digital gates (or, and, not etc.) which are not that interesting.
 
-[<img decoding="async" loading="lazy" class="aligncenter size-medium wp-image-408" title="nixie tubes" src="http://blog.silviuvulcan.ro/wp-content/uploads/sites/2/2009/07/nixie-tubes-300x200.jpg" alt="nixie tubes" width="300" height="200" />][1][<img decoding="async" loading="lazy" class="aligncenter size-medium wp-image-409" title="russian nixie drivers" src="http://blog.silviuvulcan.ro/wp-content/uploads/sites/2/2009/07/russian-nixie-drivers-300x200.jpg" alt="russian nixie drivers" width="300" height="200" />][2]
+[![russian nixie drivers](/blog/images/2009/russian-nixie-drivers-300x200.jpg) ][2]
 
 This set will probably become a clock. Stand by for building info's. I am still a bit busy but I plan starting as soon as possible. The second set is still on it's way and it contains some top view nixie tubes and I still have no ideea what to do with them. Any suggestions?
 

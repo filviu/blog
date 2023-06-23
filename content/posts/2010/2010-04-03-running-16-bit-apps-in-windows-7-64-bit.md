@@ -24,8 +24,9 @@ We got for my wife a much needed upgrade for her aging Toshiba laptop. The new o
 My wife likes this dictionary a lot, and as far as I can tell there are no upgrades available for it. One option would have been to have a copy of 32 bit XP or 2000 running as a virtual machine. Since the laptop only had windows 7 home installed it wasn't elligible to run XP mode. A full blown virtual machine would also tax a lot the laptop.
 
 **Sollution:** I grabbed a copy of Windows 3.11 I still had around, installed <a href="http://www.dosbox.com/" target="_blank" rel="noopener">dosbox</a> with freedos, set up windows 3.11 inside it. I gave some old graphic drivers a shot in order to get more than a 640&#215;480 windows but gave up, it's pretty usefull like this too. _If someone knows how to get 3.11 inside dosbox to run at more than 640&#215;480 please let me know._
-_[<img decoding="async" loading="lazy" class="aligncenter wp-image-765 size-medium" title="oxford_windows7_64bit" src="http://blog.silviuvulcan.ro/wp-content/uploads/sites/2/2010/04/oxford_windows7_64bit-300x237.jpg" alt="" width="300" height="237" />][1]
+
+![oxford_windows7_64bit](/blog/images/2010/oxford_windows7_64bit.jpg)
+
 _
 I also set dosbox to launch **win /s c:oxfordsuperlex.exe** at start and created an icon for it. So, it's possible to directly call the wanted 16 bit app, without having my wife to remember how to launch windows 3.11 from dos.
 
- [1]: http://blog.silviuvulcan.ro/wp-content/uploads/sites/2/2010/04/oxford_windows7_64bit.jpg

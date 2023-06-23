@@ -1,5 +1,5 @@
 ---
-title: Take your mobile phone for a “Swim”
+title: Take your mobile phone for a "Swim"
 author: silviu
 type: post
 date: 2009-05-28T08:08:46+00:00
@@ -16,7 +16,7 @@ tags:
   - temp_on
 
 ---
-<figure id="attachment_136" aria-describedby="caption-attachment-136" style="width: 150px" class="wp-caption alignright">[<img decoding="async" loading="lazy" class="size-thumbnail wp-image-136 " title="screenshot0013_cnv" src="http://blog.silviuvulcan.ro/wp-content/uploads/sites/2/2009/05/screenshot0013_cnv-150x150.jpg" alt="Swim, freeware symbian software from the Bergamot Project" width="150" height="150" />][1]<figcaption id="caption-attachment-136" class="wp-caption-text">Swim, freeware symbian software from the Bergamot Project</figcaption></figure>
+<figure id="attachment_136" aria-describedby="caption-attachment-136" style="width: 150px" class="wp-caption alignright">[![screenshot0013_cnv](/blog/images/2009/screenshot0013_cnv-150x150.jpg) ][1]<figcaption id="caption-attachment-136" class="wp-caption-text">Swim, freeware symbian software from the Bergamot Project</figcaption></figure>
 
 At one point I've been the shamed user of a Sony Ericsson v610i. Pretty simple candybar phone. Although it had one function that put my next phone (the Nokia E61) and my current phone to shame. It had syncml capabilities with the option of automatic, periodic syncing. Guess what... the flagship E series device of its time didn't!
 
@@ -29,7 +29,7 @@ Basically, Swim, allows you to choose a sync profile, and a period to automatica
 One particularity is that you don't choose an access point for it. It took me some minutes to understand that it will simply run the sync profile, it's your job to set the access point under the particular sync profile settings. Just install Smart Connect and use an access point group like WiFi First.
 
 <p style="text-align: center">
-  <img decoding="async" loading="lazy" class="size-medium wp-image-137 aligncenter" title="screenshot0014_cnv" src="http://blog.silviuvulcan.ro/wp-content/uploads/sites/2/2009/05/screenshot0014_cnv-300x225.jpg" alt="screenshot0014_cnv" width="300" height="225" />
+  ![screenshot0014_cnv](/blog/images/2009/screenshot0014_cnv-300x225.jpg) 
 </p>
 
 <p style="text-align: center">

@@ -1,5 +1,5 @@
 ---
-title: 'Evernote under Wine: “already installed by another user.”'
+title: 'Evernote under Wine: "already installed by another user."'
 author: silviu
 type: post
 date: 2014-01-07T12:34:01+00:00

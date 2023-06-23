@@ -17,6 +17,7 @@ tags:
 
 ---
 Sometimes is needed to have all files in a folder in the same case. Here's a small script to rename all files in the folder to lower case:
+
 ```bash
-for i in *; do mv $i \`echo $i | tr \[:upper:\] \[:lower:\]\`; done
+for i in *; do mv $i `echo $i | tr \[:upper:\] \[:lower:\]`; done
 ```

@@ -14,7 +14,7 @@ tags:
   - temp_on
 
 ---
-<img decoding="async" loading="lazy" class="alignleft size-full wp-image-583" title="google_search" src="http://blog.silviuvulcan.ro/wp-content/uploads/sites/2/2009/11/google_search.jpg" alt="google_search" width="150" height="96" />I did a website for a friend, a kind of a knowledge base and installed google custom search on it. To my surprise google stubornly kept showing no search results. I redid the custom search settings, paying close attention to the domains on which I wanted the search limited on, but still no results.
+![google_search](/blog/images/2009/google_search.jpg) I did a website for a friend, a kind of a knowledge base and installed google custom search on it. To my surprise google stubornly kept showing no search results. I redid the custom search settings, paying close attention to the domains on which I wanted the search limited on, but still no results.
 
 I took a quick walk on the Google Help boulevard but I didn't find anything. A google search later and I found numerous causes: wrong definitions for the domains on which the search is limited, wrong integration of the code, wrong definition of the result page the form should point to.
 

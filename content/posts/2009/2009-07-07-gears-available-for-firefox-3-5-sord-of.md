@@ -15,7 +15,7 @@ tags:
   - temp_on
 
 ---
-<img decoding="async" loading="lazy" class="alignright size-full wp-image-370" title="logo_153x43" src="http://blog.silviuvulcan.ro/wp-content/uploads/sites/2/2009/07/logo_153x43.gif" alt="logo_153x43" width="153" height="43" />Like I mentioned in my previous post Firefox 3.5 is still not supported by google gears. I don't need it for Gmail but I use the _**turbo**_ feature of WordPress.
+![logo_153x43](/blog/images/2009/logo_153x43.gif) Like I mentioned in my previous post Firefox 3.5 is still not supported by google gears. I don't need it for Gmail but I use the _**turbo**_ feature of WordPress.
 
 Well, a good soul over at the Google Gears User Group made a <a href="http://groups.google.com/group/gears-users/msg/70f164020c0f8f4e" target="_blank" rel="noopener">custom build</a>. You should treat it as beta quality. It works for me on Windows but YMMV.
 

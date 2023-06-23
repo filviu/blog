@@ -16,7 +16,7 @@ tags:
   - temp_on
 
 ---
-<img decoding="async" loading="lazy" class="alignleft size-full wp-image-612" title="joomla_big_logo" src="http://blog.silviuvulcan.ro/wp-content/uploads/sites/2/2009/12/joomla_big_logo.png" alt="joomla_big_logo" width="128" height="128" />I administer a few Joomla sites so from time to time I discover that I lost the admin password for the one I hadn't had to update for a long time. There is no way to find out what that password was because they are stored as a one way MD5 but since I usually use random characters anyway I reset the password with a new one. For that you need access to the mysql database of that Joomla site.
+![joomla_big_logo](/blog/images/2009/joomla_big_logo.png) I administer a few Joomla sites so from time to time I discover that I lost the admin password for the one I hadn't had to update for a long time. There is no way to find out what that password was because they are stored as a one way MD5 but since I usually use random characters anyway I reset the password with a new one. For that you need access to the mysql database of that Joomla site.
 
 You can access your database either through a tool like phpMyAdmin or from the command line. Anyways, how to access your database is beyond the scope of this article.
 

@@ -16,7 +16,7 @@ tags:
   - temp_on
 
 ---
-[<img decoding="async" loading="lazy" class="alignleft size-full wp-image-1124" title="logo" src="http://blog.silviuvulcan.ro/wp-content/uploads/sites/2/2010/11/logo.png" alt="FreePBX logo" width="100" height="75" />][1]This is caused by a couple of problems:
+[![logo](/blog/images/2010/logo.png) ][1]This is caused by a couple of problems:
 
 1. the **/var/lib/asterisk/moh** is missing (or has the wrong permissions). Be sure it's there and has the right owner (asterix:asterix) and permissions
 

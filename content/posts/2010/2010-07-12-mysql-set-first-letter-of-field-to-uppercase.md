@@ -15,9 +15,10 @@ tags:
   - uppercase
 
 ---
-<img decoding="async" loading="lazy" class="alignleft wp-image-1037 size-medium" title="Logo-mysql" src="http://blog.silviuvulcan.ro/wp-content/uploads/sites/2/2010/07/Logo-mysql-300x219.jpg" alt="" width="300" height="219" />I recently had to set values of a set of values from a column from lowercase to Firstuppercase. Nothing easier, run the following code on the database:
-[ccNe_sql]
-UPDATE \`affected_table\` SET
-\`field_in_question\` = CONCAT(UPPER(LEFT(\`field_in_question\`, 1)),
-SUBSTRING(\`field_in_question\`, 2));
+![Logo-mysql](/blog/images/2010/Logo-mysql-300x219.jpg) I recently had to set values of a set of values from a column from lowercase to Firstuppercase. Nothing easier, run the following code on the database:
+
+```sql
+UPDATE `affected_table` SET
+`field_in_question` = CONCAT(UPPER(LEFT(`field_in_question`, 1)),
+SUBSTRING(`field_in_question`, 2));
 ```

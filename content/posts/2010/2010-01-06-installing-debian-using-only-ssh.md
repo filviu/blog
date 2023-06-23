@@ -21,27 +21,36 @@ The short answer: **it's possible ... maybe**. Your headless machine should alre
 Here are the steps needed to start you off:
 
 **1. Download the netinst cd image**
+
 ```bash
 wget http://mirrors.kernel.org/debian-cd/5.0.3/i386/iso-cd/debian-503-i386-netinst.iso
 ```
+
 **2. Mount the ISO to a folder, let's call it isoorig**
+
 ```bash
 mkdir isoorig
 mount -o loop -t iso9660 debian-503-i386-netinst.iso isoorig
 ```
+
 **3. Extract to new folder called isonew**
+
 ```bash
 mkdir isonew
 rsync -a -H –exclude=TRANS.TBL isoorig/ isonew
 ```
+
 **4. Change the menu to load SSH on boot by default**
+
 ```bash
 /isonew# nano isolinux/txt.cfg
 ```
+
 DELETE:
-remove “menu default” from “label install”
+remove "menu default" from "label install"
 
 ADD:
+
 ```bash
 label netinstall
 menu label ^Install Over SSH
@@ -49,19 +58,26 @@ menu default
 kernel /install.386/vmlinuz
 append auto=true vga=normal file=/cdrom/preseed.cfg initrd=/install.386/initrd.gz locale=en_US console-keymaps-at/keymap=us
 ```
-CHANGE:
-“default install” to “default netinstall”
 
-EDIT: both files below and change “timeout 0″ to “timeout 4″ to make it auto select netinstall
+CHANGE:
+
+"default install" to "default netinstall"
+
+EDIT: both files below and change "timeout 0″ to "timeout 4″ to make it auto select netinstall
+
 ```bash
 nano isolinux/isolinux.cfg
 nano isolinux/prompt.cfg
 ```
+
 **5. Create preseed.cfg file**
+
 ```bash
 nano isonew/preseed.cfg
 ```
+
 **6. PASTE this to the preseed file:**
+
 ```bash
 #### Contents of the preconfiguration file
 ### Localization
@@ -87,14 +103,19 @@ d-i preseed/early_command string anna-install network-console
 d-i network-console/password password install
 d-i network-console/password-again password install
 ```
+
 **7. Recreate md5sum.txt file**
+
 ```bash
-md5sum \`find -follow -type f\` > md5sum.txt
+md5sum `find -follow -type f` > md5sum.txt
 ```
+
 **8. Create your new iso image**
+
 ```bash
 mkisofs -o ../custom_install.iso -r -J -no-emul-boot -boot-load-size 4 -boot-info-table -b isolinux/isolinux.bin -c isolinux/boot.cat ../isonew
 ```
+
 The image you just obtained is ready to burn. This loads everything automatically and goes to the SSH screen.
 
 Thanks go to people on various debian forums, this information was collected via trial and error and by combining info found around. Have fun with your shiny new headless debian box.

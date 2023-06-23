@@ -14,7 +14,7 @@ tags:
   - temp_on
 
 ---
-<img decoding="async" loading="lazy" class="alignleft size-full wp-image-605" title="book_with_cd" src="http://blog.silviuvulcan.ro/wp-content/uploads/sites/2/2009/12/book_with_cd.gif" alt="book_with_cd" width="150" height="148" />Mikroelektronica, beign the nice guys they are released another free e-book about programming PIC microcontrollers this time it's about programming in C. The title is, unsurprisingly:
+![book_with_cd](/blog/images/2009/book_with_cd.gif) Mikroelektronica, beign the nice guys they are released another free e-book about programming PIC microcontrollers this time it's about programming in C. The title is, unsurprisingly:
 
 **PIC Microcontrollers - Programming in C**
 

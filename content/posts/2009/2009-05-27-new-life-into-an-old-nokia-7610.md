@@ -15,7 +15,7 @@ tags:
   - temp_on
 
 ---
-<figure id="attachment_86" aria-describedby="caption-attachment-86" style="width: 210px" class="wp-caption alignright"><img decoding="async" loading="lazy" class="size-medium wp-image-86" title="nokia-7610-ft" src="http://blog.silviuvulcan.ro/wp-content/uploads/sites/2/2009/05/nokia-7610-ft-210x300.jpg" alt="Nokia 7610" width="210" height="300" /><figcaption id="caption-attachment-86" class="wp-caption-text">Nokia 7610</figcaption></figure>
+<figure id="attachment_86" aria-describedby="caption-attachment-86" style="width: 210px" class="wp-caption alignright">![nokia-7610-ft](/blog/images/2009/nokia-7610-ft-210x300.jpg) <figcaption id="caption-attachment-86" class="wp-caption-text">Nokia 7610</figcaption></figure>
 
 As promised I follow with an article on how to breathe new life into an aging phone.
 

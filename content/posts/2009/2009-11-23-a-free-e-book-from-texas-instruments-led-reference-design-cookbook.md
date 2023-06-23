@@ -15,7 +15,7 @@ tags:
   - texas instruments
 
 ---
-<img decoding="async" loading="lazy" class="alignright wp-image-566 size-medium" title="texas instruments free led cookbook" src="http://blog.silviuvulcan.ro/wp-content/uploads/sites/2/2009/11/texas-instruments-free-led-cookbook-231x300.jpg" alt="texas instruments free led cookbook" width="231" height="300" />The guys over at <a href="http://blog.makezine.com/archive/2009/11/free_led_cookbook_from_ti.html" target="_blank" rel="noopener">Make </a>were kind enough to signal this free e-book from Texas instruments.
+![texas instruments free led cookbook](/blog/images/2009/texas-instruments-free-led-cookbook-231x300.jpg) The guys over at <a href="http://blog.makezine.com/archive/2009/11/free_led_cookbook_from_ti.html" target="_blank" rel="noopener">Make </a>were kind enough to signal this free e-book from Texas instruments.
 
 It is a 41-page "cookbook" of circuit designs and application notes for TI's LED-related components. Makes for an interesting read even if you don't use TI's stuff.
 

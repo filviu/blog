@@ -17,7 +17,7 @@ tags:
   - temp_on
 
 ---
-<img decoding="async" loading="lazy" class="alignright size-full wp-image-343" title="open_office_logo" src="http://blog.silviuvulcan.ro/wp-content/uploads/sites/2/2009/07/open_office_logo.jpg" alt="open_office_logo" width="159" height="118" />Last Thursday I was happily walking to the bus station to start a prolonged weekend when a friend and client rang. Microsoft Excel was giving her trouble: she was working on some inventory files with lots of records and pretty complex. To add to the problem the data was copied and pasted from an online list inside the browser. I suspect that some junk from the web inventory list tagged along.
+![open_office_logo](/blog/images/2009/open_office_logo.jpg) Last Thursday I was happily walking to the bus station to start a prolonged weekend when a friend and client rang. Microsoft Excel was giving her trouble: she was working on some inventory files with lots of records and pretty complex. To add to the problem the data was copied and pasted from an online list inside the browser. I suspect that some junk from the web inventory list tagged along.
 
 Not being able to see the problem first hand I made the only recommendation that I could do over the phone: give open office a try.
 

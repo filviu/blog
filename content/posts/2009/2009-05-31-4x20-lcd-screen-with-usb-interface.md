@@ -23,23 +23,23 @@ Attaching an LCD screen to a pc is a pretty easy job. I am working on a jukebox 
 
 The design is based around a **PIC18F2550** from Microchip. You will also need an LCD screen, one that is up to 20&#215;4 and HD44780 or KS0066U compliant. The design can also accommodate some GPOs, a rotary encoder and a buzzer. I plan to add the rotary encoder soon.
 
-<figure id="attachment_150" aria-describedby="caption-attachment-150" style="width: 300px" class="wp-caption aligncenter">[<img decoding="async" loading="lazy" class="size-medium wp-image-150" title="img_7769_cnv" src="http://blog.silviuvulcan.ro/wp-content/uploads/sites/2/2009/05/img_7769_cnv-300x200.jpg" alt="Just the screen" width="300" height="200" />][1]<figcaption id="caption-attachment-150" class="wp-caption-text">Just the screen</figcaption></figure>
+<figure id="attachment_150" aria-describedby="caption-attachment-150" style="width: 300px" class="wp-caption aligncenter">[![img_7769_cnv](/blog/images/2009/img_7769_cnv-300x200.jpg) ][1]<figcaption id="caption-attachment-150" class="wp-caption-text">Just the screen</figcaption></figure>
 
 The screen all up and running.
 
-<figure id="attachment_153" aria-describedby="caption-attachment-153" style="width: 300px" class="wp-caption aligncenter">[<img decoding="async" loading="lazy" class="size-medium wp-image-153" title="img_7767_cnv" src="http://blog.silviuvulcan.ro/wp-content/uploads/sites/2/2009/05/img_7767_cnv-300x200.jpg" alt="Soldering the connector for the LCD screen" width="300" height="200" />][2]<figcaption id="caption-attachment-153" class="wp-caption-text">Soldering the connector for the LCD screen</figcaption></figure>
+<figure id="attachment_153" aria-describedby="caption-attachment-153" style="width: 300px" class="wp-caption aligncenter">[![img_7767_cnv](/blog/images/2009/img_7767_cnv-300x200.jpg) ][2]<figcaption id="caption-attachment-153" class="wp-caption-text">Soldering the connector for the LCD screen</figcaption></figure>
 
 I soldered a female connector to the LCD board so I can connect the screen both to my Easy Pic 5 development board and the USB backpack.
 
-<figure id="attachment_156" aria-describedby="caption-attachment-156" style="width: 300px" class="wp-caption aligncenter">[<img decoding="async" loading="lazy" class="size-medium wp-image-156" title="img_7775_cnv" src="http://blog.silviuvulcan.ro/wp-content/uploads/sites/2/2009/05/img_7775_cnv-300x200.jpg" alt="All done and working" width="300" height="200" />][3]<figcaption id="caption-attachment-156" class="wp-caption-text">All done and working</figcaption></figure>
+<figure id="attachment_156" aria-describedby="caption-attachment-156" style="width: 300px" class="wp-caption aligncenter">[![img_7775_cnv](/blog/images/2009/img_7775_cnv-300x200.jpg) ][3]<figcaption id="caption-attachment-156" class="wp-caption-text">All done and working</figcaption></figure>
 
-<figure id="attachment_152" aria-describedby="caption-attachment-152" style="width: 300px" class="wp-caption aligncenter">[<img decoding="async" loading="lazy" class="size-medium wp-image-152" title="img_7777_cnv" src="http://blog.silviuvulcan.ro/wp-content/uploads/sites/2/2009/05/img_7777_cnv-300x200.jpg" alt="img_7777_cnv" width="300" height="200" />][4]<figcaption id="caption-attachment-152" class="wp-caption-text">All done and working</figcaption></figure>
+<figure id="attachment_152" aria-describedby="caption-attachment-152" style="width: 300px" class="wp-caption aligncenter">[![img_7777_cnv](/blog/images/2009/img_7777_cnv-300x200.jpg) ][4]<figcaption id="caption-attachment-152" class="wp-caption-text">All done and working</figcaption></figure>
 
 For now I tested the screen with [Lcdsmartie][5] but later on I plan to use it with lcdproc on linux.
 
-<figure id="attachment_149" aria-describedby="caption-attachment-149" style="width: 300px" class="wp-caption aligncenter">[<img decoding="async" loading="lazy" class="size-medium wp-image-149" title="img_7779_cnv" src="http://blog.silviuvulcan.ro/wp-content/uploads/sites/2/2009/05/img_7779_cnv-300x200.jpg" alt="The custom made board" width="300" height="200" />][6]<figcaption id="caption-attachment-149" class="wp-caption-text">The custom made board</figcaption></figure>
+<figure id="attachment_149" aria-describedby="caption-attachment-149" style="width: 300px" class="wp-caption aligncenter">[![img_7779_cnv](/blog/images/2009/img_7779_cnv-300x200.jpg) ][6]<figcaption id="caption-attachment-149" class="wp-caption-text">The custom made board</figcaption></figure>
 
-<figure id="attachment_154" aria-describedby="caption-attachment-154" style="width: 300px" class="wp-caption aligncenter">[<img decoding="async" loading="lazy" class="size-medium wp-image-154" title="img_7785_cnv" src="http://blog.silviuvulcan.ro/wp-content/uploads/sites/2/2009/05/img_7785_cnv-300x200.jpg" alt="The board, closer" width="300" height="200" />][7]<figcaption id="caption-attachment-154" class="wp-caption-text">The board, closer</figcaption></figure>
+<figure id="attachment_154" aria-describedby="caption-attachment-154" style="width: 300px" class="wp-caption aligncenter">[![img_7785_cnv](/blog/images/2009/img_7785_cnv-300x200.jpg) ][7]<figcaption id="caption-attachment-154" class="wp-caption-text">The board, closer</figcaption></figure>
 
 Should the thread or the board disappear just drop a comment and I can mirror the .hex file, the schematic and the pcb layout.
 

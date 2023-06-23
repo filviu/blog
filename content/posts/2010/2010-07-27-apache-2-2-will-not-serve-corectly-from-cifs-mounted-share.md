@@ -27,7 +27,7 @@ The folders and files appear correctly, I can navigate and I can download them. 
 ```bash
 wget http://192.xxx.xxx.xxx/windowsshare/folder/file.jpg
 -09:18:00- http://192.xxx.xxx.xxx/windowsshare/folder/file.jpg
-=> \`file.jpg'
+=> `file.jpg'
 Connecting to 127.0.0.1:80... connected.
 HTTP request sent, awaiting response... 200 OK
 Length: 763,685 (746K) [image/jpeg]
@@ -39,7 +39,7 @@ Length: 763,685 (746K) [image/jpeg]
 09:18:00 (0.00 B/s) - Connection closed at byte 0. Retrying.
 
 -09:18:01- http://192.xxx.xxx.xxx/windowsshare/folder/file.jpg
-(try: 2) => \`file.jpg'
+(try: 2) => `file.jpg'
 Connecting to 127.0.0.1:80... connected.
 HTTP request sent, awaiting response... 200 OK
 Length: 763,685 (746K) [image/jpeg]
@@ -47,7 +47,7 @@ file.jpg has sprung into existence.
 Retrying.
 
 -09:18:03- http://192.xxx.xxx.xxx/windowsshare/folder/file.jpg
-(try: 3) => \`file.jpg.1'
+(try: 3) => `file.jpg.1'
 Connecting to 127.0.0.1:80... connected.
 HTTP request sent, awaiting response... 200 OK
 Length: 763,685 (746K) [image/jpeg]

@@ -18,7 +18,7 @@ tags:
 I bet this was discussed and sampled 1000 times before but here is the mini 5V PSU I use for my microcontroler breadboard projects. Usually you will use a 5 volt DC power supply for your microcontroller projects. Since I got tired of breadboarding the power source part all the time, I built a small PSU to power up my projects. I used a screw-in terminal for power input and I simply soldered pins that stick directly into the bread board for the output part.
 
 <p style="text-align: center">
-  <a href="http://blog.silviuvulcan.ro/wp-content/uploads/sites/2/2009/09/5v_mini_psu.png"><img decoding="async" loading="lazy" class="aligncenter size-full wp-image-507" title="5v_mini_psu" src="http://blog.silviuvulcan.ro/wp-content/uploads/sites/2/2009/09/5v_mini_psu.png" alt="5v_mini_psu" width="632" height="246" /></a>
+  <a href="http://blog.silviuvulcan.ro/wp-content/uploads/sites/2/2009/09/5v_mini_psu.png">![5v_mini_psu](/blog/images/2009/5v_mini_psu.png) </a>
 </p>
 
 I'll follow up with pictures soon.

@@ -27,7 +27,7 @@ So I devised a small script that converts all the flac's from a folder to mp3. I
   * Dependencies: metaflac, id3tag, [lame][2] (use your distro's package manager to find out which packages provide those binaries)
 
 
-```bash
+```bash {linenos=true}
 #!/bin/bash
 for a in *.flac
 

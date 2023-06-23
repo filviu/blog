@@ -25,6 +25,7 @@ tags:
 Did you ever need to have e-mail's sent from within a bash script? Maybe alert you of errors encountered? Me too.
 
 Here's an easy way on how to do it:
+
 ```bash
 #!/bin/bash
 # email send script example
@@ -40,4 +41,5 @@ echo "Another text line" >> $EMAILMESSAGE
 # send message using /bin/mail
 /bin/mail -s "$SUBJECT" "$EMAIL" < $EMAILMESSAGE
 ```
+
 Easy.

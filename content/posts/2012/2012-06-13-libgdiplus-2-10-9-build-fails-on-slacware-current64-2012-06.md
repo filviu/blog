@@ -25,9 +25,9 @@ Installing <a href="http://www.mono-project.com/Main_Page" target="_blank" rel="
 /usr/lib64/libglib-2.0.so.0: could not read symbols: Invalid operation
 collect2: error: ld returned 1 exit status
 make[2]: *** [testgdi] Error 1
-make[2]: Leaving directory \`/usr/local/src/libgdiplus-2.10.9/tests'
+make[2]: Leaving directory `/usr/local/src/libgdiplus-2.10.9/tests'
 make[1]: *** [all-recursive] Error 1
-make[1]: Leaving directory \`/usr/local/src/libgdiplus-2.10.9'
+make[1]: Leaving directory `/usr/local/src/libgdiplus-2.10.9'
 make: *** [all] Error 2
 ```
 

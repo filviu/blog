@@ -28,23 +28,20 @@ Fortunately the solution for this expiring password problem is easy. You just ne
 
 You'll get a window like this one showing up:
 
-  *<img decoding="async" loading="lazy" class="aligncenter size-full wp-image-1028" title="xp_user_accounts2" src="http://blog.silviuvulcan.ro/wp-content/uploads/sites/2/2010/07/xp_user_accounts2.jpg" alt="Advanced users control panel" width="404" height="448" />
+  *![xp_user_accounts2](/blog/images/2010/xp_user_accounts2.jpg) 
   * You have to click the **Advanced** tab
 
-<img decoding="async" loading="lazy" class="aligncenter size-full wp-image-1029" title="xp_user_accounts2_advanced" src="http://blog.silviuvulcan.ro/wp-content/uploads/sites/2/2010/07/xp_user_accounts2_advanced.jpg" alt="Advanced tab of users settings" width="404" height="447" />
+![xp_user_accounts2_advanced](/blog/images/2010/xp_user_accounts2_advanced.jpg) 
   * Unsurprisingly, on the Advanced tab you have to click the **Advanced** button. (Who designs this kind of interfaces?)
 
-[<img decoding="async" loading="lazy" class="aligncenter wp-image-1030 size-medium" title="xp_user_accounts_edit_user" src="http://blog.silviuvulcan.ro/wp-content/uploads/sites/2/2010/07/xp_user_accounts_edit_user-300x223.jpg" alt="Windows XP Advanced Users Settings" width="300" height="223" />][1]
+![xp_user_accounts_edit_user](/blog/images/2010/xp_user_accounts_edit_user.jpg)
 
   * In the window that opens you can see your local users and groups.
   * Click on **Users** and double click **in the right panel the user you want to set the password not to expire.**
 
-[<img decoding="async" loading="lazy" class="aligncenter size-medium wp-image-1031" title="xp_user_accounts_edit_user_expire_password" src="http://blog.silviuvulcan.ro/wp-content/uploads/sites/2/2010/07/xp_user_accounts_edit_user_expire_password-300x223.jpg" alt="Advanced user settings. Set password expiring time" width="300" height="223" />][2]
+![xp_user_accounts_edit_user_expire_password](/blog/images/2010/xp_user_accounts_edit_user_expire_password.jpg)
 
   * Finally in the new window that opens check **Password never expires**.
   * **Apply or OK** your way back!
 
 Done. Still it's a good ideea to change all your passwords from time to time, just to be on the safe side.
-
- [1]: http://blog.silviuvulcan.ro/wp-content/uploads/sites/2/2010/07/xp_user_accounts_edit_user.jpg
- [2]: http://blog.silviuvulcan.ro/wp-content/uploads/sites/2/2010/07/xp_user_accounts_edit_user_expire_password.jpg

@@ -32,7 +32,7 @@ DB="digikam"
 DBPASS="password"
 DBUSR="user"
 
-SQL="SELECT Albums.relativePath,"#",Images.name FROM \`Albums\`,\`Images\`,\`ImageTags\` WHERE ImageTags.tagid=20 and Images.id=ImageTags.imageid and Albums.id=Images.album"
+SQL="SELECT Albums.relativePath,"#",Images.name FROM `Albums`,`Images`,`ImageTags` WHERE ImageTags.tagid=20 and Images.id=ImageTags.imageid and Albums.id=Images.album"
 
 SRC="/data/foto"
 DST="/data/n900-foto"
@@ -40,8 +40,8 @@ DST="/data/n900-foto"
 MOBILE="192.168.1.100:/home/user/MyDocs/foto"
 
 while read IMG; do
-  ALBUM=\`echo $IMG | awk 'BEGIN { FS = "#" } ; { print $1 }' | awk '{sub(/[ t]+$/, "");print}' | sed -e 's/^[ t]*//'\`
-  IMAGE=\`echo $IMG | awk 'BEGIN { FS = "#" } ; { print $2 }' | awk '{sub(/[ t]+$/, "");print}' | sed -e 's/^[ t]*//'\`
+  ALBUM=`echo $IMG | awk 'BEGIN { FS = "#" } ; { print $1 }' | awk '{sub(/[ t]+$/, "");print}' | sed -e 's/^[ t]*//'`
+  IMAGE=`echo $IMG | awk 'BEGIN { FS = "#" } ; { print $2 }' | awk '{sub(/[ t]+$/, "");print}' | sed -e 's/^[ t]*//'`
   mkdir -p "$DST$ALBUM"
   if [ ! -f "$DST$ALBUM/$IMAGE" ]; then
     echo "Resizing $IMAGE and copying to $DST$ALBUM"

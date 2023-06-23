@@ -20,7 +20,7 @@ Even though I like Gravity a lot, I chose a simpler FREEWARE symbian native appl
 It's simple, fast, and has access point prioritization built in.
 
 <p style="text-align: center">
-  <a href="http://blog.silviuvulcan.ro/wp-content/uploads/sites/2/2009/08/tweets60_native_symbian_twitter_application.jpg"><img decoding="async" loading="lazy" class="aligncenter size-full wp-image-431" title="tweets60_native_symbian_twitter_application" src="http://blog.silviuvulcan.ro/wp-content/uploads/sites/2/2009/08/tweets60_native_symbian_twitter_application.jpg" alt="tweets60_native_symbian_twitter_application" width="320" height="240" /></a>
+  <a href="http://blog.silviuvulcan.ro/wp-content/uploads/sites/2/2009/08/tweets60_native_symbian_twitter_application.jpg">![tweets60_native_symbian_twitter_application](/blog/images/2009/tweets60_native_symbian_twitter_application.jpg) </a>
 </p>
 
 It may not be as feature full as Gravity, but it's free - so you can't argue there. You can write your tweets, follow others and click links and more. Even more I find it faster than Gravity. Of course if you need or want to be able to upload pictures and other advanced features that Tweet60 misses for now you'll need to shell out the (modest) price of Gravity.
