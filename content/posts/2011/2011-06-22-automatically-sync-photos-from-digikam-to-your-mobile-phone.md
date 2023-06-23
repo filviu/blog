@@ -20,7 +20,9 @@ tags:
   - wireless
 
 ---
-<img decoding="async" loading="lazy" class="alignleft size-thumbnail wp-image-1513" title="digikam_logo" src="http://blog.silviuvulcan.ro/wp-content/uploads/sites/2/2011/06/digikam_logo-150x150.png" alt="" width="150" height="150" />I shoot a lot of pictures. My collection keeps growing (for example ~90 Gb right now) and since last year I discovered the joy of using <a href="http://www.digikam.org/" target="_blank" rel="noopener">digikam</a> to tag and organize them. I'm using the beta 2.0.0 version and use mysql to store it's databases (as opposed to the default sqlite) as it's easier to interact and backup. What I want is to carry some of those pictures with me, specifically on my phone. I used to simply resize and copy files by hand but that means that I never have the latest pictures on my phone. So I devised a script that automatically resizes and syncs pictures to my phone. This is it:
+![digikam_logo](/blog/images/2011/digikam_logo-150x150.png) 
+
+I shoot a lot of pictures. My collection keeps growing (for example ~90 Gb right now) and since last year I discovered the joy of using <a href="http://www.digikam.org/" target="_blank" rel="noopener">digikam</a> to tag and organize them. I'm using the beta 2.0.0 version and use mysql to store it's databases (as opposed to the default sqlite) as it's easier to interact and backup. What I want is to carry some of those pictures with me, specifically on my phone. I used to simply resize and copy files by hand but that means that I never have the latest pictures on my phone. So I devised a script that automatically resizes and syncs pictures to my phone. This is it:
 
 ```bash
 #!/bin/bash
@@ -38,14 +40,15 @@ DST="/data/n900-foto"
 MOBILE="192.168.1.100:/home/user/MyDocs/foto"
 
 while read IMG; do
-ALBUM=\`echo $IMG | awk 'BEGIN { FS = "#" } ; { print $1 }' | awk '{sub(/[ t]+$/, "");print}' | sed -e 's/^[ t]*//'\`
-IMAGE=\`echo $IMG | awk 'BEGIN { FS = "#" } ; { print $2 }' | awk '{sub(/[ t]+$/, "");print}' | sed -e 's/^[ t]*//'\`
-mkdir -p "$DST$ALBUM"
-if [ ! -f "$DST$ALBUM/$IMAGE" ]; then
-echo "Resizing $IMAGE and copying to $DST$ALBUM"
-convert "$SRC$ALBUM/$IMAGE" -resize "1600&#215;1600" "$DST$ALBUM/$IMAGE"
-fi
+  ALBUM=\`echo $IMG | awk 'BEGIN { FS = "#" } ; { print $1 }' | awk '{sub(/[ t]+$/, "");print}' | sed -e 's/^[ t]*//'\`
+  IMAGE=\`echo $IMG | awk 'BEGIN { FS = "#" } ; { print $2 }' | awk '{sub(/[ t]+$/, "");print}' | sed -e 's/^[ t]*//'\`
+  mkdir -p "$DST$ALBUM"
+  if [ ! -f "$DST$ALBUM/$IMAGE" ]; then
+    echo "Resizing $IMAGE and copying to $DST$ALBUM"
+    convert "$SRC$ALBUM/$IMAGE" -resize "1600&#215;1600" "$DST$ALBUM/$IMAGE"
+  fi
 done < <(mysql -skip-column-names -u$DBUSR -p$DBPASS $DB -e "$SQL")
+
 echo "Syncing to the phone..."
 rsync -rv -delete $DST $MOBILE/
 ```

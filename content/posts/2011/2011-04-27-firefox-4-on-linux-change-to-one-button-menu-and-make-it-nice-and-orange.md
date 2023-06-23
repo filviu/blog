@@ -15,19 +15,22 @@ tags:
   - temp_on
 
 ---
-<img decoding="async" loading="lazy" class="alignleft size-full wp-image-1303" title="linux_firefox_orange_button" src="http://blog.silviuvulcan.ro/wp-content/uploads/sites/2/2011/04/linux_firefox_orange_button.png" alt="" width="84" height="84" />When I upgraded to Firefox 4 on my linux machines I was disappointed to see that the classic menu bar remained. I'm not necesarily a fan of the new ribbon  interfaces but since I don't use the menu often and so prefer to use the space for something useful, like the tabs.
+![firefox orange button](/blog/images/2011/linux_firefox_orange_button.png) When I upgraded to Firefox 4 on my linux machines I was disappointed to see that the classic menu bar remained. I'm not necesarily a fan of the new ribbon  interfaces but since I don't use the menu often and so prefer to use the space for something useful, like the tabs.
 
 Reducing the menu bar to a button is easy.
 
 **Right click on the menu bar** and uncheck **Menu bar**
 
-At this point the menu is reduced to a button, unfortunately an ugly button. If you want it nice and orange you need to hack your userChrome.css file:
+At this point the menu is reduced to a button, unfortunately an ugly button. If you want it nice and orange you need to hack your `userChrome.css` file:
+
 ```bash
 cd ~/.mozilla/firefox/xxxxxxxx.default/chrome
 vi userChrome.css
 ```
+
 Paste the following:
-[cce_css]
+
+```css
 /*
 * Edit this file and copy it as userChrome.css into your
 * profile-directory/chrome/
@@ -40,7 +43,7 @@ Paste the following:
 */
 
 /*
-* Do not remove the @namespace line &#8212; it's required for correct functioning
+* Do not remove the @namespace line - it's required for correct functioning
 */
 @namespace url("http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul"); /\* set default namespace to XUL \*/
 
@@ -64,5 +67,6 @@ opacity: 1!important;
 #appmenu-toolbar-button > .toolbarbutton-menu-dropmarker {
 display: none !important;
 }
-[/cce_css]
+```
+
 Save the file and restart firefox.

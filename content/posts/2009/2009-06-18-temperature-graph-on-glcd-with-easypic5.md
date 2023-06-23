@@ -150,7 +150,7 @@ Delay_ms(1000);
 } while (1);
 }
 
-[/cce_cpp]
+```
 
 You can find it on [GitHub][2] .
 

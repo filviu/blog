@@ -18,7 +18,7 @@ tags:
   - temp_on
 
 ---
-<img decoding="async" loading="lazy" class="alignleft size-full wp-image-1741" title="linksys_e3200" src="http://blog.silviuvulcan.ro/wp-content/uploads/sites/2/2011/12/linksys_e32001.jpg" alt="" width="150" height="113" />I finally had to upgrade my home router from an aging WRT54GL and went (despite missing dd-wrt for now) with the Linksys E3200. I installed yesterday including dyndns support because I sometimes access my home network when away. I was surprised to receive an email from dyndns this morning stating that my host has been blocked because of abuse. It was strange since my connection is stable and even though some routers have flaky dyndns update clients linksys didn't disappoint me until now...
+![linksys_e3200](/blog/images/2011/linksys_e32001.jpg) I finally had to upgrade my home router from an aging WRT54GL and went (despite missing dd-wrt for now) with the Linksys E3200. I installed yesterday including dyndns support because I sometimes access my home network when away. I was surprised to receive an email from dyndns this morning stating that my host has been blocked because of abuse. It was strange since my connection is stable and even though some routers have flaky dyndns update clients linksys didn't disappoint me until now...
 
 I do have the latest firmware version so no help there. I browsed a bit around and I found out that others share my issues including owners of the more expensive e4200.
 

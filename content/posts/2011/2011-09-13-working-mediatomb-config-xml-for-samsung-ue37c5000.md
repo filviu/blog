@@ -24,7 +24,6 @@ I don't say this is the best configuration possible but it's the one that works 
 Relevant from the default are the custom header, extended protocol info and the mkv and avi lines.
 
 ```xml
-
 MediaTomb
 uuid:0f53d0ff-5951-4d27-8fa7-06ce378ae789
 /var/lib/mediatomb
@@ -145,4 +144,4 @@ yes
 yes
 yes
 
-[/cce_xml]
+```

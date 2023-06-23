@@ -25,7 +25,7 @@ Command=2
 IconFile=explorer.exe,3
 [Taskbar]
 Command=ToggleDesktop
-[/ccNe_ini]
+```
 
 <span class="userInput"><strong>Save as</strong> Show Desktop.scf. Now move the shortcut anywhere you want it.</span>
 

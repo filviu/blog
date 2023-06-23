@@ -21,7 +21,7 @@ If you know the name of a process to kill, for example firefox.exe, use the foll
 
 [cceN_DOS]
 taskkill /IM firefox.exe
-[/cceN_DOS]
+```
 
 This will cause the program to terminate gracefully, asking for confirmation if there are unsaved changes. **To forcefully kill the same process**, add the /F option to the command line. Be careful with the /F option as it will terminate all matching processes without confirmation.
 
@@ -29,19 +29,19 @@ To kill a single instance of a process, specify its process id (PID). For exampl
 
 [cceN_DOS]
 taskkill /PID 1227
-[/cceN_DOS]
+```
 
 Using filters, a variety of different patterns can be used to specify the processes to kill. For example, the following filter syntax will forcefully kill all processes owned by the user **User:**
 
 [cceN_DOS]
 taskkill /F /FI "USERNAME eq User"
-[/cceN_DOS]
+```
 
 The following table shows the available filters and their use.
 
 [cceN_DOS]
 Filter Name Valid Operators Valid Value(s)
-&#8212;&#8212;&#8212;- &#8212;&#8212;&#8212;&#8212;&#8212; &#8212;&#8212;&#8212;&#8212;-
+---- ----- -----
 STATUS eq ne RUNNING | NOT RESPONDING
 IMAGENAME eq ne Image name
 PID eq ne gt lt ge le PID value
@@ -54,4 +54,4 @@ format
 MODULES eq ne DLL name
 SERVICES eq ne Service name
 WINDOWTITLE eq ne Window title
-[/cceN_DOS]
+```

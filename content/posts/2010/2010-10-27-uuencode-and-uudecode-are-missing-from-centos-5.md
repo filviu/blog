@@ -28,7 +28,7 @@ Finished
 Setting up Install Process
 Resolving Dependencies
 -> Running transaction check
-&#8212;> Package sharutils.x86_64 0:4.6.1-2 set to be updated
+-> Package sharutils.x86_64 0:4.6.1-2 set to be updated
 -> Finished Dependency Resolution
 
 Dependencies Resolved

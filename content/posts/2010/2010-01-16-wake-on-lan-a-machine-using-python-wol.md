@@ -49,4 +49,4 @@ s.close()
 
 # Example use
 WakeOnLan('0:3:93:81:68:b2')
-[/ccNe_python]
+```

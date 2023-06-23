@@ -19,4 +19,4 @@ After importing products into Virtuemart using CSV Import a discount is shown be
 
 [ccNe_mysql]
 UPDATE \`jos_vm_product\` SET \`product_discount_id\`=0 WHERE 1
-[/ccNe_mysql]
+```

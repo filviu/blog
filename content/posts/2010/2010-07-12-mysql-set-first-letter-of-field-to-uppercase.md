@@ -20,4 +20,4 @@ tags:
 UPDATE \`affected_table\` SET
 \`field_in_question\` = CONCAT(UPPER(LEFT(\`field_in_question\`, 1)),
 SUBSTRING(\`field_in_question\`, 2));
-[/ccNe_sql]
+```

@@ -128,6 +128,7 @@ update_with_key_prefix 22.00 2.51 2.91 5.42 100000
 wisc_benchmark 1.00 0.99 0.07 1.06 114
 TOTALS 1111.00 307.95 88.99 396.94 3375950
 ```
+
 **MariaDB:**
 
 ```bash

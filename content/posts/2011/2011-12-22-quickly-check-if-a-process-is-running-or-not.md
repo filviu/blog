@@ -19,11 +19,11 @@ tags:
 ---
 When writting bash scripts one often needs to see if a process is running or not
 I like the following code; though I'm sure many ways of doing this exists, what's your favorite?
+
 ```bash
-if [ -z "$(pgrep process)" ]
-then
-echo "process is not running"
+if [ -z "$(pgrep process)" ]; then
+    echo "process is not running"
 else
-echo "process is running"
+    echo "process is running"
 fi
 ```

@@ -17,28 +17,35 @@ tags:
 
 ---
 Browsing trough my web logs I found the following error in the apache error log of a Joomla site:
-[ccNe_apache]
-\[Mon Oct 17 13:49:16 2011\] \[error\] [client aaa.aaa.aaa.aaa] PHP Notice: Array to string conversion in aaa/libraries/joomla/html/parameter.php on line 83
-[/ccNe_apache]
+```apacheconf
+[Mon Oct 17 13:49:16 2011] [error] [client aaa.aaa.aaa.aaa] PHP Notice: Array to string conversion in aaa/libraries/joomla/html/parameter.php on line 83
+```
+
 One suggestion found <a href="http://www.joomseo.com/forums/4711.html" target="_blank" rel="noopener">online</a> was:
 
 Edit parameters.php and change the line 83 as follows:
 
 Before:
-[cceN_php]
+```php
 if (trim( $data )) {
-[/cceN_php]
+```
+
 After:
-[cceN_php]
+
+```php
 if ($data) {
-[/cceN_php]
+```
+
 But modifying core joomla files isn't such a hot idea as one user notices. So the solution is fixing the plugin causing the problem in the first place:
 
 Edit plugins/system/JoomSEO.php at line 46
-[cceN_php]
+
+```php
 $this->params = new JParameter($params);
-[/cceN_php]
+```
+
 replace with
-[cceN_php]
+
+```php
 $this->params = new JParameter($params['params']);
-[/cceN_php]
+```

@@ -61,7 +61,7 @@ and it will continue like this creating empty files.
 Especial the **has sprung into existence** baffled me. Also note that symlinking any other folder, even mounted as **smbfs** instead of **cifs** worked perfectly. At this point changing the mount to smbfs would have solved my problem but curiosity was stronger.
 
 As it turns either apache or (more likely) the cifs driver has a bug. You can work around it by setting the following inside your apache configuration.
-[ccNe_apache]
+```apacheconf
 EnableSendfile off
-[/ccNe_apache]
+```
 Further upgrades will probably eradicate this problem.

@@ -34,7 +34,7 @@ Windows Registry Editor Version 5.00
 [HKEY_CURRENT_USERSoftwareMicrosoftWindowsCurrentVersionPoliciesComDlg32]
 "NoFileMru"=dword:00000000
 
-[/ccNe_reg]
+```
 
 **_If on your computer it's already 0 it's worth trying the other way around, just remember to set it back if it doesn't help._**
 **UPDATE:** I encountered the very same problem with Corel Draw X4 (even after applying the Corel Service Pack for X4) with the ugly difference that the cause of the crash is not reported. Fortunately repeated crashes on open, save, save as and export made me remember this article and sure enough this was the cause.

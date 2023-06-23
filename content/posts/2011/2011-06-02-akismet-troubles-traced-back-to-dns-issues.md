@@ -23,10 +23,12 @@ My API key for Akismet was suddenly unconfirmed by reason of not being able to r
 Long storry short, I changed the DNS and expected the problem to go away. Next day I was happy to find out that it didn't. I pinged akismet.com from the console, tried http connection to it with links everything was fine. For good measure I tried other DNS entries, tried a mtr to akismet.com but still everything was fine and the key in Akismet Configuration refused to work.
 
 Than, after a slap on my forehead I remembered **[THIS][1].** Right, after
+
 ```bash
 service httpd stop
 service httpd start
 ```
+
 Everything went back to normal.
 
  [1]: http://www.sgvulcan.com/php-code-misses-dns-updates/

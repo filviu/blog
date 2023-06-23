@@ -22,6 +22,7 @@ This was a funny one:
 I have installed the <a target="_blank" href="http://sourceforge.net/projects/bandwidthd/" rel="noopener">Bandwithd</a> monitoring software on a machine. I noticed that the monitoring data kept being erased between start/stop or reboot. There actually are two configuration settings which are false by default that allows BandwidthD to keep it's data across restart's (or system reboots) and those are
 
 (in /etc/bandwidthd.conf)
+
 ```bash
 #Log data to cdf file htdocs/log.cdf
 output_cdf true

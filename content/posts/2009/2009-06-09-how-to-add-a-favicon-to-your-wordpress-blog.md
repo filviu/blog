@@ -22,6 +22,6 @@ This was simple:
 
 [cceN_html]
 <link rel="shortcut icon" href="favicon.ico">
-[/cceN_html]
+```
 
 **Fast and easy !**

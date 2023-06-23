@@ -17,6 +17,7 @@ tags:
 
 ---
 This error is spit after compiling:
+
 ```bash
 Linking CXX shared module ../../../lib/kipiplugin_advancedslideshow.so
 /usr/lib64/gcc/x86_64-slackware-linux/4.5.3/../../../../x86_64-slackware-linux/bin/ld: skipping incompatible /usr/share/opencv/../../lib/libGL.so when searching for -lGL
@@ -25,4 +26,5 @@ make[2]: \*** [lib/kipiplugin_advancedslideshow.so] Error 1
 make[1]: \*** [extra/kipi-plugins/advancedslideshow/CMakeFiles/kipiplugin_advancedslideshow.dir/all] Error 2
 make: \*** [all] Error 2
 ```
-For whatever reason it tries to use the 32 bit version of libGL.so from /usr/lib Since I was annoyed at this point so **I simply renamed /usr/lib to /usr/lib.old and compiled digikam than reverted.**
+
+For whatever reason it tries to use the 32 bit version of libGL.so from /usr/lib Since I was annoyed at this point so **I simply renamed `/usr/lib` to `/usr/lib.old` and compiled digikam than reverted.**

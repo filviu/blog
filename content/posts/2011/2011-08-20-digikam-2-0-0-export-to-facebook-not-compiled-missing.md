@@ -15,4 +15,4 @@ tags:
   - temp_on
 
 ---
-I'm had finally found the time to upgrade to digikam 2.0 stable. I noticed that Export to Facebook it's not getting compiled. Long story short you need qjson installed. I used sbopkg -ki qjson and now digikam is happy!
+I'm had finally found the time to upgrade to digikam 2.0 stable. I noticed that Export to Facebook it's not getting compiled. Long story short you need qjson installed. I used `sbopkg -ki qjson` and now digikam is happy!

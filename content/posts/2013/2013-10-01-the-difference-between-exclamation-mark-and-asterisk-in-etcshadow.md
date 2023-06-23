@@ -23,11 +23,11 @@ So, with a terrible case of memory lapsus while wanting to disable password logi
 Well <a href="http://manpages.sgvulcan.com/shadow.5.php"><strong>man 5 shadow</strong></a> to the rescue
 
 <p style="padding-left: 30px">
-  <em>Refer to <b>crypt</b>(3) for details on how this string is interpreted.</em>
+  <em>Refer to **crypt**(3) for details on how this string is interpreted.</em>
 </p>
 
 <p style="padding-left: 30px">
-  <em>If the password field contains some string that is not a valid result of <b>crypt</b>(3), for instance ! or *, the user will not be able to use a unix password to log in (but the user may log in the system by other means).</em>
+  <em>If the password field contains some string that is not a valid result of **crypt**(3), for instance ! or *, the user will not be able to use a unix password to log in (but the user may log in the system by other means).</em>
 </p>
 
 <p style="padding-left: 30px">

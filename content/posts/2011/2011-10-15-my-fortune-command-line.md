@@ -18,9 +18,11 @@ tags:
 I take my bash profile very seriously 🙂
 
 I use:
+
 ```bash
 fortune fortunes fortunes-o fortunes2 forunes2-o 30% startrek
 ```
+
 The above means to choose fortunes only from the 5 specified files and more it assures that I get startrek fortunes from time to time. Note that because lists are not equal in size it doesnt mean that I get them 30% of the time...
 
 Below is the fortune man page:

@@ -17,98 +17,36 @@ tags:
   - temp_on
 
 ---
-<h2 class="western" style="font-weight: normal">
-  What are email<br /> certificates used for?
-</h2>
 
-<p align="JUSTIFY">
-  Email certificates provide the strongest levels of<br /> confidentiality and security for your electronic communications by<br /> allowing you to digitally sign and encrypt your mail and attachments.<br /> Encryption means that only your intended recipient will be able to<br /> read the mail while digitally signing allows them to confirm you as<br /> the sender and verify the message was not tampered with en route.
-</p>
+##  What are email certificates used for?
 
-<h2 class="western" style="font-weight: normal">
-  How to obtain one?
-</h2>
 
-There are many sources offering certificates for digitally
-signing of email. Many of them are commercial some of them are free.
-If you'd like to test this feature Comodo offers a free certificate
-for personal use.
+Email certificates provide the strongest levels of confidentiality and security for your electronic communications by allowing you to digitally sign and encrypt your mail and attachments. Encryption means that only your intended recipient will be able to read the mail while digitally signing allows them to confirm you as the sender and verify the message was not tampered with en route.
 
-Go to
-http://www.comodo.com/home/email-security/free-email-certificate.php
-and click on **Free Download**
 
-	****<span style="font-weight: normal">Fill out all the details<br /> and soon you will receive the certificate by email.</span>
+## How to obtain one?
 
-<h2 class="western" style="font-weight: normal">
-  How to install one?
-</h2>
+There are many sources offering certificates for digitally signing of email. Many of them are commercial some of them are free. If you'd like to test this feature Comodo offers a free certificate for personal use.
 
-<p style="font-weight: normal">
-  This is how it is installed in<br /> Mozilla Thunderbird running on Linux. No dobt the procedure might<br /> differ on different systems and/or email clients.
-</p>
+Go to http://www.comodo.com/home/email-security/free-email-certificate.php and click on **Free Download**
 
-<p style="font-weight: normal">
-  After install the certificate is<br /> available in Mozilla Firefox but not Thunderbird, so it needs to be<br /> exported from Firefox and imported inside Thunderbird.
-</p>
+Fill out all the details and soon you will receive the certificate by email.
 
-<p style="font-weight: normal">
-  <ol>
-    <li>
-      <p>
-        <span style="font-weight: normal">Go to<br /> </span><b>Prefferences->Advanced->View certificates</b>
-      </p>
-    </li>
-  
-    <li>
-      <p>
-        <span style="font-weight: normal">Click on the certificate<br /> (it's on the </span><b>Your certificates </b><span style="font-weight: normal">tab)<br /> and click </span><b>Backup</b>
-      </p>
-    </li>
-  
-    <li>
-      <p>
-        <span style="font-weight: normal">Save the certificate<br /> somewhere</span><b> </b><span style="font-weight: normal">on your<br /> computer. It's a good ideea to keep a copy of your certificate for<br /> future reference and so you can password protect it so it won't be<br /> possible to be imported without knowing this password. (this will<br /> prevent unauthorized persons from posing as you using a stolen<br /> certificate backup)</span>
-      </p>
-    </li>
-  
-    <li>
-      <p>
-        <span style="font-weight: normal">Open Thunderbird.. Go to<br /> </span><b>Account settings=>Security </b><span style="font-weight: normal">(under<br /> the account you created the certificate for)</span>
-      </p>
-    </li>
-  
-    <li>
-      <p>
-        <span style="font-weight: normal">Go to </span><b>View<br /> Certificates and click import</b><span style="font-weight: normal">.<br /> Locate the certificate you exported above and import it. You will<br /> have to type the password you entered earlier.</span>
-      </p>
-    </li>
-  </ol>
+## How to install one?
 
-  <p style="font-weight: normal">
-    <i> The above procedure will no doubt<br /> be different across operating systems and email clients but the basic<br /> steps should be the same. For example it's possible that if you use<br /> Outlook and Internet Explorer the certificate will be already<br /> installed in both without requiring extra import/export.</i>
-  </p>
+This is how it is installed in Mozilla Thunderbird running on Linux. No dobt the procedure might differ on different systems and/or email clients.
 
-  <h2 class="western" style="font-weight: normal">
-    Other certifcate<br /> providers:
-  </h2>
+After install the certificate is available in Mozilla Firefox but not Thunderbird, so it needs to be exported from Firefox and imported inside Thunderbird.
 
-  <ul>
-    <li>
-      <p style="font-weight: normal">
-        http://www.instantssl.com/ssl-certificate-products/free-email-certificate.html
-      </p>
-    </li>
-  
-    <li>
-      <p style="font-weight: normal">
-        http://www.verisign.com/authentication/digital-id/index.html
-      </p>
-    </li>
-  
-    <li>
-      <p style="font-weight: normal">
-        http://www.pgptrustcenter.com/digital-certificate-solutions
-      </p>
-    </li>
-  </ul>
+- Go to **Prefferences->Advanced->View certificates**
+- Click on the certificate (it's on the **Your certificates** tab) and click **Backup**
+- Save the certificate somewhere on your computer. It's a good ideea to keep a copy of your certificate for future reference and so you can password protect it so it won't be possible to be imported without knowing this password. (this will prevent unauthorized persons from posing as you using a stolen certificate backup)
+- Open Thunderbird. Go to **Account settings=>Security** (under the account you created the certificate for)
+- Go to **View Certificates and click import**. Locate the certificate you exported above and import it. You will have to type the password you entered earlier.
+- _The above procedure will no doubt be different across operating systems and email clients but the basic steps should be the same. For example it's possible that if you use Outlook and Internet Explorer the certificate will be already installed in both without requiring extra import/export._
+
+## Other certifcate providers:
+
+- http://www.instantssl.com/ssl-certificate-products/free-email-certificate.html
+- http://www.verisign.com/authentication/digital-id/index.html
+- http://www.pgptrustcenter.com/digital-certificate-solutions

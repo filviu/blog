@@ -22,7 +22,7 @@ This is a fairly easy job to do. All you have to do is to show this code somewhe
 [ccNe_html]
 <a href="ymsgr:sendIM?YOUR_YM_ID">
 <img src="http://opi.yahoo.com/online?u=YOUR_YM_ID&m=g&t=1" border="0" alt="" /> </a>
-[/ccNe_html]
+```
 Remember to replace  YOUR_YM_ID with your Yahoo Messenger id and give t a value reflecting the button choice you like:
 
 t=0<img decoding="async" src="http://opi.yahoo.com/online?u=YOUR_YM_ID&m=g&t=0" border="0" alt="" />

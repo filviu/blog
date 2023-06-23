@@ -32,7 +32,7 @@ Often it can be caused by **biff y** as well.
 
 Replacing the line with the following should fix it:
 ```bash
-if \`tty -s \` && \`test -x /usr/bin/mesg\`; then
+if `tty -s ` && `test -x /usr/bin/mesg`; then
 mesg y
 fi
 ```
