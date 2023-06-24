@@ -17,7 +17,7 @@ tags:
   - update
 
 ---
-You probably already know this old, unmaintained but incredibly useful software: <a href="http://sourceforge.net/projects/tentakel/" target="_blank" rel="noopener">tentakel</a>. If not check it out, you might like it.
+You probably already know this old, unmaintained but incredibly useful software: [tentakel](http://sourceforge.net/projects/tentakel/). If not check it out, you might like it.
 
 There are two issues we need to tackle:
 
@@ -30,7 +30,7 @@ return self.lexer[start:stop]
 TypeError: object cannot be interpreted as an index
 ```
 
-The fix is to download this version of tpg from it's developer: <a href="http://cdsoft.fr/tpg/TPG-3.1.2.tar.gz" target="_blank" rel="noopener">http://cdsoft.fr/tpg/TPG-3.1.2.tar.gz</a> From this archive extract `tpg.py` and copy it to `py/lekatnet/plugins` in tentakel's source tree.
+The fix is to download this version of tpg from it's developer: [http://cdsoft.fr/tpg/TPG-3.1.2.tar.gz](http://cdsoft.fr/tpg/TPG-3.1.2.tar.gz) From this archive extract `tpg.py` and copy it to `py/lekatnet/plugins` in tentakel's source tree.
 
 _**Don't try the latest TPG version as it will not work probably it's parameters changed and tentakel doesn't work.**_ Basically we take a version old enough to work with tentakel (the built in is from 2003) and new enough to work with Python 2.6
 

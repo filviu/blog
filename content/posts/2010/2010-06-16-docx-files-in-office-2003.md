@@ -23,8 +23,8 @@ tags:
 ---
 ![docx](/blog/images/2010/docx.png) If you, like many of my clients regularly receive files from partners that have already upgraded to microsoft office 2007 have the annoyance that the files are always saved in the docx format (because people don't go to the trouble to _**Save as**_ office 2003) then you probably think that it's time to upgrade. Right? Wrong! There is an easier sollution - not to mention a lot cheaper. Go to the microsoft website and download the
 
-<a href="http://www.microsoft.com/downloads/details.aspx?FamilyId=941b3470-3ae9-4aee-8f43-c6bb74cd1466&displaylang=en" target="_blank" rel="noopener">Microsoft Office Compatibility Pack for Word, Excel, and PowerPoint File Formats</a>
+[Microsoft Office Compatibility Pack for Word, Excel, and PowerPoint File Formats](http://www.microsoft.com/downloads/details.aspx?FamilyId=941b3470-3ae9-4aee-8f43-c6bb74cd1466&displaylang=en)
 
 This pack will allow your existing Office 2003 installation to open files in the newer formats. **Problem solved !**
 
-Well there is another sollution, but this one is a bit more complicated but better on the long run. Just migrate to <a href="http://www.openoffice.org" target="_blank" rel="noopener">Open Office</a>! It's free, it's open and can read the new formats introduced by Office 2007.
+Well there is another sollution, but this one is a bit more complicated but better on the long run. Just migrate to [Open Office](http://www.openoffice.org)! It's free, it's open and can read the new formats introduced by Office 2007.

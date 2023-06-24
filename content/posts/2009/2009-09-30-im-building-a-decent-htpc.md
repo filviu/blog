@@ -17,8 +17,8 @@ tags:
 ---
 In the last years I always had some kind of pc hooked up to my tv. I finally got around to have the time (and money) to build a dedicated system. Not all the parts are new, just that I had enough spares and money for the case:
 
-  * <a href="http://www.antec.com/Detail.bok?no=625" target="_blank" rel="noopener">Antec Fusion Remote</a> 350 mini HTPC case.
-  * <a href="http://www.gigabyte.com.tw/Products/Motherboard/Products_Overview.aspx?ProductID=2859" target="_blank" rel="noopener">Gigabyte GA-MA78GPM-DS2H</a> mini ATX socket AM2 motherboard.
+  * [Antec Fusion Remote](http://www.antec.com/Detail.bok?no=625) 350 mini HTPC case.
+  * [Gigabyte GA-MA78GPM-DS2H](http://www.gigabyte.com.tw/Products/Motherboard/Products_Overview.aspx?ProductID=2859) mini ATX socket AM2 motherboard.
   * Western Digital 1Tb, Green
   * AMD 4850E dual core, energy efficient processor.
   * 1 GB DDR2 RAM

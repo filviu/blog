@@ -17,7 +17,7 @@ tags:
   - temp_on
 
 ---
-Installing <a href="http://www.mono-project.com/Main_Page" target="_blank" rel="noopener">mono</a> I needed to install libgdiplus. It failed with the following error:
+Installing [mono](http://www.mono-project.com/Main_Page) I needed to install libgdiplus. It failed with the following error:
 
 ```bash
 /usr/lib64/gcc/x86_64-slackware-linux/4.7.0/../../../../x86_64-slackware-linux/bin/ld: testgdi.o: undefined reference to symbol 'g_free'
@@ -31,7 +31,7 @@ make[1]: Leaving directory `/usr/local/src/libgdiplus-2.10.9'
 make: *** [all] Error 2
 ```
 
-The fix is simple, thanks to a mention in <a href="https://www.slacky.eu/asche64/pkgreports/" target="_blank" rel="noopener">slacky</a> pkg reports:
+The fix is simple, thanks to a mention in [slacky](https://www.slacky.eu/asche64/pkgreports/) pkg reports:
 
 After running `./configure` edit `tests/Makefile` and at line 130 replace `LIBS = -lpthread -lfontconfig` with `LIBS = -lpthread -lfontconfig -lglib-2.0 -lX11`
 

@@ -17,7 +17,7 @@ tags:
 ---
 I gave up finding a nice theme for my E71 long ago. Even accepted the ugly icons. A few weeks ago I found a decent theme with ovi icons and got a bit happier. Today I had time to search a bit some more and I have some of the best Nokia E71 themes I found:
 
-Ovi Blue from <a href="http://conversations.nokia.com/2009/02/26/heres-that-ovi-theme/" target="_blank" rel="noopener">Nokia Conversations</a>
+Ovi Blue from [Nokia Conversations](http://conversations.nokia.com/2009/02/26/heres-that-ovi-theme/)
 
 Aviator, Enterprise and Zen Touch from [Tehkseven][1] - those are both with sevan and ovi icons.
 

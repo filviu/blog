@@ -21,7 +21,7 @@ tags:
 
 It's not like skype for linux was ever active but since Microsoft aquired them I pretty much wrote off any updates. It seems I, like many others was wrong. Probably it has something to do with the new advertising features introduced lately...
 
-Go to <a href="http://www.skype.com/intl/en-us/get-skype/on-your-computer/linux/" target="_blank" rel="noopener">skype linux</a> page and get it. <del>Don't worry if it still says 2.2 beta, the download buttons will get you the new package.</del> The page was updated, it says 4.0 now.
+Go to [skype linux](http://www.skype.com/intl/en-us/get-skype/on-your-computer/linux/) page and get it. <del>Don't worry if it still says 2.2 beta, the download buttons will get you the new package.</del> The page was updated, it says 4.0 now.
 
 If, like me, you were happy seeing 64 bit versions don't worry, it's still a 32 bit binary but with multilib dependencies for the package.
 

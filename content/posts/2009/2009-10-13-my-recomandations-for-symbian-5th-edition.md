@@ -21,7 +21,7 @@ As you know that's a 5th edition, touchscreen phone. I was a bit reticent becaus
 
 There are probably 1001 reviews online so I'm not getting into that, and there are enough top 10 freeware and top 10 shareware lists too. I'll just list the software that I found useful for her and working on the 5800:
 
-  * <a href="http://www.fring.com/" target="_blank" rel="noopener">Fring </a>- not using voip that much, but it's great for consolidated IM-ing (yahoo, google talk and skype)
+  * [Fring ](http://www.fring.com/)- not using voip that much, but it's great for consolidated IM-ing (yahoo, google talk and skype)
   * Facebook - the iphone interface works great. I tried Symabook but it's slow and unstable
   * Garmin Mobile XT - wonderful on the wide screen. My wife travels a lot as a professional interpreter so a GPS application comes handy. Using nokia maps on a roaming connection is not really an option, and the Garmin maps seem the best around.
   * Accuweather applet - looks good, shows the weather.

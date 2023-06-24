@@ -25,4 +25,4 @@ To make a long story short it worked. The performance she got from OpenOffice Ca
 
 So if you are having performance and speed issues with Microsoft Excel give Open Office a spin. It might be a lot of help.
 
-You can find it <a href="http://www.openoffice.org/" target="_blank" rel="noopener">here</a>.
+You can find it [here](http://www.openoffice.org/).

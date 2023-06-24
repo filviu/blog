@@ -49,8 +49,8 @@ I'm not saying that this is the best way to organize your menu, but it's the way
 
   1. [Fring][1] - already mentioned
   2. [Gmail][4] - it may be a java app but when I want more than just the inbox (for that I use the default mail client) it's there to use.
-  3. <span style="text-decoration: line-through"><a href="http://mobileways.de/products/gravity/gravity/">Gravity</a> - best twitter client for s60 in my opinion, I used it in trial mode, right now it's expired and I'm still deciding whether to buy it.</span>
-  4. How things change. <a href="http://www.tweets60.com/" target="_blank" rel="noopener">TweetS60 </a>is a freeware, symbian native twitter client application for Symbian S60. It might not be as feature packed as Gravity but it does the job and it's free. So it's bye bye Gravity for me.
+  3. <span style="text-decoration: line-through">[Gravity](http://mobileways.de/products/gravity/gravity/) - best twitter client for s60 in my opinion, I used it in trial mode, right now it's expired and I'm still deciding whether to buy it.</span>
+  4. How things change. [TweetS60 ](http://www.tweets60.com/)is a freeware, symbian native twitter client application for Symbian S60. It might not be as feature packed as Gravity but it does the job and it's free. So it's bye bye Gravity for me.
   5. [o3][5] - nice webkit browser, I'm thinking that I will use it instead of the default web client pretty soon.
   6. [Skyfire][6] - the browser that promised us full desktop experience on our phones. I still doubt that there is a software in the world that can fit a 19"+ experience in 2.5" of screen. Anyways Skyfire is great for big sites when on edge (I don't get 3g everywhere yet) and is also great for streaming flash sites.
   7. [Wordmobi][7] - [wordpress and more mobile blogging tool][8].

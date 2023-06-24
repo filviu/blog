@@ -16,6 +16,6 @@ tags:
 
 Sometimes I have to know if one of my websites or one of a client is down or not. More than once I've been tricked by the ISP's troubles that a site is down. I use my smartphone to doublecheck but I've found an even better sollution:
 
-<a href="http://downforeveryoneorjustme.com/" target="_blank" rel="noopener">http://downforeveryoneorjustme.com/</a>
+[http://downforeveryoneorjustme.com/](http://downforeveryoneorjustme.com/)
 
 You just enter your problem site and they will tell you if your site is really down or is just your ISP fooling around.

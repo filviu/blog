@@ -20,7 +20,7 @@ Like I said some time ago I had to move my websites from a shared host (bluehost
 
 I finally came to the conclusion that unmanaged is the way for me. I'm working on the old premise "give me a machine, an IP, a net pipe and some power" and I'll manage from there.
 
-Finally after some research I was left with two: <a href="http://www.slicehost.com/" target="_blank" rel="noopener">Slicehost</a> and <a href="http://www.linode.com/?r=16a04aa4c234b0d0edf8bf518ca11356448e1975" target="_blank" rel="noopener">Linode</a>. From the features listed and user testimonials I found on various forums they are equally good. Simply when I needed to sign up Linode offered more space and RAM for the same amount of money, so the choice was easy.
+Finally after some research I was left with two: [Linode](http://www.linode.com/?r=16a04aa4c234b0d0edf8bf518ca11356448e1975). From the features listed and user testimonials I found on various forums they are equally good. Simply when I needed to sign up Linode offered more space and RAM for the same amount of money, so the choice was easy.
 
 What I like:
 

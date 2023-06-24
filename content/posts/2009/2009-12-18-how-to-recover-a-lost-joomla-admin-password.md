@@ -20,7 +20,7 @@ tags:
 
 You can access your database either through a tool like phpMyAdmin or from the command line. Anyways, how to access your database is beyond the scope of this article.
 
-The password is stored in the MySQL database _jos_users_ table _password_ field. (obviously if you changed the default jos_ database prefix the name will differ) Find the record for the admin user and change his password with the MD5 value of a known password. You can use the following samples or generate your own using an online tool like <a href="http://pajhome.org.uk/crypt/md5/" target="_blank" rel="noopener">this</a>.
+The password is stored in the MySQL database _jos_users_ table _password_ field. (obviously if you changed the default jos_ database prefix the name will differ) Find the record for the admin user and change his password with the MD5 value of a known password. You can use the following samples or generate your own using an online tool like [this](http://pajhome.org.uk/crypt/md5/).
 
   * 123456 - **<span>f96b697d7cb7938d525a2f31aaf161d0</span>**
   * <span>default - </span>**c21f969b5f03d33d43e04f8f136e7682**

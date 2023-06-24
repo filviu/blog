@@ -22,7 +22,7 @@ tags:
 ---
 ![digikam_logo](/blog/images/2011/digikam_logo-150x150.png) 
 
-I shoot a lot of pictures. My collection keeps growing (for example ~90 Gb right now) and since last year I discovered the joy of using <a href="http://www.digikam.org/" target="_blank" rel="noopener">digikam</a> to tag and organize them. I'm using the beta 2.0.0 version and use mysql to store it's databases (as opposed to the default sqlite) as it's easier to interact and backup. What I want is to carry some of those pictures with me, specifically on my phone. I used to simply resize and copy files by hand but that means that I never have the latest pictures on my phone. So I devised a script that automatically resizes and syncs pictures to my phone. This is it:
+I shoot a lot of pictures. My collection keeps growing (for example ~90 Gb right now) and since last year I discovered the joy of using [digikam](http://www.digikam.org/) to tag and organize them. I'm using the beta 2.0.0 version and use mysql to store it's databases (as opposed to the default sqlite) as it's easier to interact and backup. What I want is to carry some of those pictures with me, specifically on my phone. I used to simply resize and copy files by hand but that means that I never have the latest pictures on my phone. So I devised a script that automatically resizes and syncs pictures to my phone. This is it:
 
 ```bash
 #!/bin/bash

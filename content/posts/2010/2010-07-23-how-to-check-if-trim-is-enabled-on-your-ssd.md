@@ -39,6 +39,6 @@ DisableDeleteNotify = 0 (Means that Windows TRIM commands are enabled)**
 > 
 > TRIM was introduced soon after SSDs started to become an affordable alternative for traditional hard disks as permanent storage in PCs. Because low-level operation of SSDs differs significantly from traditional hard disks (see details below), the typical way in which operating systems handle operations like deletes and formats (not communicating the involved sectors/pages to the storage medium) resulted in unanticipated progressive performance degradation of write operations on SSDs. TRIM enables the SSD to handle garbage collection overhead, that would otherwise significantly slow down future write operations to the involved blocks, in advance.
 
-[from <a href="http://en.wikipedia.org/wiki/TRIM" target="_blank" rel="noopener">wikipedia.org</a>]
+[from [wikipedia.org](http://en.wikipedia.org/wiki/TRIM)]
 
  [1]: http://blog.silviuvulcan.ro/wp-content/uploads/sites/2/2010/07/trim_command_check_command_prompt.jpg

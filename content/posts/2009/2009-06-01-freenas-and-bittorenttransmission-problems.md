@@ -16,12 +16,12 @@ tags:
   - transmission
 
 ---
-As I mentioned in another post I run a <a href="http://www.freenas.org/" target="_blank" rel="noopener">FreeNAS </a>0.69.1(at the time of posting) based machine on my network, for backup, downloads and storage. I also use it to leave downloads running when I'm not at home. FreeNAS is great but I had this  problems when downloading torrents:
+As I mentioned in another post I run a [FreeNAS ](http://www.freenas.org/)0.69.1(at the time of posting) based machine on my network, for backup, downloads and storage. I also use it to leave downloads running when I'm not at home. FreeNAS is great but I had this  problems when downloading torrents:
 
 Yesterday I left it downloading the latest ubuntu version. (Yes I know I'm behind), it's been out for some time now. When I got back from town I just shut down the nas without checking on progress. Today, when I checked transmission the torrent was gone. The .iso was in the downloaded folder but it should have been seeding in transmision too. I also noticed that I cannot move the file from the place where it was downloaded. So two problems, two fixes:
 
 1. I didn't set the configuration folder for bittorent: Services -> BitTorrent -> Configuration directory, I assumed that it would use whatever the default is. Well, I set it to a folder on my shared drive, added some files rebooted and the downloads were still there, so one problem solved.
-2. The second was even easier as danmero & evadman offer a solution on the Freenas forums <a href="http://apps.sourceforge.net/phpbb/freenas/viewtopic.php?f=12&t=18" target="_blank" rel="noopener">here</a>. The file & folder rights of downloaded files are insufficient, so I just added the following into cron (System -> Advanced -> Cron):
+2. The second was even easier as danmero & evadman offer a solution on the Freenas forums [here](http://apps.sourceforge.net/phpbb/freenas/viewtopic.php?f=12&t=18). The file & folder rights of downloaded files are insufficient, so I just added the following into cron (System -> Advanced -> Cron):
 
 ```bash
 #!/bin/sh

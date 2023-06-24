@@ -19,7 +19,7 @@ tags:
 ---
 Sooo, my beloved n900 kicked the bucket and the fine folks at Nokia Romania decided it's not fixable and they replaced it. With an E7. After 6 weeks. Hey Nokia still wondering why you're going down the drain?
 
-I have my music neatly organized and with cover art embeded inside the id3tag. But it won't show up. Actually it showed up for one album out of 15. So I started the hunt to see why. For tagging I use the excellent <a href="http://easytag.sourceforge.net/" target="_blank" rel="noopener">EasyTAG</a>. 
+I have my music neatly organized and with cover art embeded inside the id3tag. But it won't show up. Actually it showed up for one album out of 15. So I started the hunt to see why. For tagging I use the excellent [EasyTAG](http://easytag.sourceforge.net/). 
 
 **First suspect was Type. When you select Pictures to embed you can set the type. I set it to Cover (front)** A transfer and library refresh later I was happy to see that it still didn't work. I checked it for the album that had cover art displayed and it was set too to Cover (front) but the **Description:** field was empty. On the albums that showed no covers it was set to the original filename.
 

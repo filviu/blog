@@ -26,4 +26,4 @@ I searched, and DEdit came up. It has a ton of features, but more important you 
 
 Even more, it has versions for older phones too, like s60v2 not only s60v3. You can find this fine, freeware text editor for your Nokia Symbian phone here:
 
-<a href="http://jbak.ru/dedit_en.php" target="_blank" rel="noopener">http://jbak.ru/dedit_en.php</a>
+[http://jbak.ru/dedit_en.php](http://jbak.ru/dedit_en.php)

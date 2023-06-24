@@ -8,7 +8,7 @@ categories:
   - tech
 
 ---
-I wrote in a past article about how I'm <a href="https://www.silviuvulcan.ro/2022/06/18/full-disk-encryption-on-hetzner-dedicated-and-debian-10-woes/" data-type="URL" data-id="https://www.silviuvulcan.ro/2022/06/18/full-disk-encryption-on-hetzner-dedicated-and-debian-10-woes/">setting up Hetzner dedicated servers with full disk encryption</a> even if they miss an ikvm and why Debian 10 machines require a RSA key for this.
+I wrote in a past article about how I'm [setting up Hetzner dedicated servers with full disk encryption](https://www.silviuvulcan.ro/2022/06/18/full-disk-encryption-on-hetzner-dedicated-and-debian-10-woes/) even if they miss an ikvm and why Debian 10 machines require a RSA key for this.
 
 But since I switched one of my workstations to Ubuntu 22.04 I was unable to login using this RSA key. Running ssh with debug enabled showed the likely culprit:
 ```bash

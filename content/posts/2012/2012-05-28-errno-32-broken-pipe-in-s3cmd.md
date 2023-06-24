@@ -19,7 +19,7 @@ tags:
   - temp_on
 
 ---
-In order to backup a bunch of servers I'm using <a href="http://s3tools.org/s3cmd" target="_blank" rel="noopener">s3cmd</a> to backup files to a Amazon S3 account. s3cmd is a really nice tool as it works from the command line, does encryption on the fly and can use the https protocol for upload.
+In order to backup a bunch of servers I'm using [s3cmd](http://s3tools.org/s3cmd) to backup files to a Amazon S3 account. s3cmd is a really nice tool as it works from the command line, does encryption on the fly and can use the https protocol for upload.
 
 I used  
 

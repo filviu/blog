@@ -17,7 +17,7 @@ tags:
   - xenu
 
 ---
-I needed to scan a Joomla site that only shows most of its content when logged in in the frontend. Xenu FAQ suggests using Cookies. That didn't work for me. So I used <a href="http://www.fiddler2.com" target="_blank" rel="noopener">Fiddler web debugger</a> and it’s scripting engine.
+I needed to scan a Joomla site that only shows most of its content when logged in in the frontend. Xenu FAQ suggests using Cookies. That didn't work for me. So I used [Fiddler web debugger](http://www.fiddler2.com) and it’s scripting engine.
 
 First start Fiddler and set it to capture traffic. Log in in the site using a browser. Check and find the cookie data - copy it to the clipboard.
 

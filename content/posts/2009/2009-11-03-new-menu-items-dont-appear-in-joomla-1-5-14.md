@@ -16,7 +16,7 @@ tags:
   - wamp
 
 ---
-I was configuring a Joomla installation for a client today and stumbled upon this little problem. No matter how I tried, new menu items refused to appear. Not only in the front-end, but they were missing in the back-end too. I checked to see, but the PHP settings were all correct. Then I noticed that the WAMP installation used PHP 5.3.0. A quick look on the [Joomla Forums][1] confirmed that Joomla has problems with this version of PHP. I went to <a href="http://www.wampserver.com/en/addons_php.php" target="_blank" rel="noopener">WAMP Add-ons</a> and installed PHP 5.2.11 and everything returned to normal.
+I was configuring a Joomla installation for a client today and stumbled upon this little problem. No matter how I tried, new menu items refused to appear. Not only in the front-end, but they were missing in the back-end too. I checked to see, but the PHP settings were all correct. Then I noticed that the WAMP installation used PHP 5.3.0. A quick look on the [Joomla Forums][1] confirmed that Joomla has problems with this version of PHP. I went to [WAMP Add-ons](http://www.wampserver.com/en/addons_php.php) and installed PHP 5.2.11 and everything returned to normal.
 
 Hope it helps you too.
 

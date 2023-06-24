@@ -18,7 +18,7 @@ tags:
 
 ---
 
-I want to start building some new electronics projects and I wanted to use some tool to build my schematics. Even if not open source <a href="http://www.cadsoftusa.com/" target="_blank" rel="noopener">Cadsoft's Eagle</a> seems to be the de-facto standard between hobbyists.
+I want to start building some new electronics projects and I wanted to use some tool to build my schematics. Even if not open source [Cadsoft's Eagle](http://www.cadsoftusa.com/) seems to be the de-facto standard between hobbyists.
 
 Unfortunately trying to run the setup on Slackware gives the errors regarding to
 

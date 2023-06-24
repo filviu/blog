@@ -48,6 +48,6 @@ Annoying as I had gnome-keyring installed and up to date. After a bit of poking 
 **_Update:_** as the network-manager-applet package mantainer was so kind to reply to me the dependency is mentioned in gnome-keyring's README:
 
 > gnome-keyring's README states that libgnome-keyring is required:
-> <a href="http://slackbuilds.org/repository/13.37/misc/gnome-keyring/" target="_blank" rel="noopener">http://slackbuilds.org/repository/13.37/misc/gnome-keyring/</a>
+> [http://slackbuilds.org/repository/13.37/misc/gnome-keyring/](http://slackbuilds.org/repository/13.37/misc/gnome-keyring/)
 
 I'll leave the post here in case you pay as much attention as I did.

@@ -21,7 +21,7 @@ tags:
   - temp_on
 
 ---
-I needed today to remove duplicate files from a big folder (8Gb+, 10000+ files). I use the nice <a href="http://code.google.com/p/fdupes/" target="_blank" rel="noopener">fdupes</a> program written by Adrian Lopez
+I needed today to remove duplicate files from a big folder (8Gb+, 10000+ files). I use the nice [fdupes](http://code.google.com/p/fdupes/) program written by Adrian Lopez
 
 ```bash
 fdupes -rdN .

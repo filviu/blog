@@ -29,5 +29,5 @@ My favourite microcontroler for now is PIC16F887. I will soon try to build some 
 |  Operating Voltage Range (V)  |  2 to 5.5  |
 |  Pin Count  |  40  |
 
-<a href="http://ww1.microchip.com/downloads/en/DeviceDoc/41291F.pdf" target="_blank" rel="noopener">Here's a link to the datasheet</a>.
+[Here's a link to the datasheet](http://ww1.microchip.com/downloads/en/DeviceDoc/41291F.pdf).
 

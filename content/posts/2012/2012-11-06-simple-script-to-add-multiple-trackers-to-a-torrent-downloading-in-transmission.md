@@ -15,7 +15,7 @@ tags:
   - transmission
 
 ---
-Sometime you might want to download some old or obscure distro that was once packaged as a torrent. But many times the tracker embeded in the torrent file has long been abandoned or it has no peers. But many other trackers might have cached your torrent and maybe those have seeds. So I wrote a quick and dirty script to get a list of online trackers from <a href="http://www.trackon.org/" target="_blank" rel="noopener">trackon.org</a> and add them to a torrent you have downloading inside <a href="http://www.transmissionbt.com/" target="_blank" rel="noopener">transmission</a>.
+Sometime you might want to download some old or obscure distro that was once packaged as a torrent. But many times the tracker embeded in the torrent file has long been abandoned or it has no peers. But many other trackers might have cached your torrent and maybe those have seeds. So I wrote a quick and dirty script to get a list of online trackers from [transmission](http://www.transmissionbt.com/).
 ```bash
 #!/bin/bash
 

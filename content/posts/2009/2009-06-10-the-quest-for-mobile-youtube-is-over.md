@@ -22,7 +22,7 @@ Ever since **Flash 3.0** came out and I managed to install it on my Nokia E61 ph
 
 Then, the rescue ! An official google app for youtube and even more Symbian native, not that damn java stuff. It's simple, it misses the save function, which I don't miss as, if I want to save from youtube I use firefox to download in mp4, hq format anyway and **it works**.
 
-So if you want mobile youtube, the easy way, in an app just head over to <a href="http://m.google.com" target="_blank" rel="noopener">m.google.com</a> on your phone and download it !
+So if you want mobile youtube, the easy way, in an app just head over to [m.google.com](http://m.google.com) on your phone and download it !
 
 ![Installing the latest Youtube mobile app version](/blog/images/2009/screenshot0019_cnv.jpg) 
 

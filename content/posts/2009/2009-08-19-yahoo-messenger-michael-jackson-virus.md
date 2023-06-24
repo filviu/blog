@@ -25,7 +25,7 @@ tags:
 
 The link takes you to something that looks like a picture, but because the file name ends with what appears to the user as a web adress the final extension is .com not .jpg - and so you get tricked into running an executable.
 
-**Automatic removal** can be done with the <a href="http://dnl-eu14.kaspersky-labs.com/devbuilds/AVPTool/" target="_blank" rel="noopener">Kaspersky Virus Removal tool</a>.
+**Automatic removal** can be done with the [Kaspersky Virus Removal tool](http://dnl-eu14.kaspersky-labs.com/devbuilds/AVPTool/).
 
 **Manual removal is as follows:**
 

@@ -18,7 +18,7 @@ tags:
 ---
 ![mobile_formula_one](/blog/images/2010/mobile_formula_one.jpg) 
 
-Hey, I used up until last race the nice live-f1 application to see live timings in the linux terminal. But starting with the last race I couldn't. But today I got great news. The official Formula 1 website just released a mobile version available at <a href="http://mobile.formula1.com" target="_blank" rel="noopener">mobile.formula1.com</a> and oh joy and happiness they also released a mobile application that will offer Live Timings on your mobile phone.
+Hey, I used up until last race the nice live-f1 application to see live timings in the linux terminal. But starting with the last race I couldn't. But today I got great news. The official Formula 1 website just released a mobile version available at [mobile.formula1.com](http://mobile.formula1.com) and oh joy and happiness they also released a mobile application that will offer Live Timings on your mobile phone.
 
 To my biggest surprise, my symbian based Nokia E71 is supported. I seriously awaited to only see android and iphone there because they are all the rage. I suppose it's because Formula 1 is much more popular in europe. Anyways I have live timings on my phone for free now.
 

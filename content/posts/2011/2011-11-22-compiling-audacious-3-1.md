@@ -19,7 +19,7 @@ tags:
   - temp_on
 
 ---
-I'm a big fan of classic media players (audacious, xmms, the old winamp, etc.) That's why I wanted today to complile the latest version of <a href="http://audacious-media-player.org/" target="_blank" rel="noopener">audacious</a> (3.1) for my slackware laptop. Since the audacious build scripts are kind enough to provide make uninstall I didn't bother with package builds, I simply compiled the stock source.
+I'm a big fan of classic media players (audacious, xmms, the old winamp, etc.) That's why I wanted today to complile the latest version of [audacious](http://audacious-media-player.org/) (3.1) for my slackware laptop. Since the audacious build scripts are kind enough to provide make uninstall I didn't bother with package builds, I simply compiled the stock source.
 
 BTW that required upgrading libmowgli  (got one from slacky). Audacious compiled succesfully but for audacious-plugins **configure** refused to run:
 

@@ -20,7 +20,7 @@ tags:
 ---
 So, with a terrible case of memory lapsus while wanting to disable password login for a user I couldn't remember what the difference between "!" and "*" is in the `/etc/shadow` file.
 
-Well <a href="http://manpages.sgvulcan.com/shadow.5.php"><strong>man 5 shadow</strong></a> to the rescue
+Well [man 5 shadow](http://manpages.sgvulcan.com/shadow.5.php) to the rescue
 
 <p style="padding-left: 30px">
   <em>Refer to **crypt**(3) for details on how this string is interpreted.</em>

@@ -18,13 +18,13 @@ tags:
   - zoneparse
 
 ---
-I was working writing a few scripts that should update a DNS zone file on the fly. I decided to use the <a href="http://search.cpan.org/~mschilli/DNS-ZoneParse-0.99/lib/DNS/ZoneParse.pm" target="_blank" rel="noopener">DNS::ZoneParse</a> perl module for convenience.
+I was working writing a few scripts that should update a DNS zone file on the fly. I decided to use the [DNS::ZoneParse](http://search.cpan.org/~mschilli/DNS-ZoneParse-0.99/lib/DNS/ZoneParse.pm) perl module for convenience.
 
 The example there is straightforward for changing MX records so I thought modifying it to change an A record should be a piece of cake. Right? **Wrong!**
 
 For the love of it I couldn't get my code to modify the record in question, it would always delete it.
 
-All the beer in the world goes to <a href="https://rt.cpan.org/Public/Bug/Display.html?id=66609" target="_blank" rel="noopener">this guy</a> who found the reason. Basically if the ORIGIN method is not set the record won't be written to the new file.
+All the beer in the world goes to [this guy](https://rt.cpan.org/Public/Bug/Display.html?id=66609) who found the reason. Basically if the ORIGIN method is not set the record won't be written to the new file.
 
 So, changing for example the record like this will actually erase it
 

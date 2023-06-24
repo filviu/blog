@@ -19,4 +19,4 @@ In the past, the data ones used to be FAT32 so they would be readable and writea
 
 You can find it here:
 
-<a href="http://ext2fsd.sourceforge.net/" target="_blank" rel="noopener">http://ext2fsd.sourceforge.net/</a>
+[http://ext2fsd.sourceforge.net/](http://ext2fsd.sourceforge.net/)

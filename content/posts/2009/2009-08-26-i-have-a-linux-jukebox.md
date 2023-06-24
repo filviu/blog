@@ -42,10 +42,10 @@ I have a usb numpad for control and the [usb lcd display][2] featured some time 
 
 Software:
 
-  * <a href="http://mpd.wikia.com/wiki/Music_Player_Daemon_Wiki" target="_blank" rel="noopener">mpd</a> for playback
-  * <a href="http://mpd.wikia.com/wiki/Client:Mpc" target="_blank" rel="noopener">mpc</a> for mpd control
-  * <a href="http://lcdproc.omnipotent.net/" target="_blank" rel="noopener">Lcdproc</a> and [lcd-stuff][3] for usb lcd display
-  * <a href="http://www.burghardt.pl/tag/keyboard/" target="_blank" rel="noopener">esekeyd</a> for numpad control
+  * [mpd](http://mpd.wikia.com/wiki/Music_Player_Daemon_Wiki) for playback
+  * [mpc](http://mpd.wikia.com/wiki/Client:Mpc) for mpd control
+  * [Lcdproc](http://lcdproc.omnipotent.net/) and [lcd-stuff][3] for usb lcd display
+  * [esekeyd](http://www.burghardt.pl/tag/keyboard/) for numpad control
   * a bunch of bash scripts to glue everything in place
 
 I hit a few problems:

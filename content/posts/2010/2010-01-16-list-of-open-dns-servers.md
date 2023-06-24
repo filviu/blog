@@ -19,12 +19,12 @@ This is a growing list of Open DNS servers available around the world.
 
 I also maintain a list of ip address of [various isp providers][1].
 
-### <a href="https://developers.google.com/speed/public-dns/" target="_blank" rel="noopener"><strong>Google Pubic DNS</strong></a>
+### [Google Pubic DNS](https://developers.google.com/speed/public-dns/)
 
   * 8.8.8.8
   * 8.8.4.4
 
-### <a href="http://www.opendns.com/" target="_blank" rel="noopener">OpenDNS</a> ****
+### [OpenDNS](http://www.opendns.com/) ****
 
   * 208.67.220.220
   * 208.67.222.222.
@@ -48,7 +48,7 @@ Open DNS also makes available a third and fourth dns server with identical servi
   * 4.2.2.5
   * 4.2.2.6
 
-### <a href="http://wiki.opennicproject.org/Tier2" target="_blank" rel="noopener">OpenNIC</a>
+### [OpenNIC](http://wiki.opennicproject.org/Tier2)
 
   * 58.6.115.42 (Queensland, Australia)
   * 202.83.95.227 (Queensland, Australia)

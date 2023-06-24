@@ -20,7 +20,7 @@ tags:
 
 The project is based on the source found here:
 
-<a href="http://en.radzio.dxp.pl/ks0108/" target="_blank" rel="noopener">http://en.radzio.dxp.pl/ks0108/</a>
+[http://en.radzio.dxp.pl/ks0108/](http://en.radzio.dxp.pl/ks0108/)
 
 The source is made pretty universal, still it took some work and modifications to have it working in mikroC. The archive is a ready working project for mikroC.
 

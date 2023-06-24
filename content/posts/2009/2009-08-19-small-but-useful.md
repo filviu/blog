@@ -24,4 +24,4 @@ I just stumbled upon a nice little utility. It's called ATF Cleaner. What it doe
 
 It's small, fast and useful but as it's always the case with utilities that erase files you should be careful. Also, according to it's home page ATF Cleaner is just for windows XP.
 
-You can find ATF Cleaner <a href="http://www.atribune.org/" target="_blank" rel="noopener">HERE</a>.
+You can find ATF Cleaner [HERE](http://www.atribune.org/).

@@ -39,9 +39,9 @@ From it's website:
 - AirTunes streaming
 - New skin for the skins2 interface
 
-### What are you waiting? Grab yours <a href="http://www.videolan.org/vlc/" target="_blank" rel="noopener">here</a>.
+### What are you waiting? Grab yours [here](http://www.videolan.org/vlc/).
 
 
 ## The cross-platform open-source multimedia framework, player and server
 
-VLC media player is a highly portable <strong>multimedia player</strong> and <strong>multimedia framework</strong> capable of reading most audio and video formats (MPEG-2, MPEG-4, H.264, DivX, MPEG-1, mp3, ogg, aac ...) as well as <strong>DVD</strong>s, <strong>Audio CD</strong>s <strong>VCD</strong>s, and various <strong>streaming</strong> protocols. See the <a href="http://www.videolan.org/vlc/features.html">full features list</a>.<br /> It can also be used as a <strong>media converter</strong> or a <a href="http://www.videolan.org/vlc/streaming.html"><strong>server to stream</strong></a> in unicast or <strong>multicast</strong> in IPv4 or <strong>IPv6</strong> on networks.</div>
+VLC media player is a highly portable <strong>multimedia player</strong> and <strong>multimedia framework</strong> capable of reading most audio and video formats (MPEG-2, MPEG-4, H.264, DivX, MPEG-1, mp3, ogg, aac ...) as well as <strong>DVD</strong>s, <strong>Audio CD</strong>s <strong>VCD</strong>s, and various <strong>streaming</strong> protocols. See the [full features list](http://www.videolan.org/vlc/features.html).<br /> It can also be used as a <strong>media converter</strong> or a [server to stream](http://www.videolan.org/vlc/streaming.html) in unicast or <strong>multicast</strong> in IPv4 or <strong>IPv6</strong> on networks.</div>

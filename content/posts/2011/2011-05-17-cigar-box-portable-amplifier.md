@@ -22,7 +22,7 @@ tags:
 ---
 ![Simple amplifier inside a Wooden Cigar Box](/blog/images/2011/IMG_0029.jpg)
 
-Thanks to <a href="http://hackaweek.com/hacks/?p=131" target="_blank" rel="noopener">this article</a> I have come up with a nice use for a wooden cigar box I had around. A nice portable amplifier that I can use with a portable radio when barbecuing or that I can borrow to my guitar playing friends.
+Thanks to [this article](http://hackaweek.com/hacks/?p=131) I have come up with a nice use for a wooden cigar box I had around. A nice portable amplifier that I can use with a portable radio when barbecuing or that I can borrow to my guitar playing friends.
 
 Read more for the full gallery.
 

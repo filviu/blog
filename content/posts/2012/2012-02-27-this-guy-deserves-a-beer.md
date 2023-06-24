@@ -17,6 +17,6 @@ tags:
 ---
 Chances are if you are a developer or a sysadmin you had to work with regular expressions. Well I hate them. With passion. So when I discovered this website I was jumping for joy:
 
-<a href="http://txt2re.com/" target="_blank" rel="noopener">http://txt2re.com/</a>
+[http://txt2re.com/](http://txt2re.com/)
 
 Basically you type in your clear text and select what you want extracted (certain word, integers, dates) and as a bonus you also get back code already written. Of course you probably have to adapt that one.

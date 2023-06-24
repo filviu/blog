@@ -21,7 +21,7 @@ Browsing trough my web logs I found the following error in the apache error log 
 [Mon Oct 17 13:49:16 2011] [error] [client aaa.aaa.aaa.aaa] PHP Notice: Array to string conversion in aaa/libraries/joomla/html/parameter.php on line 83
 ```
 
-One suggestion found <a href="http://www.joomseo.com/forums/4711.html" target="_blank" rel="noopener">online</a> was:
+One suggestion found [online](http://www.joomseo.com/forums/4711.html) was:
 
 Edit parameters.php and change the line 83 as follows:
 

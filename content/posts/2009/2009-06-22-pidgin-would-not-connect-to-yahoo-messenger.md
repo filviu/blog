@@ -21,4 +21,4 @@ I run pidgin on my windows machines because, I basically hate the bloat of the o
 
 Another reason to hate Yahoo, yet people seem to love it, and I need a way to chat with them too.
 
-Update: <a href="http://developer.pidgin.im/wiki/ChangeLog" target="_blank" rel="noopener">Pidgin 2.5.7</a> seems to solve this problem.<br /> </span>
+Update: [Pidgin 2.5.7](http://developer.pidgin.im/wiki/ChangeLog) seems to solve this problem.<br /> </span>

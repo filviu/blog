@@ -19,4 +19,4 @@ tags:
 
 It's clearly written, simple explained, and one of the technical books I have enjoyed the most.
 
-Here's a <a href="http://books.google.com/books?id=Pd-z64SJRBAC&lpg=PP1&dq=inauthor%3AAndrew%20inauthor%3AS%20inauthor%3ATanenbaum&pg=PP1" target="_blank" rel="noopener">preview</a>.
+Here's a [preview](http://books.google.com/books?id=Pd-z64SJRBAC&lpg=PP1&dq=inauthor%3AAndrew%20inauthor%3AS%20inauthor%3ATanenbaum&pg=PP1).

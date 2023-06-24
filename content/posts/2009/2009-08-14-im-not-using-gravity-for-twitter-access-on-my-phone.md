@@ -15,7 +15,7 @@ tags:
   - twitter
 
 ---
-Even though I like Gravity a lot, I chose a simpler FREEWARE symbian native application as a client for Twitter - <a href="http://www.tweets60.com/" target="_blank" rel="noopener">Tweets60</a>:
+Even though I like Gravity a lot, I chose a simpler FREEWARE symbian native application as a client for Twitter - [Tweets60](http://www.tweets60.com/):
 
 It's simple, fast, and has access point prioritization built in.
 

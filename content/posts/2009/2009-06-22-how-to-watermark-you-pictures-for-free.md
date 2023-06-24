@@ -18,7 +18,7 @@ tags:
   - watermark
 
 ---
-Ever since I post pictures on the internet I searched for a way to watermark them. I am not paranoiac but I want others to respect my work. I used to use <a href="http://www.gimp.org/" target="_blank" rel="noopener">The GiMP</a> but that was slow, so I searched and discovered <a href="http://www.faststone.org/" target="_blank" rel="noopener">Fast Stone Image Viewer</a>. It's fast, free for personal use and has an array of functions that can be applied in Batch Mode, many useful if you publish your pictures online.
+Ever since I post pictures on the internet I searched for a way to watermark them. I am not paranoiac but I want others to respect my work. I used to use [Fast Stone Image Viewer](http://www.faststone.org/). It's fast, free for personal use and has an array of functions that can be applied in Batch Mode, many useful if you publish your pictures online.
 
 Here's a quick step by step:
 
