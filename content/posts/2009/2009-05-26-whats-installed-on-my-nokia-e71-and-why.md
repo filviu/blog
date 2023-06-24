@@ -23,7 +23,7 @@ As you might have noticed I am very fond of open source or freeware software. I 
 
 ## 1. Home screen
 
-<figure id="attachment_37" aria-describedby="caption-attachment-37" style="width: 320px" class="wp-caption aligncenter">![e71_homescreen](/blog/images/2009/e71_homescreen.jpg) <figcaption id="caption-attachment-37" class="wp-caption-text">Nokia E71 home screen</figcaption></figure>
+![e71_homescreen](/blog/images/2009/e71_homescreen.jpg)
 
 From left to right:
 
@@ -41,7 +41,7 @@ On the bottom:
 
 ## Main menu
 
-<figure id="attachment_40" aria-describedby="caption-attachment-40" style="width: 320px" class="wp-caption aligncenter">![home_menu_cnv](/blog/images/2009/home_menu_cnv.jpg) <figcaption id="caption-attachment-40" class="wp-caption-text">Main menu organization</figcaption></figure>
+![Main menu organization](/blog/images/2009/home_menu.jpg)
 
 I'm not saying that this is the best way to organize your menu, but it's the way it works for me.
 

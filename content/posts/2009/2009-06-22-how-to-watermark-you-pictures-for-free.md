@@ -24,30 +24,26 @@ Here's a quick step by step:
 
 1. Start Fast Stone, select the images you want to watermark and press **F3**. The following window appears:
 
-[![step1_tn](/blog/images/2009/step1_tn-300x156.jpg) ][1]Either check and output folder, either check a rename scheme otherwise your originals would be overwritten. Click **Advanced**.
+![step1_tn](/blog/images/2009/step1_tn.jpg) 
+
+Either check and output folder, either check a rename scheme otherwise your originals would be overwritten. Click **Advanced**.
 
 2. Click resize and check it. Choose a way and a size to resize your images. You have a lot of options. I usually do _**set long side to xxx pixels**_.
 
-[![step2_tn](/blog/images/2009/step2_tn-300x203.jpg) ][2]
+![step2_tn](/blog/images/2009/step2_tn.jpg)
 
 3.Click and check Text. Type your text, choose a font and position. Also, if you want you can make the text transparent.
 
-[![step3_tn](/blog/images/2009/step3_tn-300x203.jpg) ][3]
+![step3_tn](/blog/images/2009/step3_tn.jpg)
 
 4. Optional, you can set a frame, many options are available.
 
-[![step4_tn](/blog/images/2009/step4_tn-300x203.jpg) ][4]
+![step4_tn](/blog/images/2009/step4_tn.jpg)
 
 5. Click ok and hit Convert.
 
-[![step5_tn](/blog/images/2009/step5_tn-300x188.jpg) ][5]
+![step5_tn](/blog/images/2009/step5_tn.jpg)
 
 You can see after conversion all kinds of informations, like file size before and after, and so on.
 
 Give it a try. It's great, I use it for this blog.
-
- [1]: http://blog.silviuvulcan.ro/wp-content/uploads/sites/2/2009/06/step1_tn.jpg
- [2]: http://blog.silviuvulcan.ro/wp-content/uploads/sites/2/2009/06/step2_tn.jpg
- [3]: http://blog.silviuvulcan.ro/wp-content/uploads/sites/2/2009/06/step3_tn.jpg
- [4]: http://blog.silviuvulcan.ro/wp-content/uploads/sites/2/2009/06/step4_tn.jpg
- [5]: http://blog.silviuvulcan.ro/wp-content/uploads/sites/2/2009/06/step5_tn.jpg

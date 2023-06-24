@@ -19,7 +19,7 @@ Since I didn't want to pay for a kit of precut and bent wires for a breadboard a
 
 Just use a stapler so that it dispenses the staples without bending them or a cutter (watch the fingers) to obtain individual staples.
 
-[![IMG_9240_i](/blog/images/2009/IMG_9240_i-300x206.jpg) ][1]
+![IMG_9240_i](/blog/images/2009/IMG_9240_i.jpg)
 
 Since staples come in many sizes it's easy to prepare a nice kit that should cut down on the number of wires hanging off your breadboard. Just make sure the staple is not too thick to damage your breadboard.
 

@@ -23,19 +23,15 @@ Aviator, Enterprise and Zen Touch from [Tehkseven][1] - those are both with seva
 
 **Zen Touch:**
 
-<p style="text-align: center">
-  <a href="http://blog.silviuvulcan.ro/wp-content/uploads/sites/2/2009/08/Screenshot0026.jpg">![Screenshot0027](/blog/images/2009/Screenshot0027.jpg) </a>
-</p>
+![Screenshot0027](/blog/images/2009/Screenshot0027.jpg)
 
 **Aviator:**
 
-<p style="text-align: left">
-  <a href="http://blog.silviuvulcan.ro/wp-content/uploads/sites/2/2009/08/Screenshot0028.jpg">![Screenshot0029](/blog/images/2009/Screenshot0029.jpg) </a><strong>Enterprise:</strong>
-</p>
+![Screenshot0029](/blog/images/2009/Screenshot0029.jpg)
 
-<p style="text-align: center">
-  <a href="http://blog.silviuvulcan.ro/wp-content/uploads/sites/2/2009/08/Screenshot0030.jpg">![Screenshot0031](/blog/images/2009/Screenshot0031.jpg) </a>
-</p>
+**Enterprise:**
+
+![Screenshot0031](/blog/images/2009/Screenshot0031.jpg)
 
 Ovi blue has screenshots if you follow the link above.
 

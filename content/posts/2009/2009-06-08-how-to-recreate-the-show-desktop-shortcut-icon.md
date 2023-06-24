@@ -19,7 +19,8 @@ My wife erased by mistake the _Show Desktop_ shortcut from the Quick Launch tool
 Start **notepad**
 
 **Copy and paste** this text in notepad:
-[ccNe_ini]
+
+```ini
 [Shell]
 Command=2
 IconFile=explorer.exe,3

@@ -27,17 +27,23 @@ You need to reboot the machine and boot it of the CD/USB stick. For the sake of 
 Log in as root.
 
 Create a temporary directory to mount your / (root) partition where Slackware Linux is installed:
+
 ```bash
 mkdir /tmppart
 ```
+
 Mount your partition there:
+
 ```bash
 mount /dev/hda1 /tmppart
 ```
+
 Of course you need to replace hda1 with the partition where / is on your drive. Next you need to edit /etc/shadow to remove the root password.
+
 ```bash
 vi /tmppart/etc/shadow
 ```
+
 Locate the line starting with root: followed by letters and numbers. It's easy, it's usually the first line in the file. Remove everything between the first two **:** . Alternatively, if you know the password of another user copy everything from between the first two **:** to the root user.  Save the file and reboot.
 
 Root should now have no password / a password identical with the one of the user you copied it from.

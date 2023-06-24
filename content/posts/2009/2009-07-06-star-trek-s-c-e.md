@@ -14,9 +14,13 @@ tags:
   - star trek
 
 ---
-<div class="wp-block-image is-style-default">
-  <figure class="alignright size-full is-resized"><img decoding="async" loading="lazy" src="https://www.silviuvulcan.ro/wp-content/uploads/2021/10/292px-Have_Tech_Will_Travel.jpg" alt="" class="wp-image-3834" width="219" height="353" srcset="https://www.silviuvulcan.ro/wp-content/uploads/2021/10/292px-Have_Tech_Will_Travel.jpg 292w, https://www.silviuvulcan.ro/wp-content/uploads/2021/10/292px-Have_Tech_Will_Travel-186x300.jpg 186w, https://www.silviuvulcan.ro/wp-content/uploads/2021/10/292px-Have_Tech_Will_Travel-130x210.jpg 130w" sizes="(max-width: 219px) 100vw, 219px" /><figcaption>Have Tech, Will Travel is an anthology collecting the first four books from Pocket Books' original eBook series about the Starfleet Corps of Engineers, depicting the missions of a rapid response team of SCE taking place during the 2370s. Several canon characters and concepts were included in the stories, but with new details not mentioned in televised Star Trek of the era.</figcaption></figure>
-</div>
+
+{{< figure 
+    src="/blog/images/2009/292px-Have_Tech_Will_Travel.jpg" 
+    caption="Have Tech, Will Travel is an anthology collecting the first four books from Pocket Books' original eBook series about the Starfleet Corps of Engineers, depicting the missions of a rapid response team of SCE taking place during the 2370s. Several canon characters and concepts were included in the stories, but with new details not mentioned in televised Star Trek of the era." 
+    alt="Cover of the Book" 
+>}}
+
 
 I have recently finished reading every novel in the Star Trek S.C.E. series (Star Fleet Corps of Engineers). Being a Star Trek fan I read and like pretty much every Star Trek novel that's out there. But from the ones I read I found SCE very, very good. Nice characters developing in the course of over 60 novels, unexpected plot turns and more.
 

@@ -23,7 +23,6 @@ Yes, I know, mikroC has it's own ADC library, but as always I am a sucker for op
 Code is tested on the EasyPic5 board, but should work on other boards and / or compilers with minimal modifications. Anyways, if you were searching for an example written in C on how to read the ADC inside a pic microcontroler here it is:
 
 ```c
-
 /*
 
 * Based on MikroElectronika ADC on LCD example
@@ -121,27 +120,27 @@ Delay_ms(2000);
 text = "voltage:"; // assign text to string
 while (1) {
 // let's use our open source function
-adc_rd = ADC_read2(2); // get ADC value from 2nd channel
-LCD_Out(2,1,text); // print string a on LCD, 2nd row, 1st column
+    adc_rd = ADC_read2(2); // get ADC value from 2nd channel
+    LCD_Out(2,1,text); // print string a on LCD, 2nd row, 1st column
 
-tlong = (long)adc_rd * 5000; // covert adc reading to milivolts
-tlong = tlong / 1023; // 0..1023 -> 0-5000mV
+    tlong = (long)adc_rd * 5000; // covert adc reading to milivolts
+    tlong = tlong / 1023; // 0..1023 -> 0-5000mV
 
-ch = tlong / 1000; // extract volts digit
-LCD_Chr(2,9,48+ch); // write ASCII digit at 2nd row, 9th column
-LCD_Chr_CP('.');
+    ch = tlong / 1000; // extract volts digit
+    LCD_Chr(2,9,48+ch); // write ASCII digit at 2nd row, 9th column
+    LCD_Chr_CP('.');
 
-ch = (tlong / 100) % 10; // extract 0.1 volts digit
-LCD_Chr_CP(48+ch); // write ASCII digit at cursor point
+    ch = (tlong / 100) % 10; // extract 0.1 volts digit
+    LCD_Chr_CP(48+ch); // write ASCII digit at cursor point
 
-ch = (tlong / 10) % 10; // extract 0.01 volts digit
-LCD_Chr_CP(48+ch); // write ASCII digit at cursor point
+    ch = (tlong / 10) % 10; // extract 0.01 volts digit
+    LCD_Chr_CP(48+ch); // write ASCII digit at cursor point
 
-ch = tlong % 10; // extract 0.001 volts digit
-LCD_Chr_CP(48+ch); // write ASCII digit at cursor point
-LCD_Chr_CP('V');
+    ch = tlong % 10; // extract 0.001 volts digit
+    LCD_Chr_CP(48+ch); // write ASCII digit at cursor point
+    LCD_Chr_CP('V');
 
-Delay_ms(1);
+    Delay_ms(1);
 }
 }
 
@@ -149,365 +148,22 @@ Delay_ms(1);
 
 Please note that I only checked for the first 4 channels in the adc_read2 function. It's easy to check for the other ADC channels using this table:
 
-<table border="1" cellspacing="0" cellpadding="2">
-  <tr>
-    <td style="background: #f5f2ec none repeat scroll 0% 0%;width: 100px" align="center">
-      <strong>CHS3</strong>
-    </td>
-  
-    <td style="background: #f5f2ec none repeat scroll 0% 0%;width: 100px" align="center">
-      <strong>CHS2</strong>
-    </td>
-  
-    <td style="background: #f5f2ec none repeat scroll 0% 0%;width: 100px" align="center">
-      <strong>CHS1</strong>
-    </td>
-  
-    <td style="background: #f5f2ec none repeat scroll 0% 0%;width: 100px" align="center">
-      <strong>CHS0</strong>
-    </td>
-  
-    <td style="background: #f5f2ec none repeat scroll 0% 0%;width: 100px" align="center">
-      <strong>Channel</strong>
-    </td>
-  
-    <td style="background: #f5f2ec none repeat scroll 0% 0%;width: 100px" align="center">
-      <strong>Pin</strong>
-    </td>
-  </tr>
-
-  <tr>
-    <td style="width: 100px" align="center">
-    </td>
-  
-    <td style="width: 100px" align="center">
-    </td>
-  
-    <td style="width: 100px" align="center">
-    </td>
-  
-    <td style="width: 100px" align="center">
-    </td>
-  
-    <td style="width: 100px" align="center">
-    </td>
-  
-    <td style="width: 100px" align="center">
-      RA0/AN0
-    </td>
-  </tr>
-
-  <tr>
-    <td style="width: 100px" align="center">
-    </td>
-  
-    <td style="width: 100px" align="center">
-    </td>
-  
-    <td style="width: 100px" align="center">
-    </td>
-  
-    <td style="width: 100px" align="center">
-      1
-    </td>
-  
-    <td style="width: 100px" align="center">
-      1
-    </td>
-  
-    <td style="width: 100px" align="center">
-      RA1/AN1
-    </td>
-  </tr>
-
-  <tr>
-    <td style="width: 100px" align="center">
-    </td>
-  
-    <td style="width: 100px" align="center">
-    </td>
-  
-    <td style="width: 100px" align="center">
-      1
-    </td>
-  
-    <td style="width: 100px" align="center">
-    </td>
-  
-    <td style="width: 100px" align="center">
-      2
-    </td>
-  
-    <td style="width: 100px" align="center">
-      RA2/AN2
-    </td>
-  </tr>
-
-  <tr>
-    <td style="width: 100px" align="center">
-    </td>
-  
-    <td style="width: 100px" align="center">
-    </td>
-  
-    <td style="width: 100px" align="center">
-      1
-    </td>
-  
-    <td style="width: 100px" align="center">
-      1
-    </td>
-  
-    <td style="width: 100px" align="center">
-      3
-    </td>
-  
-    <td style="width: 100px" align="center">
-      RA3/AN3
-    </td>
-  </tr>
-
-  <tr>
-    <td style="width: 100px" align="center">
-    </td>
-  
-    <td style="width: 100px" align="center">
-      1
-    </td>
-  
-    <td style="width: 100px" align="center">
-    </td>
-  
-    <td style="width: 100px" align="center">
-    </td>
-  
-    <td style="width: 100px" align="center">
-      4
-    </td>
-  
-    <td style="width: 100px" align="center">
-      RA5/AN4
-    </td>
-  </tr>
-
-  <tr>
-    <td style="width: 100px" align="center">
-    </td>
-  
-    <td style="width: 100px" align="center">
-      1
-    </td>
-  
-    <td style="width: 100px" align="center">
-    </td>
-  
-    <td style="width: 100px" align="center">
-      1
-    </td>
-  
-    <td style="width: 100px" align="center">
-      5
-    </td>
-  
-    <td style="width: 100px" align="center">
-      RE0/AN5
-    </td>
-  </tr>
-
-  <tr>
-    <td style="width: 100px" align="center">
-    </td>
-  
-    <td style="width: 100px" align="center">
-      1
-    </td>
-  
-    <td style="width: 100px" align="center">
-      1
-    </td>
-  
-    <td style="width: 100px" align="center">
-    </td>
-  
-    <td style="width: 100px" align="center">
-      6
-    </td>
-  
-    <td style="width: 100px" align="center">
-      RE1/AN6
-    </td>
-  </tr>
-
-  <tr>
-    <td style="width: 100px" align="center">
-    </td>
-  
-    <td style="width: 100px" align="center">
-      1
-    </td>
-  
-    <td style="width: 100px" align="center">
-      1
-    </td>
-  
-    <td style="width: 100px" align="center">
-      1
-    </td>
-  
-    <td style="width: 100px" align="center">
-      7
-    </td>
-  
-    <td style="width: 100px" align="center">
-      RE2/AN7
-    </td>
-  </tr>
-
-  <tr>
-    <td style="width: 100px" align="center">
-      1
-    </td>
-  
-    <td style="width: 100px" align="center">
-    </td>
-  
-    <td style="width: 100px" align="center">
-    </td>
-  
-    <td style="width: 100px" align="center">
-    </td>
-  
-    <td style="width: 100px" align="center">
-      8
-    </td>
-  
-    <td style="width: 100px" align="center">
-      RB2/AN8
-    </td>
-  </tr>
-
-  <tr>
-    <td style="width: 100px" align="center">
-      1
-    </td>
-  
-    <td style="width: 100px" align="center">
-    </td>
-  
-    <td style="width: 100px" align="center">
-    </td>
-  
-    <td style="width: 100px" align="center">
-      1
-    </td>
-  
-    <td style="width: 100px" align="center">
-      9
-    </td>
-  
-    <td style="width: 100px" align="center">
-      RB3/AN9
-    </td>
-  </tr>
-
-  <tr>
-    <td style="width: 100px" align="center">
-      1
-    </td>
-  
-    <td style="width: 100px" align="center">
-    </td>
-  
-    <td style="width: 100px" align="center">
-      1
-    </td>
-  
-    <td style="width: 100px" align="center">
-    </td>
-  
-    <td style="width: 100px" align="center">
-      10
-    </td>
-  
-    <td style="width: 100px" align="center">
-      RB1/AN10
-    </td>
-  </tr>
-
-  <tr>
-    <td style="width: 100px" align="center">
-      1
-    </td>
-  
-    <td style="width: 100px" align="center">
-    </td>
-  
-    <td style="width: 100px" align="center">
-      1
-    </td>
-  
-    <td style="width: 100px" align="center">
-      1
-    </td>
-  
-    <td style="width: 100px" align="center">
-      11
-    </td>
-  
-    <td style="width: 100px" align="center">
-      RB4/AN11
-    </td>
-  </tr>
-
-  <tr>
-    <td style="width: 100px" align="center">
-      1
-    </td>
-  
-    <td style="width: 100px" align="center">
-      1
-    </td>
-  
-    <td style="width: 100px" align="center">
-    </td>
-  
-    <td style="width: 100px" align="center">
-    </td>
-  
-    <td style="width: 100px" align="center">
-      12
-    </td>
-  
-    <td style="width: 100px" align="center">
-      RB0/AN12
-    </td>
-  </tr>
-
-  <tr>
-    <td style="width: 100px" align="center">
-      1
-    </td>
-  
-    <td style="width: 100px" align="center">
-      1
-    </td>
-  
-    <td style="width: 100px" align="center">
-    </td>
-  
-    <td style="width: 100px" align="center">
-      1
-    </td>
-  
-    <td style="width: 100px" align="center">
-      13
-    </td>
-  
-    <td style="width: 100px" align="center">
-      RB5/AN13
-    </td>
-  </tr>
-</table>
+| CHS3 | CHS2 | CHS1 | CHS0 | Channel | Pin      |
+|:----:|:----:|:----:|:----:|:-------:|:--------:|
+|      |      |      |      |         | RA0/AN0  |
+|      |      |      | 1    | 1       | RA1/AN1  |
+|      |      | 1    |      | 2       | RA2/AN2  |
+|      |      | 1    | 1    | 3       | RA3/AN3  |
+|      | 1    |      |      | 4       | RA5/AN4  |
+|      | 1    |      | 1    | 5       | RE0/AN5  |
+|      | 1    | 1    |      | 6       | RE1/AN6  |
+|      | 1    | 1    | 1    | 7       | RE2/AN7  |
+| 1    |      |      |      | 8       | RB2/AN8  |
+| 1    |      |      | 1    | 9       | RB3/AN9  |
+| 1    |      | 1    |      | 10      | RB1/AN10 |
+| 1    |      | 1    | 1    | 11      | RB4/AN11 |
+| 1    | 1    |      |      | 12      | RB0/AN12 |
+| 1    | 1    |      | 1    | 13      | RB5/AN13 |
 
 You can find it on [GitHub][1].
 

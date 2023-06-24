@@ -19,7 +19,7 @@ Just wanted to let you know that Skyfire has updated it's browser to v1.0
 
 Update was smooth on my E71.
 
-<figure id="attachment_128" aria-describedby="caption-attachment-128" style="width: 320px" class="wp-caption aligncenter">![screenshot0008_cnv](/blog/images/2009/screenshot0008_cnv.jpg) <figcaption id="caption-attachment-128" class="wp-caption-text">Skyfire 1.0</figcaption></figure>
+![Skyfire 1.0<](/blog/images/2009/screenshot0008_cnv.jpg)
 
 What's new:
 
@@ -31,11 +31,5 @@ What's new:
   * Reconnect to last state.
   * Remember last connection (Symbian only).
 
-<p style="text-align: center">
-  <p>
-    <figure id="attachment_129" aria-describedby="caption-attachment-129" style="width: 320px" class="wp-caption aligncenter">![screenshot0010_cnv](/blog/images/2009/screenshot0010_cnv.jpg) <figcaption id="caption-attachment-129" class="wp-caption-text">Skyfire 1.0</figcaption></figure>
-  </p>
-
-  <p>
-    <figure id="attachment_127" aria-describedby="caption-attachment-127" style="width: 320px" class="wp-caption aligncenter">![screenshot0011_cnv](/blog/images/2009/screenshot0011_cnv.jpg) <figcaption id="caption-attachment-127" class="wp-caption-text">Skyfire 1.0</figcaption></figure>
-  </p>
+![Skyfire 1.0<](/blog/images/2009/screenshot0010_cnv.jpg)
+![Skyfire 1.0<](/blog/images/2009/screenshot0011_cnv.jpg)

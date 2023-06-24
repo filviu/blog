@@ -33,23 +33,15 @@ hoping that it will help. Well, it didn't fix it either. The message informing t
 
 **Akonadi**, in it's default configuration runs an internal **mysql** server which by default does not allow to be ran as root. Now this is all nice and well but I run my workstation as root. Yes, yes I know, but I still want to, my workstation, my rules. So here's how:
 
-<div>
-  <p>
-    Edit<br /> ~/.local/share/akonadi/mysql.conf and add
-  </p>
+Edit `~/.local/share/akonadi/mysql.conf` and add
 
-  <p>
-    ```bash<br /> user=root<br /> ```
-  </p>
+```ini
+user=root
+```
 
-  <p>
-    to it. (you can choose any user as which this mysql instance will run but I really lost too much time with this nonsense already to bother)
-  </p>
+to it. (you can choose any user as which this mysql instance will run but I really lost too much time with this nonsense already to bother)
 
-  <p>
-    I know, I know, you should not run as root and everything but it’s my machine and I’ll run as whatever damn user I want.
-  </p>
-</div>
+I know, I know, you should not run as root and everything but it’s my machine and I’ll run as whatever damn user I want.
 
 I also think that typing the correct path to the mysql socket would help too.
 

@@ -6,6 +6,7 @@ date: 2009-05-26T13:04:27+00:00
 url: /2009/05/26/programming-gone-wrong/
 dsq_thread_id:
   - 48858231
+draft: true
 categories:
   - old
 tags:

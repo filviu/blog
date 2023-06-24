@@ -13,6 +13,7 @@ tags:
   - glenn hughes
   - sibiu
   - temp_on
+draft: true
 
 ---
 I was browsing my photo collection today and found some pictures I took at the concert Glenn Hughes did us the honor of holding in Sibiu. It is not very recent, it was in 03 June 2008, still a great, great concert and I decided to share some of the pictures with you.

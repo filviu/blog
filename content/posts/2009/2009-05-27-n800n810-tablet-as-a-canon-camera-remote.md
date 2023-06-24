@@ -43,7 +43,11 @@ and many more. The above are non interactive and are the ones useful for me. If 
 So, running `s10sh -c` does, according to the -help:
 
 capture an image with the current camera settings (that's your remote)
-`<br>s10sh -c (capture)<br>s10sh -n (get all new images, non-interactive)<br>`
+
+```bash
+s10sh -c (capture)
+s10sh -n (get all new images, non-interactive)
+```
 
 quiver imagename.jpg (see what you shot on the big screen)
 

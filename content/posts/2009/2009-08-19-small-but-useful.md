@@ -19,9 +19,8 @@ tags:
 ---
 I just stumbled upon a nice little utility. It's called ATF Cleaner. What it does? What you always do when you clean up a computer or remove a virus: it cleans temporary folders, temporary internet files and so on. It's what you basically do manually every time you start working on a computer with problems.
 
-<p style="text-align: center">
-  <a href="http://blog.silviuvulcan.ro/wp-content/uploads/sites/2/2009/08/atfcleaner.jpg">![atfcleaner](/blog/images/2009/atfcleaner.jpg) </a>
-</p>
+![atfcleaner](/blog/images/2009/atfcleaner.jpg) </a>
+
 
 It's small, fast and useful but as it's always the case with utilities that erase files you should be careful. Also, according to it's home page ATF Cleaner is just for windows XP.
 

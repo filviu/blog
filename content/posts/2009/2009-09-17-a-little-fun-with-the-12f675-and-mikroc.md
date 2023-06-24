@@ -40,9 +40,7 @@ oldstate = 0; // Update flag
 ```
 Copy and paste the code above in MikroC PRO. You can use the free version as the PIC12F675 only has 1K flash memory. This small example changes the state of the LEDs on every press on the GPIO3 button (RA3 on the EasyPIC5). Don't forget to set MCLR and oscillator as **internal** - so you get three extra pins! GPIO3 is input only so we will use it for a button. Should you want to test this on a breadboard or something similar this should be the schematic:
 
-<p style="text-align: center">
-  ![schema_12f675_leds" alt="schema_12f675_leds](/blog/images/2009/schema_12f675_leds.png) 
-</p>
+![schema_12f675_leds" alt="schema_12f675_leds](/blog/images/2009/schema_12f675_leds.png) 
 
 You can find it on [GitHub][1] .
 

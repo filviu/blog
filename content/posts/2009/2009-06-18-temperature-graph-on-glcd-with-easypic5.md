@@ -23,13 +23,12 @@ tags:
 ---
 This is a small project I did for school. I am using the easypic 5 board from mikroelectronica to display a linegraph of the temperature read every second by the DS1820 sensor and displays it on the KS0108 based GLCD. I am using the OneWire and GLCD libraries that come with the mikroC compiler.
 
-<figure id="attachment_279" aria-describedby="caption-attachment-279" style="width: 300px" class="wp-caption aligncenter">[![16062009023_cnv" alt="16062009023_cnv](/blog/images/2009/16062009023_cnv-300x225.jpg) ][1]<figcaption id="caption-attachment-279" class="wp-caption-text">Temperature line graph showing on the GLCD mounted on the EasyPic 5 development board</figcaption></figure>
+![Temperature line graph showing on the GLCD mounted on the EasyPic 5 development board](/blog/images/2009/16062009023_cnv.jpg)
 
-<p style="text-align: left">
-  I am using a PIC16F887 mounted on the board. You might need to adjust the code if you use a different microcontroler / development board. Also I have the DS1820 mounted in it's place with the jumper conecting it to RE2.
-</p>
+I am using a PIC16F887 mounted on the board. You might need to adjust the code if you use a different microcontroler / development board. Also I have the DS1820 mounted in it's place with the jumper conecting it to RE2.
 
-[cce_cpp]
+
+```cpp
 
 // Conexiuni GLCD
 
@@ -152,7 +151,4 @@ Delay_ms(1000);
 
 ```
 
-You can find it on [GitHub][2] .
-
- [1]: http://blog.silviuvulcan.ro/wp-content/uploads/sites/2/2009/06/16062009023_cnv.jpg
- [2]: https://github.com/filviu/mikroc_bits
+You can find it on [GitHub](https://github.com/filviu/mikroc_bits)

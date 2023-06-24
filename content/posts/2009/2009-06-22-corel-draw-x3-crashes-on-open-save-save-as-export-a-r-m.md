@@ -23,12 +23,14 @@ tags:
 ---
 _Corel Draw is one of the most expensive pieces of junk I ever saw._ **I take that back 🙂 Considering that still X3 was decent compared to 11 and 12 and also that X5 is pretty good considering Corel's history and also most important because I've seen much more expensive piles of junk since I wrote this.**
 
- ****Nevertheless I, and probably you too have to use and maintain it. I had the following problem on a fresh installation of Windows XP SP3: every time I wanted to export, save as or open a drawing Corel Draw X3 would crash regularly with it's darned Crash Wizard.I tried applying the patches found on the Corel support page but it didn't help. After some digging I found that it's a problem related to the **Common Dialogue** function found in **comdlg32**.
+ Nevertheless I, and probably you too have to use and maintain it. I had the following problem on a fresh installation of Windows XP SP3: every time I wanted to export, save as or open a drawing Corel Draw X3 would crash regularly with it's darned Crash Wizard.I tried applying the patches found on the Corel support page but it didn't help. After some digging I found that it's a problem related to the **Common Dialogue** function found in **comdlg32**.
 
 You must launch regedit (**ALT+R** or **START->RUN** and type **regedit** and press **enter**) and go to:
-[HKEY_CURRENT_USERSoftwareMicrosoftWindowsCurrentVersionPoliciescomdlg32]
-and change **NoFileMru** from **0x00000001** to **0x00000000**
-[ccNe_reg]
+`[HKEY_CURRENT_USERSoftwareMicrosoftWindowsCurrentVersionPoliciescomdlg32]`
+
+and change `NoFileMru` from `0x00000001` to `0x00000000`
+
+```
 Windows Registry Editor Version 5.00
 
 [HKEY_CURRENT_USERSoftwareMicrosoftWindowsCurrentVersionPoliciesComDlg32]

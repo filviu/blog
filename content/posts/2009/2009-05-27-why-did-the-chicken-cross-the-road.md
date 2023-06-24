@@ -14,7 +14,7 @@ tags:
   - temp_on
 
 ---
-I've been a member of one or the other Star Trek mailing list ever since I had an email account. By the way should anybody remember the old trek and seaquest links owned by _Leigh Wolenczack_ I'd love to get in touch and find out what happened to you guys. I had this file around ever since and, even if it's probably posted in one hundred other places, I had to have it on my blog:
+I've been a member of one or the other Star Trek mailing list ever since I had an email account. By the way should anybody remember the old trek and seaquest mailing lists owned by _Leigh Wolenczack_ I'd love to get in touch and find out what happened to you guys. I had this file around ever since and, even if it's probably posted in one hundred other places, I had to have it on my blog:
 
 
 ## Star Trek: The Old Series

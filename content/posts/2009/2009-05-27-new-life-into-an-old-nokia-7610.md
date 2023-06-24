@@ -15,7 +15,7 @@ tags:
   - temp_on
 
 ---
-<figure id="attachment_86" aria-describedby="caption-attachment-86" style="width: 210px" class="wp-caption alignright">![nokia-7610-ft](/blog/images/2009/nokia-7610-ft-210x300.jpg) <figcaption id="caption-attachment-86" class="wp-caption-text">Nokia 7610</figcaption></figure>
+![Nokia 7610](/blog/images/2009/nokia-7610-ft-210x300.jpg)
 
 As promised I follow with an article on how to breathe new life into an aging phone.
 

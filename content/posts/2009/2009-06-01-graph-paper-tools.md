@@ -13,6 +13,7 @@ tags:
   - a4
   - graphpaper
   - temp_on
+draft: true
 
 ---
 Although I do most of my work on a computer, I need from time to time to draw schematics, plans and so on. And for that I like to use millimeter graph paper. And I also like to print my own. So I made for myself a couple of PDF files with a graph paper template and I decided to share them with you.
@@ -22,9 +23,10 @@ Although I do most of my work on a computer, I need from time to time to draw sc
 There are no markings, credits or links on the pages, just plain millimetric graph paper.
 
 _Although these files are free from marks I still want credit for them, so if you want them on your site please link to this post._
-<figure id="attachment_170" aria-describedby="caption-attachment-170" style="width: 163px" class="wp-caption alignleft">[![graph_paper](/blog/images/2009/graph_paper.jpg) ][1]<figcaption id="caption-attachment-170" class="wp-caption-text">DIN A4 millimetric graph paper</figcaption></figure>
 
-<figure id="attachment_170" aria-describedby="caption-attachment-170" style="width: 163px" class="wp-caption alignleft">[![graph_paper](/blog/images/2009/graph_paper.jpg) ][2]<figcaption id="caption-attachment-170" class="wp-caption-text">DIN A3 millimetric graph paper</figcaption></figure>
+[![a4 graph_paper](/blog/images/2009/graph_paper.jpg) DIN A4 millimetric graph paper ] [1]
 
- [1]: http://blog.silviuvulcan.ro/wp-content/uploads/sites/2/2009/06/a4_1_5_10mm_graphpaper.pdf
- [2]: http://blog.silviuvulcan.ro/wp-content/uploads/sites/2/2009/06/a3_1_5_10mm_graphpaper.pdf
+[![a3 graph_paper](/blog/images/2009/graph_paper.jpg) DIN A3 millimetric graph paper ] [2]
+
+[1]: http://blog.silviuvulcan.ro/wp-content/uploads/sites/2/2009/06/a4_1_5_10mm_graphpaper.pdf
+[2]: http://blog.silviuvulcan.ro/wp-content/uploads/sites/2/2009/06/a3_1_5_10mm_graphpaper.pdf

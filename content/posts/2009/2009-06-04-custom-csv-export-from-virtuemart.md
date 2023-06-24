@@ -20,7 +20,7 @@ One of my clients needed a custom feed of his virtuemart products. I did a quick
 
 ```php
 
-<!-?php
+<?php
 // Please note those was developed for a Joomla 1.5 installation
 // www.sgvulcan.com
 
@@ -101,8 +101,7 @@ echo "n[" . $url . "][1]";
 ```
 
 Note that the fields are base64 encoded as per this client's requirements, but that can be easily removed and also the virtuemart table names are hardcoded, so that must be checked too.
-You can find the code on [GitHub][2] .
+You can find the code on [GitHub][1] .
 Customize it to your needs.
 
- [1]: ""
- [2]: https://github.com/filviu/custom_virtuemart_export
+ [1]: https://github.com/filviu/custom_virtuemart_export

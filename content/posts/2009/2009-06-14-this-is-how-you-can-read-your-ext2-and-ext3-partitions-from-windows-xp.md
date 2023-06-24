@@ -15,7 +15,7 @@ tags:
 ---
 My main workstation has a dual (sometimes tri) boot configuration: some flavour of linux (usually slackware) and some flavour of windows (usually xp). I have small partitions for the operating systems and one - two big ones for data.
 
-In the past, the data ones used to be FAT32 so they would be readable and writeable from both linux and windows. But FAT32 is no longer useful. It's limitations forced me to use either NTFS either EXT2/3. I can read and write NTFS from linux using FUSE but I'd rather have my data on EXT3 partitions as I use linux way more than windows. So, I made my data partitions EXT3 and searched for a sollution that allows reading EXT2 and EXT3 partitions from Windows XP. I tried a few and settled for EXT2FSD. Good speed, no errors, and both read and write access. Works like a charm.
+In the past, the data ones used to be FAT32 so they would be readable and writeable from both linux and windows. But FAT32 is no longer useful. It's limitations forced me to use either NTFS or EXT2/3. I can read and write NTFS from linux using FUSE but I'd rather have my data on EXT3 partitions as I use linux way more than windows. So, I made my data partitions EXT3 and searched for a sollution that allows reading EXT2 and EXT3 partitions from Windows XP. I tried a few and settled for EXT2FSD. Good speed, no errors, and both read and write access. Works like a charm.
 
 You can find it here:
 

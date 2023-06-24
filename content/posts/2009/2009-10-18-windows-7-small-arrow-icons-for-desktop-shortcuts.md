@@ -24,7 +24,7 @@ Start  **regedit** (Alt+R, regedit.exe, enter)**
  ****
 Go to:
 
- **HKEY_LOCAL_MACHINESOFTWAREMicrosoft WindowsCurrentVersionExplorerShell Icons**
+`HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft Windows\CurrentVersion\Explorer\Shell Icons`
 If  **Sell Icons** is not there, under Explorer create the new key. (Right cklick, new key)
 
 In the right pane create a new **String Value** with the name **29**.
@@ -32,7 +32,7 @@ In the right pane create a new **String Value** with the name **29**.
 Right click on this value and choose Modify.
 
 Type the following as it's value:
-**c:windowsSystem32shell32.dll,29** and click **ok**.
+`c:windows\System32\shell32.dll,29` and click **ok**.
 
 Restart you computer to see the effects.
 

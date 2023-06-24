@@ -16,19 +16,18 @@ tags:
 ---
 _**You like to hibernate your Windows system instead of always turning it off?**_ Me too! You still have to reboot or power off from time to time otherwise the system would slow down but at least sometimes you don't have to wait for the lengthy Windows boot.
 
-<p style="text-align: center">
-  ![The Hibernate Button](/blog/images/2009/hibernat_button.jpg) This is how you can configure Windows XP to always show the Hibernate button when clicking Turn Off like it shows on some laptops.
-</p>
+![The Hibernate Button](/blog/images/2009/hibernat_button.jpg) This is how you can configure Windows XP to always show the Hibernate button when clicking Turn Off like it shows on some laptops.
+
 
 In windows XP, after you activate hibernation from Desktop->Properties->Screensaver -> Power (the logical place for it to be, right?) the only way to show the Hibernate button is to hold Shift while the **Turn off** menu is on. While shift is down Stand by becomes Hibernate.
 
 Well another way is to add in:
 
-[HKEY_LOCAL_MACHINESOFTWAREPoliciesMicrosoftWindowsSystemShutdown]
+`[HKEY_LOCAL_MACHINESOFTWAREPoliciesMicrosoftWindowsSystemShutdown]`
 
 A value named:
 
-"ShowHibernateButton"=dword:00000001
+`"ShowHibernateButton"=dword:00000001`
 
 Easy. The Shutdown key may not be there so create that as well.
 

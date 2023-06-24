@@ -1,5 +1,5 @@
 ---
-title: 'I have a linux Jukebox ! [2011 update]'
+title: 'I have a linux Jukebox !'
 author: silviu
 type: post
 date: 2009-08-26T19:30:04+00:00
@@ -26,7 +26,7 @@ Finally, after years of putting it away, after a few design changes and a fried 
 
 **Check at the bottom for the latest updates.**
 
-<figure id="attachment_463" aria-describedby="caption-attachment-463" style="width: 300px" class="wp-caption aligncenter">[![Linux Webradio](/blog/images/2009/IMG_9095_i-300x200.jpg) ][1]<figcaption id="caption-attachment-463" class="wp-caption-text">Linux internet radio inside a vintage Blaupunkt radio case</figcaption></figure>
+![Linux internet radio inside a vintage Blaupunkt radio case](/blog/images/2009/IMG_9095_i.jpg)
 
 When I first had the ideea I noticed an old ~ '50s Blaupunkt Radio my father had in his basement. I investigated if the radio was worth restoring but the inside was rusted, the capacitors were long gone and most of the tubes were missing. It was more a case of rebuilding rather than restoring. I checked around the internet and saw that many models like this one existed, so it was not rare. And so, the radio was gutted and the insides went away. I cleaned and repaired the case as best as I could.
 
