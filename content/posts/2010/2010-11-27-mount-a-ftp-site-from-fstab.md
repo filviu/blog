@@ -19,19 +19,21 @@ I still have clients or websites where the most convenient (middle ages based) m
 Since I'm lazy by nature I don't like firing up a FTP client, I'd prefer to just have it available on request. For a while the KDE Network Places did the trick. But I decided I want it even easier. **Behold curlftpfs**.
 
 One
+
 ```bash
 sbopkg -ki curlftpfs
 ```
-(replace that with apt-get, yum or compile from source depending on your distro)
 
-later and I could do this in fstab:
+(replace that with apt-get, yum or compile from source depending on your distro) later and I could do this in fstab:
 
 ```bash
 curlftpfs#username:password@ftp.provider.com/folder /mnt/clientusingftp fuse rw,allow_other,noauto,user 0 0
 ```
+
 I left noauto because access to this folder is slow on slower remotes hosts. Of course you can also do this at the command line:
 
 ```bash
 curlftpfs ftp://ftp.sunet.se/ sunet/
 ```
+
 Cheers!

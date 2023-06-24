@@ -19,7 +19,7 @@ Ever wanted to kill a process from the command line in windows? Here's how:
 
 If you know the name of a process to kill, for example firefox.exe, use the following command from a command prompt to end it:
 
-[cceN_DOS]
+```shell
 taskkill /IM firefox.exe
 ```
 
@@ -27,19 +27,19 @@ This will cause the program to terminate gracefully, asking for confirmation if 
 
 To kill a single instance of a process, specify its process id (PID). For example, if the desired process has a PID of 1227, use the following command to kill it:
 
-[cceN_DOS]
+```shell
 taskkill /PID 1227
 ```
 
 Using filters, a variety of different patterns can be used to specify the processes to kill. For example, the following filter syntax will forcefully kill all processes owned by the user **User:**
 
-[cceN_DOS]
+```shell
 taskkill /F /FI "USERNAME eq User"
 ```
 
 The following table shows the available filters and their use.
 
-[cceN_DOS]
+```shell
 Filter Name Valid Operators Valid Value(s)
 ---- ----- -----
 STATUS eq ne RUNNING | NOT RESPONDING

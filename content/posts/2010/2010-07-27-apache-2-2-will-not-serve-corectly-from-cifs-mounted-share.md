@@ -23,7 +23,8 @@ I have a home server I use for all kinds of stuff when I'm away. I have set it u
 
 _And this is where the fun started!_
 
-The folders and files appear correctly, I can navigate and I can download them. Only that the files, even if apparently having the same size are corrupted. I checked the **_FollowSymLinks_** and as expected was set as required. I tried wget in the command prompt to see if I could find some enlightment but I got the following errors:
+The folders and files appear correctly, I can navigate and I can download them. Only that the files, even if apparently having the same size are corrupted. I checked the `FollowSymLinks` and as expected was set as required. I tried wget in the command prompt to see if I could find some enlightment but I got the following errors:
+
 ```bash
 wget http://192.xxx.xxx.xxx/windowsshare/folder/file.jpg
 -09:18:00- http://192.xxx.xxx.xxx/windowsshare/folder/file.jpg
@@ -56,12 +57,15 @@ Length: 763,685 (746K) [image/jpeg]
 [ ]
 0 -.-K/s
 ```
+
 and it will continue like this creating empty files.
 
-Especial the **has sprung into existence** baffled me. Also note that symlinking any other folder, even mounted as **smbfs** instead of **cifs** worked perfectly. At this point changing the mount to smbfs would have solved my problem but curiosity was stronger.
+Especial the `has sprung into existence` baffled me. Also note that symlinking any other folder, even mounted as `smbfs` instead of `cifs` worked perfectly. At this point changing the mount to smbfs would have solved my problem but curiosity was stronger.
 
 As it turns either apache or (more likely) the cifs driver has a bug. You can work around it by setting the following inside your apache configuration.
+
 ```apacheconf
 EnableSendfile off
 ```
+
 Further upgrades will probably eradicate this problem.

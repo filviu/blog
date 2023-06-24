@@ -16,7 +16,7 @@ tags:
   - yum
 
 ---
-What a surpriese. I need those sometimes when mailing things from cron so after a quick search around I found the (intuitive named) package that contains those utilities is **sharutils**.
+What a surprise. I need those sometimes when mailing things from cron so after a quick search around I found the (intuitive named) package that contains those utilities is `sharutils`.
 
 ```bash
 yum install sharutils

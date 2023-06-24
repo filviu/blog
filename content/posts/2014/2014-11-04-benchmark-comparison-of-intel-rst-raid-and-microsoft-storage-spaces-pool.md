@@ -47,9 +47,9 @@ Random Write 4KB (QD=1) : 0.183 MB/s [ 44.7 IOPS]
 Random Read 4KB (QD=32) : 1.827 MB/s [ 446.0 IOPS]
 Random Write 4KB (QD=32) : 0.294 MB/s [ 71.8 IOPS]
 
-Test : 1000 MB \[F: 0.1% (5.0/3717.4 GB)\] (x1)
+Test : 1000 MB [F: 0.1% (5.0/3717.4 GB)] (x1)
 Date : 2014/10/29 21:22:32
-OS : Windows 8.1 Pro \[6.3 Build 9600\] (x64)
+OS : Windows 8.1 Pro [6.3 Build 9600] (x64)
 ```
 
 This setup proved to be unusable for me. Basically unless you would use it for bulk mostly read storage I would go with something else. As always Microsoft blogs minimize this issue blaming it on the overhead of parity. This of course completely ignores the fact that the same parity raid5 with the same disks with added overhead from ZFS performed orders of magnitude faster in a far less powerful hp microserver. But I'm going off topic here.
@@ -79,9 +79,9 @@ Random Write 4KB (QD=1) : 1.917 MB/s [ 467.9 IOPS]
 Random Read 4KB (QD=32) : 4.863 MB/s [ 1187.3 IOPS]
 Random Write 4KB (QD=32) : 1.648 MB/s [ 402.3 IOPS]
 
-Test : 1000 MB \[F: 0.1% (5.0/3725.9 GB)\] (x1)
+Test : 1000 MB [F: 0.1% (5.0/3725.9 GB)] (x1)
 Date : 2014/10/29 20:28:14
-OS : Windows 8.1 Pro \[6.3 Build 9600\] (x64)
+OS : Windows 8.1 Pro [6.3 Build 9600] (x64)
 ```
 
 Yes, much better. At this point it was worth the hassle updating windows drivers to be able to set the controllers in RAID.
@@ -108,9 +108,9 @@ Random Write 4KB (QD=1) : 1.633 MB/s [ 398.6 IOPS]
 Random Read 4KB (QD=32) : 4.318 MB/s [ 1054.2 IOPS]
 Random Write 4KB (QD=32) : 1.480 MB/s [ 361.3 IOPS]
 
-Test : 1000 MB \[F: 0.1% (5.0/3725.9 GB)\] (x1)
+Test : 1000 MB [F: 0.1% (5.0/3725.9 GB)] (x1)
 Date : 2014/10/29 20:57:30
-OS : Windows 8.1 Pro \[6.3 Build 9600\] (x64)
+OS : Windows 8.1 Pro [6.3 Build 9600] (x64)
 ```
 
 No surprise here, it's basically the same. Since my machine is on a UPS I can afford to change the following performance affecting settings: write buffer disabled, write back enabled.
@@ -133,9 +133,9 @@ Random Write 4KB (QD=1) : 1.614 MB/s [ 394.0 IOPS]
 Random Read 4KB (QD=32) : 3.759 MB/s [ 917.8 IOPS]
 Random Write 4KB (QD=32) : 1.190 MB/s [ 290.5 IOPS]
 
-Test : 1000 MB \[F: 0.0% (0.3/3725.9 GB)\] (x1)
+Test : 1000 MB [F: 0.0% (0.3/3725.9 GB)] (x1)
 Date : 2014/10/29 21:58:05
-OS : Windows 8.1 Pro \[6.3 Build 9600\] (x64)
+OS : Windows 8.1 Pro [6.3 Build 9600] (x64)
 ```
 
 As expected a slight improvement of write performance. Whether these settings (be sure you understand them) are worth it it's up to you, the number of backups you have, etc. My pc is on a UPS and all my data has multiple backups so I can afford to leave them on.
@@ -162,9 +162,9 @@ Random Write 4KB (QD=1) : 1.507 MB/s [ 367.9 IOPS]
 Random Read 4KB (QD=32) : 3.697 MB/s [ 902.6 IOPS]
 Random Write 4KB (QD=32) : 1.244 MB/s [ 303.7 IOPS]
 
-Test : 1000 MB \[I: 0.1% (4.9/3706.7 GB)\] (x1)
+Test : 1000 MB [I: 0.1% (4.9/3706.7 GB)] (x1)
 Date : 2014/10/29 21:09:06
-OS : Windows 8.1 Pro \[6.3 Build 9600\] (x64)
+OS : Windows 8.1 Pro [6.3 Build 9600] (x64)
 ```
 
 Better read performance but much worse write performance.
@@ -191,9 +191,9 @@ Random Write 4KB (QD=1) : 76.510 MB/s [ 18679.1 IOPS]
 Random Read 4KB (QD=32) : 356.318 MB/s [ 86991.7 IOPS]
 Random Write 4KB (QD=32) : 254.365 MB/s [ 62100.8 IOPS]
 
-Test : 1000 MB \[C: 39.6% (94.4/238.1 GB)\] (x1)
+Test : 1000 MB [C: 39.6% (94.4/238.1 GB)] (x1)
 Date : 2014/10/29 21:11:07
-OS : Windows 8.1 Pro \[6.3 Build 9600\] (x64)
+OS : Windows 8.1 Pro [6.3 Build 9600] (x64)
 
 ```
 
@@ -217,9 +217,9 @@ Random Write 4KB (QD=1) : 1.836 MB/s [ 448.2 IOPS]
 Random Read 4KB (QD=32) : 2.069 MB/s [ 505.1 IOPS]
 Random Write 4KB (QD=32) : 1.942 MB/s [ 474.1 IOPS]
 
-Test : 1000 MB \[H: 84.2% (352.9/419.2 GB)\] (x1)
+Test : 1000 MB [H: 84.2% (352.9/419.2 GB)] (x1)
 Date : 2014/10/29 21:13:28
-OS : Windows 8.1 Pro \[6.3 Build 9600\] (x64)
+OS : Windows 8.1 Pro [6.3 Build 9600] (x64)
 
 ```
 
@@ -243,9 +243,9 @@ Random Write 4KB (QD=1) : 0.772 MB/s [ 188.5 IOPS]
 Random Read 4KB (QD=32) : 0.515 MB/s [ 125.8 IOPS]
 Random Write 4KB (QD=32) : 0.708 MB/s [ 172.9 IOPS]
 
-Test : 1000 MB \[E: 56.9% (530.0/931.5 GB)\] (x1)
+Test : 1000 MB [E: 56.9% (530.0/931.5 GB)] (x1)
 Date : 2014/10/29 21:16:12
-OS : Windows 8.1 Pro \[6.3 Build 9600\] (x64)
+OS : Windows 8.1 Pro [6.3 Build 9600] (x64)
 
 ```
 

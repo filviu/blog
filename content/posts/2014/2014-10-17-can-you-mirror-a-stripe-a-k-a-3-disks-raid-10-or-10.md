@@ -44,9 +44,9 @@ Continue creating array? y
 mdadm: Defaulting to version 1.2 metadata
 mdadm: array /dev/md1 started.
 root@v_slackware64c:~# cat /proc/mdstat
-Personalities : \[linear\] \[raid0\] \[raid1\] \[raid10\] \[raid6\] \[raid5\] \[raid4\] \[multipath\]
-md1 : active raid1 sdd\[1\](W) md0[0]
-8383424 blocks super 1.2 \[2/2\] \[UU\]
+Personalities : [linear] [raid0] [raid1] [raid10] [raid6] [raid5] [raid4] [multipath]
+md1 : active raid1 sdd[1](W) md0[0]
+8383424 blocks super 1.2 [2/2] [UU]
 [==========>..........]  resync = 51.2% (4296704/8383424) finish=0.3min speed=204604K/sec
 bitmap: 1/1 pages [4KB], 65536KB chunk
 

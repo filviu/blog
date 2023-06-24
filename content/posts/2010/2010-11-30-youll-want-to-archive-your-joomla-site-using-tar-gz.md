@@ -17,6 +17,7 @@ tags:
 
 ---
 I was building a script to archive my joomla folders on a linux server. I noticed it takes a lot of time to complete so I've run  a few tests on one website. Here are the results:
+
 ```bash
 [root@host]# time tar cjf /backup/2010-11-30/test.tar.bz2 -C /var/www/site .
 real    0m55.299s
@@ -39,6 +40,7 @@ total 672980
 -rw-r-r- 1 root root 197970835 Nov 30 05:17 test.tar.bz2
 -rw-r-r- 1 root root 202647314 Nov 30 05:17 test.tar.gz
 ```
+
 You can see that if we use tar we finish very fast but since there's no compression we loose a lot of space. Gzip on the other hand looses only 4 Mb to Bzip2 but gains us 40 seconds. So gzip is what I will use from now on.
 
 _Update: I forgot to mention in the original article that the site was already archived a few times before this test so the files were probably already cached. Running the same script on my webserver (for all the sites installed) with bzip2 was way slower in total than being run with gzip compression a few days later (so under similar conditions) - and the space lost was not worth mentioning._

@@ -43,12 +43,12 @@ This function is called each time one of your form fields is modified. What it d
 
 ```js
 function validateForm() {
-x = document.forms\["myform"\]\["field1"\].value;
+x = document.forms["myform"]["field1"].value;
 if (x == null || x == "") {
 alert("Please fill in the first field");
 return false;
 }
-var x = document.forms\["myform"\]\["emailaddress"\].value;
+var x = document.forms["myform"]["emailaddress"].value;
 var re = /^([\w-]+(?:\.[\w-]+)\*)@((?:[\w-]+\.)\*\w[\w-]{0,66})\.([a-z]{2,6}(?:\.[a-z]{2})?)$/i;
 if (x == null || x== "" || !re.test(x)) {
 alert("Please enter a valid email address");

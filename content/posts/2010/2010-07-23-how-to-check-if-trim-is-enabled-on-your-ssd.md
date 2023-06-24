@@ -23,10 +23,12 @@ Well, here's how you can check if TRIM support is actually enabled and working i
 Start a command prompt window (**WIN+R, type cmd and press enter**)
 
 In the command prompt window type the following:
+
 ```shell
 fsutil behavior query disabledeletenotify
 ```
-[![Checking the state of the TRIM command support  inside the windows command prompt](/blog/images/2010/trim_command_check_command_prompt.jpg) ][1]You will get one of the following:
+
+![Checking the state of the TRIM command support  inside the windows command prompt](/blog/images/2010/trim_command_check_command_prompt.jpg) You will get one of the following:
 
 **DisableDeleteNotify = 1 (Means that Windows TRIM commands are disabled)
 DisableDeleteNotify = 0 (Means that Windows TRIM commands are enabled)**

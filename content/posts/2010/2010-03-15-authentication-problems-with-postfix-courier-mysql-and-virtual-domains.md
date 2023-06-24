@@ -23,7 +23,7 @@ I decided to use postfix + courier + mysql and virtual domains for my mail setup
 
 ```bash
 Mar 6 13:54:42 saslauthd [5734]: pam_mysql - required option "db" is not set Mar 6 13:54:42 saslauthd [5734]: DEBUG: auth_pam: pam_authenticate failed: Error in service module
-Mar 6 13:54:42 saslauthd \[5734]: do_auth : auth failure: [user=test@xxxxxxx.com\] \[service=smtp\] \[realm=xxxxxxx.com\] \[mech=pam\] [reason=PAM auth error]
+Mar 6 13:54:42 saslauthd [5734]: do_auth : auth failure: [user=test@xxxxxxx.com] [service=smtp] [realm=xxxxxxx.com] [mech=pam] [reason=PAM auth error]
 ```
 
 I went over the config files over and over again searching for mistakes, because I usually mix something up but nothing worked. After some time I realized that the error_ **"db" not set**_ is more important than I thought. It meant that it's not about wrong passwords copied from examples.
