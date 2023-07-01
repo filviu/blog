@@ -15,6 +15,10 @@ tags:
   - twitter
 
 ---
+# 2023 Update
+
+With the number of changes since Twitter is under new ownership I'm not sure this can still work.
+
 I've been using [Nagios][1] to monitor servers and devices for years now. Lately as an exercise to learn more about nagios I installed a private instance that I use to monitor everything I can think of - from my personal servers to the number of hours we watch TV.
 
 A nice use I found is to monitor the number of followers my twitter bots and personal account have. For that I wrote a custom plugin, available in my small repository of plugins at: <https://github.com/filviu/nagios-plugins>
@@ -46,10 +50,6 @@ This creates a host named twitter, and graphs (provided you have [nagiosgrapher]
     command_line $USER1$/check_twitterfollowers.sh -u $ARG1$
 }
 ```
-
-Below is the code of the plugin if you are not interested in cloning the repo:
-
-[github file="/silviuvulcan/nagios-plugins/blob/master/check_twitterfollowers.sh"]
 
 ![Screenshot of the Twitter followers graphed by nagios sample nagiosgraph](/blog/images/2014/twitter-nagios.png)
 

@@ -17,6 +17,12 @@ tags:
   - twitter
 
 ---
+# 2023 Update
+
+With the number of changes since Twitter is under new ownership I'm not sure this can still work.
+
+
+
 I have a Raspberry PI freely collocated by the nice people at [pcextreme][1]. Being a Jolla fan I found a new use for it. I made a Retweet bot that retweets everything #Jolla.
 
 1. It's pretty simple. First you need to define your new twitter app [here][2].
