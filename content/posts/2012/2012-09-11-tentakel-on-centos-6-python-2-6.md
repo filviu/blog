@@ -15,6 +15,11 @@ tags:
   - update
 
 ---
+# Update:
+
+As useful as tentakel was in my young sysadmin days it was always dangerous (one wrong command or quote character away from disaster), non-reproducible, needing constant documentation on changes done. I really don't know if tentakel even exist anymore but if it does I strongly suggest you consider ansible instead. 
+
+
 You probably already know this old, unmaintained but incredibly useful software: [tentakel](http://sourceforge.net/projects/tentakel/). If not check it out, you might like it.
 
 There are two issues we need to tackle:
