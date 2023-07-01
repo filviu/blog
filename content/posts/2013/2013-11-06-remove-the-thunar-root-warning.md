@@ -5,8 +5,6 @@ type: post
 date: 2013-11-06T08:36:58+00:00
 draft: true
 url: /2013/11/06/remove-the-thunar-root-warning/
-dsq_thread_id:
-  - 1941201952
 categories:
   - old
 tags:

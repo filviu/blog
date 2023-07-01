@@ -4,8 +4,6 @@ author: silviu
 type: post
 date: 2013-05-30T09:58:02+00:00
 url: /2013/05/30/dia-crashes-with-latest-updates-in-slacware-current/
-dsq_thread_id:
-  - 1338477414
 categories:
   - old
 tags:

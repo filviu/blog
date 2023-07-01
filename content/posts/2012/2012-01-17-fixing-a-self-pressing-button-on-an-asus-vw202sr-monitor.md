@@ -4,8 +4,6 @@ author: silviu
 type: post
 date: 2012-01-17T18:51:16+00:00
 url: /2012/01/17/fixing-a-self-pressing-button-on-an-asus-vw202sr-monitor/
-dsq_thread_id:
-  - 542874130
 categories:
   - old
 tags:

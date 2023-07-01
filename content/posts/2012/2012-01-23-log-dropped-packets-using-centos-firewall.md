@@ -4,8 +4,6 @@ author: silviu
 type: post
 date: 2012-01-23T07:16:42+00:00
 url: /2012/01/23/log-dropped-packets-using-centos-firewall/
-dsq_thread_id:
-  - 549370020
 categories:
   - old
 tags:

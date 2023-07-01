@@ -4,8 +4,6 @@ author: silviu
 type: post
 date: 2011-11-18T11:22:08+00:00
 url: /2011/11/18/stdin-is-not-a-tty/
-dsq_thread_id:
-  - 476967335
 categories:
   - old
 tags:

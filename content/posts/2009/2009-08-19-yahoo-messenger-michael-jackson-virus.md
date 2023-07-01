@@ -4,8 +4,6 @@ author: silviu
 type: post
 date: 2009-08-19T09:59:09+00:00
 url: /2009/08/19/yahoo-messenger-michael-jackson-virus/
-dsq_thread_id:
-  - 48858459
 categories:
   - old
 tags:

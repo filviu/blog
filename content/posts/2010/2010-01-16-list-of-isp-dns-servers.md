@@ -4,8 +4,6 @@ author: silviu
 type: post
 date: 2010-01-16T20:26:12+00:00
 url: /2010/01/16/list-of-isp-dns-servers/
-dsq_thread_id:
-  - 326479280
 categories:
   - old
 tags:

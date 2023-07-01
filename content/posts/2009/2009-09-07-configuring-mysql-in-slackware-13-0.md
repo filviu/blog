@@ -4,8 +4,6 @@ author: silviu
 type: post
 date: 2009-09-07T16:46:12+00:00
 url: /2009/09/07/configuring-mysql-in-slackware-13-0/
-dsq_thread_id:
-  - 48856805
 categories:
   - old
 tags:

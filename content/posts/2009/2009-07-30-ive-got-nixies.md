@@ -4,8 +4,6 @@ author: silviu
 type: post
 date: 2009-07-30T16:15:52+00:00
 url: /2009/07/30/ive-got-nixies/
-dsq_thread_id:
-  - 48858434
 categories:
   - old
 tags:

@@ -4,8 +4,6 @@ author: silviu
 type: post
 date: 2012-03-13T10:07:27+00:00
 url: /2012/03/13/xbmc-and-windows-8-on-older-hardware/
-dsq_thread_id:
-  - 609615866
 categories:
   - old
 tags:

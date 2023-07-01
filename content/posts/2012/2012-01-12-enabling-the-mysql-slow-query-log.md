@@ -4,8 +4,6 @@ author: silviu
 type: post
 date: 2012-01-12T16:32:49+00:00
 url: /2012/01/12/enabling-the-mysql-slow-query-log/
-dsq_thread_id:
-  - 536348202
 categories:
   - old
 tags:

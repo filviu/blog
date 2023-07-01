@@ -4,8 +4,6 @@ author: silviu
 type: post
 date: 2012-06-13T19:44:01+00:00
 url: /2012/06/13/digikam-2-6-0-wont-start-due-to-missing-libavcodec-so-53-slackware-current64/
-dsq_thread_id:
-  - 724822888
 categories:
   - old
 tags:

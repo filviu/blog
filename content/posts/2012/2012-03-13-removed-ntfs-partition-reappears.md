@@ -4,8 +4,6 @@ author: silviu
 type: post
 date: 2012-03-13T08:16:28+00:00
 url: /2012/03/13/removed-ntfs-partition-reappears/
-dsq_thread_id:
-  - 609194483
 categories:
   - old
 tags:

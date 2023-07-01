@@ -4,8 +4,6 @@ author: silviu
 type: post
 date: 2011-06-02T05:50:34+00:00
 url: /2011/06/02/akismet-troubles-traced-back-to-dns-issues/
-dsq_thread_id:
-  - 329724317
 categories:
   - old
 tags:

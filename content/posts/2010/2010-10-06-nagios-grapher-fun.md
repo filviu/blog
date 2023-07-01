@@ -4,8 +4,6 @@ author: silviu
 type: post
 date: 2010-10-06T15:52:38+00:00
 url: /2010/10/06/nagios-grapher-fun/
-dsq_thread_id:
-  - 327439427
 categories:
   - old
 tags:

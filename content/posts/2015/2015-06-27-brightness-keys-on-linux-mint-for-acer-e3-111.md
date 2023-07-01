@@ -4,8 +4,6 @@ author: silviu
 type: post
 date: 2015-06-27T09:52:41+00:00
 url: /2015/06/27/brightness-keys-on-linux-mint-for-acer-e3-111/
-dsq_thread_id:
-  - 3883814025
 categories:
   - tech
 tags:

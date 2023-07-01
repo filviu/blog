@@ -5,8 +5,6 @@ type: post
 date: 2011-05-17T13:07:59+00:00
 draft: true
 url: /2011/05/17/cigar-box-portable-amplifier/
-dsq_thread_id:
-  - 326479444
 categories:
   - old
 tags:

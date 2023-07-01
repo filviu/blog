@@ -4,8 +4,6 @@ author: silviu
 type: post
 date: 2016-02-03T11:51:03+00:00
 url: /2016/02/03/creating-new-zfs-pool-mixing-previously-used-drives/
-dsq_thread_id:
-  - 4548264489
 categories:
   - old
 tags:

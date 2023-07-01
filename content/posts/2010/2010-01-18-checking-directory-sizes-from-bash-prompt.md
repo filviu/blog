@@ -4,8 +4,6 @@ author: silviu
 type: post
 date: 2010-01-18T20:18:16+00:00
 url: /2010/01/18/checking-directory-sizes-from-bash-prompt/
-dsq_thread_id:
-  - 333242048
 categories:
   - old
 tags:

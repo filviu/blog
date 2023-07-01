@@ -4,8 +4,6 @@ author: silviu
 type: post
 date: 2010-06-29T16:52:51+00:00
 url: /2010/06/29/wma-to-mp3-a-folder-in-one-command-line/
-dsq_thread_id:
-  - 333136110
 categories:
   - old
 tags:

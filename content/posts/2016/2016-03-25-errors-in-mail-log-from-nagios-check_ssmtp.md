@@ -4,8 +4,6 @@ author: silviu
 type: post
 date: 2016-03-25T11:47:38+00:00
 url: /2016/03/25/errors-in-mail-log-from-nagios-check_ssmtp/
-dsq_thread_id:
-  - 4692143174
 categories:
   - tech
 tags:

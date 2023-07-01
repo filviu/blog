@@ -5,8 +5,6 @@ type: post
 date: 2009-05-28T06:09:53+00:00
 excerpt: The Skyfire browser just got an upgrade on all supported platforms. Here are some quick notes on the Skyfire v1.0 for Symbian version.
 url: /2009/05/28/skyfire-updated-to-v10/
-dsq_thread_id:
-  - 48858264
 categories:
   - old
 tags:

@@ -4,8 +4,6 @@ author: silviu
 type: post
 date: 2011-12-14T11:11:54+00:00
 url: /2011/12/14/cisco-linksys-e3200-router-triggers-blocked-host-with-dyndns/
-dsq_thread_id:
-  - 504079131
 categories:
   - old
 tags:

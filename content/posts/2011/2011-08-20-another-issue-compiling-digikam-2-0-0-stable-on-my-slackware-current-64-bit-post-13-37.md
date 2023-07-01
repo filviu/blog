@@ -4,8 +4,6 @@ author: silviu
 type: post
 date: 2011-08-20T18:14:01+00:00
 url: /2011/08/20/another-issue-compiling-digikam-2-0-0-stable-on-my-slackware-current-64-bit-post-13-37/
-dsq_thread_id:
-  - 391622188
 categories:
   - old
 tags:

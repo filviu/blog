@@ -4,8 +4,6 @@ author: silviu
 type: post
 date: 2009-06-14T16:15:25+00:00
 url: /2009/06/14/this-is-how-you-can-read-your-ext2-and-ext3-partitions-from-windows-xp/
-dsq_thread_id:
-  - 48858338
 categories:
   - old
 tags:

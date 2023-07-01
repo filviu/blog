@@ -4,8 +4,6 @@ author: silviu
 type: post
 date: 2011-08-18T07:30:27+00:00
 url: /2011/08/18/web-interface-for-zabbix-didnt-load/
-dsq_thread_id:
-  - 389388345
 categories:
   - old
 tags:

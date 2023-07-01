@@ -4,8 +4,6 @@ author: silviu
 type: post
 date: 2011-01-12T12:57:47+00:00
 url: /2011/01/12/mysql-authentication-issues/
-dsq_thread_id:
-  - 330841120
 categories:
   - old
 tags:

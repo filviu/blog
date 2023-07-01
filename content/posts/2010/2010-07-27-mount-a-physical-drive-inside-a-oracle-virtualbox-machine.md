@@ -4,8 +4,6 @@ author: silviu
 type: post
 date: 2010-07-27T09:17:47+00:00
 url: /2010/07/27/mount-a-physical-drive-inside-a-oracle-virtualbox-machine/
-dsq_thread_id:
-  - 326573593
 categories:
   - old
 tags:

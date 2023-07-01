@@ -4,8 +4,6 @@ author: silviu
 type: post
 date: 2014-03-03T07:12:19+00:00
 url: /2014/03/03/count-traffic-from-an-apache-log-file/
-dsq_thread_id:
-  - 2350040141
 categories:
   - old
 tags:

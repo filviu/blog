@@ -5,8 +5,6 @@ type: post
 date: 2009-06-01T17:40:52+00:00
 excerpt: 'I ran into two problems with the Transmission BitTorrent client built into FreeNAS 0.69.1 and here you can find the solutions, both for the wrong file &amp; folder permissions and the downloads missing / forgotten between reboots.'
 url: /2009/06/01/freenas-and-bittorenttransmission-problems/
-dsq_thread_id:
-  - 48858282
 categories:
   - old
 tags:

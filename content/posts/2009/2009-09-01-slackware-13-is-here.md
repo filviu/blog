@@ -4,8 +4,6 @@ author: silviu
 type: post
 date: 2009-09-01T07:48:50+00:00
 url: /2009/09/01/slackware-13-is-here/
-dsq_thread_id:
-  - 48858475
 categories:
   - old
 tags:

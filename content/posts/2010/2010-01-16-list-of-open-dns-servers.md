@@ -4,8 +4,6 @@ author: silviu
 type: post
 date: 2010-01-16T20:24:47+00:00
 url: /2010/01/16/list-of-open-dns-servers/
-dsq_thread_id:
-  - 329621691
 categories:
   - old
 tags:

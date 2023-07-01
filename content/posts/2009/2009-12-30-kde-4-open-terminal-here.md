@@ -4,8 +4,6 @@ author: silviu
 type: post
 date: 2009-12-30T11:34:33+00:00
 url: /2009/12/30/kde-4-open-terminal-here/
-dsq_thread_id:
-  - 330832045
 categories:
   - old
 tags:

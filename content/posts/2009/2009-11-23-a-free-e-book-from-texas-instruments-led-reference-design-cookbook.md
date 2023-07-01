@@ -4,8 +4,6 @@ author: silviu
 type: post
 date: 2009-11-23T12:23:38+00:00
 url: /2009/11/23/a-free-e-book-from-texas-instruments-led-reference-design-cookbook/
-dsq_thread_id:
-  - 48858533
 categories:
   - old
 tags:

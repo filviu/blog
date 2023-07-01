@@ -4,8 +4,6 @@ author: silviu
 type: post
 date: 2013-06-14T12:04:43+00:00
 url: /2013/06/14/regenerate-ssh-keys/
-dsq_thread_id:
-  - 1401165275
 categories:
   - old
 tags:

@@ -4,8 +4,6 @@ author: silviu
 type: post
 date: 2012-06-07T10:36:54+00:00
 url: /2012/06/07/silly-android-contact-merging/
-dsq_thread_id:
-  - 716800616
 categories:
   - old
 tags:

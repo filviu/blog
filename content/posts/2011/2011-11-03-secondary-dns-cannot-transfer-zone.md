@@ -4,8 +4,6 @@ author: silviu
 type: post
 date: 2011-11-03T16:14:24+00:00
 url: /2011/11/03/secondary-dns-cannot-transfer-zone/
-dsq_thread_id:
-  - 461078471
 categories:
   - old
 tags:

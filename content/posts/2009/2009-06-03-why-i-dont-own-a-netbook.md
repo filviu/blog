@@ -4,8 +4,6 @@ author: silviu
 type: post
 date: 2009-06-03T15:48:03+00:00
 url: /2009/06/03/why-i-dont-own-a-netbook/
-dsq_thread_id:
-  - 48858287
 categories:
   - old
 tags:

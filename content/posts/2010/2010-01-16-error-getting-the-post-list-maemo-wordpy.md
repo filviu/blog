@@ -4,8 +4,6 @@ author: silviu
 type: post
 date: 2010-01-16T19:57:23+00:00
 url: /2010/01/16/error-getting-the-post-list-maemo-wordpy/
-dsq_thread_id:
-  - 329609083
 categories:
   - old
 tags:

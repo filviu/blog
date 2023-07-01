@@ -4,8 +4,6 @@ author: silviu
 type: post
 date: 2012-02-27T14:20:41+00:00
 url: /2012/02/27/this-guy-deserves-a-beer/
-dsq_thread_id:
-  - 592320234
 categories:
   - old
 tags:

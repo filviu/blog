@@ -4,8 +4,6 @@ author: silviu
 type: post
 date: 2012-08-07T11:51:25+00:00
 url: /2012/08/07/optimize-firefoxs-sqlite-databases/
-dsq_thread_id:
-  - 796875152
 categories:
   - old
 tags:

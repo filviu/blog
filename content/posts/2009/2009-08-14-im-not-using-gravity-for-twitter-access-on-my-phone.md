@@ -4,8 +4,6 @@ author: silviu
 type: post
 date: 2009-08-14T13:06:23+00:00
 url: /2009/08/14/im-not-using-gravity-for-twitter-access-on-my-phone/
-dsq_thread_id:
-  - 48858452
 categories:
   - old
 tags:

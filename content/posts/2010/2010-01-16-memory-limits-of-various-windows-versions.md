@@ -4,8 +4,6 @@ author: silviu
 type: post
 date: 2010-01-16T21:02:40+00:00
 url: /2010/01/16/memory-limits-of-various-windows-versions/
-dsq_thread_id:
-  - 326727085
 categories:
   - old
 tags:

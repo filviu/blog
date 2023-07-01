@@ -4,8 +4,6 @@ author: silviu
 type: post
 date: 2009-07-30T16:04:19+00:00
 url: /2009/07/30/sweet-mouse/
-dsq_thread_id:
-  - 48858426
 categories:
   - old
 tags:

@@ -4,8 +4,6 @@ author: silviu
 type: post
 date: 2013-10-01T10:31:32+00:00
 url: /2013/10/01/apache-ip-based-restrictions-based-on-a-text-list-no-restart-required/
-dsq_thread_id:
-  - 1814032657
 categories:
   - old
 tags:

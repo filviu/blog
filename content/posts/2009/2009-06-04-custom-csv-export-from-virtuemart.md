@@ -4,8 +4,6 @@ author: silviu
 type: post
 date: 2009-06-04T09:11:43+00:00
 url: /2009/06/04/custom-csv-export-from-virtuemart/
-dsq_thread_id:
-  - 48858303
 categories:
   - old
 tags:

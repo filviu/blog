@@ -4,8 +4,6 @@ author: silviu
 type: post
 date: 2010-07-19T08:07:25+00:00
 url: /2010/07/19/force-fsck-on-next-reboot/
-dsq_thread_id:
-  - 326479335
 categories:
   - old
 tags:

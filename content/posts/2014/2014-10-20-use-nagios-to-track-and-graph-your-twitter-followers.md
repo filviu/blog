@@ -4,8 +4,6 @@ author: silviu
 type: post
 date: 2014-10-20T08:23:31+00:00
 url: /2014/10/20/use-nagios-to-track-and-graph-your-twitter-followers/
-dsq_thread_id:
-  - 3135809939
 categories:
   - old
 tags:

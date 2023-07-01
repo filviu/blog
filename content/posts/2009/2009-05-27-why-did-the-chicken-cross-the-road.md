@@ -5,8 +5,6 @@ type: post
 date: 2009-05-27T19:58:40+00:00
 excerpt: Why did the chicken cross the road ... Star Trek style.
 url: /2009/05/27/why-did-the-chicken-cross-the-road/
-dsq_thread_id:
-  - 48858257
 categories:
   - old
 tags:

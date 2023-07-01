@@ -4,8 +4,6 @@ author: silviu
 type: post
 date: 2009-09-17T20:17:07+00:00
 url: /2009/09/17/quick-and-dirty-way-to-breadboard-a-circuit/
-dsq_thread_id:
-  - 48858501
 categories:
   - old
 tags:

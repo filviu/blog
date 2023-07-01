@@ -4,8 +4,6 @@ author: silviu
 type: post
 date: 2009-07-14T16:30:43+00:00
 url: /2009/07/14/open-source-adc-read-function/
-dsq_thread_id:
-  - 48858417
 categories:
   - old
 tags:

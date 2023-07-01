@@ -4,8 +4,6 @@ author: silviu
 type: post
 date: 2010-07-23T10:07:24+00:00
 url: /2010/07/23/how-to-check-if-trim-is-enabled-on-your-ssd/
-dsq_thread_id:
-  - 326479356
 categories:
   - old
 tags:

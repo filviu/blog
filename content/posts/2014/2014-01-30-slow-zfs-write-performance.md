@@ -4,8 +4,6 @@ author: silviu
 type: post
 date: 2014-01-30T10:26:22+00:00
 url: /2014/01/30/slow-zfs-write-performance/
-dsq_thread_id:
-  - 2200448623
 categories:
   - old
 tags:

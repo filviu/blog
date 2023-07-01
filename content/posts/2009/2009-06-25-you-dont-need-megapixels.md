@@ -5,8 +5,6 @@ type: post
 date: 2009-06-25T11:23:02+00:00
 excerpt: In a fight for the megapixel count, marketing departments forced manufacturers to forget about picture quality. What to check if you buy a new camera instead of the megapixels.
 url: /2009/06/25/you-dont-need-megapixels/
-dsq_thread_id:
-  - 48858374
 categories:
   - old
 tags:

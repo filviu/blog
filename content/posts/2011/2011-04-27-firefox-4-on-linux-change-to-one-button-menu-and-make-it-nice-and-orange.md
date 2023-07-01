@@ -4,8 +4,6 @@ author: silviu
 type: post
 date: 2011-04-27T05:13:32+00:00
 url: /2011/04/27/firefox-4-on-linux-change-to-one-button-menu-and-make-it-nice-and-orange/
-dsq_thread_id:
-  - 326434976
 categories:
   - old
 tags:

@@ -4,8 +4,6 @@ author: silviu
 type: post
 date: 2010-03-15T21:00:53+00:00
 url: /2010/03/15/mobile-formula-one-site-and-applicatio/
-dsq_thread_id:
-  - 326479295
 categories:
   - old
 tags:

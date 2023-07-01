@@ -4,8 +4,6 @@ author: silviu
 type: post
 date: 2009-12-18T19:32:41+00:00
 url: /2009/12/18/how-to-recover-a-lost-joomla-admin-password/
-dsq_thread_id:
-  - 330869756
 categories:
   - old
 tags:

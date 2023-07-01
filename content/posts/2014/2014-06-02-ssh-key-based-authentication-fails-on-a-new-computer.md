@@ -4,8 +4,6 @@ author: silviu
 type: post
 date: 2014-06-02T10:19:04+00:00
 url: /2014/06/02/ssh-key-based-authentication-fails-on-a-new-computer/
-dsq_thread_id:
-  - 2737882139
 categories:
   - old
 tags:

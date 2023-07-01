@@ -4,8 +4,6 @@ author: silviu
 type: post
 date: 2012-02-01T09:02:49+00:00
 url: /2012/02/01/got-a-packet-bigger-than-max_allowed_packet-bytes/
-dsq_thread_id:
-  - 559980019
 categories:
   - old
 tags:

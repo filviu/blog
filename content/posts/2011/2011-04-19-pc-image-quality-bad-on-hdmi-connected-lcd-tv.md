@@ -4,8 +4,6 @@ author: silviu
 type: post
 date: 2011-04-19T12:20:20+00:00
 url: /2011/04/19/pc-image-quality-bad-on-hdmi-connected-lcd-tv/
-dsq_thread_id:
-  - 326776543
 categories:
   - old
 tags:

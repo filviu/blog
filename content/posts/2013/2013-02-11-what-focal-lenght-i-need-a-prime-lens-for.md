@@ -4,8 +4,6 @@ author: silviu
 type: post
 date: 2013-02-11T12:16:54+00:00
 url: /2013/02/11/what-focal-lenght-i-need-a-prime-lens-for/
-dsq_thread_id:
-  - 1076876241
 categories:
   - old
 tags:

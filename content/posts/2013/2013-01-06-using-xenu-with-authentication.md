@@ -4,8 +4,6 @@ author: silviu
 type: post
 date: 2013-01-06T12:10:21+00:00
 url: /2013/01/06/using-xenu-with-authentication/
-dsq_thread_id:
-  - 1010957047
 categories:
   - old
 tags:

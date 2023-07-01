@@ -4,8 +4,6 @@ author: silviu
 type: post
 date: 2009-07-06T08:48:47+00:00
 url: /2009/07/06/open-office-to-the-rescue/
-dsq_thread_id:
-  - 48858398
 categories:
   - old
 tags:

@@ -4,8 +4,6 @@ author: silviu
 type: post
 date: 2014-10-21T10:01:26+00:00
 url: /2014/10/21/latest-openssh-disables-arcfour-and-blowfish-cbc/
-dsq_thread_id:
-  - 3139756499
 categories:
   - old
 tags:

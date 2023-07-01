@@ -4,8 +4,6 @@ author: silviu
 type: post
 date: 2011-12-22T10:06:47+00:00
 url: /2011/12/22/new-adsense-interface-language/
-dsq_thread_id:
-  - 512549969
 categories:
   - old
 tags:

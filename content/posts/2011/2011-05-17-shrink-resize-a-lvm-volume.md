@@ -4,8 +4,6 @@ author: silviu
 type: post
 date: 2011-05-17T09:11:18+00:00
 url: /2011/05/17/shrink-resize-a-lvm-volume/
-dsq_thread_id:
-  - 327260447
 categories:
   - old
 tags:

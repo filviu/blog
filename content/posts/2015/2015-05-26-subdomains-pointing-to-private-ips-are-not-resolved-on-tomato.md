@@ -4,8 +4,6 @@ author: silviu
 type: post
 date: 2015-05-26T10:47:12+00:00
 url: /2015/05/26/subdomains-pointing-to-private-ips-are-not-resolved-on-tomato/
-dsq_thread_id:
-  - 3794467671
 categories:
   - old
 tags:

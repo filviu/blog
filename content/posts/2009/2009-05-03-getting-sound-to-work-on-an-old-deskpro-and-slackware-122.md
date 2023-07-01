@@ -5,8 +5,6 @@ type: post
 date: 2009-05-03T14:08:05+00:00
 excerpt: I was trying to get rid of the separate sound card in an old Compaq Deskpro En (Pentium III) I use on a jukebox project. Easy job when you have the needed settings.
 url: /2009/05/03/getting-sound-to-work-on-an-old-deskpro-and-slackware-122/
-dsq_thread_id:
-  - 48858200
 categories:
   - tech
 tags:

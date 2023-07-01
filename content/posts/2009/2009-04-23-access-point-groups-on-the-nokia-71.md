@@ -5,8 +5,6 @@ type: post
 date: 2009-04-23T14:42:01+00:00
 excerpt: "When I upgraded my phone from a venerable and branded Nokia E61 to a more modern Nokia E71 I quickly found out what most of the reviewers missed. The E71 has no Access Point Groups. Here's the sollution."
 url: /2009/04/23/access-point-groups-on-the-nokia-71/
-dsq_thread_id:
-  - 3732554195
 categories:
   - old
 tags:

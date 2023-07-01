@@ -4,8 +4,6 @@ author: silviu
 type: post
 date: 2009-05-28T13:31:13+00:00
 url: /2009/05/28/recover-your-lost-linux-slackware-root-password/
-dsq_thread_id:
-  - 48858274
 categories:
   - old
 tags:

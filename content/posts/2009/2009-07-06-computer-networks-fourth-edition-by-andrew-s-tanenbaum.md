@@ -6,8 +6,6 @@ date: 2009-07-06T08:34:52+00:00
 url: /2009/07/06/computer-networks-fourth-edition-by-andrew-s-tanenbaum/
 subtitle:
   - Never underestimate the bandwidth of a station wagon full of tapes
-dsq_thread_id:
-  - 48858395
 categories:
   - old
 tags:

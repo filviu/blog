@@ -4,8 +4,6 @@ author: silviu
 type: post
 date: 2012-12-20T12:17:08+00:00
 url: /2012/12/20/load-cycle-count-of-western-digital-green-drives-and-how-to-fix-it-from-linux/
-dsq_thread_id:
-  - 984127045
 categories:
   - old
 tags:

@@ -4,8 +4,6 @@ author: silviu
 type: post
 date: 2009-08-31T06:21:40+00:00
 url: /2009/08/31/disable-and-remove-the-ads-in-yahoo-messenger-9/
-dsq_thread_id:
-  - 48858471
 categories:
   - old
 tags:

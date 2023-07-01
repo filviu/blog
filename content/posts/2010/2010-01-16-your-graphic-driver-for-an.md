@@ -4,8 +4,6 @@ author: silviu
 type: post
 date: 2010-01-16T19:35:22+00:00
 url: /2010/01/16/your-graphic-driver-for-an/
-dsq_thread_id:
-  - 362481666
 categories:
   - old
 tags:

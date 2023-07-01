@@ -4,8 +4,6 @@ author: silviu
 type: post
 date: 2009-06-18T17:17:46+00:00
 url: /2009/06/18/temperature-graph-on-glcd-with-easypic5/
-dsq_thread_id:
-  - 48858346
 categories:
   - old
 tags:

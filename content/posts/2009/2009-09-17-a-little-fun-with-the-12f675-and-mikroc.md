@@ -4,8 +4,6 @@ author: silviu
 type: post
 date: 2009-09-17T18:19:19+00:00
 url: /2009/09/17/a-little-fun-with-the-12f675-and-mikroc/
-dsq_thread_id:
-  - 48858489
 categories:
   - old
 tags:

@@ -4,8 +4,6 @@ author: silviu
 type: post
 date: 2011-06-03T12:12:01+00:00
 url: /2011/06/03/openoffice-orglibreoffice-pasted-numbers-automatically-get-changed-to-dates/
-dsq_thread_id:
-  - 326854326
 categories:
   - old
 tags:

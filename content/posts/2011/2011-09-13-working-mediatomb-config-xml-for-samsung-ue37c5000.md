@@ -4,8 +4,6 @@ author: silviu
 type: post
 date: 2011-09-13T14:11:47+00:00
 url: /2011/09/13/working-mediatomb-config-xml-for-samsung-ue37c5000/
-dsq_thread_id:
-  - 413295480
 categories:
   - old
 tags:

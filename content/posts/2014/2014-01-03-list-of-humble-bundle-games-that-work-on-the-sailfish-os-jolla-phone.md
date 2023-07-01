@@ -4,8 +4,6 @@ author: silviu
 type: post
 date: 2014-01-03T11:53:50+00:00
 url: /2014/01/03/list-of-humble-bundle-games-that-work-on-the-sailfish-os-jolla-phone/
-dsq_thread_id:
-  - 2089268322
 categories:
   - old
 tags:

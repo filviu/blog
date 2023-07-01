@@ -5,8 +5,6 @@ type: post
 date: 2009-06-01T08:30:23+00:00
 excerpt: Windows 7 is all the rage today. But, XP is still widely used and for now is the operating system I need to install on 90% of the cases.
 url: /2009/06/01/what-i-add-to-a-fresh-install-of-windows-xp/
-dsq_thread_id:
-  - 48857575
 categories:
   - old
 tags:

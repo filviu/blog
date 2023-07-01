@@ -4,8 +4,6 @@ author: silviu
 type: post
 date: 2011-06-22T08:10:02+00:00
 url: /2011/06/22/automatically-sync-photos-from-digikam-to-your-mobile-phone/
-dsq_thread_id:
-  - 339149371
 categories:
   - old
 tags:

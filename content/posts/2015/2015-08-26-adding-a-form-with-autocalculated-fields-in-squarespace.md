@@ -4,8 +4,6 @@ author: silviu
 type: post
 date: 2015-08-26T12:45:43+00:00
 url: /2015/08/26/adding-a-form-with-autocalculated-fields-in-squarespace/
-dsq_thread_id:
-  - 4068553288
 categories:
   - old
 tags:

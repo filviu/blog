@@ -4,8 +4,6 @@ author: silviu
 type: post
 date: 2015-04-09T10:17:38+00:00
 url: /2015/04/09/migrating-gerrit-to-google-oauth-from-google-openid/
-dsq_thread_id:
-  - 3667336895
 categories:
   - tech
 tags:

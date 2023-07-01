@@ -4,8 +4,6 @@ author: silviu
 type: post
 date: 2011-12-13T07:19:55+00:00
 url: /2011/12/13/backuppc-cant-find-compresszlib/
-dsq_thread_id:
-  - 502765320
 categories:
   - old
 tags:

@@ -5,8 +5,6 @@ type: post
 date: 2009-06-27T13:38:03+00:00
 excerpt: Easy way to always have a hibernate button when shutting windows xp down. Just a quick registry hack and you are set !
 url: /2009/06/27/permanently-show-the-hibernate-button-in-windows-xp/
-dsq_thread_id:
-  - 48858383
 categories:
   - old
 tags:

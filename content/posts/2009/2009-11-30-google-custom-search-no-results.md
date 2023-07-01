@@ -4,8 +4,6 @@ author: silviu
 type: post
 date: 2009-11-30T18:41:23+00:00
 url: /2009/11/30/google-custom-search-no-results/
-dsq_thread_id:
-  - 326581497
 categories:
   - old
 tags:

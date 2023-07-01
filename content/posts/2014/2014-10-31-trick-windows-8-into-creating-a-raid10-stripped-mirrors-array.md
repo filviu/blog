@@ -4,8 +4,6 @@ author: silviu
 type: post
 date: 2014-10-31T13:00:35+00:00
 url: /2014/10/31/trick-windows-8-into-creating-a-raid10-striped-mirrors-array/
-dsq_thread_id:
-  - 3176265803
 categories:
   - old
 tags:

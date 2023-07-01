@@ -4,8 +4,6 @@ author: silviu
 type: post
 date: 2015-01-26T21:44:09+00:00
 url: /2015/01/26/build-a-smart-scanner-using-a-pi/
-dsq_thread_id:
-  - 3465903166
 categories:
   - old
 tags:

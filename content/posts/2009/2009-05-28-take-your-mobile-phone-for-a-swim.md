@@ -5,8 +5,6 @@ type: post
 date: 2009-05-28T08:08:46+00:00
 excerpt: I think it is time to present you with another great free software title for your Nokia E71
 url: /2009/05/28/take-your-mobile-phone-for-a-swim/
-dsq_thread_id:
-  - 48858268
 categories:
   - old
 tags:

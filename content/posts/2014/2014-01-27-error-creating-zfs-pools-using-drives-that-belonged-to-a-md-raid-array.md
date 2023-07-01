@@ -4,8 +4,6 @@ author: silviu
 type: post
 date: 2014-01-27T06:37:23+00:00
 url: /2014/01/27/error-creating-zfs-pools-using-drives-that-belonged-to-a-md-raid-array/
-dsq_thread_id:
-  - 2180141503
 categories:
   - old
 tags:

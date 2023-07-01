@@ -4,8 +4,6 @@ author: silviu
 type: post
 date: 2010-07-21T18:51:12+00:00
 url: /2010/07/21/core-i7-and-i5-throtle-more-than-the-core-2/
-dsq_thread_id:
-  - 326479353
 categories:
   - old
 tags:

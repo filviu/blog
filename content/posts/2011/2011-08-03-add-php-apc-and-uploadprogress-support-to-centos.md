@@ -4,8 +4,6 @@ author: silviu
 type: post
 date: 2011-08-03T08:25:40+00:00
 url: /2011/08/03/add-php-apc-and-uploadprogress-support-to-centos/
-dsq_thread_id:
-  - 375880205
 categories:
   - old
 tags:

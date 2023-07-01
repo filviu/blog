@@ -4,8 +4,6 @@ author: silviu
 type: post
 date: 2010-02-11T09:43:45+00:00
 url: /2010/02/11/uploading-big-files-php/
-dsq_thread_id:
-  - 327263128
 categories:
   - old
 tags:

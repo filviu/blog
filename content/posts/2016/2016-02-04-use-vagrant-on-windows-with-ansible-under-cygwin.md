@@ -4,8 +4,6 @@ author: silviu
 type: post
 date: 2016-02-04T11:24:45+00:00
 url: /2016/02/04/use-vagrant-on-windows-with-ansible-under-cygwin/
-dsq_thread_id:
-  - 4550707487
 categories:
   - tech
 tags:

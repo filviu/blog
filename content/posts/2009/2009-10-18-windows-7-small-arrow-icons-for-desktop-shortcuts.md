@@ -4,8 +4,6 @@ author: silviu
 type: post
 date: 2009-10-18T20:21:06+00:00
 url: /2009/10/18/windows-7-small-arrow-icons-for-desktop-shortcuts/
-dsq_thread_id:
-  - 48858513
 categories:
   - old
 tags:

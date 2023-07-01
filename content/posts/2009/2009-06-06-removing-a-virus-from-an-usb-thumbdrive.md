@@ -4,8 +4,6 @@ author: silviu
 type: post
 date: 2009-06-06T12:49:43+00:00
 url: /2009/06/06/removing-a-virus-from-an-usb-thumbdrive/
-dsq_thread_id:
-  - 48858306
 categories:
   - old
 tags:

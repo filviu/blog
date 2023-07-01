@@ -4,8 +4,6 @@ author: silviu
 type: post
 date: 2012-11-06T20:29:30+00:00
 url: /2012/11/06/simple-script-to-add-multiple-trackers-to-a-torrent-downloading-in-transmission/
-dsq_thread_id:
-  - 916440991
 categories:
   - old
 tags:

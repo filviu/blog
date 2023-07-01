@@ -4,8 +4,6 @@ author: silviu
 type: post
 date: 2012-01-06T07:48:46+00:00
 url: /2012/01/06/search-and-replace-text-in-many-files/
-dsq_thread_id:
-  - 529416655
 categories:
   - old
 tags:

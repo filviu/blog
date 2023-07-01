@@ -4,8 +4,6 @@ author: silviu
 type: post
 date: 2009-06-10T15:44:03+00:00
 url: /2009/06/10/the-quest-for-mobile-youtube-is-over/
-dsq_thread_id:
-  - 48858327
 categories:
   - old
 tags:

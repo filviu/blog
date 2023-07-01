@@ -4,8 +4,6 @@ author: silviu
 type: post
 date: 2009-11-22T19:10:32+00:00
 url: /2009/11/22/bye-bye-dual-boot/
-dsq_thread_id:
-  - 48858523
 categories:
   - old
 tags:

@@ -4,8 +4,6 @@ author: silviu
 type: post
 date: 2013-12-13T07:03:11+00:00
 url: /2013/12/13/stream-music-from-home-when-you-are-away/
-dsq_thread_id:
-  - 2047448326
 categories:
   - old
 tags:

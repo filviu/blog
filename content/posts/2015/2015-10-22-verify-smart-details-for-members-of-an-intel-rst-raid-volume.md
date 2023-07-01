@@ -4,8 +4,6 @@ author: silviu
 type: post
 date: 2015-10-22T06:02:14+00:00
 url: /2015/10/22/verify-smart-details-for-members-of-an-intel-rst-raid-volume/
-dsq_thread_id:
-  - 4247775532
 categories:
   - tech
 tags:

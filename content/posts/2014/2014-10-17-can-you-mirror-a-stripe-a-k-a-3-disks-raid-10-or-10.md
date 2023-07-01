@@ -4,8 +4,6 @@ author: silviu
 type: post
 date: 2014-10-17T12:38:52+00:00
 url: /2014/10/17/can-you-mirror-a-stripe-a-k-a-3-disks-raid-10-or-10/
-dsq_thread_id:
-  - 3126606775
 categories:
   - old
 tags:

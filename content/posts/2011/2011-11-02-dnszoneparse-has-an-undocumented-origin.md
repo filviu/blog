@@ -4,8 +4,6 @@ author: silviu
 type: post
 date: 2011-11-02T13:29:17+00:00
 url: /2011/11/02/dnszoneparse-has-an-undocumented-origin/
-dsq_thread_id:
-  - 459772925
 categories:
   - old
 tags:

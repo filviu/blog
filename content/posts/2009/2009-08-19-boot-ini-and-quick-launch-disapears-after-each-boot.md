@@ -4,8 +4,6 @@ author: silviu
 type: post
 date: 2009-08-19T13:14:38+00:00
 url: /2009/08/19/boot-ini-and-quick-launch-disapears-after-each-boot/
-dsq_thread_id:
-  - 48858462
 categories:
   - old
 tags:

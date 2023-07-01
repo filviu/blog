@@ -4,8 +4,6 @@ author: silviu
 type: post
 date: 2010-09-10T16:42:56+00:00
 url: /2010/09/10/updated-joomla-flowplayer-plug-in/
-dsq_thread_id:
-  - 326479376
 categories:
   - old
 tags:

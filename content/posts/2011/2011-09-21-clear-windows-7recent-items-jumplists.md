@@ -5,8 +5,6 @@ type: post
 draft: true # path looks wrong
 date: 2011-09-21T18:44:29+00:00
 url: /2011/09/21/clear-windows-7recent-items-jumplists/
-dsq_thread_id:
-  - 421755896
 categories:
   - old
 tags:

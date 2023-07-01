@@ -4,8 +4,6 @@ author: silviu
 type: post
 date: 2009-07-06T11:22:59+00:00
 url: /2009/07/06/a-free-book-about-pic-microcontrollers/
-dsq_thread_id:
-  - 48858401
 categories:
   - old
 tags:

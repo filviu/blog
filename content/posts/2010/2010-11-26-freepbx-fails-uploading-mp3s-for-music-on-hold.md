@@ -4,8 +4,6 @@ author: silviu
 type: post
 date: 2010-11-26T14:41:03+00:00
 url: /2010/11/26/freepbx-fails-uploading-mp3s-for-music-on-hold/
-dsq_thread_id:
-  - 326848565
 categories:
   - old
 tags:

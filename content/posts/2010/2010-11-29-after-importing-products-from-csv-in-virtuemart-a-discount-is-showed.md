@@ -4,8 +4,6 @@ author: silviu
 type: post
 date: 2010-11-29T18:21:26+00:00
 url: /2010/11/29/after-importing-products-from-csv-in-virtuemart-a-discount-is-showed/
-dsq_thread_id:
-  - 328152914
 categories:
   - old
 tags:

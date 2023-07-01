@@ -4,8 +4,6 @@ author: silviu
 type: post
 date: 2012-06-15T06:08:55+00:00
 url: /2012/06/15/microsoft-updates-skype-for-linux/
-dsq_thread_id:
-  - 728283547
 categories:
   - old
 tags:

@@ -4,8 +4,6 @@ author: silviu
 type: post
 date: 2016-02-23T09:27:39+00:00
 url: /2016/02/23/aix-git-ssl-woes/
-dsq_thread_id:
-  - 4603713954
 categories:
   - tech
 tags:

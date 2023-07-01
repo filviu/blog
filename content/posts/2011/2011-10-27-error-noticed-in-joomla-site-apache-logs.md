@@ -4,8 +4,6 @@ author: silviu
 type: post
 date: 2011-10-27T17:50:23+00:00
 url: /2011/10/27/error-noticed-in-joomla-site-apache-logs/
-dsq_thread_id:
-  - 454696831
 categories:
   - old
 tags:

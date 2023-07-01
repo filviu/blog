@@ -4,8 +4,6 @@ author: silviu
 type: post
 date: 2011-05-25T08:32:09+00:00
 url: /2011/05/25/mariadb-vs-mysql-short-benchmark/
-dsq_thread_id:
-  - 326451586
 categories:
   - old
 tags:

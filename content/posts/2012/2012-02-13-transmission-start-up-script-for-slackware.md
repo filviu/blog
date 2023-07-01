@@ -4,8 +4,6 @@ author: silviu
 type: post
 date: 2012-02-13T08:54:42+00:00
 url: /2012/02/13/transmission-start-up-script-for-slackware/
-dsq_thread_id:
-  - 574277761
 categories:
   - old
 tags:

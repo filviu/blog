@@ -4,8 +4,6 @@ author: silviu
 type: post
 date: 2009-07-06T11:43:14+00:00
 url: /2009/07/06/firefox-3-5-fails-to-impress-me-google-gears-is-also-missing/
-dsq_thread_id:
-  - 48858408
 categories:
   - old
 tags:

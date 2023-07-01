@@ -4,8 +4,6 @@ author: silviu
 type: post
 date: 2010-10-13T19:42:18+00:00
 url: /2010/10/13/disabling-external-access-to-the-dd-wrt-webgui/
-dsq_thread_id:
-  - 327272333
 categories:
   - old
 tags:

@@ -4,8 +4,6 @@ author: silviu
 type: post
 date: 2009-11-25T08:52:59+00:00
 url: /2009/11/25/grokking-the-gimp/
-dsq_thread_id:
-  - 48858534
 categories:
   - old
 tags:

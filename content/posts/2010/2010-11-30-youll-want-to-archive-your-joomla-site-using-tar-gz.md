@@ -4,8 +4,6 @@ author: silviu
 type: post
 date: 2010-11-30T13:26:22+00:00
 url: /2010/11/30/youll-want-to-archive-your-joomla-site-using-tar-gz/
-dsq_thread_id:
-  - 333392836
 categories:
   - old
 tags:

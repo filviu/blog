@@ -4,8 +4,6 @@ author: silviu
 type: post
 date: 2009-12-01T15:23:50+00:00
 url: /2009/12/01/ks0108-graphics-library-for-pic16f-microcontrollers/
-dsq_thread_id:
-  - 326479233
 categories:
   - old
 tags:

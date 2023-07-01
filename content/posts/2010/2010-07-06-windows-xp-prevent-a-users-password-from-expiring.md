@@ -4,8 +4,6 @@ author: silviu
 type: post
 date: 2010-07-06T09:54:46+00:00
 url: /2010/07/06/windows-xp-prevent-a-users-password-from-expiring/
-dsq_thread_id:
-  - 326530981
 categories:
   - old
 tags:

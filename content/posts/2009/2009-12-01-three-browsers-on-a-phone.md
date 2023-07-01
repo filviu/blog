@@ -4,8 +4,6 @@ author: silviu
 type: post
 date: 2009-12-01T17:00:39+00:00
 url: /2009/12/01/three-browsers-on-a-phone/
-dsq_thread_id:
-  - 341856273
 categories:
   - old
 tags:

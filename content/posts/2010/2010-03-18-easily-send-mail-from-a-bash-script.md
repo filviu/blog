@@ -8,8 +8,6 @@ excerpt: |
 
   Here's an easy way on how to do it:
 url: /2010/03/18/easily-send-mail-from-a-bash-script/
-dsq_thread_id:
-  - 326448579
 categories:
   - old
 tags:

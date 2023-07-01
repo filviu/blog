@@ -4,8 +4,6 @@ author: silviu
 type: post
 date: 2012-09-11T10:25:41+00:00
 url: /2012/09/11/tentakel-on-centos-6-python-2-6/
-dsq_thread_id:
-  - 839550229
 categories:
   - old
 tags:

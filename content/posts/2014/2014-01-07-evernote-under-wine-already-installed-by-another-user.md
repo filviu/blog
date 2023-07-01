@@ -4,8 +4,6 @@ author: silviu
 type: post
 date: 2014-01-07T12:34:01+00:00
 url: /2014/01/07/evernote-under-wine-already-installed-by-another-user/
-dsq_thread_id:
-  - 2101287396
 categories:
   - old
 tags:

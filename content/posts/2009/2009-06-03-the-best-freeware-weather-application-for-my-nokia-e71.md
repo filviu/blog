@@ -4,8 +4,6 @@ author: silviu
 type: post
 date: 2009-06-03T17:14:52+00:00
 url: /2009/06/03/the-best-freeware-weather-application-for-my-nokia-e71/
-dsq_thread_id:
-  - 48858300
 categories:
   - old
 tags:

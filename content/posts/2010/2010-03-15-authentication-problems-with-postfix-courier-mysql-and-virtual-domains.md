@@ -4,8 +4,6 @@ author: silviu
 type: post
 date: 2010-03-15T20:54:44+00:00
 url: /2010/03/15/authentication-problems-with-postfix-courier-mysql-and-virtual-domains/
-dsq_thread_id:
-  - 333377518
 categories:
   - old
 tags:

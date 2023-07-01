@@ -4,8 +4,6 @@ author: silviu
 type: post
 date: 2009-08-19T08:59:49+00:00
 url: /2009/08/19/small-but-useful/
-dsq_thread_id:
-  - 48858455
 categories:
   - old
 tags:

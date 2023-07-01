@@ -4,8 +4,6 @@ author: silviu
 type: post
 date: 2010-01-06T11:40:32+00:00
 url: /2010/01/06/installing-debian-using-only-ssh/
-dsq_thread_id:
-  - 326479268
 categories:
   - old
 tags:

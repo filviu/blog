@@ -4,8 +4,6 @@ author: silviu
 type: post
 date: 2015-04-03T10:16:22+00:00
 url: /2015/04/03/running-gcp-py-from-cron/
-dsq_thread_id:
-  - 3651623792
 categories:
   - old
 tags:

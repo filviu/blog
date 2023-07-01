@@ -7,8 +7,6 @@ excerpt: "So, before watching another top 10 freeware list, here's a list from s
 url: /2009/05/26/whats-installed-on-my-nokia-e71-and-why/
 thumb:
   - http://www.sgvulcan.com/wp-content/uploads/2009/05/home_menu.jpg
-dsq_thread_id:
-  - 48858211
 categories:
   - old
 tags:

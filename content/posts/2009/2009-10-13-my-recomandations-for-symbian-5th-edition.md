@@ -4,8 +4,6 @@ author: silviu
 type: post
 date: 2009-10-13T12:36:59+00:00
 url: /2009/10/13/my-recomandations-for-symbian-5th-edition/
-dsq_thread_id:
-  - 48858510
 categories:
   - old
 tags:

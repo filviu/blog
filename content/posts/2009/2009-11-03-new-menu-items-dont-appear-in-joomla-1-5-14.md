@@ -4,8 +4,6 @@ author: silviu
 type: post
 date: 2009-11-03T10:27:47+00:00
 url: /2009/11/03/new-menu-items-dont-appear-in-joomla-1-5-14/
-dsq_thread_id:
-  - 48858518
 categories:
   - old
 tags:

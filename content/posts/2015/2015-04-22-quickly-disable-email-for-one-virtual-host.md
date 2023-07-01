@@ -4,8 +4,6 @@ author: silviu
 type: post
 date: 2015-04-22T09:28:09+00:00
 url: /2015/04/22/quickly-disable-email-for-one-virtual-host/
-dsq_thread_id:
-  - 3702598391
 categories:
   - old
 tags:

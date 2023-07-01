@@ -4,8 +4,6 @@ author: silviu
 type: post
 date: 2010-10-27T10:10:52+00:00
 url: /2010/10/27/uuencode-and-uudecode-are-missing-from-centos-5/
-dsq_thread_id:
-  - 326419707
 categories:
   - old
 tags:

@@ -4,8 +4,6 @@ author: silviu
 type: post
 date: 2011-06-24T08:48:30+00:00
 url: /2011/06/24/i-turned-off-my-dell-wireless-card-and-couldnt-turn-it-back-on/
-dsq_thread_id:
-  - 341008171
 categories:
   - old
 tags:

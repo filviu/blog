@@ -4,8 +4,6 @@ author: silviu
 type: post
 date: 2010-02-13T17:05:44+00:00
 url: /2010/02/13/sendmail-says-domain-does-not-exist/
-dsq_thread_id:
-  - 330958933
 categories:
   - old
 tags:

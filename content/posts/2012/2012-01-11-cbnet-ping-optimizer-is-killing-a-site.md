@@ -4,8 +4,6 @@ author: silviu
 type: post
 date: 2012-01-11T10:28:20+00:00
 url: /2012/01/11/cbnet-ping-optimizer-is-killing-a-site/
-dsq_thread_id:
-  - 534870823
 categories:
   - old
 tags:

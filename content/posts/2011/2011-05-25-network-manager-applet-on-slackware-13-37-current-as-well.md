@@ -4,8 +4,6 @@ author: silviu
 type: post
 date: 2011-05-25T08:27:01+00:00
 url: /2011/05/25/network-manager-applet-on-slackware-13-37-current-as-well/
-dsq_thread_id:
-  - 326907998
 categories:
   - old
 tags:

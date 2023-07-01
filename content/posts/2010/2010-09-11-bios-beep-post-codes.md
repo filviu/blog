@@ -4,8 +4,6 @@ author: silviu
 type: post
 date: 2010-09-11T08:26:02+00:00
 url: /2010/09/11/bios-beep-post-codes/
-dsq_thread_id:
-  - 329541769
 categories:
   - old
 tags:

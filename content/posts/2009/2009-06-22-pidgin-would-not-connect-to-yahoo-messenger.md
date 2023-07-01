@@ -6,8 +6,6 @@ date: 2009-06-22T09:26:55+00:00
 url: /2009/06/22/pidgin-would-not-connect-to-yahoo-messenger/
 subtitle:
   - Another reason to hate Yahoo
-dsq_thread_id:
-  - 48858350
 categories:
   - old
 tags:

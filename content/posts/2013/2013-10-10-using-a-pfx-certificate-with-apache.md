@@ -5,8 +5,6 @@ type: post
 draft: true
 date: 2013-10-10T08:42:24+00:00
 url: /2013/10/10/using-a-pfx-certificate-with-apache/
-dsq_thread_id:
-  - 1842222959
 categories:
   - old
 tags:

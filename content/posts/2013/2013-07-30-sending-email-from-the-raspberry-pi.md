@@ -4,8 +4,6 @@ author: silviu
 type: post
 date: 2013-07-30T11:17:32+00:00
 url: /2013/07/30/sending-email-from-the-raspberry-pi/
-dsq_thread_id:
-  - 1547462449
 categories:
   - old
 tags:

@@ -4,8 +4,6 @@ author: silviu
 type: post
 date: 2010-06-16T09:33:24+00:00
 url: /2010/06/16/docx-files-in-office-2003/
-dsq_thread_id:
-  - 326434170
 categories:
   - old
 tags:

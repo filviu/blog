@@ -4,8 +4,6 @@ author: silviu
 type: post
 date: 2012-12-27T11:08:25+00:00
 url: /2012/12/27/debian-squeeze-laptop-harddisk-restarts-every-few-seconds/
-dsq_thread_id:
-  - 994918489
 categories:
   - old
 tags:

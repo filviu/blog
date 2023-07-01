@@ -4,8 +4,6 @@ author: silviu
 type: post
 date: 2010-07-27T09:09:40+00:00
 url: /2010/07/27/apache-2-2-will-not-serve-corectly-from-cifs-mounted-share/
-dsq_thread_id:
-  - 326479366
 categories:
   - old
 tags:

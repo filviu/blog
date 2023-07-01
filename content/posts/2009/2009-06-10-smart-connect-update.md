@@ -4,8 +4,6 @@ author: silviu
 type: post
 date: 2009-06-10T15:53:18+00:00
 url: /2009/06/10/smart-connect-update/
-dsq_thread_id:
-  - 48858334
 categories:
   - old
 tags:

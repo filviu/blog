@@ -4,8 +4,6 @@ author: silviu
 type: post
 date: 2013-06-18T18:31:57+00:00
 url: /2013/06/18/streaming-video-with-a-raspberry-pi-and-a-logitech-c270/
-dsq_thread_id:
-  - 1410419391
 categories:
   - old
 tags:

@@ -4,8 +4,6 @@ author: silviu
 type: post
 date: 2012-09-04T12:01:28+00:00
 url: /2012/09/04/remove-duplicates-from-the-current-folder/
-dsq_thread_id:
-  - 830859529
 categories:
   - old
 tags:

@@ -4,8 +4,6 @@ author: silviu
 type: post
 date: 2010-05-26T15:11:31+00:00
 url: /2010/05/26/is-a-site-really-down/
-dsq_thread_id:
-  - 345891885
 categories:
   - old
 tags:

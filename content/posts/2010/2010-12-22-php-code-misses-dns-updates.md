@@ -4,8 +4,6 @@ author: silviu
 type: post
 date: 2010-12-22T12:26:00+00:00
 url: /2010/12/22/php-code-misses-dns-updates/
-dsq_thread_id:
-  - 345019057
 categories:
   - old
 tags:

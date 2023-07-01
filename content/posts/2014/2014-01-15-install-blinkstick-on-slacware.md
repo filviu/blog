@@ -4,8 +4,6 @@ author: silviu
 type: post
 date: 2014-01-15T07:46:46+00:00
 url: /2014/01/15/install-blinkstick-on-slacware/
-dsq_thread_id:
-  - 2124382177
 categories:
   - old
 tags:

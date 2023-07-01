@@ -4,8 +4,6 @@ author: silviu
 type: post
 date: 2015-08-27T09:05:18+00:00
 url: /2015/08/27/pfsense-home-router-using-the-pc-engines-apu1d4/
-dsq_thread_id:
-  - 4071241726
 categories:
   - tech
 tags:

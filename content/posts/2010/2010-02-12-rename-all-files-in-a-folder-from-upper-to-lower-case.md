@@ -4,8 +4,6 @@ author: silviu
 type: post
 date: 2010-02-12T10:49:35+00:00
 url: /2010/02/12/rename-all-files-in-a-folder-from-upper-to-lower-case/
-dsq_thread_id:
-  - 327467818
 categories:
   - old
 tags:

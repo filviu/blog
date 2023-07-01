@@ -4,8 +4,6 @@ author: silviu
 type: post
 date: 2010-01-16T20:46:31+00:00
 url: /2010/01/16/yahoo-messenger-online-now-button-on-your-website/
-dsq_thread_id:
-  - 326479287
 categories:
   - old
 tags:

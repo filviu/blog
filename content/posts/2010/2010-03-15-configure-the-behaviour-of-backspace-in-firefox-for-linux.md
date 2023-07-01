@@ -4,8 +4,6 @@ author: silviu
 type: post
 date: 2010-03-15T21:18:15+00:00
 url: /2010/03/15/configure-the-behaviour-of-backspace-in-firefox-for-linux/
-dsq_thread_id:
-  - 326479301
 categories:
   - old
 tags:

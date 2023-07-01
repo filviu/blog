@@ -6,8 +6,6 @@ date: 2009-06-22T10:21:02+00:00
 url: /2009/06/22/corel-draw-x3-crashes-on-open-save-save-as-export-a-r-m/
 subtitle:
   - The bigger they are, the harder they fall
-dsq_thread_id:
-  - 48858356
 dsq_needs_sync:
   - 1
 categories:

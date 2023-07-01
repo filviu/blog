@@ -4,8 +4,6 @@ author: silviu
 type: post
 date: 2011-02-01T10:16:00+00:00
 url: /2011/02/01/digitally-signing-email-or-documents/
-dsq_thread_id:
-  - 332153741
 categories:
   - old
 tags:

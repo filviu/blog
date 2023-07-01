@@ -4,8 +4,6 @@ author: silviu
 type: post
 date: 2013-04-08T07:12:18+00:00
 url: /2013/04/08/mount-a-remote-fs-after-connecting-to-a-vpn-netwrokmanager/
-dsq_thread_id:
-  - 1195534990
 categories:
   - old
 tags:

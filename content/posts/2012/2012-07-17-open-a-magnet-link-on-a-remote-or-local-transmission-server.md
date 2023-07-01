@@ -4,8 +4,6 @@ author: silviu
 type: post
 date: 2012-07-17T19:37:51+00:00
 url: /2012/07/17/open-a-magnet-link-on-a-remote-or-local-transmission-server/
-dsq_thread_id:
-  - 771163429
 categories:
   - old
 tags:

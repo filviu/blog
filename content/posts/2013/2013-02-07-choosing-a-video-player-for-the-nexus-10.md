@@ -4,8 +4,6 @@ author: silviu
 type: post
 date: 2013-02-07T12:12:24+00:00
 url: /2013/02/07/choosing-a-video-player-for-the-nexus-10/
-dsq_thread_id:
-  - 1070243042
 categories:
   - old
 tags:

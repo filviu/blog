@@ -4,8 +4,6 @@ author: silviu
 type: post
 date: 2014-05-05T05:44:19+00:00
 url: /2014/05/05/using-a-standard-mysql-function-returns-an-error/
-dsq_thread_id:
-  - 2663964333
 categories:
   - old
 tags:

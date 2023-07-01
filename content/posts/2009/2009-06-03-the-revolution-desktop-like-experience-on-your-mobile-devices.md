@@ -4,8 +4,6 @@ author: silviu
 type: post
 date: 2009-06-03T17:03:38+00:00
 url: /2009/06/03/the-revolution-desktop-like-experience-on-your-mobile-devices/
-dsq_thread_id:
-  - 48858296
 categories:
   - old
 tags:

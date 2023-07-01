@@ -4,8 +4,6 @@ author: silviu
 type: post
 date: 2009-06-09T18:00:51+00:00
 url: /2009/06/09/how-to-add-a-favicon-to-your-wordpress-blog/
-dsq_thread_id:
-  - 48858322
 categories:
   - old
 tags:

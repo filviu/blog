@@ -4,8 +4,6 @@ author: silviu
 type: post
 date: 2013-09-30T06:51:14+00:00
 url: /2013/09/30/centos-6-x-misses-nobootwait-fstab-option/
-dsq_thread_id:
-  - 1810120626
 categories:
   - tech
 tags:

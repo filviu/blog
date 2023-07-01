@@ -4,8 +4,6 @@ author: silviu
 type: post
 date: 2009-09-08T18:10:04+00:00
 url: /2009/09/08/akonadi-is-not-starting-refuses-to-run-as-root-slackware-13-013-113-37current-installation/
-dsq_thread_id:
-  - 48856682
 categories:
   - old
 tags:

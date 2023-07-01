@@ -4,8 +4,6 @@ author: silviu
 type: post
 date: 2009-07-07T09:03:19+00:00
 url: /2009/07/07/gears-available-for-firefox-3-5-sord-of/
-dsq_thread_id:
-  - 48858411
 categories:
   - old
 tags:

@@ -4,8 +4,6 @@ author: silviu
 type: post
 date: 2009-11-05T19:10:29+00:00
 url: /2009/11/05/cannot-start-a-new-chat-in-yahoo-messenger-mshtml-dll-error/
-dsq_thread_id:
-  - 48858519
 categories:
   - old
 tags:

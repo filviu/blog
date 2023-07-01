@@ -4,8 +4,6 @@ author: silviu
 type: post
 date: 2012-03-21T09:25:16+00:00
 url: /2012/03/21/drop-all-databases-from-mysql/
-dsq_thread_id:
-  - 619466543
 categories:
   - old
 tags:

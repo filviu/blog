@@ -4,8 +4,6 @@ author: silviu
 type: post
 date: 2012-10-19T09:44:20+00:00
 url: /2012/10/19/useful-oneliner-check-the-memory-usage-of-apache-httpd-processes/
-dsq_thread_id:
-  - 891390415
 categories:
   - old
 tags:

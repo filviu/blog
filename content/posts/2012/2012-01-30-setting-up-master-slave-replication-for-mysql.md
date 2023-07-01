@@ -4,8 +4,6 @@ author: silviu
 type: post
 date: 2012-01-30T19:27:08+00:00
 url: /2012/01/30/setting-up-master-slave-replication-for-mysql/
-dsq_thread_id:
-  - 558066582
 categories:
   - old
 tags:

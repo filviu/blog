@@ -4,8 +4,6 @@ author: silviu
 type: post
 date: 2009-09-16T11:45:59+00:00
 url: /2009/09/16/keep-the-backlight-on-in-skyfire-on-your-symbian-phone/
-dsq_thread_id:
-  - 48858482
 categories:
   - old
 tags:

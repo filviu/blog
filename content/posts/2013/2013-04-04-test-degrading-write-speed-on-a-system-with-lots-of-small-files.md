@@ -4,8 +4,6 @@ author: silviu
 type: post
 date: 2013-04-04T10:43:23+00:00
 url: /2013/04/04/test-degrading-write-speed-on-a-system-with-lots-of-small-files/
-dsq_thread_id:
-  - 1186083116
 categories:
   - old
 tags:

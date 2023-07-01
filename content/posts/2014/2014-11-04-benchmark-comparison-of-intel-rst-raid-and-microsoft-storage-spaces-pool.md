@@ -4,8 +4,6 @@ author: silviu
 type: post
 date: 2014-11-04T09:53:30+00:00
 url: /2014/11/04/benchmark-comparison-of-intel-rst-raid-and-microsoft-storage-spaces-pool/
-dsq_thread_id:
-  - 3190037859
 categories:
   - old
 tags:

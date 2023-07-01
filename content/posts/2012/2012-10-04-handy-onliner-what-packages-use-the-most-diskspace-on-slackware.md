@@ -5,8 +5,6 @@ type: post
 date: 2012-10-04T07:35:52+00:00
 draft: true
 url: /2012/10/04/handy-onliner-what-packages-use-the-most-diskspace-on-slackware/
-dsq_thread_id:
-  - 871579308
 categories:
   - old
 tags:

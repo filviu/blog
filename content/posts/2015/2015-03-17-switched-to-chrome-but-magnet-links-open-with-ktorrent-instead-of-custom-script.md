@@ -4,8 +4,6 @@ author: silviu
 type: post
 date: 2015-03-17T12:23:41+00:00
 url: /2015/03/17/switched-to-chrome-but-magnet-links-open-with-ktorrent-instead-of-custom-script/
-dsq_thread_id:
-  - 3623393324
 categories:
   - old
 tags:

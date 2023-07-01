@@ -6,8 +6,6 @@ date: 2009-06-22T10:54:01+00:00
 url: /2009/06/22/how-to-watermark-you-pictures-for-free/
 subtitle:
   - Easy and free watermarking for your blog, web site, flickr and others.
-dsq_thread_id:
-  - 48858364
 categories:
   - old
 tags:

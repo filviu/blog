@@ -4,8 +4,6 @@ author: silviu
 type: post
 date: 2011-06-16T12:01:50+00:00
 url: /2011/06/16/moving-a-solaris-guest-from-vmware-to-virtualbox/
-dsq_thread_id:
-  - 333832946
 categories:
   - old
 tags:

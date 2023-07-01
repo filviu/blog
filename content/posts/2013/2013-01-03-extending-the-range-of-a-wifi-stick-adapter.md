@@ -4,8 +4,6 @@ author: silviu
 type: post
 date: 2013-01-03T12:03:06+00:00
 url: /2013/01/03/extending-the-range-of-a-wifi-stick-adapter/
-dsq_thread_id:
-  - 1005988048
 categories:
   - old
 tags:

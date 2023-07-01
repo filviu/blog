@@ -4,8 +4,6 @@ author: silviu
 type: post
 date: 2015-05-20T06:33:49+00:00
 url: /2015/05/20/missing-5ghz-wifi-settings-on-cisco-e3200-with-tomato-shibby/
-dsq_thread_id:
-  - 3778810572
 categories:
   - old
 tags:

@@ -4,8 +4,6 @@ author: silviu
 type: post
 date: 2013-04-18T06:09:05+00:00
 url: /2013/04/18/apache2-mpm-itk-maxclients-settings/
-dsq_thread_id:
-  - 1221598618
 categories:
   - old
 tags:

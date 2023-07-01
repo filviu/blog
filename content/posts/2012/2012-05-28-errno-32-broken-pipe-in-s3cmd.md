@@ -4,8 +4,6 @@ author: silviu
 type: post
 date: 2012-05-28T17:21:30+00:00
 url: /2012/05/28/errno-32-broken-pipe-in-s3cmd/
-dsq_thread_id:
-  - 708807693
 categories:
   - old
 tags:

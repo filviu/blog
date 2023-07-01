@@ -4,8 +4,6 @@ author: silviu
 type: post
 date: 2014-09-05T08:39:49+00:00
 url: /2014/09/05/linux-on-the-acer-e3-111-aspire-e3-111-c5fn/
-dsq_thread_id:
-  - 2990111432
 categories:
   - old
 tags:

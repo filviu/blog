@@ -4,8 +4,6 @@ author: silviu
 type: post
 date: 2012-06-27T12:56:22+00:00
 url: /2012/06/27/add-a-logging-function-to-your-bash-script/
-dsq_thread_id:
-  - 742254268
 categories:
   - old
 tags:

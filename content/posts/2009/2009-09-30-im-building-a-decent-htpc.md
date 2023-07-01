@@ -4,8 +4,6 @@ author: silviu
 type: post
 date: 2009-09-30T07:09:24+00:00
 url: /2009/09/30/im-building-a-decent-htpc/
-dsq_thread_id:
-  - 48858506
 categories:
   - old
 tags:

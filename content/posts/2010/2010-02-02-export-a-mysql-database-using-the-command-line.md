@@ -4,8 +4,6 @@ author: silviu
 type: post
 date: 2010-02-02T07:16:55+00:00
 url: /2010/02/02/export-a-mysql-database-using-the-command-line/
-dsq_thread_id:
-  - 338476766
 categories:
   - old
 tags:

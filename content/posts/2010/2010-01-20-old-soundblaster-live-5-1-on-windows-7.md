@@ -4,8 +4,6 @@ author: silviu
 type: post
 date: 2010-01-20T21:28:34+00:00
 url: /2010/01/20/old-soundblaster-live-5-1-on-windows-7/
-dsq_thread_id:
-  - 327180682
 categories:
   - old
 tags:

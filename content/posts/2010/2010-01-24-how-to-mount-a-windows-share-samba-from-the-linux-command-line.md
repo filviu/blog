@@ -4,8 +4,6 @@ author: silviu
 type: post
 date: 2010-01-24T18:03:08+00:00
 url: /2010/01/24/how-to-mount-a-windows-share-samba-from-the-linux-command-line/
-dsq_thread_id:
-  - 327237811
 categories:
   - old
 tags:

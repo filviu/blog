@@ -4,8 +4,6 @@ author: silviu
 type: post
 date: 2012-07-13T08:31:25+00:00
 url: /2012/07/13/no-album-cover-art-in-symbian-3-belle-on-an-e7/
-dsq_thread_id:
-  - 763332429
 categories:
   - tech
 tags:

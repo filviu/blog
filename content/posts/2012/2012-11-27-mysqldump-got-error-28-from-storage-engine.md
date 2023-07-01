@@ -4,8 +4,6 @@ author: silviu
 type: post
 date: 2012-11-27T12:05:07+00:00
 url: /2012/11/27/mysqldump-got-error-28-from-storage-engine/
-dsq_thread_id:
-  - 946249557
 categories:
   - old
 tags:

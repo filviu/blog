@@ -4,8 +4,6 @@ author: silviu
 type: post
 date: 2011-06-16T11:35:00+00:00
 url: /2011/06/16/vi-usage-reference/
-dsq_thread_id:
-  - 333818529
 categories:
   - old
 tags:

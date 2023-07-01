@@ -4,8 +4,6 @@ author: silviu
 type: post
 date: 2010-07-12T10:05:53+00:00
 url: /2010/07/12/mysql-set-first-letter-of-field-to-uppercase/
-dsq_thread_id:
-  - 326479314
 categories:
   - old
 tags:

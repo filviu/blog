@@ -4,8 +4,6 @@ author: silviu
 type: post
 date: 2012-01-27T20:01:49+00:00
 url: /2012/01/27/make-sensors-report-temperature-on-slackware64-current-with-an-intel-i7-2600k/
-dsq_thread_id:
-  - 554948999
 categories:
   - old
 tags:

@@ -4,8 +4,6 @@ author: silviu
 type: post
 date: 2011-06-23T10:43:03+00:00
 url: /2011/06/23/make-joomla-1-0-work-with-php-5-3/
-dsq_thread_id:
-  - 340121199
 categories:
   - old
 tags:

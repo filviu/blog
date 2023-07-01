@@ -4,8 +4,6 @@ author: silviu
 type: post
 date: 2012-01-11T09:00:29+00:00
 url: /2012/01/11/cadsoft-eagle-on-slackware-current-64bit/
-dsq_thread_id:
-  - 534787699
 categories:
   - old
 tags:

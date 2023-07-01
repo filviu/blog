@@ -4,8 +4,6 @@ author: silviu
 type: post
 date: 2016-03-25T12:16:52+00:00
 url: /2016/03/25/oracle-complains-about-long-identifier-on-simple-operations/
-dsq_thread_id:
-  - 4727900230
 categories:
   - tech
 tags:

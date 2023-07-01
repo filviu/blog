@@ -4,8 +4,6 @@ author: silviu
 type: post
 date: 2009-08-26T19:30:04+00:00
 url: /2009/08/26/i-have-a-linux-jukebox/
-dsq_thread_id:
-  - 48858468
 categories:
   - old
 tags:

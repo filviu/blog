@@ -4,8 +4,6 @@ author: silviu
 type: post
 date: 2015-10-14T06:06:33+00:00
 url: /2015/10/14/intel-rst-raid-non-raid-disk-after-bios-update/
-dsq_thread_id:
-  - 4223267651
 categories:
   - tech
 tags:

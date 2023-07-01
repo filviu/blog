@@ -4,8 +4,6 @@ author: silviu
 type: post
 date: 2014-01-06T06:41:03+00:00
 url: /2014/01/06/expose-the-sd-card-of-the-jolla-phone-over-usb/
-dsq_thread_id:
-  - 2094819242
 categories:
   - old
 tags:

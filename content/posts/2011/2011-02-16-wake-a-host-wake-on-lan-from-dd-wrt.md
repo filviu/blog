@@ -4,8 +4,6 @@ author: silviu
 type: post
 date: 2011-02-16T13:45:00+00:00
 url: /2011/02/16/wake-a-host-wake-on-lan-from-dd-wrt/
-dsq_thread_id:
-  - 327220101
 categories:
   - old
 tags:

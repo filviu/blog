@@ -4,8 +4,6 @@ author: silviu
 type: post
 date: 2010-07-05T11:44:59+00:00
 url: /2010/07/05/good-vps-hosting/
-dsq_thread_id:
-  - 328769065
 categories:
   - old
 tags:

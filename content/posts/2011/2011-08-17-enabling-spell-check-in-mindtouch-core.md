@@ -4,8 +4,6 @@ author: silviu
 type: post
 date: 2011-08-17T09:18:27+00:00
 url: /2011/08/17/enabling-spell-check-in-mindtouch-core/
-dsq_thread_id:
-  - 388595127
 categories:
   - old
 tags:

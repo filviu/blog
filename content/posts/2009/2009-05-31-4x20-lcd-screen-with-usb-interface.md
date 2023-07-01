@@ -4,8 +4,6 @@ author: silviu
 type: post
 date: 2009-05-31T15:50:54+00:00
 url: /2009/05/31/4x20-lcd-screen-with-usb-interface/
-dsq_thread_id:
-  - 48858276
 categories:
   - old
 tags:

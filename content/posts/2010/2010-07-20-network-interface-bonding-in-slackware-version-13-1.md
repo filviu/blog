@@ -4,8 +4,6 @@ author: silviu
 type: post
 date: 2010-07-20T11:26:08+00:00
 url: /2010/07/20/network-interface-bonding-in-slackware-version-13-1/
-dsq_thread_id:
-  - 326479341
 categories:
   - old
 tags:

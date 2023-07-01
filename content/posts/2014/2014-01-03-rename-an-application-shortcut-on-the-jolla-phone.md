@@ -4,8 +4,6 @@ author: silviu
 type: post
 date: 2014-01-03T13:55:16+00:00
 url: /2014/01/03/rename-an-application-shortcut-on-the-jolla-phone/
-dsq_thread_id:
-  - 2089469284
 categories:
   - old
 tags:

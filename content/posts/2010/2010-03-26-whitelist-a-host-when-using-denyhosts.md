@@ -4,8 +4,6 @@ author: silviu
 type: post
 date: 2010-03-26T16:55:02+00:00
 url: /2010/03/26/whitelist-a-host-when-using-denyhosts/
-dsq_thread_id:
-  - 326525521
 categories:
   - old
 tags:

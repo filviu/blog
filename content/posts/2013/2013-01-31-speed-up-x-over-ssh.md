@@ -4,8 +4,6 @@ author: silviu
 type: post
 date: 2013-01-31T08:07:16+00:00
 url: /2013/01/31/speed-up-x-over-ssh/
-dsq_thread_id:
-  - 1056527164
 categories:
   - old
 tags:

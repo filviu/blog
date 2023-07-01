@@ -4,8 +4,6 @@ author: silviu
 type: post
 date: 2013-10-01T10:45:29+00:00
 url: /2013/10/01/the-difference-between-exclamation-mark-and-asterisk-in-etcshadow/
-dsq_thread_id:
-  - 1814064859
 categories:
   - old
 tags:

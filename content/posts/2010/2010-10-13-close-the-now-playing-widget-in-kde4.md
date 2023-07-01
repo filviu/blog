@@ -4,8 +4,6 @@ author: silviu
 type: post
 date: 2010-10-13T07:05:16+00:00
 url: /2010/10/13/close-the-now-playing-widget-in-kde4/
-dsq_thread_id:
-  - 326479391
 categories:
   - old
 tags:

@@ -4,8 +4,6 @@ author: silviu
 type: post
 date: 2011-04-19T11:20:19+00:00
 url: /2011/04/19/websvn-and-mantis-integration/
-dsq_thread_id:
-  - 327199838
 categories:
   - old
 tags:

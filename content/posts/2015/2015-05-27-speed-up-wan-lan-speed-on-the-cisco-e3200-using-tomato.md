@@ -4,8 +4,6 @@ author: silviu
 type: post
 date: 2015-05-27T10:15:43+00:00
 url: /2015/05/27/speed-up-wan-lan-speed-on-the-cisco-e3200-using-tomato/
-dsq_thread_id:
-  - 3797364768
 categories:
   - old
 tags:

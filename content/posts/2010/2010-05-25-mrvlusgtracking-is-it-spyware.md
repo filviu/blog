@@ -4,8 +4,6 @@ author: silviu
 type: post
 date: 2010-05-25T17:18:45+00:00
 url: /2010/05/25/mrvlusgtracking-is-it-spyware/
-dsq_thread_id:
-  - 326949330
 categories:
   - old
 tags:

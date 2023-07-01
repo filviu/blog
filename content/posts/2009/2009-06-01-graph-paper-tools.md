@@ -4,8 +4,6 @@ author: silviu
 type: post
 date: 2009-06-01T09:31:05+00:00
 url: /2009/06/01/graph-paper-tools/
-dsq_thread_id:
-  - 48858278
 categories:
   - old
 tags:

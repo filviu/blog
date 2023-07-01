@@ -4,8 +4,6 @@ author: silviu
 type: post
 date: 2013-04-04T10:11:45+00:00
 url: /2013/04/04/fail2ban-and-apache-digest-authentication/
-dsq_thread_id:
-  - 1186042468
 categories:
   - old
 tags:

@@ -4,8 +4,6 @@ author: silviu
 type: post
 date: 2011-12-13T18:40:42+00:00
 url: /2011/12/13/flac2mp3-conversion-bash-script/
-dsq_thread_id:
-  - 503335548
 categories:
   - old
 tags:

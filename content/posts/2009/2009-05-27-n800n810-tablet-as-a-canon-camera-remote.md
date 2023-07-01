@@ -5,8 +5,6 @@ type: post
 date: 2009-05-27T09:37:46+00:00
 excerpt: I found a way to use a Nokia N800/N810 tablet as a Canon camera remote control. You can shoot, download and view your pictures on the big screen.
 url: /2009/05/27/n800n810-tablet-as-a-canon-camera-remote/
-dsq_thread_id:
-  - 48858232
 categories:
   - tech
 tags:

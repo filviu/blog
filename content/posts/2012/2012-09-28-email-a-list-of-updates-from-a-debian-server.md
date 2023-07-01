@@ -4,8 +4,6 @@ author: silviu
 type: post
 date: 2012-09-28T12:49:40+00:00
 url: /2012/09/28/email-a-list-of-updates-from-a-debian-server/
-dsq_thread_id:
-  - 862899642
 categories:
   - old
 tags:

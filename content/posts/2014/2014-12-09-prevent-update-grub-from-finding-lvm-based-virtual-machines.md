@@ -4,8 +4,6 @@ author: silviu
 type: post
 date: 2014-12-09T09:12:54+00:00
 url: /2014/12/09/prevent-update-grub-from-finding-lvm-based-virtual-machines/
-dsq_thread_id:
-  - 3305373526
 categories:
   - old
 tags:

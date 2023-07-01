@@ -4,8 +4,6 @@ author: silviu
 type: post
 date: 2009-08-20T13:26:39+00:00
 url: /2009/08/20/i-found-the-best-themes-for-my-e71/
-dsq_thread_id:
-  - 48858464
 categories:
   - old
 tags:

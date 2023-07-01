@@ -4,8 +4,6 @@ author: silviu
 type: post
 date: 2010-09-11T08:11:59+00:00
 url: /2010/09/11/killall-for-windows/
-dsq_thread_id:
-  - 335211345
 categories:
   - old
 tags:

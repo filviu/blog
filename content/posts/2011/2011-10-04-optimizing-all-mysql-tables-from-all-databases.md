@@ -4,8 +4,6 @@ author: silviu
 type: post
 date: 2011-10-04T06:44:55+00:00
 url: /2011/10/04/optimizing-all-mysql-tables-from-all-databases/
-dsq_thread_id:
-  - 435219622
 categories:
   - old
 tags:

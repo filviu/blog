@@ -4,8 +4,6 @@ author: silviu
 type: post
 date: 2015-01-27T10:30:49+00:00
 url: /2015/01/27/raspberry-pi-a-nixie-ntp-clock/
-dsq_thread_id:
-  - 3459454979
 categories:
   - tech
 tags:

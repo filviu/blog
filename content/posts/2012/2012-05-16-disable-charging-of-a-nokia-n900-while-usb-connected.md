@@ -4,8 +4,6 @@ author: silviu
 type: post
 date: 2012-05-16T20:45:53+00:00
 url: /2012/05/16/disable-charging-of-a-nokia-n900-while-usb-connected/
-dsq_thread_id:
-  - 692891622
 categories:
   - old
 tags:

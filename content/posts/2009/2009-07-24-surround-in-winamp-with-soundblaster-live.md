@@ -4,8 +4,6 @@ author: silviu
 type: post
 date: 2009-07-24T08:07:39+00:00
 url: /2009/07/24/surround-in-winamp-with-soundblaster-live/
-dsq_thread_id:
-  - 48858423
 categories:
   - old
 tags:

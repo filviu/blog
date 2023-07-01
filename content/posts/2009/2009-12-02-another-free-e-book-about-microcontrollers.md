@@ -4,8 +4,6 @@ author: silviu
 type: post
 date: 2009-12-02T18:09:39+00:00
 url: /2009/12/02/another-free-e-book-about-microcontrollers/
-dsq_thread_id:
-  - 332066583
 categories:
   - old
 tags:

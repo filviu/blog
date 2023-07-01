@@ -4,8 +4,6 @@ author: silviu
 type: post
 date: 2011-11-22T09:18:26+00:00
 url: /2011/11/22/compiling-audacious-3-1/
-dsq_thread_id:
-  - 480108899
 categories:
   - old
 tags:

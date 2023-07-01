@@ -7,8 +7,6 @@ excerpt: 'Nokia started the Ovi online suite and I saw a bit of light. It works 
 url: /2009/06/25/how-i-sync-my-phone/
 subtitle:
   - It used to be easy. Nokia took care of that.
-dsq_thread_id:
-  - 48858367
 categories:
   - old
 tags:

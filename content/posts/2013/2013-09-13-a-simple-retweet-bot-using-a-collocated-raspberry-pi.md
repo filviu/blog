@@ -4,8 +4,6 @@ author: silviu
 type: post
 date: 2013-09-13T08:57:10+00:00
 url: /2013/09/13/a-simple-retweet-bot-using-a-collocated-raspberry-pi/
-dsq_thread_id:
-  - 1755137411
 categories:
   - old
 tags:

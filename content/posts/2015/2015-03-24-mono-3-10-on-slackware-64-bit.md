@@ -4,8 +4,6 @@ author: silviu
 type: post
 date: 2015-03-24T07:28:03+00:00
 url: /2015/03/24/mono-3-10-on-slackware-64-bit/
-dsq_thread_id:
-  - 3621732512
 categories:
   - old
 tags:

@@ -4,8 +4,6 @@ author: silviu
 type: post
 date: 2009-06-02T18:30:12+00:00
 url: /2009/06/02/glenn-hughes-in-concert-at-sibiu/
-dsq_thread_id:
-  - 48858285
 categories:
   - old
 tags:

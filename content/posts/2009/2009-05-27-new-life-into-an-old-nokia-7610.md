@@ -5,8 +5,6 @@ type: post
 date: 2009-05-27T10:04:23+00:00
 excerpt: As promised I follow with an article on how to breathe new life into an aging phone. The venerable Nokia 7610 got a fresh start.
 url: /2009/05/27/new-life-into-an-old-nokia-7610/
-dsq_thread_id:
-  - 48858234
 categories:
   - old
 tags:

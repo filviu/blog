@@ -4,8 +4,6 @@ author: silviu
 type: post
 date: 2015-04-27T06:15:58+00:00
 url: /2015/04/27/repairing-a-husky-hunter-after-reversing-batteries/
-dsq_thread_id:
-  - 3715820207
 categories:
   - tech
 tags:

@@ -4,8 +4,6 @@ author: silviu
 type: post
 date: 2014-01-03T11:16:20+00:00
 url: /2014/01/03/starting-2014-ad-free/
-dsq_thread_id:
-  - 2089211581
 categories:
   - old
 tags:

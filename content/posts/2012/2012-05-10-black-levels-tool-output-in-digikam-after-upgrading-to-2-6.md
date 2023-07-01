@@ -4,8 +4,6 @@ author: silviu
 type: post
 date: 2012-05-10T18:30:16+00:00
 url: /2012/05/10/black-levels-tool-output-in-digikam-after-upgrading-to-2-6/
-dsq_thread_id:
-  - 684490927
 categories:
   - old
 tags:

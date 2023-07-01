@@ -4,8 +4,6 @@ author: silviu
 type: post
 date: 2010-11-27T18:56:47+00:00
 url: /2010/11/27/mount-a-ftp-site-from-fstab/
-dsq_thread_id:
-  - 328202366
 categories:
   - old
 tags:

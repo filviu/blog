@@ -4,8 +4,6 @@ author: silviu
 type: post
 date: 2012-01-23T10:11:54+00:00
 url: /2012/01/23/unpacking-a-deb-file-including-scripts/
-dsq_thread_id:
-  - 549495369
 categories:
   - old
 tags:

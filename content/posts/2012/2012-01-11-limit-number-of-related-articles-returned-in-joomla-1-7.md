@@ -4,8 +4,6 @@ author: silviu
 type: post
 date: 2012-01-11T15:39:15+00:00
 url: /2012/01/11/limit-number-of-related-articles-returned-in-joomla-1-7/
-dsq_thread_id:
-  - 535149273
 categories:
   - old
 tags:

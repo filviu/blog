@@ -4,8 +4,6 @@ author: silviu
 type: post
 date: 2011-01-20T11:49:51+00:00
 url: /2011/01/20/bandwithd-resets-stats-data-after-restartreboot/
-dsq_thread_id:
-  - 330916469
 categories:
   - old
 tags:

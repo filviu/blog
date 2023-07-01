@@ -4,8 +4,6 @@ author: silviu
 type: post
 date: 2011-12-08T13:46:50+00:00
 url: /2011/12/08/concatenate-multiple-vcf-files-into-one-for-importing-into-gmail/
-dsq_thread_id:
-  - 497632496
 categories:
   - old
 tags:

@@ -4,8 +4,6 @@ author: silviu
 type: post
 date: 2012-01-24T22:06:44+00:00
 url: /2012/01/25/recursively-remove-digikams-xmp-embeded-tags/
-dsq_thread_id:
-  - 551435972
 categories:
   - old
 tags:

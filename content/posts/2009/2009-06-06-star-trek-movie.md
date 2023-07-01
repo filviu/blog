@@ -4,8 +4,6 @@ author: silviu
 type: post
 date: 2009-06-06T13:46:37+00:00
 url: /2009/06/06/star-trek-movie/
-dsq_thread_id:
-  - 48858314
 categories:
   - tech
 tags:

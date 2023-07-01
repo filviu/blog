@@ -4,8 +4,6 @@ author: silviu
 type: post
 date: 2009-12-01T15:41:43+00:00
 url: /2009/12/01/bmp2h-converter-for-ks0108-glcd/
-dsq_thread_id:
-  - 326479252
 categories:
   - old
 tags:

@@ -4,8 +4,6 @@ author: silviu
 type: post
 date: 2010-04-03T10:17:50+00:00
 url: /2010/04/03/running-16-bit-apps-in-windows-7-64-bit/
-dsq_thread_id:
-  - 326479311
 categories:
   - old
 tags:

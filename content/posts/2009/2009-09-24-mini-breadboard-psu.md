@@ -4,8 +4,6 @@ author: silviu
 type: post
 date: 2009-09-24T07:14:40+00:00
 url: /2009/09/24/mini-breadboard-psu/
-dsq_thread_id:
-  - 48858504
 categories:
   - old
 tags:

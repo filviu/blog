@@ -4,8 +4,6 @@ author: silviu
 type: post
 date: 2010-01-16T21:50:17+00:00
 url: /2010/01/16/wake-on-lan-a-machine-using-python-wol/
-dsq_thread_id:
-  - 326504288
 categories:
   - old
 tags:

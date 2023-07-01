@@ -4,8 +4,6 @@ author: silviu
 type: post
 date: 2012-06-13T06:01:08+00:00
 url: /2012/06/13/libgdiplus-2-10-9-build-fails-on-slacware-current64-2012-06/
-dsq_thread_id:
-  - 723808677
 categories:
   - old
 tags:

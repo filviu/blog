@@ -4,8 +4,6 @@ author: silviu
 type: post
 date: 2012-03-07T13:05:52+00:00
 url: /2012/03/07/request_module-runaway-loop-modprobe-binfmt-464c/
-dsq_thread_id:
-  - 601980311
 categories:
   - old
 tags:

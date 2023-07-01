@@ -4,8 +4,6 @@ author: silviu
 type: post
 date: 2011-12-22T08:29:02+00:00
 url: /2011/12/22/quickly-check-if-a-process-is-running-or-not/
-dsq_thread_id:
-  - 513099688
 categories:
   - old
 tags:

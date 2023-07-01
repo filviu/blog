@@ -4,8 +4,6 @@ author: silviu
 type: post
 date: 2009-06-08T08:36:33+00:00
 url: /2009/06/08/how-to-recreate-the-show-desktop-shortcut-icon/
-dsq_thread_id:
-  - 48858315
 categories:
   - old
 tags:

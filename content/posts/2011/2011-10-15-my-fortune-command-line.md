@@ -4,8 +4,6 @@ author: silviu
 type: post
 date: 2011-10-15T14:11:48+00:00
 url: /2011/10/15/my-fortune-command-line/
-dsq_thread_id:
-  - 444220866
 categories:
   - old
 tags:

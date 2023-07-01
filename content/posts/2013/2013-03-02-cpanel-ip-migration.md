@@ -4,8 +4,6 @@ author: silviu
 type: post
 date: 2013-03-02T08:25:04+00:00
 url: /2013/03/02/cpanel-ip-migration/
-dsq_thread_id:
-  - 1113531770
 categories:
   - old
 tags:

@@ -4,8 +4,6 @@ author: silviu
 type: post
 date: 2009-07-06T09:58:22+00:00
 url: /2009/07/06/star-trek-s-c-e/
-dsq_thread_id:
-  - 48858399
 categories:
   - tech
 tags:

@@ -4,8 +4,6 @@ author: silviu
 type: post
 date: 2009-06-15T09:03:51+00:00
 url: /2009/06/15/a-good-freeware-text-editor-for-your-nokia-symbian-phone/
-dsq_thread_id:
-  - 48858341
 categories:
   - old
 tags:
