@@ -89,7 +89,7 @@ url = "https://github.com/filviu"
 
 [[params.socialIcons]]
 name = "mastodon"
-url = "https://fosstodon.org/@filviu"
+url = "https://mastodon.social/@filviu"
 
 [[params.socialIcons]]
 name = "Rss"
