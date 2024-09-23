@@ -12,7 +12,7 @@ categories:
 
 First question that would come to mind is why bother ? Tailscale implements a perfectly usable MagicDNS feature. Well there are a few reasons I quickly discovered after telling myself _"Looks great, let's enable it"_:
 
-  1. Even if the [issue is closed][1] I still very often get DNS issues in Android if Tailscale with MagicDNS is active.
+  1. Even if the [issue is closed][1] I still very often get DNS issues in Android if Tailscale with MagicDNS is active.  
      **UPDATE**: having setup this d-i-y dns scheme I never checked again for MagicDNS. So it is very much possible that in the years passed it has no more issues with Android. To that end I have Tailscale always on on my phone even when at phone and everything works just fine. So this point should probably be ignored unless you timetravel back to 2022. 
   3. When in the "home network" if tailscale is not active you have to remember two URLs: device.something-something.ts.net and device.mydomain.com. Additional troubles for services that only support one trusted URL (Tiny Tiny RSS, joplin-server). 
   4. You can't get SSL certificates with let's encrypt, you have to get them using Tailscale HTTPs
