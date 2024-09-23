@@ -12,13 +12,14 @@ categories:
 
 First question that would come to mind is why bother ? Tailscale implements a perfectly usable MagicDNS feature. Well there are a few reasons I quickly discovered after telling myself _"Looks great, let's enable it"_:
 
-  1. Even if the [issue is closed][1] I still very often get DNS issues in Android if Tailscale with MagicDNS is active. 
-  2. When in the "home network" if tailscale is not active you have to remember two URLs: device.something-something.ts.net and device.mydomain.com. Additional troubles for services that only support one trusted URL (Tiny Tiny RSS, joplin-server). 
-  3. You can't get SSL certificates with let's encrypt, you have to get them using Tailscale HTTPs
+  1. Even if the [issue is closed][1] I still very often get DNS issues in Android if Tailscale with MagicDNS is active.
+     **UPDATE**: having setup this d-i-y dns scheme I never checked again for MagicDNS. So it is very much possible that in the years passed it has no more issues with Android. To that end I have Tailscale always on on my phone even when at phone and everything works just fine. So this point should probably be ignored unless you timetravel back to 2022. 
+  3. When in the "home network" if tailscale is not active you have to remember two URLs: device.something-something.ts.net and device.mydomain.com. Additional troubles for services that only support one trusted URL (Tiny Tiny RSS, joplin-server). 
+  4. You can't get SSL certificates with let's encrypt, you have to get them using Tailscale HTTPs
 
 Basically the one that I care the most about is this: My work laptop is already connected to the work tailnet. But I also want it able to connect to a few of my home services (nextcloud, joplin-server) at least when at home - which face it is 90% of the time - without switching connections all the time.
 
-One sollution would be to only use the hostname without the FQDN as URL. DNS search resolves this to either the tailnet URL or device.mydomain.com but I dislike it and doesn't work for SSL.
+One option would be to only use the hostname without the FQDN as URL. DNS search resolves this to either the tailnet URL or device.mydomain.com but I dislike it and doesn't work for SSL.
 
 Another would be to share devices between work and home tailnets but I won't do that due to obvious reasons.
 So in the words of one of my [favourite youtubers][2] "I Make a New One!"
